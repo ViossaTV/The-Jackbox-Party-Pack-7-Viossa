@@ -1,0 +1,6 @@
+files:
+  - source: /.Localization.json
+    translation: ./Localiszation.json
+  - source: /*.json
+    translation: /.Localization.json
+    multilingual: 1
