@@ -1,5 +1,7 @@
 {
     "table":{
+=======
+    "table": {
         "en": {
             "LANGUAGE_NAME": "English",
             "LANGUAGE": "Language",
@@ -66,12 +68,17 @@
             "INTRO_PROMPT_SKIP": "Choose this to skip the intro",
             "INTRO_SKIPPED": "Thank you!",
 
+=======
+            "INTRO_PROMPT_SKIP": "Choose this to skip the intro",
+            "INTRO_SKIPPED": "Thank you!",
+  
             "SCOREBOARD_PROMPT_RETRY": "Do you want to retry?",
             "SCOREBOARD_RETRY_TEXT": "RETRY",
             "SCOREBOARD_GIVEUP_TEXT": "GIVE UP",
             "SCOREBOARD_RETRY": "Retry",
             "SCOREBOARD_DONE": "Thank you!",
 
+=======
             "TUTORIAL_PROMPT": "Do you want to see the tutorial?",
             "TUTORIAL_SKIP_YES": "Yes",
             "TUTORIAL_SKIP_NO": "No",
@@ -80,6 +87,9 @@
             "CHARACTER_SELECT_PROMPT_CYCLE": "Press this button to cycle through avatars for your role",
             "CHARACTER_SELECT_CHANGE": "CHANGE",
 
+=======
+            "CHARACTER_SELECT_PROMPT_CYCLE": "Press this button to cycle through avatars for your role",
+            "CHARACTER_SELECT_CHANGE": "CHANGE",
             "VOLUME": "Master Volume",
             "VOLUME_DESCRIPTION": "Adjust the master volume.",
             "VOLUME_HOST": "Host Volume",
@@ -124,6 +134,31 @@
             "SUBTITLES": "Subtitles",
             "SUBTITLES_DESCRIPTION": "Display subtitles on the screen.",
 
+=======
+            "FULL_SCREEN": "Full-screen Mode",
+            "FULL_SCREEN_DESCRIPTION": "Make the game full-screen.",
+            "AUDIENCE": "Audience",
+            "AUDIENCE_MODE": "Audience",
+            "AUDIENCE_MODE_DESCRIPTION": "Turn ON to allow non-contestants to join and affect the game.",
+            "PASSWORD_PROTECTED": "Passworded Game",
+            "PASSWORD_PROTECTED_DESCRIPTION": "Generate a password that players must enter to join the game.",
+            "PASSWORD_PROTECTED_LABEL": "Game Password",
+            "SKIP_TUTORIALS": "Skip Tutorials",
+            "SKIP_TUTORIALS_DESCRIPTION": "Skip tutorial&nbsp;&nbsp;sections.",
+            "FAMILY_FRIENDLY": "Family-Friendly",
+            "FAMILY_FRIENDLY_DESCRIPTION": "Turn ON to avoid the game's more provocative content.",
+            "TWITCH_REQUIRED": "Require Twitch",
+            "TWITCH_REQUIRED_DESCRIPTION": "Require players to be logged into Twitch.",
+            "POSTGAME_SHARING": "Post-Game Sharing",
+            "POSTGAME_SHARING_DESCRIPTION": "Allow players to optionally share answers and scores from the game on social&nbsp;&nbsp;media.",
+            "START_GAMEPAD": "Start Game from Controller Only",
+            "START_GAMEPAD_DESCRIPTION": "Games must be started with controller, not from player devices.",
+            "HIDE_ROOM_CODE": "Allow Room Code Hiding",
+            "HIDE_ROOM_CODE_DESCRIPTION": "Allow the on-screen room code to be hidden.",
+            "MAX_PLAYERS": "Max. Players",
+            "MAX_PLAYERS_DESCRIPTION": "Number of players that can join the game before people are added to the audience.",
+            "SUBTITLES": "Subtitles",
+            "SUBTITLES_DESCRIPTION": "Display subtitles on the screen.",
             "PLAYER_CONTENT_FILTERING": "Filter Player Content",
             "PLAYER_CONTENT_FILTERING_DESCRIPTION": "Filter the things the players write, for hate speech or profanity, or not at all.",
             "PLAYER_CONTENT_FILTERING_OFF": "Off",
@@ -141,6 +176,13 @@
 
             "CAT_NAME_CHANGE_PROMPT": "If you want to change the cat's name, vote below for your favorite!",
 
+            "TARGET_MULTIPLIER": "Grading Curve",
+            "TARGET_MULTIPLIER_DESCRIPTION": "Make it easier or harder to get a passing grade. (\"Normal\" is the default.)",
+            "STORY_PARAGRAPH_0_HEADER": "WEEKLY HUMAN CHALLENGE",
+            "STORY_PARAGRAPH_1_HEADER": "FAMILY GOAL",
+            "STORY_PARAGRAPH_1_TEXT": "Reach each day's score threshold to earn a passing grade. Complete every challenge task to earn an \"A\".",
+            "EMERGENCY_CAUSED_BY": "<PLAYER_NAME>'S SELFISH ACTIONS CAUSED THIS EMERGENCY",
+            "CAT_NAME_CHANGE_PROMPT": "If you want to change the cat's name, vote below for your favorite!",
             "TARGET_MULTIPLIER_VERY_EASY": "Very Easy",
             "TARGET_MULTIPLIER_EASY": "Easy",
             "TARGET_MULTIPLIER_NORMAL": "Normal",
@@ -153,4 +195,9 @@
     "de": {},
     "es": {}
 }
+        "fr": {},
+        "it": {},
+        "de": {},
+        "es": {}
+    }
 }
