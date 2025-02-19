@@ -5,3 +5,6 @@ files:
   - source: /games/BlankyBlank/*.json
     translation: /games/BlankyBlank/Localization.json
     multilingual: 1
+  - source: /games/Everyday/*.json
+    translation: /games/Everyday/Localization.json
+    multilingual: 1
