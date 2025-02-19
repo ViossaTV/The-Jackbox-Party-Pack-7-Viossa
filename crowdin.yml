@@ -2,3 +2,6 @@ files:
   - source: /*.json
     translation: /Localization.json
     multilingual: 1
+  - source: /games/BlankyBlank/*.json
+    translation: /games/BlankyBlank/Localization.json
+    multilingual: 1
