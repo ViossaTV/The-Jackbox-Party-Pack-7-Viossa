@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Your three-step plan for escaping prison that’s bound to fail",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "get a spoon|dig a tunnel|to that nicer prison next door|collect all the  yarn you can|knit an airplane|fly to Hawaii|say \"I love it here\"|until they believe you|they let you go as punishment",
+   "n": "SafetyQuips"
+  }
+ ]
+}

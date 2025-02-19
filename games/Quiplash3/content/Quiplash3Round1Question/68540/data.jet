@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> farts | farts|<PRONOUN> farting | farting|<PRONOUN> passing gas | passing gas|<PRONOUN> toots | toots|<PRONOUN> gas | gas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know, I don’t know about that. My farts usually smell like a rundown farm.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Something that should never be described as “rustic”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "tampon|health care|set of linens",
+   "n": "SafetyQuips"
+  }
+ ]
+}

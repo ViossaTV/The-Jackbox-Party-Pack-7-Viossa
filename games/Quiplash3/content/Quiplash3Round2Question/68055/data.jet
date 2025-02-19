@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "fart|pass gas|cut one|pass wind|farting|passing gas|passing wind|cutting one|rip one|cut the cheese",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Oh yeah, the oldest trick in the book! Doesn’t work on airplanes though. Believe me, I’ve tried.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The best way to keep someone from sitting next to you on a bus",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "talk about how much you love the movie Speed|aggressive licking|introduce your ventriloquist's dummy",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Comic-Con",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Comic-Con",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  }
+ ]
+}

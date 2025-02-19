@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> poo | poo|<ARTICLE> poop | poop|<ARTICLE> turd | turd|<PRONOUN> poo | poo|<PRONOUN> poop | poop|<PRONOUN> turd | turd|<PRONOUN> feces | feces|<PRONOUN> excrement | excrement",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Stepping on poop in bare feet! That is a solid answer. How would you top that? Like, uh, highly radioactive poop? Or like... Or like poop that has very small piranhas nesting inside of it. Still, that’s a great answer! ",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst thing to step on with bare feet",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "your son|Mr. Soapy's Acid Goo Bathtub Cleaner|hot magma",
+   "n": "SafetyQuips"
+  }
+ ]
+}

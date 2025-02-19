@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things currently in the US President’s pocket",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a watch|keys|nuclear codes|a handkerchief|ten dollars|country's to-do list|a cough drop|seven nickels|keys to the White House",
+   "n": "SafetyQuips"
+  }
+ ]
+}

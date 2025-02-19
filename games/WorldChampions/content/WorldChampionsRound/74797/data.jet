@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of <ANYPLAYER> in a Parallel Universe ",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "<ANYPLAYER> in a Parallel Universe ",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Hmm...something's just a little off...",
+   "n": "ResponseText"
+  }
+ ]
+}

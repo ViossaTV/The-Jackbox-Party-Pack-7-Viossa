@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things a robot will need to master before they can be “human”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "being happy|being sad|crying at random commercials|constantly being late|making up lame excuses|wondering why you got fired|driving in rush hour traffic|getting mad at another driver|letting that ruin your day",
+   "n": "SafetyQuips"
+  }
+ ]
+}

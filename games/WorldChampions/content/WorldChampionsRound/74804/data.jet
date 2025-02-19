@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of <ANYPLAYER>'s Weird Obsession",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "<ANYPLAYER>'s Weird Obsession",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Hey, whatever makes you happy.",
+   "n": "ResponseText"
+  }
+ ]
+}

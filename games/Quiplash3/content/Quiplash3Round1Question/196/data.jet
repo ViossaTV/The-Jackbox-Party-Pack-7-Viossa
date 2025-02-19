@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "fart|farts",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah. Obviously. Fart covers rock, it warps paper and it makes scissors rusty. Boom, there it is.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What defeats rock, paper AND scissors? ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hook 'em horns|the human heart|a military-issue flash grenade",
+   "n": "SafetyQuips"
+  }
+ ]
+}

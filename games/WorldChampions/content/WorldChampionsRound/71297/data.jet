@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Dog People",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Dog People",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Unleash the power!",
+   "n": "ResponseText"
+  }
+ ]
+}

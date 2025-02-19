@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> dunno | dunno|<PRONOUN> don't know | don't know|<PRONOUN> nothing | nothing|<PRONOUN> nuthin | nuthin|<PRONOUN> nothin | nothin|who cares|this is stupid|this is dumb|this is lame|<PRONOUN> no idea | no idea|<PRONOUN> no clue | no clue|<PRONOUN> don't care | don't care",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Actually, it also roughly translates to: “Quiplash player who doesn’t give a (bleep) about coming up with good answers.” Well done.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Welcome to the town of Flangenheidenparanudevallen, which, in English, means “<BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Denver|The Town Near the Spring But Not Too Close ",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you MUST consider when buying a wedding ring",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "is it too expensive|is it too cheap|how can I steal it?|is it the right one|are they the right one|will this unite the kingdom|does it fit|does it glow green|will it give them superpowers",
+   "n": "SafetyQuips"
+  }
+ ]
+}

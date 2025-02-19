@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know you’ve gotten the wrong shampoo bottle when the three-step directions are <BLANK>, <BLANK>, <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "rinse|lather|kill a whale|rinse|lather|smite your enemies|rinse|lather|if u value ur life dont repeat",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Wholesome Fun",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Wholesome Fun",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "So clean you could eat off it! ",
+   "n": "ResponseText"
+  }
+ ]
+}

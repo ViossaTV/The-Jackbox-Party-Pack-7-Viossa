@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Living Off The Grid",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Living Off The Grid",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You have zero bandwidth!",
+   "n": "ResponseText"
+  }
+ ]
+}

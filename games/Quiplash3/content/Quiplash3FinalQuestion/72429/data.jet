@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you’d change about Superman to make him more relatable",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "no powers|no job|wait, that's me|give him a new costume|like a bat|but like, a rich bat|has student loans|has a dead end job|loves hard seltzers",
+   "n": "SafetyQuips"
+  }
+ ]
+}

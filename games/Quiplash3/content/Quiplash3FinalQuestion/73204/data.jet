@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three signs you’ve checked into a really bad rental house",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "no toaster|no blender|no roof|no air conditioning|no furniture|p sure it's a gas station|carpet smells|photographers everywhere|chalk outline still visible",
+   "n": "SafetyQuips"
+  }
+ ]
+}

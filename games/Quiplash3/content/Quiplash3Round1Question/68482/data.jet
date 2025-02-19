@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> farts | farts|<PRONOUN> fart | fart|<ARTICLE> farts | farts|<ARTICLE> farting | farting",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Well, I am definitely the head of that household. (squeak fart)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "There’s a secret tax loophole that allows you to count <BLANK> as dependents",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "ideas|monsters under your bed",
+   "n": "SafetyQuips"
+  }
+ ]
+}

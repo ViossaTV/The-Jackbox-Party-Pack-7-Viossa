@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things that instantly ruin a shirt",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|grape juice|catching on fire|ink|paint|probably uranium|drying on high|bleach|creating it in Tee K.O.",
+   "n": "SafetyQuips"
+  }
+ ]
+}

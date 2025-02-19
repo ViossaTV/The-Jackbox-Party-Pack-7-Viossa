@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "poos|poops|turds|poohs|poo poos|poo-poos|pooh poohs|pooh-poohs",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "It goes without saying, but that means you’re (bleep) out of luck.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know the lottery scratch-off ticket won’t pay out much when the goal is to get three <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "cigarette butts|socks with holes in them|cherry pits",
+   "n": "SafetyQuips"
+  }
+ ]
+}

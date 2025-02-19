@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> fart | fart|<PRONOUN> farts | farts|<PRONOUN> gas | gas|<PRONOUN> flatulence | flatulence|<ARTICLE> fart | fart|<ARTICLE> farts | farts",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Well, everyone except the piñata was sad. The piñata was... relieved.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Everyone was sad when they saw the piñata was full of <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "donkey organs|helium|regret",
+   "n": "SafetyQuips"
+  }
+ ]
+}

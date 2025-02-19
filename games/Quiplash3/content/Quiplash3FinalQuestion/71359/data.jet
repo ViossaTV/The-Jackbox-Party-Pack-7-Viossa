@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three signs that your neighbor is upset with you",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Tall fence|angry looks|late night bagpipe practice|dog poop on yard|dog poop on steps|dog poop in mailbox|moves away|but still drives by|and says \"you stink\"",
+   "n": "SafetyQuips"
+  }
+ ]
+}

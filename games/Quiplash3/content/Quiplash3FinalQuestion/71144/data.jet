@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three other places to shout “I object!” besides a courtroom",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Waiting in supermarket line|Stepdad's house|DUI test|In a crowded elevator|In a bully's headlock|In a non-smoking zoo|At the end of a bad movie|In an expensive restaurant|While getting married",
+   "n": "SafetyQuips"
+  }
+ ]
+}

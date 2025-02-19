@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three best birthday gifts for a very sad man",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "tissues|hankies|an imaginary friend|a new phone|a phone stand|a promise to call|a cactus|a cat|a mannequin to talk to",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> beer | beer|beeer|<PRONOUN> beerz | beerz|<PRONOUN> booze | booze|beeeer|beeeeer|<ARTICLE> beer | beer|<ARTICLE> booze | booze|<ARTICLE> beers | beers",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yup, looks like you spilled a whole keg on there. Well done.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "SorrY guYzz, I acccidentalllY sp*llled <BLANK> allllll over mY KeYboar-d",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hot milk|Mountain Dew Baja Blast|emotions",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three easy ways to look tough",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Flex aggressively|Scream for no reason|Wear a horn helmet|Crush soda cans on your head|Get some cool scars|tattoo that says \"Very Tough\"|Ride a motorcycle|Ride a bear|Ride a bear on a motorcycle",
+   "n": "SafetyQuips"
+  }
+ ]
+}

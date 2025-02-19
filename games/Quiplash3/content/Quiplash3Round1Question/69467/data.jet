@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> Schmitty | Schmitty|<ARTICLE> Shmitty | Shmitty|<ARTICLE> Smitty | Smitty|<ARTICLE> quiplash host | quiplash host|<ARTICLE> host of quiplash | host of quiplash|<ARTICLE> Schmittie | Schmittie|<ARTICLE> Shmittie | Shmittie|<ARTICLE> Smittie | Smittie",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Listen punk, you ever heard of the Fighting Schmitties of Lower Backwater Community College?! No you wouldn’t have but we’ve won our division in tetherball five years in a row. Go ahead, look it up!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The community college was doomed after it made <BLANK> its mascot",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "A feral gila monster|student loan debt|the concept of auto maintenance",
+   "n": "SafetyQuips"
+  }
+ ]
+}

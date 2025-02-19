@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three names that could either be for a dog or an adult toy",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Spot|Rex|Rabbit|Powerdrive|Lightning|Mr. Happy|Ruff Ruff|Sparky|Sir Barks-A-Lot",
+   "n": "SafetyQuips"
+  }
+ ]
+}

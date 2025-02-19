@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three steps to bringing back the dinosaurs",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "buy a lizard|feed him a lot|now feed him more|buy cake|throw welcome back party|hope they show up|tell kids they're not cool|tell them you forbid them|hear dinosaur roar in basement",
+   "n": "SafetyQuips"
+  }
+ ]
+}

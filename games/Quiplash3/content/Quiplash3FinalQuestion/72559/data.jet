@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you must do on your wedding day",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "have fun|take some time together|avoid any witch's curses|argue over price of open bar|dance|get Aunt Cindy a ride home|slice cake|smash into each others' faces|hold grudge for years",
+   "n": "SafetyQuips"
+  }
+ ]
+}

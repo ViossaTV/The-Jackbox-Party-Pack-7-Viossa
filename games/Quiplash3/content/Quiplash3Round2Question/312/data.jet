@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<VERB> beer | beer | a beer|<VERB> booze | booze|<VERB> alcohol | alcohol|<VERB> liquor | liquor|<VERB> wine | wine | a glass of wine | vino|<VERB> whiskey | whiskey|<VERB> scotch | scotch|<VERB> tequila | tequila|<VERB> gin | gin|<VERB> vodka | vodka",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah, you know He DOES kinda look like he’s sitting at a bar and the bartender just keeps ignoring him.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Supposedly, Rodin’s <i>The Thinker</i> was thinking about <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "reverse mortgages|stretching his legs and getting dressed|where to grab lunch",
+   "n": "SafetyQuips"
+  }
+ ]
+}

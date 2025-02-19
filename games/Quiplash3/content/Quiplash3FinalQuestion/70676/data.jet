@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three names of exercises in CrossFit, probably ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "knee blaster|the sweat maker|leg jellier|mountain lifts|the strainsies|the near death experiences|the credit card charger|the merch push|the friend shamer",
+   "n": "SafetyQuips"
+  }
+ ]
+}

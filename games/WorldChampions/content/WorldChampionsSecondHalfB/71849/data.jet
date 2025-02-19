@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Progressive Childcare",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Progressive Childcare",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  }
+ ]
+}

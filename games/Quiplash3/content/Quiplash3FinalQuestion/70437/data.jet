@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Let’s be honest: the only things you really need to become a lawyer are <BLANK>, <BLANK>, and <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "money|money|more money|time|passion|the last name \"Attorney\"|thumbs|suspenders|thick, texas accent",
+   "n": "SafetyQuips"
+  }
+ ]
+}

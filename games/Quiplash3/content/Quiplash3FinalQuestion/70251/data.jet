@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you can say to defuse a tense hostage situation",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "but is this your card?|No really. Look|I'll be here all week|knock knock|interrupting cow|mooo!|you like Frasier?|I think you'd like Frasier|Sending in DVDs of Frasier",
+   "n": "SafetyQuips"
+  }
+ ]
+}

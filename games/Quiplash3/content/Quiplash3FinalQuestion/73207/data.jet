@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three weird things to hear a ghost moan in the middle of the night",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Chili's|baby back ribs|barbecue sauce|who|wants|margaritas|am i dead?|where's the TV remote?|we're outta peanut butter",
+   "n": "SafetyQuips"
+  }
+ ]
+}

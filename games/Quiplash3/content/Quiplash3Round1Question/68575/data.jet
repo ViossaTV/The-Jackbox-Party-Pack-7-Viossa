@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> fart | fart|farts|gas|flatulence|passing wind|fart sounds|fart noises|<ARTICLE> fart sound| fart sound",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Okay, don’t say I never did anything for you. Here goes. (auto-tuned fart). You’re welcome.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The greatest thing in the world to Auto-Tune",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "my podcast feed|an extended beer belch|Alvin and the Chipmunks",
+   "n": "SafetyQuips"
+  }
+ ]
+}

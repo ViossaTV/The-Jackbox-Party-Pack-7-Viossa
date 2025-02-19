@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Dropping Their Phone in the Toilet ",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Dropping Their Phone in the Toilet ",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  }
+ ]
+}

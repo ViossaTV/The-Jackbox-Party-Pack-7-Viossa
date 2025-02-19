@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> chicken | chicken|<ARTICLE> chicken breast | chicken breast|chiken|chikin|<ARTICLE> chicken wing | chicken wing|<ARTICLE> chicken drumstick | chicken drumstick|<ARTICLE> chicken leg | chicken leg|<ARTICLE> chicken legs | chicken legs|<ARTICLE> chicken wings | chicken wings",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Even Cookie Monster needs a little protein!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What Cookie Monster snacks on when nobody’s looking",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "kale chips|celery|carrots",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you might yell if you’re drunk or have children",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "you don't know me|please don't hit me|did you pee?|where are your shoes?|why are you crying|we're leaving the zoo|stop kicking|free bird!|I love you",
+   "n": "SafetyQuips"
+  }
+ ]
+}

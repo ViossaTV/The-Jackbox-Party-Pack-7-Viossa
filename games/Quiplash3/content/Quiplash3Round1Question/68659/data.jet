@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "beer|beeer|beer!|booze|boooze|booze!",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Oh, you just hate to see that with livestock. It’s “udderly” sad. (rimshot followed by drunken moo)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The cow goes moo. The drunk cow goes <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Moo-ve out of my way, Janet!|Let's order Domino's|Let's go us-tipping! ",
+   "n": "SafetyQuips"
+  }
+ ]
+}

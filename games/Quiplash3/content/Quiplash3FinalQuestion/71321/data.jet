@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three items you always see in the background of adult films",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "don't know|never seen them|I swear|boom mic|camera reflection|camera man's thumb|fake dorm room|fake classroom|fake graduation ceremony",
+   "n": "SafetyQuips"
+  }
+ ]
+}

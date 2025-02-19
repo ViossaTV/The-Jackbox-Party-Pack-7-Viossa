@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things that happened at the Monster Mash that they couldn’t sing about",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Frankenstein pooped his pants|Wolfman stole some change|Dracula broke his ankle|The Mummy clogged the toilet|Dracula got mono|They ran out pigs in a blanket|It was more a bash than a mash|It was at the YMCA|They were all very polite",
+   "n": "SafetyQuips"
+  }
+ ]
+}

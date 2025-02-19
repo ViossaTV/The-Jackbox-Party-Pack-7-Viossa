@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three main goals in your first term as Ruler of Earth",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "get a really cool throne|send enemies into space|free ice cream for all|outlaw birds|hate the silence|DNA engineer new birds|make every day Tuesday|name everyone Tony|free Showtime for everybody",
+   "n": "SafetyQuips"
+  }
+ ]
+}

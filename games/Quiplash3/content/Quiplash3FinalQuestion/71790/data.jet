@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things that will happen on the best day of your life",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "ride a rollercoaster|have a baby|eat soft cheese|kill my enemy|dance on his grave|forgive myself|find cash|buy lottery ticket|get real close to winning",
+   "n": "SafetyQuips"
+  }
+ ]
+}

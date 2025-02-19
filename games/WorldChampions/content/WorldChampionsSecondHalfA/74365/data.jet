@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Makeup Tutorials ",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Makeup Tutorials ",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "ResponseText"
+  }
+ ]
+}

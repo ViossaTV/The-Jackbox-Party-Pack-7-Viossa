@@ -1,0 +1,35 @@
+{
+    "localized": "true",
+    "items": [
+        {
+            "title":"PLAY",
+            "action":"doPlayGame",
+            "description":"PLAY_DESCRIPTION",
+            "value":0
+        },
+        {
+            "title":"UGC_MAKE_YOUR_OWN",
+            "action":"doUGC",
+            "description":"UGC_MAKE_YOUR_OWN_DESCRIPTION",
+            "value":1
+        },
+        {
+            "title":"UGC_FEATURED",
+            "action":"doUGCFeatured",
+            "description":"UGC_FEATURED_DESCRIPTION",
+            "value":2
+        },
+        {
+            "title":"SETTINGS",
+            "action":"doSettings",
+            "description":"SETTINGS_DESCRIPTION",
+            "value":3
+        },
+        {
+            "title":"BACK_TO_PACK",
+            "action":"doBackToPack",
+            "description":"BACK_TO_PACK_DESCRIPTION",
+            "value":4
+        }
+    ]
+}

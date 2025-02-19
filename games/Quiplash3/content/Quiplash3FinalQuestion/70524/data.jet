@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The next three characters they should add to <i>Super Smash Bros.</i> are <BLANK>, <BLANK>, and <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The|Pep|Boys|Sonic|Dr. Eggman|Shirtless Mario|Godzilla|Mecha-Godzilla|Elmo",
+   "n": "SafetyQuips"
+  }
+ ]
+}

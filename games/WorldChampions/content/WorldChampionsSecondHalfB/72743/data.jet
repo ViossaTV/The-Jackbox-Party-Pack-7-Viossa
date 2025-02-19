@@ -1,0 +1,34 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of Crying In The Shower",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "Crying In The Shower",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The nation’s top three internet searches, probably",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "singles in my area|singles outside my area|will a cat make me happy?|are UFOs real|is Bigfoot real|am I real|how to juggle|how to juggle chainsaws|emergency rooms near me",
+   "n": "SafetyQuips"
+  }
+ ]
+}

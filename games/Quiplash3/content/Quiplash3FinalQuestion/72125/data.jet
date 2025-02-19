@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Follow these three survival tips if you’re lost in the wild",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Panic|Run around the woods screaming|Cry like a baby |Find a pack of wolves|Defeat the alpha wolf|You are the wolf king now|Start a fire|Boil water|Open small coffee shop",
+   "n": "SafetyQuips"
+  }
+ ]
+}

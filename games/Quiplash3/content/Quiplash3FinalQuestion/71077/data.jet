@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three most common things people scream while skydiving out of a plane",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Never again!|This was a mistake!|I'm referring to my marriage!|Stupid gravity!|I hate air!|Birds are overrated|Come Fly with Me|Free Bird|All the Single Ladies",
+   "n": "SafetyQuips"
+  }
+ ]
+}

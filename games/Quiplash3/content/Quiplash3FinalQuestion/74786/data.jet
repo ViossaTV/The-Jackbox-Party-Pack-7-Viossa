@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things a good parent packs in their kid’s backpack",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a banana|a pen|a trust fund|a pudding cup|a nice note|keys to a robot|a comic book|some crayons|deed to the family vineyard",
+   "n": "SafetyQuips"
+  }
+ ]
+}

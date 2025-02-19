@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three weird things for a bodybuilder to yell as they do some heavy squats",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Mustard!|Ketchup!|Relish!|My Basement is Leaking!|Need A Repair Company!|Any recommendations?!|This|Gym|Is Haunted!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

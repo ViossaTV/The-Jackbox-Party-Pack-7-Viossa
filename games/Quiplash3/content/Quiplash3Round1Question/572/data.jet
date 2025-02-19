@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> chicken | chicken|<ARTICLE> chiken | chiken|<ARTICLE> chikin | chikin",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You sick sonofa(bleep)! There’s only one way you could know that!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What unicorn meat tastes like",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "marshmallows|A very young elephant|dinosaur gummies",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three signs you live next door to a mob boss",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "bullets all over lawn|constant whacking sounds|makes offers you can't refuse|constantly paying you off|trash can full of subpoenas|has \"Mob Boss\" pajamas|spends fortune in rolled up rugs|always digging holes|wipes brow with $100 bills",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three pieces of advice you’d give your younger self",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "eat more veggies|but not deep fried|okay, some deep fried|save your money|save your photos|don't save toenails|travel more|eat more|write a predictable book",
+   "n": "SafetyQuips"
+  }
+ ]
+}

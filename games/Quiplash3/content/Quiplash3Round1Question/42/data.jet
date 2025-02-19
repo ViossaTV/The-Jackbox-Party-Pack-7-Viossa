@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mom | mom|<PRONOUN> mother | mother|I love you mom|<PRONOUN> ma | ma|<PRONOUN> mama | mama|I love you mom and dad|<PRONOUN> parents | parents|<PRONOUN> dad | dad|I love you dad|<PRONOUN> father | father|<PRONOUN> pa | pa|<PRONOUN> papa | papa|<PRONOUN> pops | pops|<PRONOUN> mommy | mommy|<PRONOUN> daddy | daddy",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Ah, look at you, that’s really sweet. Okay, now I hope you win.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Your last thought before passing into the afterlife",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "baba booey|I wish I had gotten into more internet fights|Hope God is hot",
+   "n": "SafetyQuips"
+  }
+ ]
+}

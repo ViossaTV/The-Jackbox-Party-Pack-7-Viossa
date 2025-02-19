@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> beer | beer|<PRONOUN> beers | beers|<VERB> beer | beer|<PRONOUN> ale | ale|<PRONOUN> lager| lager|<PRONOUN> stout| stout|<PRONOUN> brew | brew|<VERB> ale| ale|<VERB> lager| lager|<PRONOUN> brewski | brewski | brewskies",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Look, the dude’s into beer. What’re you gonna do? You can’t change him! Don’t get hurt again!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "He’s just not that into you... because he’s into <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Beyblades|perfecting his sourdough starter|stamp collecting",
+   "n": "SafetyQuips"
+  }
+ ]
+}

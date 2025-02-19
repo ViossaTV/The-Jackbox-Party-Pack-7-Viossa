@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|chocolate sauce|chocolate bar|chocolate candy",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "So that means your volcanoes would be like... big, dessert fondue pots! Now there is a solid business idea. You know what, you can have that one. You’re welcome.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What’s at the core of the planet named after you?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Nachos|Chronic anxiety|The stuff Pringles are made of",
+   "n": "SafetyQuips"
+  }
+ ]
+}

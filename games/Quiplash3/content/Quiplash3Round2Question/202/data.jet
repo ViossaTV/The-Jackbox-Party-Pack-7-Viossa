@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "chocolate|chocolat|choclate|chocolet",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Well I guess you’ve never had Wisconsin chocolate. It is to die for. Literally.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Death by <BLANK> is uncommon, except in Florida",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "lost tourist|airboat|manatee",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Schmitty|Shmitty|Smitty|Schmittie|Shmittie|Smittie|<ARTICLE> host of Quiplash | host of Quiplash|<ARTICLE> Quiplash host | Quiplash host|<ARTICLE> announcer of this game | announcer of this game|<ARTICLE> host",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "(Schmitty laughs) You think that’s funny? Well, I got news for you. One of these days it’s gonna be YOUR birthday. Could be this year, could be years from now. But you’re gonna see just how scary I am when I bust through a damn cake! I don’t care if it’s a freakin’ cupcake. I will miniaturize myself because I have super powers, do you hear me?!! By the way, I prefer coconut with chocolate icing if anyone’s asking.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The scariest thing that could pop out of your birthday cake",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "your mom|one million spiders|student debt",
+   "n": "SafetyQuips"
+  }
+ ]
+}

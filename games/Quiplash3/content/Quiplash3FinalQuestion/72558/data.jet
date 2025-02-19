@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three steps to having a successful makeout session",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "put on chill music|be emotionally available|try to have fun|lock eyes across room|heavily flirt|leave family reunion|light a bunch of candles|realize it's creepy|just get tipsy and smooch",
+   "n": "SafetyQuips"
+  }
+ ]
+}

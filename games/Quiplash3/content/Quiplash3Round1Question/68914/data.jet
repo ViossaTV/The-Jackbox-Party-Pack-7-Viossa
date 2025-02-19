@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> dunno | dunno|<PRONOUN> don't know | don't know|<PRONOUN> nothing | nothing|<PRONOUN> nuthin | nuthin|<PRONOUN> nothin | nothin|<PRONOUN> no idea | no idea|who cares|this is stupid|this is dumb|this is lame|<PRONOUN> no clue | no clue|<PRONOUN> don't care | don't care",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know, that’s what psychologists call a horrible (bleep)-ing answer.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What do most Rorschach tests look like to you?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "squid droppings|my childhood teacher's judging eyes|spilled soup",
+   "n": "SafetyQuips"
+  }
+ ]
+}

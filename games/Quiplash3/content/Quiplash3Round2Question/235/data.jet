@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "poo|pooh|poop|crap|take a dump|defecate|take a crap|have a bowel movement|have a BM",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Are you kidding, what’s wrong with you? That’s like one of the great joys of life. I don’t want anyone pooping on my behalf, even if they are a professional.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It would be great to have a stunt double when you <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "have a mental breakdown|break up with your girlfriend|call your Grandma at Christmas",
+   "n": "SafetyQuips"
+  }
+ ]
+}

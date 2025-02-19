@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three worst jobs in hell",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "calculus teacher | data entry specialist | liverwurst tester|Satan's masseuse | Satan's bathroom attendant | devil's advocate|Twitter reader|bathroom licker|skunk sniffer",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Allow me to introduce my three toughest henchman: <BLANK>, <BLANK>, and <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Knuckles|Punchy|Mean Tweets|Max the Axe|Henry the Hammer|Lil' Stinker|Crusher|Grinder|Soft Jazzer",
+   "n": "SafetyQuips"
+  }
+ ]
+}

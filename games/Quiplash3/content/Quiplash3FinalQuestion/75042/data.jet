@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Whoa! Scientists just discovered these three surprising facts about pandas!",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "They can fly|They die in sunlight|Nope, that's vampires|They're too adorable|They hate bamboo|They're made of marshmallow|They're not bears|They're not cats|They're actually big skunks",
+   "n": "SafetyQuips"
+  }
+ ]
+}

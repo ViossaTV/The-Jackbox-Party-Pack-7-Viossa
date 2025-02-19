@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> fart  | fart|<PRONOUN> farts | farts|<PRONOUN> toot | toot|<PRONOUN> tooting | tooting|<PRONOUN> fart sounds | fart sounds|<PRONOUN> fart noises | fart noises|<PRONOUN> fart SFX | fart SFX|<PRONOUN> farting | farting|<ARTICLE> fart | fart|<ARTICLE> farts | farts|<ARTICLE> farting | farting|<ARTICLE> fart sounds | fart sounds|<ARTICLE> fart noises | fart noises|<ARTICLE> fart SFX | fart SFX",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "My liege, permit me to cut right to the quick... (impressive fart followed by uproarious applause)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "All the jesters have failed! Only one thing will entertain the king...",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "witty observations|shows about flipping houses",
+   "n": "SafetyQuips"
+  }
+ ]
+}

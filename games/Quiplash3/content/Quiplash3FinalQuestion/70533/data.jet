@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Need to calm down after an argument? Just <BLANK>, then <BLANK>, and <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "light candles|pour tea|bury your rage|inhale|exhale|expel |stand up|breathe deep|leave the buffet",
+   "n": "SafetyQuips"
+  }
+ ]
+}

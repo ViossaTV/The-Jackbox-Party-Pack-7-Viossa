@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "You could never date someone who <BLANK>, <BLANK> or <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hates karaoke|eats unsalted peanuts|hates penguins|licks their fingers|licks their mouth|licks anything. ewww|hangs out the passenger side|of his best friend's ride|trying to holler at me",
+   "n": "SafetyQuips"
+  }
+ ]
+}

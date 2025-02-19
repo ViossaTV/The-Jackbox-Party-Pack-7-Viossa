@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> dunno | dunno|<PRONOUN> don't know | don't know|<PRONOUN> nothing | nothing|<PRONOUN> nuthin | nuthin|who cares|this is stupid|this is dumb|this is lame|<PRONOUN>  no idea | no idea|<PRONOUN> no clue | no clue|<PRONOUN>  don't care | don't care",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You really have a way with words.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst thing to write inside a “get well soon” card",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "This was your fault|Can I borrow your skis?|Happy Anniversary!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three forgotten steps in the Cha-Cha Slide",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "slide to the middle|jump 20 times|back flip|shimmy|shake|Macarena|lay down|snooze|wake up in distant future",
+   "n": "SafetyQuips"
+  }
+ ]
+}

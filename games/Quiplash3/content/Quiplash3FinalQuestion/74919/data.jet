@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three warnings they need to put on the side of beer cans",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "may cause headaches|may cause inflated self-worth|may cause rambling conversations|may cause hangovers|may cause impulse purchases|may cause late night ex texts",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash3|Quiplash 3|this game|the game we're playing|Quiplash!|Quiplash 3!|Quiplash3!|Let's play Quiplash|Let's play Quiplash 3",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah, sad but true. They hate it because Quiplash is so much more fun! I mean you gotta know math for blackjack. But for this game, you don’t have to know (bleep). Eh, what’re you gonna do? (bleep) off, casinos!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Casinos hate it when you walk up to the blackjack table and yell: “<BLANK>!”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Hole in one!|I know game theory!|Elvis is alive!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

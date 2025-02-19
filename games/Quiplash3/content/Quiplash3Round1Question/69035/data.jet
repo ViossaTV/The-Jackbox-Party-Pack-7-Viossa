@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> dunno | dunno|<PRONOUN> don't know | don't know|<PRONOUN>  nothing | nothing|<PRONOUN>  nothin | nothin|<PRONOUN> nuthin | nuthin|who cares|this is stupid|this is dumb|this is lame|<PRONOUN> no idea | no idea|<PRONOUN> no clue | no clue|<PRONOUN> don't care | don't care",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "How ’bout this: Roses are red, violets are blue. You totally mailed in your quip so I’m done with you.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Finish the rhyme: “Roses are red, violets are blue, I got you this card, <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "to break up with you|the bargain is complete",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "fart|flatulate|break wind|pass gas|pass wind|toot",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Well, as a matter of fact (juicy fart).",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "<BLANK> much?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "bite your nails|eat ramen|bad breath",
+   "n": "SafetyQuips"
+  }
+ ]
+}

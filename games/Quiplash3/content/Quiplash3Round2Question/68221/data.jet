@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "quiplash|quiplash3|quiplash 3|this game|the game we're playing|<ARTICLE> Jackbox party pack | Jackbox party pack | JPP7|<ARTICLE> party pack | party pack|<ARTICLE> Jackbox Party Pack 7 | Jackbox Party Pack 7",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "What a great idea, she’ll love it! And she can use her phone or tablet as a controller. Now available on more than ten platforms!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What do you get the woman who has everything?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a job|two of everything|a clue",
+   "n": "SafetyQuips"
+  }
+ ]
+}

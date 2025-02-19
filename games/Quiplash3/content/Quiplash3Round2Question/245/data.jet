@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mom | mom|<PRONOUN> moms | moms|<PRONOUN> mother | mother|<PRONOUN> parents | parents|<PRONOUN> parent | parent|<PRONOUN> mom and dad | mom and dad|<PRONOUN> dad | dad|<PRONOUN>  father | father|<PRONOUN> mother and father | mother and father|<PRONOUN> dad and mom | dad and mom",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "So is anyone else feeling awkward? Is it just me? Okay, hey, let’s move on!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A terrible thing to remember during sex",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the oven is still on|you're a nun|where you just left your keys",
+   "n": "SafetyQuips"
+  }
+ ]
+}

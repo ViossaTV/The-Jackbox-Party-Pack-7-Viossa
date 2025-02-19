@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three unrealistic goals to set for yourself this year",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "lose weight|eat healthy|teach a dog to juggle|learn nine languages|write an opera|get more sleep|read a novel|write a novel|eat a novel",
+   "n": "SafetyQuips"
+  }
+ ]
+}

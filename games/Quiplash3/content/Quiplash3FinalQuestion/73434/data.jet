@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three neutral things to write in a birthday card for a coworker you don’t know that well",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "You were born|general congratulations|many wishes|This is a card|good job|nice desk|Happy|Birthday|Ron?",
+   "n": "SafetyQuips"
+  }
+ ]
+}

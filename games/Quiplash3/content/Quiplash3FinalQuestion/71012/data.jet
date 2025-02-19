@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things they discourage you from doing in the Grand Canyon",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "yelling \"poopie\"|taking rocks home|filling it in with cement|calling it \"The Great Canyon\"|telling kids Santa lives here|throwing pennies in|calling your burro \"a donkey\"|acting unimpressed|acting like you don't see it",
+   "n": "SafetyQuips"
+  }
+ ]
+}

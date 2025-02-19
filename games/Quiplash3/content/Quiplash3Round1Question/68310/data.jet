@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> fart | fart|<PRONOUN> farts | farts|<PRONOUN> gas | gas|<PRONOUN> farting | farting|<PRONOUN> toots | toots|<PRONOUN> tooting | tooting",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Hell yeah, how do you think I met my first wife? (train whistle “toot toot!”)",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A request you’d make on your dating profile: “Must love <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "being late all the time|cheese|my college roommate",
+   "n": "SafetyQuips"
+  }
+ ]
+}

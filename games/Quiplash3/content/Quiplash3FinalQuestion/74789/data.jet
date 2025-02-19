@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three distracting things to yell as someone tries to hit a golf ball",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "miss it!|love you!|alley oop!|free coffee!|I'm your son!|ah, dragon!|kissie, kissie!|ah, robots!|why don't you love me?!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

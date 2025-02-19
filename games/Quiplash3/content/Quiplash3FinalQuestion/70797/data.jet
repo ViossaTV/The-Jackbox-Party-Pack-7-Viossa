@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What are the three things you need for the BEST. BACHELOR PARTY. EVER!!!???",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "drinks|pals|a doctor on speed dial|cigars|champagne|fluids|cheap wine|a small bear|a strong survival instinct",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three act story of your life, so far",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "I was born|I went to college|it was expensive|I was a happy kid|a less happy teenager|then I fought a werewolf|I grew up in a small town|met the love of my life|got a dog last week",
+   "n": "SafetyQuips"
+  }
+ ]
+}

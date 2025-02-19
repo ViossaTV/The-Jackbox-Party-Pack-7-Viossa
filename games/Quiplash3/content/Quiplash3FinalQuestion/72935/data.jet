@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you can say to immediately get everyone’s attention",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "fire|free tacos|the free tacos are on fire|I|Pooped|My Pants|Nobody Panic|It's Okay|But There's a Loose Cobra",
+   "n": "SafetyQuips"
+  }
+ ]
+}

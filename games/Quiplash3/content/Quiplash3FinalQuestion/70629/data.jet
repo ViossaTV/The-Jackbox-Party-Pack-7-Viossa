@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things the worst couple you know always brings to dinner parties",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "forks|good wishes|their poetry|someone else's kids|stomach flu|a timeshare opportunity|non-alcoholic wine|non-alcoholic beer|non-alcoholic Jagermeister",
+   "n": "SafetyQuips"
+  }
+ ]
+}

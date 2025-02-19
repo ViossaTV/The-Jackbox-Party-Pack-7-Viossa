@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "farts|farting|breaking wind|passing gas|passing wind|farting constantly|constantly farting|fartness|tooting",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "I swear, do you have any compassion? I’ve been cursed by a (fart) witch! And there’s more where that came from! ",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Beware! A witch cursed me, and now I am doomed to a life of <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "unconditional love |ingrown toenails|bear attacks",
+   "n": "SafetyQuips"
+  }
+ ]
+}

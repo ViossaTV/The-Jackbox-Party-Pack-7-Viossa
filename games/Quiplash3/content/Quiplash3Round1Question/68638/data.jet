@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mom | mom|<PRONOUN> mother | mother|<PROUNOUN> ma | ma|<PRONOUN> mum | mum|<PRONOUN> mama | mama",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Okay, funny story. About five years ago I was going through, uh, a breakup of sorts. So, I texted my therapy group about it and I get this frantic message, “Josh! How many marriages can you destroy?! I raised you better than that. Susan loves you! Who’s going to do my manicures now?” Long story short, Susan still does my mom’s manicures but it’s, it’s uh, it’s awkward. It’s very awkward. Did I say this was a funny story?",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The worst person to accidentally add to a group text about your love life",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the person you're writing about|your old babysitter|your younger brother",
+   "n": "SafetyQuips"
+  }
+ ]
+}

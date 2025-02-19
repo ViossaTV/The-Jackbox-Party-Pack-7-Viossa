@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three most satisfying things to scream from a mountaintop",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "I'm king of the world|Yippie-Ki-Yay|I'm pregnant|I'm free|I love you|I lost my contact|Sarah!|The truth is out there|Riiiiiiicola!",
+   "n": "SafetyQuips"
+  }
+ ]
+}

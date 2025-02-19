@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three questions you MUST ask the owner before buying a house",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "how haunted is it?|where's the best place to cry|will they visit?|what's that smell?|is it Godzilla-proof?|did they film Parent Trap here?|is that original crown molding?|is it a good school district?|can i buy just half?",
+   "n": "SafetyQuips"
+  }
+ ]
+}

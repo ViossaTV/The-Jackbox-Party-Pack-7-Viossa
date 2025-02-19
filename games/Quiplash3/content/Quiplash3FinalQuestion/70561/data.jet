@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things that probably won’t exist in twenty years",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "bananas|polar bears|internet comments, hopefully|elephants|rhinos|but T-Rex's are coming back|pollution|anxiety|The Paw Patrol",
+   "n": "SafetyQuips"
+  }
+ ]
+}

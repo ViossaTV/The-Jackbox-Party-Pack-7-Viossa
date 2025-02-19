@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> beer | beer|<ARTICLE> six pack | six pack|<ARTICLE> six pack of beer | six pack of beer|<ARTICLE> beer bottle | beer bottle|<ARTICLE> beer can | beer can|<ARTICLE> bottle of beer | bottle of beer|<ARTICLE> six-pack | six-pack|<ARTICLE> six-pack of beer | six-pack of beer|<ARTICLE>  6 pack | 6 pack|<ARTICLE> 6 pack of beer | 6 pack of beer|<ARTICLE> 6-pack | 6-pack|<ARTICLE> 6-pack of beer | 6-pack of beer",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "(Schmitty gets choked up) A beer centerpiece for Dad. Ah boy, that just really hits me right in the heart. (belches) Excuse me.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "If Father’s Day dinner were a tradition, what would be the table centerpiece?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a Big Mouth Billy Bass|a bouquet of wrenches|a bucket of Bud Light",
+   "n": "SafetyQuips"
+  }
+ ]
+}

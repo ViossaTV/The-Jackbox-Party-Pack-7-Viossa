@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you would say to a wolf disguised as your grandma",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "what big paws you have|are you howling?|what happened on the rug?|what big eyes you have|what big ears you have|is that a deer carcass?|what big eyes you have|what big ears you have|what big fleas you have",
+   "n": "SafetyQuips"
+  }
+ ]
+}

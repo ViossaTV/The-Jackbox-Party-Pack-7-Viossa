@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things to put on your wall to show how manly you are",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Beer cans|deer head|ten Reservoir Dogs posters|road signs|jerseys|loose protein powder|a weight bench|Y chromosomes|repressed emotions",
+   "n": "SafetyQuips"
+  }
+ ]
+}

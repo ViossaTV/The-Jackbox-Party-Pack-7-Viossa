@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three stupidest accessories to force your dog to wear",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "nose ring|bangle bracelets|diving watch|a sailor hat|a sailor suit|inflatable Popeye arms|a cat costume|roller skates|I'm With Stupid shirt",
+   "n": "SafetyQuips"
+  }
+ ]
+}

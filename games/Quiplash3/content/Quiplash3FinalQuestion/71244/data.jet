@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three rejected chicken nugget shapes",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "hot dogs|the Sphinx|a sad turtle|fruit|vegetables|a map of Middle Earth|big butts|little butts|any butt, really",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you’ll find in your aunt’s bathroom... RIGHT NOW",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "sea shells|painting of a boat|skull of a drowned sailor|toilet|toilet paper|but single ply!|potpourri|potpourri soap|potpourri toothpaste",
+   "n": "SafetyQuips"
+  }
+ ]
+}

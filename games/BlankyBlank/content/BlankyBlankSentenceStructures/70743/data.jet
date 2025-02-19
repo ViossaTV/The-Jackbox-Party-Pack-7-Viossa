@@ -1,0 +1,14 @@
+{
+ "fields": [
+  {
+   "t": "S",
+   "v": "person",
+   "n": "Category"
+  },
+  {
+   "t": "S",
+   "v": "They're <article-1> <person-adjective-simple> <person-noun-simple>.|They <person-verb-simple> <article-2> <person-noun-simple-s2>.|<person-pronoun-1> so <person-adjective-complex>!|Known for the <person-adjective-complex> <person-noun-complex>.|And they <person-verb-simple> <article-2> <person-noun-complex>.",
+   "n": "Structures"
+  }
+ ]
+}

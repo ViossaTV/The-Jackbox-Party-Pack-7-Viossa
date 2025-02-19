@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you must do to survive a zombie apocalypse",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "find a safe place|help strangers|learn humanity is real monster|hunker down|play video games|hope this all blows over|dress like sexy zombie|get zombie's attention|hit with cartoon mallet",
+   "n": "SafetyQuips"
+  }
+ ]
+}

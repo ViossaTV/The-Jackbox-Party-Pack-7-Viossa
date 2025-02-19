@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "beer|beers|booze|alcohol|liquor|wine|whiskey|scotch|tequila|gin|vodka|rum",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Huh. I did the same thing in my basement.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Archaeologists won’t admit they’ve discovered cave paintings of <BLANK> ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "the first hoagie|mindless small talk|our ugliest ancestor",
+   "n": "SafetyQuips"
+  }
+ ]
+}

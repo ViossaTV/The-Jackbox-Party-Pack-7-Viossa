@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "It’s not your WORST nightmare until there’s <BLANK>, <BLANK>, and finally <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a clown|a hatchet|an abandoned hotel|gym class|a ceiling rope|hundreds of people waiting|an ostrich|my stepdad|a get-rich-quick scheme",
+   "n": "SafetyQuips"
+  }
+ ]
+}

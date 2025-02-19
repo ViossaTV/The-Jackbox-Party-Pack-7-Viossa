@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three signs that you’re slowly becoming your parents",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "clip coupons|wake up early|show love through food|become passive aggressive|even to dogs|and babies|eat at buffets|yell at the news|eat a lot of bran",
+   "n": "SafetyQuips"
+  }
+ ]
+}

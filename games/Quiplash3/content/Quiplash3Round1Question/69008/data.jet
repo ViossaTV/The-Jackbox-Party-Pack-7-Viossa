@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> fart | fart|<PRONOUN> farts | farts|<PRONOUN> gas | gas|<PRONOUN> farting | farting|<PRONOUN> toot | toot|<PRONOUN> tooting | tooting|<ARTICLE> fart | fart|<ARTICLE> toot | toot|<PRONOUN> farted | farted|<PRONOUN> tooted | tooted|<PRONOUN> cut one | cut one|<ARTICLE> farts | farts",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "How predictable. You know, Jackbox has been in the fart game for over 20 years. Our library of fart sounds is the envy of the gaming industry. Hell, there was a time we didn’t think twice about catering to your juvenile whims. But we’re older and wiser now and we know when to say (indulgent fart) ... when. Thanks for listening.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Fine! If nobody is going to ask... I will! What’s that smell?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "success|a delicious pie cooling on the window sill",
+   "n": "SafetyQuips"
+  }
+ ]
+}

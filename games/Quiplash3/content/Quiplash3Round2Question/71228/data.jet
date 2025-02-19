@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> dunno | dunno|<PRONOUN> don't know | don't know|<PRONOUN> nothing | nothing|<PRONOUN> nothin | nothin|<PRONOUN> nuthin | nuthin|who cares|this is stupid|this is dumb|who cares|<PRONOUN>  no idea | no idea|<PRONOUN> no clue | no clue|<PRONOUN> don't care | don't care|this is lame",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah, that’s the beauty of the Constitution. It grants you the freedom to put ZERO effort into your answers. The founders would be proud of you!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "One amendment you would add to the U.S. Constitution",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Elections determined by mud wrestling|Taco Tuesday enshrined in law|Supreme Court must issue verdicts in song",
+   "n": "SafetyQuips"
+  }
+ ]
+}

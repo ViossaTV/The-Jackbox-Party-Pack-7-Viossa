@@ -1,0 +1,39 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasContestAudio"
+  },
+  {
+   "t": "A",
+   "v": "contest",
+   "n": "ContestAudio"
+  },
+  {
+   "t": "S",
+   "v": "The Champion of the <ANYPLAYER> Fan Club",
+   "n": "ContestText"
+  },
+  {
+   "t": "S",
+   "v": "The <ANYPLAYER> Fan Club",
+   "n": "GameText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasResponseAudio"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "ResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "So that's who's stealing your garbage.",
+   "n": "ResponseText"
+  }
+ ]
+}

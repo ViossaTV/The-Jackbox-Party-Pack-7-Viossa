@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things that would concern you if they showed up in your dreams",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a giant duck|that knows my name|and is my dad?|a mannequin|a talking chainsaw|a unicorn with my face|a werewolf|a Frankenstein|a chorus line of Draculas",
+   "n": "SafetyQuips"
+  }
+ ]
+}

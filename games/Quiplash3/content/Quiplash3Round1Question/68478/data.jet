@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mom  | mom|<PRONOUN> mother | mother|<PRONOUN> dad | dad|<PRONOUN> father | father",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yes it stalks Cleveland until 8PM, and then it’s in bed reading a book by 9:30, maybe 10:00 tops.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "What obscure cryptid monster stalks the streets of Cleveland, Ohio?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Normal Foot|Brian",
+   "n": "SafetyQuips"
+  }
+ ]
+}

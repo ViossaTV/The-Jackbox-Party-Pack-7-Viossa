@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three hardest things about being Mario",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "nightmares about Bowser|rash from shooting fireballs|bad credit|constantly itchy mustache|all that jumping bad for knees|can't focus on plumbing|remembers every time he dies|not using his podiatry degree|can't start singing career",
+   "n": "SafetyQuips"
+  }
+ ]
+}

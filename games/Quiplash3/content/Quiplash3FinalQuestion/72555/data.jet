@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three most surprising things hidden under sofa cushions ",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "missing pants|human soul|chicken sandwich|your last sofa | coins hidden in second sofa | sandwich|a mobster|a dead body|cash to forget what you saw",
+   "n": "SafetyQuips"
+  }
+ ]
+}

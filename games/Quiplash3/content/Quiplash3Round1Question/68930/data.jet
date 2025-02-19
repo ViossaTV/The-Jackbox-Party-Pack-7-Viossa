@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "beer|beers|booze|beir|bier",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Okay, so should I be the one to say something? No? Nevermind? Okay, drink up! Enjoy yourself.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "There is no “i” in team... but there is an “i” in <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "My team is bad|Tim|losing",
+   "n": "SafetyQuips"
+  }
+ ]
+}

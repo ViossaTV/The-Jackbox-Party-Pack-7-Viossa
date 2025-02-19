@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash|Quiplash 3|Quiplash3|this game|the game we're playing",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You mean the gut-busting, say-anything party game for up to eight players and an audience of thousands?! Actually, that’s America’s MOST favorite pastime!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "America’s second favorite pastime",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "eating|crying|extreme couponing",
+   "n": "SafetyQuips"
+  }
+ ]
+}

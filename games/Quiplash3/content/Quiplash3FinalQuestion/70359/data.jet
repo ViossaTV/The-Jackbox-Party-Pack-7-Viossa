@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you MUST do to survive a bear attack",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "stop|drop|get up and run|hide in a cave|realize it's HIS cave|find new cave|dress as sexy bear|marry bear|escape on 15th anniversary",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeehaw! What’re three things a good rodeo dang sure oughta have?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "cool cows|big hats|chasing clowns|popcorn|peanuts|meat of unknown origin|the smell of fried food|the smell of manure|the smell of belt buckles",
+   "n": "SafetyQuips"
+  }
+ ]
+}

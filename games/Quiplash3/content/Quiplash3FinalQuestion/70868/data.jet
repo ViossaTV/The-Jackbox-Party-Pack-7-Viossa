@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "After the first seven, what are the next three deadly sins?",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "messiness|poor manners|finger smelling|apathy|disinterest|being too cool for school|bad dresser|clumsiness|kind of a jerk",
+   "n": "SafetyQuips"
+  }
+ ]
+}

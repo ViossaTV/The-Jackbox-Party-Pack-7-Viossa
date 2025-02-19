@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "my mom|my mother|my dad|my father|my parents|my folks|<PRONOUN> in-laws | in-laws|<PRONOUN> in laws | in laws|<PRONOUN> inlaws | inlaws",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah... I hate to say it, but the in-laws will always win those battles.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The landmark Supreme Court decision of 2045: My Wife v. <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "colonists on Mars|rising sea levels|my AI wife",
+   "n": "SafetyQuips"
+  }
+ ]
+}

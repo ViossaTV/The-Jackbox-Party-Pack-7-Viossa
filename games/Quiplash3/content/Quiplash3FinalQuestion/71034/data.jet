@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three rejected games for <i>The Price Is Right</i>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Eat the Bugs!|Wrestle Drew Carey For A TV|Spay or Neuter?|Skin Tag Scramble|Toilet Trials|Lick the Wheel|Four Hour Plinko|Snake Catch|Bench Press For $$$",
+   "n": "SafetyQuips"
+  }
+ ]
+}

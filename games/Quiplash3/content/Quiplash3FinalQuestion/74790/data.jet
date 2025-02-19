@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three ways to beat the heat this summer",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "stuff your pants with ice|move to Alaska|marry an ice cream millionaire|keep saying it's a dry heat|think cool thoughts|just give up and melt|take off clothes|go outside|enjoy air conditioned jail",
+   "n": "SafetyQuips"
+  }
+ ]
+}

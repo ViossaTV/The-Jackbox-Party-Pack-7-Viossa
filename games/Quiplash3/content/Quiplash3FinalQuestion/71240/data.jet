@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three steps to surgically removing your own appendix",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Find your sharpest steak knife|Down a bottle of whiskey|Mutter \"here goes nothing\"|Poke around in your guts|Yank out your appendix|Realize that was your spleen|Read book|Chicken out|Hope it all works out",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<ARTICLE> human poo | human poo|<ARTICLE> human poop | human poop|<ARTICLE> turd | turd|<PRONOUN> poo | poo | poop | pooh|<PRONOUN> turd | turd|<PRONOUN> turds | turds|<ARTICLE> poo | poo|<ARTICLE> poop | poop|<ARTICLE> pooh | pooh|<ARTICLE> human poo | human poo|<ARTICLE> human poop | human poop|<ARTICLE> human pooh | human pooh",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "When will people learn? You can’t wash those things in a toilet. It’s like right in the instructions.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A surprising thing to get trapped in your Invisalign clear tooth aligner",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a thumbnail|a fishing lure|an entire bag of french fries",
+   "n": "SafetyQuips"
+  }
+ ]
+}

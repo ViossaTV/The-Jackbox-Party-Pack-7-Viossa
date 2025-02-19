@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Wanna win the Kentucky Derby? The best horse trainers never let their horses <BLANK>, <BLANK>, or <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "drink booze|eat cheeseburgers|subscribe to Netflix|take wide turns|start late|bet on the other horses|get cocky|smack talk|believe its own hype",
+   "n": "SafetyQuips"
+  }
+ ]
+}

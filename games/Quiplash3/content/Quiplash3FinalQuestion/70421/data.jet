@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three things you’d immediately do if you inherited one billion dollars",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "bring back dinosaurs|but real small|i mean pocket-sized|eliminate disease|eliminate hunger|but then buy a roller coaster|put brain in robot body|conquer world|realize I was happy before :(",
+   "n": "SafetyQuips"
+  }
+ ]
+}

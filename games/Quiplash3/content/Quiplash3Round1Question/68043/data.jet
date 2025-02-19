@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> fart | fart|<ARTICLE> fart | fart|<PRONOUN> farts | farts|<PRONOUN> gas | gas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "For everyone’s sake, I hope that it’s an outdoor candle.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "If they made a candle of your life, it would smell like <BLANK>",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "day-old Doritos|chronic depression|gamer fuel",
+   "n": "SafetyQuips"
+  }
+ ]
+}

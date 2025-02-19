@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you should never stuff a taco with",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "regret|spent uranium|cilantro|dead bugs|live bugs|unless you like it|gummy bears|gummy worms|just avoid \"gummy\" altogether",
+   "n": "SafetyQuips"
+  }
+ ]
+}

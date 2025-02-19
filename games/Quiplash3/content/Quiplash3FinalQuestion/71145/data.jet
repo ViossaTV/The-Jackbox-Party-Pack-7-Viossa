@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three Chevy car models recalled for being “too awesome”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "The Rocket|The Hammer|The Overcompensater|The Jewel|The Diamond|The Super Camaro|The Good Car|The Better Car|The Best Car",
+   "n": "SafetyQuips"
+  }
+ ]
+}

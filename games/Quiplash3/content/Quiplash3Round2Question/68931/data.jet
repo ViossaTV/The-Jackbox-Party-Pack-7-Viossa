@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "<PRONOUN> mom | mom|<PRONOUN> mother | mother|<PRONOUN> dad | dad|<PRONOUN> father | father",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "Yeah, cause there’s not enough mention of parents in the Bible.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A character that would really spice up the Bible",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Spicy Jesus|Goofy and his dog Pluto",
+   "n": "SafetyQuips"
+  }
+ ]
+}

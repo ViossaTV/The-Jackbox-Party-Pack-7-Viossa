@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Let’s be positive! Name three things you’re looking forward to!",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Quiplash 4|Quiplash 5|Quiplash: The Roller Coaster|a beach vacation|a margarita|getting sand out of my socks|the next superhero movie|unless it's dumb|it'll probably be dumb",
+   "n": "SafetyQuips"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three signs you’re falling in love",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "sweaty palms|light fever|constant vomiting|writing poetry more|like a lot of poetry|and you use a big feather pen|you bathe more|you cut your toenails now|you stop skulking on rooftops",
+   "n": "SafetyQuips"
+  }
+ ]
+}

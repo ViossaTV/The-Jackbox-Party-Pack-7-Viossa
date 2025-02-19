@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "beer|beers|booze|alcohol|liquor|wine|whiskey|scotch|tequila|gin|vodka|rum|margaritas",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "You know what, what a (bleeping bleep)! He probably destroyed all the good stuff too . Hmm, I guess I could drink this hand sanitizer. (gulps) (Schmitty retching). Oh god, that was a mistake. It needs like vermouth or something.",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Thanos has gone too far this time! He destroyed half the <BLANK> in the universe.",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Hershey's Kisses|Marvel movies|toilet paper roll 4-packs",
+   "n": "SafetyQuips"
+  }
+ ]
+}

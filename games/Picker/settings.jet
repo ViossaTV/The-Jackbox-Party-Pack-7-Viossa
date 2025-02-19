@@ -1,0 +1,44 @@
+{
+    "rows": 5,
+    "items": [
+        {
+            "title": "VOLUME",
+            "type": "Range",
+            "clip": "PickerSliderWidget",
+            "source": "Volume",
+            "step": 0.1,
+            "description": "VOLUME_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_HOST",
+            "type": "Range",
+            "clip": "PickerSliderWidget",
+            "source": "VolumeHost",
+            "step": 0.1,
+            "description": "VOLUME_HOST_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_SFX",
+            "type": "Range",
+            "clip": "PickerSliderWidget",
+            "source": "VolumeSfx",
+            "step": 0.1,
+            "description": "VOLUME_SFX_DESCRIPTION"
+        },
+        {
+            "title": "VOLUME_MUSIC",
+            "type": "Range",
+            "clip": "PickerSliderWidget",
+            "source": "VolumeMusic",
+            "step": 0.1,
+            "description": "VOLUME_MUSIC_DESCRIPTION"
+        },
+        {
+            "title": "FULL_SCREEN",
+            "type": "Toggle",
+            "clip": "PickerToggleWidget",
+            "source": "FullScreen",
+            "description": "FULL_SCREEN_DESCRIPTION"
+        }
+    ]
+}

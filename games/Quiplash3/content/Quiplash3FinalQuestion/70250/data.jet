@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Like anger or denial, the three stages of grief that weren’t mentioned by Kübler-Ross",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "cake eating|ice cream eating|ice cream cake eating|gambling|mountain climbing|yelling at video games|blaming yourself|realizing you are to blame|destroying evidence",
+   "n": "SafetyQuips"
+  }
+ ]
+}

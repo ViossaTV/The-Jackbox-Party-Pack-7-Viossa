@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "poo|poop|pooh|turd|turds|poops|feces|excrement|crap",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "They rejected that title?! Oh c’mon, publishers, that’s a book we want to read!",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "A rejected fairy tale title: “Jack and the Giant <BLANK>”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "Noogie|property tax bill|chicken pox",
+   "n": "SafetyQuips"
+  }
+ ]
+}

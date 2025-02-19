@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "The three terms the cool kids are using for constipation these days",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "butt blocks|no goes|hard times|anti-diarrhea|log jams|pushies|ouchers|strainers|eye-bulgers",
+   "n": "SafetyQuips"
+  }
+ ]
+}

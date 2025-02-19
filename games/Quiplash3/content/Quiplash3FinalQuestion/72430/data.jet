@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three secrets this group, you, right here, are hiding from each other",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "we're allergic to nuts|we're allergic to cheese|we're allergic to each other|nothing|we're open books|except im an undercover spy|we're actually bears|in people clothes|roar",
+   "n": "SafetyQuips"
+  }
+ ]
+}

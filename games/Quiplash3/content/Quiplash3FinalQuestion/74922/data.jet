@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three weird times to just start yelling “Vroom! Vroom! Vroom!”",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "during your wedding vows|at a class recital|after a big race|while petting a cat|while eating a taco|while hosting NPR|when grocery shopping|when making a bed|any time not in a car",
+   "n": "SafetyQuips"
+  }
+ ]
+}

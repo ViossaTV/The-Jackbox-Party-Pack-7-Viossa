@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things you really thought we would have invented by now",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "robot doctors|personal jetpacks|automatic toilet paper|sausage trees|hamburger bushes|better cholesterol medicine|robots that cook|robots that clean|robots who don't judge me",
+   "n": "SafetyQuips"
+  }
+ ]
+}

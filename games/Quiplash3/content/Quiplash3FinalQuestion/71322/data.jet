@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Based on your deeds, the three most likely things you’ll be reincarnated as in your next life",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "a beer fridge | reclining lounge chair | Nintendo Switch|a turtle|a snail|maybe a unicorn|a squirrel|a bat|the world's first bat-squirrel",
+   "n": "SafetyQuips"
+  }
+ ]
+}

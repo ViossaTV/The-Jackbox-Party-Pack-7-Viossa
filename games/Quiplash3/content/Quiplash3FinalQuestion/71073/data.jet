@@ -1,0 +1,44 @@
+{
+ "fields": [
+  {
+   "t": "B",
+   "v": "false",
+   "n": "HasJokeAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "Keywords"
+  },
+  {
+   "t": "A",
+   "v": "response",
+   "n": "KeywordResponseAudio"
+  },
+  {
+   "t": "S",
+   "v": "",
+   "n": "KeywordResponseText"
+  },
+  {
+   "t": "B",
+   "v": "true",
+   "n": "HasPromptAudio"
+  },
+  {
+   "t": "A",
+   "v": "prompt",
+   "n": "PromptAudio"
+  },
+  {
+   "t": "S",
+   "v": "Three things EVERYONE can agree on these days",
+   "n": "PromptText"
+  },
+  {
+   "t": "S",
+   "v": "roses are red|violets are blue|close your mouth when you chew|fire is hot|water is wet|these will be debated soon|nobody|agrees|anymore",
+   "n": "SafetyQuips"
+  }
+ ]
+}
