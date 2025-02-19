@@ -1,17 +1,17 @@
-MAIN(Voisin): Bonjour, je n'ai pas eu mes lettres aujourd'hui. Vous les avez ?
--YES-> Oui, juste ici !
--NO-> Non, j'ai déteste les actualités
--PAPERBOY-> Ces facteurs ne sont pas très forts !
--STOLEPAPER-> VOUS avez volé MES lettres !
+MAIN(Neighbor): Hi, I didn't get my paper this morning. Did you see it?
+-YES-> Yes. Here!
+-NO-> No. I hate news
+-PAPERBOY-> Darn Paperboy!
+-STOLEPAPER-> YOU stole MY paper!
 
-YES(Voisin): Oh merci !
--SUCCESS-> Bien. Ils n'étaient pas du tout suspects...
+YES(Neighbor): Oh Thanks!
+-SUCCESS-> Good. They weren't suspicious at all...
 
-NO(Voisin): Alors qu'est ce que c'est que ça ?
--SUCCESS-> Mon chapeau avec un journal plié m'a trahi
+NO(Neighbor): Then what's that?
+-SUCCESS-> My folded newspaper hat has given me away
 
-PAPERBOY(Voisin): Je les déteste aussi !
--SUCCESS-> Je me suis fait un nouvel allié dans ma guerre contre le livreur de journaux.
+PAPERBOY(Neighbor): I hate them too!
+-SUCCESS-> I've made a new ally in my war against paperboy
 
-STOLEPAPER(Voisin): Vous avez raison, le voici. 
--SUCCESS-> J'ai récupéré mon journal, mais j'ai perdu mon voisin.
+STOLEPAPER(Neighbor): You're right. Here ya go. 
+-SUCCESS-> I've gained a paper, but lost a neighbor.

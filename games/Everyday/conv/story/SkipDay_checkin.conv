@@ -1,17 +1,17 @@
-MAIN(Vice Principal): Serez-vous là demain ?
--ABS-> Absolument!
--SURE-> Bien sûr, pourquoi pas ?
--WEATHER-> Si la météo me le permet
--SERVE-> Ça dépend... Qu'est-ce que vous servez ?
+MAIN(Vice Principal): Will you be in tomorrow?
+-ABS-> Absolutely!
+-SURE-> Sure, why not?
+-WEATHER-> Weather permitting
+-SERVE-> Depends... What are you serving?
 
-ABS(Vice Principal): Voilà l'esprit qu'il faut!
--SUCCESS-> Est-ce que l'apprentissage me manque ?
+ABS(Vice Principal): That's the spirit!
+-SUCCESS-> Do I miss learning?
 
-SURE(Vice Principal): Nous avons besoin de plus d'enthousiasme. Restez chez vous !
--SUCCESS-> Mince ! Encore un jour de congé !
+SURE(Vice Principal): We need more enthusiasm. Stay home!
+-SUCCESS-> Darn it! Another day off!
 
-WEATHER(Vice Principal): Ouais, je ne bosse pas sous la pluie non plus.
--SUCCESS-> Les profs sont comme nous. 
+WEATHER(Vice Principal): Yeah, I don't work in the rain either.
+-SUCCESS-> Teachers are just like us. 
 
-SERVE(Vice Principal): Une formation sur mesure !
--SUCCESS-> Miam miam!
+SERVE(Vice Principal): A piping-hot education!
+-SUCCESS-> Yum yum yum!

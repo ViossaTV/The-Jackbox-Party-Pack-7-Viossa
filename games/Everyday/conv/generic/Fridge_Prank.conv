@@ -1,30 +1,30 @@
-MAIN(Victime): Bonjour ? Qui est à l'appareil ?
--UNDERSELL-> Avez-vous un endroit pour garder votre nourriture au frais ?
--CLASSIC-> Est ce que votre réfrigérateur marche ? 
--OVERSHOOT-> Hey, quel est le problème avec votre réfrigérateur ?
--LOSTIT-> Heu... En fait non. 
+MAIN(Unsuspecting Victim): Hello? Who is this? 
+-UNDERSELL-> Do you have a place to keep your food cold?
+-CLASSIC-> Is your refrigerator running? 
+-OVERSHOOT-> Hey, what's up with your Frigidaire?
+-LOSTIT-> Uh...nevermind. 
 
 
-UNDERSELL(Victime): Oui ! Et actuellement, ça ne marche pas, pouvez vous venir le réparer ? 
--SUCCESS-> Tu as appris un métier mais tu as perdu la guerre des pranks..
+UNDERSELL(Unsuspecting Victim): Yes! And actually, it hasn't been working, can you come fix it? 
+-SUCCESS-> You learned a trade but lost the prank war.
 
 
-CLASSIC(Victime): Oui il marche ! Merci d'avoir demandé ! 
--SUCCESS-> J'ai eu une bonne conversation ! 
+CLASSIC(Unsuspecting Victim): Why yes, yes it is! Thank you for asking! 
+-SUCCESS-> A conversation was had! 
 
 
-OVERSHOOT(Victime): Il a des jambres et il commance à courrir, aidez moi !
--SUCCESS-> Je devrais peut-être donner l'appel à quelqu'un d'autre...
+OVERSHOOT(Unsuspecting Victim): It's grown legs and started running! I'm ruined! 
+-SUCCESS-> Small business failure...the ultimate prank. 
 
 
-LOSTIT(Victime): Vous êtes sûr que vous voulez pas faire votre prank ?
--FORGOT-> Quel prank ?? Je suis un client. Je voudrais commander tout votre magasin !
--TRYAGAIN-> Oh, ok! Laissez moi rééssayer...
+LOSTIT(Unsuspecting Victim): You sure you don't want to do your little prank?
+-FORGOT-> What prank?? I'm definitely a customer. Two of everything please!
+-TRYAGAIN-> Oh, ok! Let me get the nerve up...
 
-FORGOT (Victime): C'est un plaisir de faire affaire avec vous !
--FAILURE-> Vous avez oublié de faire un prank.
+FORGOT (Unsuspecting Victim): Pleasure doing business with you!
+-FAILURE-> You forgot to do a prank.
 
-TRYAGAIN(Victime): Ahem... Bonjour ?
--UNDERSELL-> Avez-vous un endroit pour garder votre nourriture au frais ?
--CLASSIC-> Est ce que votre réfrigérateur marche ? 
--OVERSHOOT-> Hey, quel est le problème avec votre réfrigérateur ?
+TRYAGAIN(Unsuspecting Victim): Ahem...'Hello?'
+-UNDERSELL-> Do you have a place to keep your food cold?
+-CLASSIC-> Is your refrigerator running? 
+-OVERSHOOT-> Hey, what's up with your Frigidaire?

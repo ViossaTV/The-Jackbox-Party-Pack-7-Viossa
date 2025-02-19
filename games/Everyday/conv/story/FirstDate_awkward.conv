@@ -1,14 +1,14 @@
-MAIN(Riley): Hé, petit gars ! J'ai beaucoup entendu parler de toi par ton grand frère ou ta grande soeur.
--PANTS-> Une fois, il/elle a mouillé son pantalon au pique-nique familial !
--PANTS-> Une fois, il/elle a pleuré parce que nous n'avions plus de mayonnaise !
--FART-> Une fois, il/elle a pété dans la piscine et on aurait dit le bruit d'une gorgone mourante !
+MAIN(Riley): Hey little dude! I've heard a lot about you from your big sibling.
+-PANTS-> One time they wet their pants at the family picnic!
+-PANTS-> One time they cried because we were out of mayonnaise!
+-FART-> One time they farted in the pool and it sounded like a dying gorgon!
 
-PANTS(Riley): Haha... Je suppose que ça a dû être il y a longtemps!
--LASTWEEK-> C'était la semaine dernière.
--SUCCESS-> Crois ce que tu as besoin de croire.
+PANTS(Riley): Haha... I guess that must have been a long time ago!
+-LASTWEEK-> It was last week.
+-SUCCESS-> Believe what you need to believe.
 
 LASTWEEK(Riley): Oh...
--SUCCESS-> Méfait accompli.
+-SUCCESS-> Mischief accomplished.
 
-FART(Riley): Nous ne devrions jamais avoir honte de notre corps.
--SUCCESS-> Je n'ai pas réussi à faire des bêtises, mais j'ai appris une bonne leçon.
+FART(Riley): We should never be ashamed of our bodies.
+-SUCCESS-> I've failed to cause mischief, but I've learned a valuable lesson.

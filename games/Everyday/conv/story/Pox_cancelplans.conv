@@ -1,18 +1,18 @@
-MAIN(Cancel): Comment ça, tu ne peux pas venir ?
--WEATHER-> Je ne suis pas en forme.
--PLAGUE-> J'ai la peste.
--ENDS-> Ça sort par les deux bouts.
--CONT-> Je suis contagieux et je serai là !
+MAIN(Cancel): What do you mean you can't make it?
+-WEATHER-> I'm under the weather.
+-PLAGUE-> I have the plague.
+-ENDS-> It's coming out both ends.
+-CONT-> I'm contagious and I'll be there!
 
 
-WEATHER(Cancel): Remets-toi sur pied !
--SUCCESS-> ...et maintenant je perds conscience..
+WEATHER(Cancel): Feel better!
+-SUCCESS-> ...and now to pass out.
 
-PLAGUE(Cancel): Tu nous manqueras!
--SUCCESS-> Racontez mon histoire au monde!
+PLAGUE(Cancel): We'll miss you!
+-SUCCESS-> Tell the world my story!
 
-ENDS(Cancel): Euh...Remets-toi sur pied !
--SUCCESS-> ...et maintenant je perds conscience..
+ENDS(Cancel): Um...feel better!
+-SUCCESS-> ...and now to pass out.
 
-CONT(Cancel): S'il... S'il te plaît, non
--SUCCESS-> Les microbes sont mes seuls amis maintenant.
+CONT(Cancel): Please... please don't
+-SUCCESS-> Germs are my only friends now.

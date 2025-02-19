@@ -1,22 +1,22 @@
-MAIN(Voisin): Bonjour voisin !
--INSULT-> Bonjour, je déteste vos pétunias
--BEAUTIFUL-> Je tiens à vous dire que vos pétunias sont magnifique.
--INSULT-> Vos pétunias me rendent furieux !
+MAIN(Neighbor): Howdy neighbor!
+-INSULT-> Hello, I hate your petunias!
+-BEAUTIFUL-> May I say, your petunias look beautiful.
+-INSULT-> Your petunias make me furious!
 
-INSULT(Voisin): Qu'est ce qu'il ne va pas avec ces pétunias ?
--COMPLAINT-> Elles sont trop colorés !
--COMPLAINT-> Elles sentent trop bon !
--BEAUTIFUL-> Rien ! Je suis juste envieux de ne pas en avoir d'aussi belle.
+INSULT(Neighbor): What's wrong with them?
+-COMPLAINT-> They're too colorful!
+-COMPLAINT-> They smell too sweet!
+-BEAUTIFUL-> Nothing! I'm just envious of how beautiful they are.
 
-BEAUTIFUL(Voisin): Merci beaucoup. Elles poussent bien.
--OFFEND-> J'ai toujours cru que vous étiez un idiot sans talent, mais vous êtes un bon jardinier.
--FLATTER-> Si j'étais en charge du prix nobel, vous aurez gagné la médaille des meilleures pétunias.
+BEAUTIFUL(Neighbor): Why thank you! They are growing in nicely.
+-OFFEND-> I always thought you were a talentless idiot, but I guess you're a pretty good gardener.
+-FLATTER-> If I was in charge of the Nobel Prize, you'd win the medal for best petunias.
 
-FLATTER(Voisin): Oh wouha. Merci !
--SUCCESS-> Non, merci à VOUS de m'avoir laissé regardé ces magnifiques pétunias
+FLATTER(Neighbor): Aw shucks. Thank you!
+-SUCCESS-> No, thank YOU for letting me see those gorgeous petunias!
 
-OFFEND(Voisin): ...
--FAILURE-> Vous partez déjà ? C'était sympa d'avoir parlé avec vous
+OFFEND(Neighbor): ...
+-FAILURE-> Going already? Nice chatting with you!
 
-COMPLAINT(Voisin): Heu... Je vais devoir y aller
--FAILURE-> Bon débarras, Mme.pétunia moche.
+COMPLAINT(Neighbor): Well, hmph. I think I'll get going.
+-FAILURE-> Good riddance, you petunia failure.

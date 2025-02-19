@@ -1,23 +1,23 @@
-﻿MAIN(Fan de musique): Mon groupe de musique préféré, les smackeurs, ont des problèmes financiers mais ils organisent une parade. Je peux avoir une petite pièce comme donation ?
--DOLLAR-> Voici une pièce.
--TWENTY-> Ca vous va 30 pièces ?
--NOMONEY-> Marcher en faisant de la musique est une abomination.
+﻿MAIN(Band Geek): The marching band looks bad! Do you want to donate money to help us buy new uniforms? 
+-DOLLAR-> Here's a buck.
+-TWENTY-> How about twenty smackers?
+-NOMONEY-> Walking while playing music is an abomination.
 
 
-DOLLAR(Fan de musique): Oh... merci. 
--SUCCESS-> Je suis sûr que votre groupe sera mieux avec cette pièce. 
+DOLLAR(Band Geek): Oh...thanks, I guess. 
+-SUCCESS-> You really sousaphone'd it in. 
 
 
-TWENTY(Fan de musique): Oh wouha ! Merci énormément !
--SUCCESS-> Merci de supporter les smackeurs.
+TWENTY(Band Geek): Oh boy! New spit valves for everyone!
+-SUCCESS-> Remember to support local art, but not TOO much.
 
 
-NOMONEY(Fan de musique): Nous allons devoir annuler la parade... sauf si vous changez d'avis ?
--SUCCESS-> Jamais ! Partez d'ici !
+NOMONEY(Band Geek): I guess we'll have to cancel the parade...unless you change your mind?
+-SUCCESS-> Never! Either sit down or get outta here!
 -TRYAGAIN-> Hmm...
 
 
-TRYAGAIN(Fan de musique): Ouais ! Combien voulez vous donner ?
--DOLLAR-> Voici une pièce. 
--TWENTY-> Ca vous va 30 pièces ?
--NOMONEY-> Marcher en faisant de la musique est une abomination.
+TRYAGAIN(Band Geek): Yay! How much should I put you down for?
+-DOLLAR-> Here's a buck. 
+-TWENTY-> How about twenty smackers?
+-NOMONEY-> Walking while playing music is an abomination.

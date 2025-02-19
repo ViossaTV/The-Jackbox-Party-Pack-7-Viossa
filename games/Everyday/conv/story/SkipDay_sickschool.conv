@@ -1,17 +1,17 @@
-MAIN(Vice Principal): Pourquoi manquez-vous l'école ?
--FUNERAL-> Enterrement d'un grand-père
--MINOR-> Chirurgie mineure
--MAJOR-> Chirurgie majeure
--SURGERY-> Réalisation d'une chirurgie amateure
+MAIN(Vice Principal): Why are you missing school?
+-FUNERAL-> Grandfather's funeral
+-MINOR-> Getting minor surgery
+-MAJOR-> Getting major surgery
+-SURGERY-> Performing some amateur surgery
 
-FUNERAL(Vice Principal): Combien de grands-pères avez-vous ?
--SUCCESS-> Je l'ai utilisé 5 fois, mais ça marche toujours!
+FUNERAL(Vice Principal): How many grandfathers do you have?
+-SUCCESS-> I've used this one 5 times, but it always works!
 
-MINOR(Vice Principal): Oh bonne chance!
--SUCCESS-> J'espère avoir une corbeille de fruits. 
+MINOR(Vice Principal): Oh good luck!
+-SUCCESS-> I hope I get a fruit bouquet. 
 
-MAJOR(Vice Principal): Oh vraiment bonne chance!
--SUCCESS-> J'espère avoir une très grosse corbeille de fruits. 
+MAJOR(Vice Principal): Oh super good luck!
+-SUCCESS-> I hope I get a really big fruit bouquet. 
 
-SURGERY(Vice Principal): Cela semble illégal, mais je ne suis pas assez payé pour m'impliquer dans la vie des étudiants, alors je ne poserai pas de questions.
--SUCCESS-> Hourra pour l'apathie institutionnelle!
+SURGERY(Vice Principal): That sounds illegal, but I'm not paid enough to get involved in students' lives, so I won't ask questions.
+-SUCCESS-> Hooray for institutional apathy!

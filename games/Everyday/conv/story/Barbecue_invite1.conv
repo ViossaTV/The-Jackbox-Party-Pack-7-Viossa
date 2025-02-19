@@ -1,17 +1,17 @@
-MAIN(Neighbor): Est ce que je peux emmener quelque chose ?
--MAC-> Des burgers, des chips et beaucoup d'amitié
--BEAN-> Neuf salades
--KEG-> Un pot de moutarde
--HUNGRY-> Je veux juste des amis qui ont faim
+MAIN(Neighbor): Can I bring anything?
+-MAC-> Mac & cheese & friendship
+-BEAN-> Nine bean salad
+-KEG-> A keg of mustard
+-HUNGRY-> Just hungry friends!
 
-MAC(Neighbor): J'ai que deux de ces choses chez moi
--SUCCESS-> Ah... J'y ai cru jusqu'au bout
+MAC(Neighbor): I've got two out of three!
+-SUCCESS-> Everything is falling into place.
 
-BEAN(Neighbor): J'ai juste assez de salades
--SUCCESS-> Parfait, on se revoit au barbecue !
+BEAN(Neighbor): I have just enough beans!
+-SUCCESS-> Everything is falling into place.
 
-KEG(Neighbor): Forte ou douce ?
--SUCCESS> Les deux, il en faut mieux trop que pas assez !
+KEG(Neighbor): Spicy or honey?
+-SUCCESS> Both! We're going all night!
 
-HUNGRY(Neighbor): Super ! J'invite ma famille, on sera 30 !
+HUNGRY(Neighbor): Great! My 30 member choir is visiting!
 -SUCCESS-> Uh oh.

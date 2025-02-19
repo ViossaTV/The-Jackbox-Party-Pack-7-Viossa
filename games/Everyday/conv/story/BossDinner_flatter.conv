@@ -1,24 +1,24 @@
-MAIN(Boss): Comment puis-je vous aider, jeune capitaliste ?
--ADVICE-> Comment puis-je avoir un énorme succès comme vous ?
--BRATTY-> Comment puis-je éviter vos nombreuses erreurs évidentes ?
+MAIN(Boss): How may I help you, young capitalist?
+-ADVICE-> How can I be a huge success like you?
+-BRATTY-> How can I avoid your many obvious mistakes?
 -SHORTCUT-> Is there some shortcut to success that doesn't involve so much "trying"?
 
-ADVICE(Boss): Honnêtement, tout est dans les vêtements. Trouvez-vous un bon tailleur et vous aurez fait la moitié du chemin.
--TAILOR-> Qui est votre gars ?
--BODYTEMP-> Ma température corporelle extrêmement élevée n'est PAS bonne pour le lin.
+ADVICE(Boss): Honestly, it's all in the clothes. Get yourself a good tailor and you're halfway there.
+-TAILOR-> Who's your guy?
+-BODYTEMP-> My high extremely high body temperature is NOT good for linen.
 
-TAILOR(Boss): Parlez à Vinny au dépôt de costumes et dites-lui que je vous envoie.
--SUCCESS-> J'ai fait une connexion!
+TAILOR(Boss): Talk to Vinny at the Suit Depot and tell him I sent you.
+-SUCCESS-> I have made a connection!
 
-BODYTEMP(Boss): Ils font de grandes choses avec les vêtements de bureau en Nomex ces jours-ci.
--SUCCESS-> Bon, on a assez parlé pour l'instant.
+BODYTEMP(Boss): They're doing great things with Nomex office-wear these days.
+-SUCCESS-> Well, that's enough talking for now.
 
-BRATTY(Boss): Je suppose en revenant en 1998 et dire à Carolyn que je ne veux pas qu'elle déménage à Detroit...
--SUCCESS-> C'est devenu trop réel.
+BRATTY(Boss): I guess go back to 1998 and tell Carolyn I don't want her to move to Detroit...
+-SUCCESS-> This got too real.
 
-SHORTCUT(Boss): Cela dépend. Êtes-vous né riche?
--NOTRICH-> Malheureusement, non.
--NOTRICH-> Si je l'érais, est-ce que je serais en train de gâcher mon temps à parler avec vous?
+SHORTCUT(Boss): That depends. Were you born rich?
+-NOTRICH-> Unfortunately, not.
+-NOTRICH-> If I was, would I be wasting my time talking to you?
 
-NOTRICH(Boss): Alors je ne peux pas vous aider.
--SUCCESS-> Commentaire tranchant.
+NOTRICH(Boss): Then I can't help you.
+-SUCCESS-> Trenchant commentary.

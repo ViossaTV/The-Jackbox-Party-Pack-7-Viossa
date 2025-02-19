@@ -1,10 +1,10 @@
 DEF EPISODE "SkipDay"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Faire le mur"
-    SET DESCRIPTION "Après deux longs mois, tous les membres de la famille décident d'avoir leur propre petit <font color='#AF0000'>skip day</font>. Pour une fois dans leur vie, pourront-ils profiter d'un moment d'intimité ?"
-    SET SUCCESS_MESSAGE "Nos petits oiseaux nous ont dit que vous sembliez reposé, détendu et avez récupéré le lendemain de vos mystérieuses 'maladies'. NOUS NE SOMMES certainement pas soupçonneux de ceci."
-    SET FAILURE_MESSAGE "Bien tenté, ex-las. Non seulement vous avez été pris en flagrant délit de fuite de vos responsabilités, mais vous avez été malade pour de bon à cause du stress."
+    SET NAME "Playing Hooky"
+    SET DESCRIPTION "It's been a long couple of months, so everyone in the family decides to have their own little <font color='#AF0000'>skip day</font>. Will they enjoy a single moment of privacy for once in their lives? "
+    SET SUCCESS_MESSAGE "Our little birdies told us you appeared rested, relaxed, and recuperated the day after your mysterious 'illnesses.' WE'RE certainly not suspicious."
+    SET FAILURE_MESSAGE "Smooth move, ex-lax. Not only were you caught in the act of shirking your responsibilities, you got sick for REAL from all the stress."
 
 
     REM : ------------------------------
@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : Call in sick to work
 CLONE DEED "DialogID" "CallInWork"
-    SET INSTRUCTIONS "Faites-vous porter pâle au travail"
+    SET INSTRUCTIONS "Call in sick to work"
     SET CONTENT_ID "SKIPDAY_SICKWORK"
 END
 
 DEF TASK "CallInWork"
-    SET NAME "Se faire porter pâle au travail"
+    SET NAME "Call in sick to work"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,12 +65,12 @@ END
 
 REM : Call in sick to school
 CLONE DEED "DialogID" "CallInSchool"
-    SET INSTRUCTIONS "Faites-vous porter pâle à l'école"
+    SET INSTRUCTIONS "Call in sick to school"
     SET CONTENT_ID "SKIPDAY_SICKSCHOOL"
 END
 
 DEF TASK "CallInSchool"
-    SET NAME "Se faire porter pâle à l'école"
+    SET NAME "Call in sick to school"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -83,12 +83,12 @@ END
 
 REM : Call in sick to kindergarten
 CLONE DEED "DialogID" "CallInKinder"
-    SET INSTRUCTIONS "Faites-vous porter pâle à la maternelle"
+    SET INSTRUCTIONS "Call in sick to kindergarten"
     SET CONTENT_ID "SKIPDAY_SICKKINDER"
 END
 
 DEF TASK "CallInKinder"
-    SET NAME "Se faire porter pâle à la maternelle"
+    SET NAME "Call in sick to kindergarten"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -101,23 +101,23 @@ END
 
 REM : Make dummy
 CLONE DEED "Tap3" "SkipDummy1"
-    SET INSTRUCTIONS "Trouvez la bonne taille de balle"
+    SET INSTRUCTIONS "Find the right sized ball"
 END
 
 CLONE DEED "SwipeDown" "SkipDummy2"
-    SET INSTRUCTIONS "Remplissez vos vêtements"
+    SET INSTRUCTIONS "Stuff your clothes"
 END
 
 CLONE DEED "SwipeRight" "SkipDummy3"
-    SET INSTRUCTIONS "Ajoutez un peu de cheveux"
+    SET INSTRUCTIONS "Add a little hair"
 END
 
 CLONE DEED "Hold2" "SkipDummy4"
-    SET INSTRUCTIONS "Une ressemblance parfaite !"
+    SET INSTRUCTIONS "A perfect likeness!"
 END
 
 DEF TASK "SkipDummy"
-    SET NAME "Créer une version factice de soi-même"
+    SET NAME "Make a dummy version of yourself"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -138,23 +138,23 @@ REM : -------------------------------------
 
 REM : Enjoy peace and quiet
 CLONE DEED "SwipeDown" "PeaceQuiet1"
-    SET INSTRUCTIONS "Asseyez-vous dans le bon fauteuil"
+    SET INSTRUCTIONS "Sit in the good chair"
 END
 
 CLONE DEED "Hold2" "PeaceQuiet2"
-    SET INSTRUCTIONS "Savourez une gorgée de bon café"
+    SET INSTRUCTIONS "Enjoy a sip of the good coffee"
 END
 
 CLONE DEED "SwipeLeft" "PeaceQuiet3"
-    SET INSTRUCTIONS "Sortez votre passe-temps le plus honteux"
+    SET INSTRUCTIONS "Break out your most shameful hobby"
 END
 
 CLONE DEED "QuickTap5" "PeaceQuiet4"
-    SET INSTRUCTIONS "Réarrangez votre collection de billes"
+    SET INSTRUCTIONS "Rearrange your marble collection"
 END
 
 DEF TASK "PeaceQuiet"
-    SET NAME "Profiter de la paix et du calme"
+    SET NAME "Enjoy peace and quiet"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -173,14 +173,14 @@ END
 
 REM : Build a cardboard particle collider
 CLONE DEED "Gizmos6" "BuildCard"
-    SET INSTRUCTIONS "Construisez un collisionneur de particules en carton"
+    SET INSTRUCTIONS "Build a cardboard particle collider"
     SET NAME "Particle Collider"
 END
 
 DEF TASK "BuildCard"
-    SET NAME "Construire un collisionneur de particules en carton dans le jardin"
-    SET ASKER_NAME "Demandez de l'aide pour construire un collisionneur de particules en carton dans le jardin"
-    SET HELPER_NAME "Aidez <ASKER> à construire un collisionneur de particules en carton dans le jardin"
+    SET NAME "Build a cardboard particle collider in the backyard"
+    SET ASKER_NAME "Get help building cardboard particle collider in the backyard"
+    SET HELPER_NAME "Help <ASKER> build cardboard particle collider in the backyard"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -202,14 +202,14 @@ END
 
 REM : Drive aimlessly around town
 CLONE DEED "TravelCategory" "TravelAimless"
-    SET INSTRUCTIONS "Allons chercher de la nourriture"
+    SET INSTRUCTIONS "Let's get some food"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "TravelAimless"
-    SET NAME "Conduire sans but dans la ville"
-    SET ASKER_NAME "Allez avec un adolescent pour conduire sans but dans la ville"
-    SET HELPER_NAME "Conduisez sans but dans la ville avec <ASKER> "
+    SET NAME "Drive aimlessly around town"
+    SET ASKER_NAME "Go with teen to drive aimlessly around town"
+    SET HELPER_NAME "Drive aimlessly around town with <ASKER> "
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -225,12 +225,12 @@ REM : ----------------------------------------------
 
 REM : Answer call from school
 CLONE DEED "DialogID" "DialogSkipSchool"
-    SET INSTRUCTIONS "Jouez-la cool"
+    SET INSTRUCTIONS "Play it cool"
     SET CONTENT_ID "SKIPDAY_CHECKIN"
 END
 
 DEF TASK "DialogSkipSchool"
-    SET NAME "Répondre à l'appel de l'école"
+    SET NAME "Answer call from the school"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -243,23 +243,23 @@ END
 
 REM : Make fuel for your collider
 CLONE DEED "SwipeRight" "ColliderFuel1"
-    SET INSTRUCTIONS "Videz le réfrigérateur"
+    SET INSTRUCTIONS "Empty the fridge"
 END
 
 CLONE DEED "Rotate360" "ColliderFuel2"
-    SET INSTRUCTIONS "Versez le tout dans un seau"
+    SET INSTRUCTIONS "Pour it all in a bucket"
 END
 
 CLONE DEED "Tap1" "ColliderFuel3"
-    SET INSTRUCTIONS "Ajoutez une pointe de javel"
+    SET INSTRUCTIONS "Just a touch of bleach"
 END
 
 CLONE DEED "Hold3" "ColliderFuel4"
-    SET INSTRUCTIONS "Faites le plein !"
+    SET INSTRUCTIONS "Fuel up!"
 END
 
 DEF TASK "ColliderFuel"
-    SET NAME "Fabriquer du combustible pour le collisionneur de votre jardin"
+    SET NAME "Make fuel for your backyard collider"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -278,23 +278,23 @@ END
 
 REM : Gorge on snack food
 CLONE DEED "Tap3" "GorgeSkip1"
-    SET INSTRUCTIONS "Mangez tous les anchois que vous voulez"
+    SET INSTRUCTIONS "Eat all the anchovy puffs you want"
 END
 
 CLONE DEED "QuickTap3" "GorgeSkip2"
-    SET INSTRUCTIONS "Mangez-en encore plus"
+    SET INSTRUCTIONS "Eat even more"
 END
 
 CLONE DEED "Nothing3" "GorgeSkip3"
-    SET INSTRUCTIONS "Soyez fier de votre décision d'adulte"
+    SET INSTRUCTIONS "Take pride in your adult decision"
 END
 
 CLONE DEED "Hold3" "GorgeSkip4"
-    SET INSTRUCTIONS "Oh oh... indigestion"
+    SET INSTRUCTIONS "Uh oh... food poisoning"
 END
 
 DEF TASK "GorgeSkip"
-    SET NAME "Se gaver de snacks"
+    SET NAME "Gorge on snack food"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -313,12 +313,12 @@ END
 
 REM : Find the makeup work you misplaced
 CLONE DEED "SearchID" "SkipMakeUp"
-    SET INSTRUCTIONS "Retrouvez le travail de rattrapage que vous avez égaré"
+    SET INSTRUCTIONS "Find the make-up work you misplaced"
     SET CONTENT_ID "MAKEUPWORK"
 END
 
 DEF TASK "SkipMakeUp"
-    SET NAME "Retrouver le travail de rattrapage que vous avez égaré"
+    SET NAME "Find the make-up work you misplaced"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -331,24 +331,24 @@ END
 
 REM : Shut down collider
 CLONE DEED "Instructions5" "ShutDownCollider"
-    SET INSTRUCTIONS "Arrêtez le collisionneur en surchauffe !"
+    SET INSTRUCTIONS "Shut down the overheating collider!"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Éteignez le feu"
+    SET INSTRUCTIONS_0 "Put out the fire"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Enclenchez l'interrupteur d'annulation"
+    SET INSTRUCTIONS_1 "Engage the override switch"
     SET MECHANIC_2 "TAP_HOLD"
-    SET INSTRUCTIONS_2 "Préparez-vous à l'explosion"
+    SET INSTRUCTIONS_2 "Brace for explosion"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Soupirez de soulagement"
+    SET INSTRUCTIONS_3 "Sigh in relief"
     SET MECHANIC_4 "SWIPE_UP"
-    SET INSTRUCTIONS_4 "Faites-vous surprendre par la pluie"
+    SET INSTRUCTIONS_4 "Get caught in the rain"
 END
 
 DEF TASK "ShutDownCollider"
-    SET NAME "Arrêter la surchauffe du collisionneur de particules du jardin !"
-    SET ASKER_NAME "Demandez de l'aide pour arrêter la surchauffe du collisionneur de particules du jardin"
-    SET HELPER_NAME "Aidez <ASKER> à arrêter la surchauffe du collisionneur de particules du jardin"
+    SET NAME "Shut down the overheating backyard particle collider!"
+    SET ASKER_NAME "Get help shutting down overheating backyard particle collider"
+    SET HELPER_NAME "Help <ASKER> shut down overheating backyard particle collider"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

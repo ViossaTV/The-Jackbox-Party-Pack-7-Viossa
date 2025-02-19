@@ -1,17 +1,17 @@
-MAIN(Neighbor): Qu'est-ce que cet arbuste obscène est censé être ?
--DRAG-> Une attaque de dragon
--SELF-> Un autoportrait
--TEST-> C'est un test de Rorschach
--DYING-> Cet arbuste est mourrant
+MAIN(Neighbor): What's that obscene shrub supposed to be?
+-DRAG-> A dragon attack
+-SELF-> A self-portrait
+-TEST-> That's a Rorschach test
+-DYING-> That shrub is dying
 
-DRAG(Neighbor): Terrifiant. 
--SUCCESS-> Les juges des pelouses ne réagissent qu'au potentiel.
+DRAG(Neighbor): Terrifying. 
+-SUCCESS-> Lawn judges only respond to might.
 
-SELF(Neighbor): C'est parfait!
--SUCCESS-> Je devrais voir un docteur
+SELF(Neighbor): It's perfect!
+-SUCCESS-> I should see a doctor
 
-TEST(Neighbor): Oh non... Est-ce que je déteste ma mère ?
--SUCCESS-> La topiaire dit 'oui'
+TEST(Neighbor): Oh no... Do I hate my mother?
+-SUCCESS-> The topiary says "yes"
 
-DYING(Neighbor): C'est mauvais pour votre score de pelouse.
--SUCCESS-> Et pour le buisson aussi
+DYING(Neighbor): That's bad for your lawn score.
+-SUCCESS-> And the bush

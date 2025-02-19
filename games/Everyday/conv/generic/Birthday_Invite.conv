@@ -1,21 +1,21 @@
-MAIN(Camarade): Hey, est-ce que je peux emprunter ton manuel ? J'ai fait tomber le mien dans la boue.
--ANGRY-> Je pense que mon invitation pour ta fête d'anniversaire est aussi tombé dans la boue.
--SURE-> Bien sûr ! Je ferai n'importe quoi pour mes amis. On est bien ami ?
+MAIN(Classmate): Hey, can I borrow your textbook? I dropped mine in mud.
+-ANGRY-> I guess my invitation to your birthday party also got dropped in mud.
+-SURE-> Of course! I would do anything for a friend. We are friends, right?
 
-ANGRY(Camarade): Oh désolé, cette fête est exclusive a seulement quelques personnes.
--BYE-> Et bien mon manuel est exclusif aussi. Salut !
--HINT-> Si je viens à cette fête, je pourrai emmener mes réponses au prochain devoir maison...
+ANGRY(Classmate): Oh sorry, it's kinda an exclusive party for just a few people.
+-BYE-> Well, my textbook is pretty exclusive too. Goodbye!
+-HINT-> If I was going to your party, I could bring my homework answers for you to copy...
 
-SURE(Camarade): Merci ! Maintenant je dois faire ce devoir maison stupide...
--BYE-> Ouais tu dois le faire, Au revoir !
--HINT-> Tu peux copier mes réponses. Peut-être que je peux te les donner à ta fête d'anniversaire ?
+SURE(Classmate): Thanks or whatever. Now I gotta do this stupid homework.
+-BYE-> Yeah, guess so. Goodbye!
+-HINT-> You could copy my answers. Maybe I could give them to you at your birthday party...
 
-BYE(Camarade): Dans tous les cas, salut loser !
--FAILURE-> C'est toi le loser !
--HINT-> Attends ! Et si je te laissais copier mes réponses... à ta fête d'anniversaire ?
+BYE(Classmate): Whatever, later loser.
+-FAILURE-> Scram, jerkface!
+-HINT-> Hold on. What if I let you copy my homework answers... at your party?
 
-HINT(Camarade): Ugh, d'accord. Tu peux venir. Juste, ne soit pas bizarre.
--SUCCESS-> Merci, BFF! Je te revois là-bas !
+HINT(Classmate): Ugh, all right. You can come, just don't act weird.
+-SUCCESS-> Thank you, BFF! I'll see you at the festivities!
 
 
 

@@ -1,17 +1,17 @@
-MAIN(Agent): Vous avez une belle chanson, comment vous appelez-vous ?
--SIN-> "Les rockeurs des laves"
--HECK-> "La maison des enfers"
--PITCH-> "Les rockeurs démoniaques"
--BRIM-> "La famille démon"
+MAIN(Agent): You got a nice sound. What do you call yourselves?
+-SIN-> "The Sin Kin"
+-HECK-> "The Heck House"
+-PITCH-> "The Pitchfork Pack"
+-BRIM-> "The Family Brimstone"
 
-SIN(Agent): Ca me va, signez ça
--SUCCESS-> Allons utiliser cet argent dès maintenant !
+SIN(Agent): Good Enough! Let's sign!
+-SUCCESS-> Let's spend the money right away!
 
-HECK(Agent): D'accord, signez juste là
--SUCCESS-> Je vois déjà nos albums s'écouler
+HECK(Agent): Change it to something more edgy and you're in.
+-SUCCESS-> We're selling out already!
 
-PITCH(Agent): Parfait, j'ai un festival pour vous
--SUCCESS-> J'espère qu'il y aura du monde.
+PITCH(Agent): Great! I've got just the festival for ya!
+-SUCCESS-> I hope it ends in "-alooza".
 
-BRIM(Agent): Parfait, signez ici
--SUCCESS-> Allons utiliser cet argent dès maintenant !
+BRIM(Agent): Good Enough! Let's sign!
+-SUCCESS-> Let's spend the money right away!

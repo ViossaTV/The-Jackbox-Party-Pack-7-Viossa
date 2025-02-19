@@ -1,17 +1,17 @@
-MAIN(Interviewer): Comment vous sentez-vous d'être la première famille dans l'espace ?
--COOL-> Plutôt cool
--OVER-> Déjà marre
+MAIN(Interviewer): How do you feel about being first family in space?
+-COOL-> Pretty cool
+-OVER-> Over it
 -GROOVY-> Groovy
--KEEN-> Très satisfaisant
+-KEEN-> Peachy Keen
 
-COOL(Interviewer): L'espace C'EST cool
--SUCCESS-> La famille aussi !
+COOL(Interviewer): Space IS cool
+-SUCCESS-> So is family!
 
-OVER(Interviewer): Parlons à quelqu'un de plus intéressant.
--SUCCESS-> J'avais l'air si cool et désintéressé !
+OVER(Interviewer): Let's talk to someone more interesting
+-SUCCESS-> I came off so cool and disinterested!
 
-GROOVY(Interviewer): Vous êtes sarcastique, là?
--SUCCESS-> Presque toujours
+GROOVY(Interviewer): Are you being sarcastic?
+-SUCCESS-> Almost always
 
-KEEN(Interviewer): Vous êtes sarcastique, là?
--SUCCESS-> Presque toujours
+KEEN(Interviewer): Are you being sarcastic?
+-SUCCESS-> Almost always

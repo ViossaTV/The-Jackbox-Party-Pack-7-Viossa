@@ -1,18 +1,18 @@
-MAIN(Zoning): Que construisez-vous dans votre jardin ?
--HOUSE-> Une cabane dans les arbres illégale
--TOOL-> Une cabane à outils aérienne
--BIRD->  Une mangeoire pour oiseaux d'une taille inhabituelle
--WEIRD-> Rien. Mon arbre bizarre a fait pousser une maison !
+MAIN(Zoning): What are you building in your backyard?
+-HOUSE-> An illegal treehouse
+-TOOL-> An aerial tool shed
+-BIRD-> An unusually large bird feeder
+-WEIRD-> Nothing. My weird tree grew a house!
 
 
-HOUSE(Zoning): Vous n'êtes pas autorisé à le faire.
--SUCCESS-> Ugh... il est temps d'utiliser le portefeuille de corruption.
+HOUSE(Zoning): You're not cleared for that
+-SUCCESS-> Ugh...time to get the bribing wallet
 
-TOOL(Zoning): Ça a l'air crédible ! Profitez!
--SUCCESS-> *Raccroche* ...mais ma famille sont les outils.
+TOOL(Zoning): Sounds believable! Enjoy!
+-SUCCESS-> *Hangs up* ...but my family are the tools.
 
-BIRD(Zoning): Ça a l'air crédible ! Profitez!
--SUCCESS-> *Raccroche* ...mais ma famille sont les oiseaux.
+BIRD(Zoning): Sounds believable! Enjoy!
+-SUCCESS-> *Hangs up*...but my family are the birds.
 
-WEIRD(Zoning): Incroyable ! Vous avez de la chance !
--SUCCESS-> *Raccroche*... notre gouvernement local est-il si mauvais ?
+WEIRD(Zoning): Amazing! You're so lucky!
+-SUCCESS-> *Hangs up*... is our local government bad?

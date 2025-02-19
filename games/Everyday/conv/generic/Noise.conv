@@ -1,18 +1,18 @@
-MAIN(Voisin): Votre musique est un peu forte, non ?
--WHAT-> QUOI ?!
--SORRY-> DESOLE !
--JAM-> VOUS VOULEZ VOUS JOINDRE A NOUS ?
--BAD-> ÇA ÉLIMINE LES MAUVAISES PENSÉES !
+MAIN(Neighbor): Your music is a little loud, don't ya think?
+-WHAT-> WHAT!?
+-SORRY-> SORRY!
+-JAM-> WANNA JAM?
+-BAD-> IT KILLS THE BAD THOUGHTS!
 
 
-WHAT(Voisin): Je vais partir
--SUCCESS-> QUOI ?!?!?!?!
+WHAT(Neighbor): I'm going to move
+-SUCCESS-> WHAT?!?!?
 
-SORRY(Voisin): PAS DE SOUCIS !
--SUCCESS-> JE SUIS CONTENT DE L'ENTENDRE
+SORRY(Neighbor): IT'S OKAY!
+-SUCCESS-> I'M GLAD WE CAN TALK!
 
-JAM(Voisin): ...BIEN SÛR !!!
--SUCCESS-> PRENEZ UN LUTH ET ALLONS-Y !
+JAM(Neighbor): ...SURE!!!
+-SUCCESS-> GRAB A LUTE AND LET'S GO!
 
-BAD(Voisin): Vous avez besoin de parler ?
--SUCCESS-> ...oui, s'il vous plait.
+BAD(Neighbor): Wanna talk?
+-SUCCESS-> ...yes, please.

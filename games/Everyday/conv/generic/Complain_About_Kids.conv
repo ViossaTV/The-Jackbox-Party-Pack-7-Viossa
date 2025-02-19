@@ -1,23 +1,23 @@
-MAIN(Voisin): Hey mon pote, comment ça va ?
--NORESPECT-> Les enfants n'ont plus de respect !
--PLENTYRESPECT> Les enfants ont beaucoup de respect.
+MAIN(Neighbor): Hey pal, how's it going?
+-NORESPECT-> Kids have no respect these days!
+-PLENTYRESPECT> Kids have plenty of respect these days!
 
-NORESPECT(Voisin): Je t'ai entendu, hein.
--NOTHINGHANDED-> Hmm, mais nos enfants travaillent bien.
--EVERYTHINGHANDED-> Ces enfants ont tout sous la main !
+NORESPECT(Neighbor): I hear ya, buddy.
+-NOTHINGHANDED-> Hmm, but I guess our kids work pretty hard.
+-EVERYTHINGHANDED-> These ungrateful kids have everything handed to them!
 
-EVERYTHINGHANDED(Voisin): Whoa, tu as l'air enervé !
--ANDONEMORETHING-> Et une dernière chose, mes enfants sont pourris gâtés. !
--THATSIT-> Et une dernière chose... hmm... hmm
+EVERYTHINGHANDED(Neighbor): Whoa, you seem pretty steamed!
+-ANDONEMORETHING-> And one more thing, my kids are spoiled rotten!
+-THATSIT-> And one more thing, uh... um...
 
-PLENTYRESPECT(Voisin): Je suis content de l'entendre ?
--FAILURE-> Je crois que je n'ai rien à dire sur mes enfants.
+PLENTYRESPECT(Neighbor): Glad to hear it?
+-FAILURE-> I guess I have no complaints about my kids.
 
-NOTHINGHANDED(Voisin): Tu les as bien élevé... Je pense !
--SUCCESS-> Je n'ai pas grand chose à dire sur mes enfants en y pensant.
+NOTHINGHANDED(Neighbor): You raised them well, I guess!
+-SUCCESS-> I don't have too many complaints about my kids, all things considered.
 
-THATSIT(Voisin): Tu ne veux plus rien ajouter ?
--SUCCESS-> Je pense que j'avais que deux choses à dire sur mes enfants.
+THATSIT(Neighbor): Nothing else you want to say?
+-SUCCESS-> I guess I only had two complaints about my kids.
 
-ANDONEMORETHING(Voisin): Wouha, tu devrais voir un psy !
--SUCCESS-> Je ne t'ai pas demandé ton avis.
+ANDONEMORETHING(Neighbor): Yikes, you should probably see a family therapist!
+-SUCCESS-> I didn't ask for your advice.

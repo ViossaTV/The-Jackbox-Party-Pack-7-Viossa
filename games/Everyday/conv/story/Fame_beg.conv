@@ -1,10 +1,10 @@
-MAIN(Producer): Oui?
--NORMAL-> Je voudrais solennellement demander une seconde audition.
+MAIN(Producer): Hello?
+-NORMAL-> I would like to respectfully request a second audition.
 -CRAZY-> Uh this is the director. I think we should reconsider that attractive devil for 'Cop #2'!
--CRAZY-> JE SUIS 'POLICIER #2'! JE VIS ET RESPIRE COMME 'POLICIER N°2'!
+-CRAZY-> I AM 'COP #2'! I LIVE AND BREATH 'COP #2'!
 
-NORMAL(Producer): Je n'ai aucune idée de qui c'est. Au revoir.
--SUCCESS-> Si elle ne se souvient pas de moi, alors j'ai encore une chance !
+NORMAL(Producer): I have no idea who this is is. Goodbye.
+-SUCCESS-> If she doesn't remember me, I've still got a shot!
 
-CRAZY(Producer): Supprimez ce numéro.
--SUCCESS-> Je n'ai pas entendu 'non'!
+CRAZY(Producer): Delete this number.
+-SUCCESS-> I didn't hear a 'no'!

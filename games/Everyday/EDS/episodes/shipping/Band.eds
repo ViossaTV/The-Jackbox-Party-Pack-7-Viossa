@@ -1,10 +1,10 @@
 DEF EPISODE "Band"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Se Serrer Les Coudes"
-    SET DESCRIPTION "Comme des générations de familles qui se sont ennuyés avant eux, les Devils ont décidé de former un groupe de <font color='#AF0000'>folk-rock</font>. C'est l'heure du rock et/ou du roll !"
-    SET SUCCESS_MESSAGE "On dirait que cette histoire de groupe s'est bien passé. Félicitations pour avoir traversé les hauts et les bas de l'industrie musicale. Nous vous reverrons dans 20 ans quand on fera un concert avec vous."
-    SET FAILURE_MESSAGE "Nos recruteurs ont été assez mécontents de votre performance. Avez-vous essayé d'être bon en musique ? En tout cas, bonne chance pour vos carrières solo. On a hâte d'utiliser vos CD comme des dessous de verre."
+    SET NAME "Banding Together"
+    SET DESCRIPTION "Like generations of bored families before them, the Devils have decided to form a <font color='#AF0000'>folk-rock band</font>. It's time to rock and/or roll!"
+    SET SUCCESS_MESSAGE "Looks like this 'Behind the Music' won't be very juicy. Congratulations on navigating the highs and lows of the music industry. We'll see you for the 20-year-reunion money grab. I mean, concert."
+    SET FAILURE_MESSAGE "Our industry scouts were pretty displeased with your performance. Did you try being good at music? Anyway, good luck with your solo careers. We can't wait to use your CDs as fun kitschy coasters."
 
 
     REM : ------------------------------
@@ -47,12 +47,12 @@ REM : Define this episode's story tasks below
 
 REM : Search for that old guitar
 CLONE DEED "SearchID" "SearchGuitar"
-    SET INSTRUCTIONS "Cherchez la vieille guitare"
+    SET INSTRUCTIONS "Search for that old guitar"
     SET CONTENT_ID "GUITAR"
 END
 
 DEF TASK "SearchGuitar"
-    SET NAME "Chercher la vieille guitare"
+    SET NAME "Search for that old guitar"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,24 +65,24 @@ END
 
 REM : Learn to play the drums
 CLONE DEED "Nothing2" "LearnDrums1"
-    SET INSTRUCTIONS "Apprenez à faire de la batterie"
+    SET INSTRUCTIONS "Study the masters"
 END
 
 CLONE DEED "Hold4" "LearnDrums2"
-    SET INSTRUCTIONS "Assemblez le kit"
+    SET INSTRUCTIONS "Put the kit together"
 END
 
 CLONE DEED "SwipeBase" "LearnDrums3"
-    SET INSTRUCTIONS "Faites tourner votre baguette comme un pro"
+    SET INSTRUCTIONS "Do cool stick spinning trick"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "QuickTap5" "LearnDrums4"
-    SET INSTRUCTIONS "Tapez sur un peu tout"
+    SET INSTRUCTIONS "Just start hitting stuff"
 END
 
 DEF TASK "LearnDrums"
-    SET NAME "Apprendre à jouer de la batterie"
+    SET NAME "Learn to play the drums"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -101,23 +101,23 @@ END
 
 REM : Convince everyone you can play bass
 CLONE DEED "SwipeDown" "PlayBass1"
-    SET INSTRUCTIONS "Portez un chapeau intéressant"
+    SET INSTRUCTIONS "Wear interesting hat"
 END
 
 CLONE DEED "SwipeLeft" "PlayBass2"
-    SET INSTRUCTIONS "Mettez vos lunettes"
+    SET INSTRUCTIONS "Put on sunglasses"
 END
 
 CLONE DEED "Tap2" "PlayBass3"
-    SET INSTRUCTIONS "Pincez la corde de temps en temps"
+    SET INSTRUCTIONS "Pluck string every once in a while"
 END
 
 CLONE DEED "QuickTap3" "PlayBass4"
-    SET INSTRUCTIONS "C'était parfait !"
+    SET INSTRUCTIONS "Nailed it!"
 END
 
 DEF TASK "PlayBass"
-    SET NAME "Convaincre tout le monde que vous savez jouer de la basse"
+    SET NAME "Convince everyone you can play bass"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -136,11 +136,11 @@ END
 
 REM : Rock out at the big show
 CLONE DEED "TapAll" "JamOut"
-    SET INSTRUCTIONS "C'est parti !"
+    SET INSTRUCTIONS "Jam out!!"
 END
 
 DEF TASK "JamOut"
-    SET NAME "C'est l'heure du grand spectacle !"
+    SET NAME "Rock out at the big show"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -155,12 +155,12 @@ REM : ------------------------------------------
 
 REM : Sign with bigwig agent
 CLONE DEED "DialogID" "SignAgent"
-    SET INSTRUCTIONS "Signez avec un agent musical important"
+    SET INSTRUCTIONS "Sign with bigwig agent"
     SET CONTENT_ID "BAND_AGENT"
 END
 
 DEF TASK "SignAgent"
-    SET NAME "Signer avec un agent musical important"
+    SET NAME "Sign with bigwig music agent"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -178,9 +178,9 @@ END
 
 DEF TASK "TextBandNames"
     SET DURATION <8H>
-    SET NAME "Réfléchir au nom de votre groupe"
-    SET ASKER_NAME "Demandez de l'aide pour trouver le nom de groupe idéal"
-    SET HELPER_NAME "Aidez <ASKER> à trouver le nom de groupe idéal"
+    SET NAME "Brainstorm the perfect band name"
+    SET ASKER_NAME "Get help brainstorming the perfect band name"
+    SET HELPER_NAME "Help <ASKER> brainstorm the perfect band name"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET CAPTAIN "CHILDREN"
@@ -193,14 +193,14 @@ END
 
 REM : Set up recording equipment
 CLONE DEED "Gizmos6" "RecordingEquipment"
-    SET INSTRUCTIONS "Installez l'équipement d'enregistrement"
+    SET INSTRUCTIONS "Set up recording equipment"
     SET NAME "Mr. Music O'Matic"
 END
 
 DEF TASK "RecordingEquipment"
-    SET NAME "Installer l'équipement d'enregistrement"
-    SET ASKER_NAME "Demandez de l'aide pour installer l'équipement d'enregistrement"
-    SET HELPER_NAME "Aidez <ASKER> à installer l'équipement d'enregistrement"
+    SET NAME "Set up recording equipment"
+    SET ASKER_NAME "Get help setting up recording equipment"
+    SET HELPER_NAME "Help <ASKER> set up recording equipment"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "STORY"
@@ -214,22 +214,22 @@ END
 
 REM : Record your hit single
 CLONE DEED "Instructions4" "RecordSingle"
-    SET INSTRUCTIONS "Enregistrez votre single à succès"
+    SET INSTRUCTIONS "Record your hit single"
 
     SET MECHANIC_0 "TAP_HOLD"
-    SET INSTRUCTIONS_0 "Posez votre voix"
+    SET INSTRUCTIONS_0 "Lay down the vocals"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Ajoutez quelques harmonies"
+    SET INSTRUCTIONS_1 "Add some harmonies"
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Essayez les timbales"
+    SET INSTRUCTIONS_2 "Try some timpani"
     SET MECHANIC_3 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_3 "Détruisez le stand pour célébrer"
+    SET INSTRUCTIONS_3 "Trash the booth in celebration"
 END
 
 DEF TASK "RecordSingle"
-    SET NAME "Enregistrer votre single à succès"
-    SET ASKER_NAME "Demandez de l'aide pour enregistrer un single à succès"
-    SET HELPER_NAME "Aidez <ASKER> à enregistrer un single à succès"
+    SET NAME "Record your hit single"
+    SET ASKER_NAME "Get help recording your hit single"
+    SET HELPER_NAME "Help <ASKER> record hit single"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -244,23 +244,23 @@ REM : -------------------------------------------
 
 REM : Pose for your album cover
 CLONE DEED "Tap1" "AlbumCover1"
-    SET INSTRUCTIONS "Faites une pose !"
+    SET INSTRUCTIONS "Strike a pose!"
 END
 
 CLONE DEED "SwipeDown" "AlbumCover2"
-    SET INSTRUCTIONS "Rapprochez-vous un peu plus"
+    SET INSTRUCTIONS "Scoot a little closer"
 END
 
 CLONE DEED "SwipeDown" "AlbumCover3"
-    SET INSTRUCTIONS "Encore un peu plus..."
+    SET INSTRUCTIONS "A little closer..."
 END
 
 CLONE DEED "Hold2" "AlbumCover4"
-    SET INSTRUCTIONS "Parfait !"
+    SET INSTRUCTIONS "Perfect!"
 END
 
 DEF TASK "AlbumCover"
-    SET NAME "Poser pour la couverture de votre album"
+    SET NAME "Pose for your album cover"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -279,24 +279,24 @@ END
 
 REM : Sign autographs
 CLONE DEED "SwipeBase" "Autographs1"
-    SET INSTRUCTIONS "Saluez vos fans"
+    SET INSTRUCTIONS "Greet your fans"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "ScrubMedium" "Autographs2"
-    SET INSTRUCTIONS "Signez des autographes"
+    SET INSTRUCTIONS "Sign autographs!"
 END
 
 CLONE DEED "ScrubMedium" "Autographs3"
-    SET INSTRUCTIONS "Continuez de signer..."
+    SET INSTRUCTIONS "Keep signing..."
 END
 
 CLONE DEED "QuickTap3" "Autographs4"
-    SET INSTRUCTIONS "Échappez à la foule en admiration"
+    SET INSTRUCTIONS "Escape the adoring throng"
 END
 
 DEF TASK "Autographs"
-    SET NAME "Signer des autographes pour vos fans"
+    SET NAME "Sign autographs for your fans"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -315,12 +315,12 @@ END
 
 REM : Announce the band's breakup
 CLONE DEED "DialogID" "BandBreakUp"
-    SET INSTRUCTIONS "Annoncez la séparation du groupe"
+    SET INSTRUCTIONS "Announce the band's breakup"
     SET CONTENT_ID "BAND_BREAKUP"
 END
 
 DEF TASK "BandBreakUp"
-    SET NAME "Annoncer la séparation du groupe"
+    SET NAME "Announce the band's breakup"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -333,11 +333,11 @@ END
 
 REM : Play one last reunion show
 CLONE DEED "TapAll" "ReunionShow"
-    SET INSTRUCTIONS "Jouez comme si c'était la fin"
+    SET INSTRUCTIONS "Jam out!"
 END
 
 DEF TASK "ReunionShow"
-    SET NAME "Jouer une dernière fois"
+    SET NAME "Play one last reunion show"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

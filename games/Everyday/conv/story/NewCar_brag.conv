@@ -1,17 +1,17 @@
-MAIN(Neighbor): Wow. Alors pourquoi avez-vous acheté cette nouvelle voiture ?
--MILEAGE-> Elle a un bon kilométrage
--SEATS-> Elle a des sièges en cuir
--FAST-> Elle est genre... vraiment rapide
--FLY-> Elle peut voler!
+MAIN(Neighbor): Wow. So why'd you spring for this new car?
+-MILEAGE-> It gets great mileage
+-SEATS-> It has leather seats
+-FAST-> It's like...really fast
+-FLY-> It can fly
 
-MILEAGE(Neighbor): Très responsable.
--SUCCESS-> Ce n'est pas du tout parce qu'elle est rapide...
+MILEAGE(Neighbor): Very responsible.
+-SUCCESS-> Can't spell "Careful spending" without "Car"
 
-SEATS(Neighbor): Super
--SUCCESS-> Combien de vaches dans votre voiture ?
+SEATS(Neighbor): Nice
+-SUCCESS-> How many cows in your car?
 
-FAST(Neighbor): C'est genre...très cool
--SUCCESS-> Regardez-nous ! On discute comme des passionnés.
+FAST(Neighbor): That's like...really cool
+-SUCCESS-> Look at us! Chatting like gearheads.
 
-FLY(Neighbor): Cool. On va se jeter d'une falaise !
--SUCCESS-> Le mensonge en valait la peine pour gagner un copain de voiture !
+FLY(Neighbor): Cool. Let's take it off a cliff!
+-SUCCESS-> The lie was worth it to gain a car buddy!

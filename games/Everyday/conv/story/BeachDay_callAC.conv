@@ -1,17 +1,17 @@
-MAIN(AC): Quelle est la gravité de votre problème ?
--SMOKE-> La climatisation fait de la fumée
--COUCH-> Mon canapé est en feu
--FLAME-> Notre chat est en flammes
--COOL-> On est tranquille
+MAIN(AC): How bad is your problem?
+-SMOKE-> The A/C is smoking
+-COUCH-> My couch is melting
+-FLAME-> Our cat is aflame
+-COOL-> We're cool
 
-SMOKE(AC): Ça peut attendre jusqu'à demain
--SUCCESS-> *tousse* *tousse*
+SMOKE(AC): It can wait until tomorrow
+-SUCCESS-> *cough* *cough*
 
-COUCH(AC): Ça peut attendre jusqu'à demain
--SUCCESS-> Adieu le pouf
+COUCH(AC): It can wait until tomorrow
+-SUCCESS-> There goes the ottoman
 
-FLAME(AC): Juste un chat ? Ça peut attendre
--SUCCESS-> Je vais chercher le tuyau.
+FLAME(AC): Just one cat? It can wait
+-SUCCESS-> I'll get the hose.
 
-COOL(AC): Super ! À jamais !
--SUCCESS-> Je suis si nul au téléphone.
+COOL(AC): Great! See ya never!
+-SUCCESS-> I'm so bad on the phone.

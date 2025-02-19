@@ -1,18 +1,18 @@
-MAIN(Breakup): Pourquoi votre groupe se sépare ?
--EGO-> Trop d'égoïsmes
--SOLD-> On a tout vendu
--SOLO-> Je pars en solo
--MUSIC-> La musique passait avant tout
+MAIN(Breakup): Why is your band breaking up?
+-EGO-> Too many egos
+-SOLD-> We sold out
+-SOLO-> I'm going solo
+-MUSIC-> Music used to come first
 
 
-EGO(Breakup): Déchirant
--SUCCESS-> Merci de respecter notre intimité maintenant
+EGO(Breakup): Heartbreaking
+-SUCCESS-> Please respect our privacy at this time
 
-SOLD(Breakup): Bien entendu
--SUCCESS-> S'il vous plait, achetez un tee-shirt
+SOLD(Breakup): Obviously
+-SUCCESS-> Please buy some merch on your way out
 
-SOLO(Breakup): Vous êtes qui déjà ?
--SUCCESS-> Je pensais que plus de personnes étaient derrière moi...
+SOLO(Breakup): Which one are you again?
+-SUCCESS-> I don't have the fanbase I thought I did
 
-MUSIC(Breakup): Déchirant
--SUCCESS-> Merci de respecter notre intimité
+MUSIC(Breakup): Heartbreaking
+-SUCCESS-> Please respect our privacy at this time

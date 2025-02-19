@@ -1,22 +1,22 @@
-Main(Magicien): Bonjour, je suis un magicien voyageur. Choisissez une carte !
--YES-> Oui, j'adore choisir des choses
--NO-> Non merci, ma vie est déjà assez magique comme ça.
--REVERSE-> Oui, mais en premier je vais sortir quelque chose de mon chapeau...
--NOTSURE-> Je ne sais pas...
+Main(Magician): Hello, I'm a traveling magician! Would you like to pick a card? 
+-YES-> Sure would, I love picking things!
+-NO-> No thanks, my life is magical enough already.
+-REVERSE-> Yes, but first, let me wave my hand over this top hat...
+-NOTSURE-> I dunno, I'm feeling indecisive.
 
 
-YES(Magicien): Fantastique, je vais mélanger les cartes et... Est-ce votre carte ? Non ? Ah... 
--SUCCESS-> Pas grave, c'était marrant
+YES(Magician): Fantastic! Now I'll just shuffle this and...is THIS your card? No? Nuts. 
+-SUCCESS-> Everyone had an ok time!
 
 
-NO(Magicien): Vous avez raison, je devrais retourner à mon travail à la banque.
--SUCCESS-> Un succès pour l'équilibre financier
+NO(Magician): You're right. I should go back to my job at the bank. 
+-SUCCESS-> A win for financial security!
 
 
-REVERSE(Magicien): C'était magnifique !! Vous pouvez m'apprendre ? Je l'apprécierai énormément !
--FAILURE-> Maintenant je suis bloqué à faire des leçons de magie
+REVERSE(Magician): That was amazing!! Could you teach me? I'd REALLY appreciate it!
+-FAILURE-> Now I'm stuck giving magic lessons.
 
 
-NOTSURE(Magicien): Et si je vous donne 10€ ?
--SUCCESS-> Mon attention ne peut pas être acheté. Au revoir.
--YES-> 10€ ? Oui !
+NOTSURE(Magician): What if I gave you $10? Would you watch the trick then?
+-SUCCESS-> My attention can't be bought! Goodbye forever!
+-YES-> Ten smackers?? Let's do this!

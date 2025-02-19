@@ -1,54 +1,54 @@
-MAIN(Carl): Allons-y.
--ETHEL-> Qu'avez-vous sur Ethel ?
--MITCH-> Des potins sur Mictch ?
--FRUMP-> Que fais Mr. Frump ?
+MAIN(Carl): Go for Carl.
+-ETHEL-> What's the latest on Ethel?
+-MITCH-> You got any dirt on Mitch?
+-FRUMP-> What's Mr. Frump been up to?
 
-ETHEL(Carl): OH MON DIEU, mon préféré ! Vous savez que son père connait Al l'étrange ?
--ETHEL2-> Oui...
--ETHEL2-> Heu pas vraiment...
+ETHEL(Carl): OMG don't get me started. You know how she tells everyone her dad knows Weird Al?
+-ETHEL2-> Yeah...
+-ETHEL2-> Uh, not really...
 
-ETHEL2(Carl): Et bien c'est un MENSONGE. Ils sont allés dans le même lycée mais avec plusieurs années d'intervale.
--ETHEL3-> SCANDALE !
--ETHEL3-> C'est tout ce que vous avait ?
--ETHEL3-> J'ai recontré Mad Mikkelsens.
+ETHEL2(Carl): Well it's a TOTAL lie. They went to the same college but like YEARS apart.
+-ETHEL3-> SCANDAL!
+-ETHEL3-> Is that all you've got?
+-ETHEL3-> I once met Mads Mikkelsen.
 
-ETHEL3(Carl): Et son incisive inférieure gauche ? Totalement fausse. Elle l'a perdue dans un accident de water-polo quand elle avait 15 ans et un dentiste l'a remplacée.
--END-> C'EST. SUPER.
--END-> Ce n'est pas... commun...
--END-> Mads était un amour. Comment on peut l'imaginer ?
+ETHEL3(Carl): Also her left lower incisor? Totally fake. She knocked it out in a water polo accident when she was 15 and some fancy secret dentist replaced it.
+-END-> THAT. IS. WILD.
+-END-> That is...not that uncommon.
+-END-> Mads was a total sweetheart. Just like you'd imagine.
 
-MITCH(Carl): Mitch ? On entend dire qu'il est sur une banane.
--MITCH2-> Dis moi !
--MITCH2-> Attends, quoi ?
+MITCH(Carl): Mitch? Word is he's on a banana fast...
+-MITCH2-> Do tell!
+-MITCH2-> Wait, what?
 
-MITCH2(Carl): Pas d'autre nourriture que des bananes. Et pas de liquide sauf le jus de poulet.
--MITCH3-> Il faut que j'essaie ça.
--MITCH3-> Et ça marche, Mitch est trop beau
--MITCH3-> C'est degoutant.
+MITCH2(Carl): No food other than bananas. And no liquids except chicken stalk. It's all the rage in L.A.
+-MITCH3-> I was totally going to try that.
+-MITCH3-> It's working. Mitch looks GOOD.
+-MITCH3-> That is disgusting.
 
-MITCH3(Carl): Bien sûr, il ne s'y tiendra jamais. C'est comme la mode de la gélatine et du jus de palourde de l'année dernière.
--END-> C'est vrai.
--END-> Hey, Mitch a besoin de notre aide maintenant
--END-> Gélatine et jus de palourdes. Avons-nous jamais été aussi jeunes ?
+MITCH3(Carl): Of course he'll never stick to it. This is just like last year's gelatin and clam juice fad.
+-END-> Truth.
+-END-> Hey, Mitch needs our support right now.
+-END-> Gelatin and clam juice. Were we ever that young?
 
-FRUMP(Carl): Tu vas adorer ça. Hier, dans la classe de Frump, Bobby Qualidee a lâché toutes les grenouilles ! Elles sautaient partout comme des folles et Frump était tellement en colère qu'il a commencé à faire ce cri aigu qu'il fait tant !
--FRUMP2-> LA FARCE DU SIÈCLE
--FRUMP2-> Bobby est si drôle ! Il devrait sérieusement être sur SNL.
--FRUMP2-> Attendez... les grenouilles de dissection ?
+FRUMP(Carl): You'll love this. Yesterday in Frump's class, Bobby Qualidee let all the frogs loose! They were hopping around like crazy and Frump was so mad he started doing that high-pitched squeal he does!
+-FRUMP2-> NO WAY PRANK OF THE CENTURY
+-FRUMP2-> Bobby is so funny! He should seriously be on SNL.
+-FRUMP2-> Wait...the dissection frogs?
 
-FRUMP2(Carl): Tout le monde savait que Bobby l'a fait mais Frump ne l'a pas vu. Alors il courait partout en demandant à tout le monde d'avouer. J'ai presque perdu la tête !
--FRUMP3-> Je ne peux pas croire que j'ai manqué ça !
--FRUMP3-> Bobby et moi devrions sortir ensemble, non ? Est-ce que c'est fou ?
--FRUMP32-> Les grenouilles de la dissection auraient été mortes, non ?
+FRUMP2(Carl): Everybody knew Bobby did it but Frump didn't see him. So he was running around screaming at everyone to confess. I almost lost it!
+-FRUMP3-> I can't believe I missed it!
+-FRUMP3-> Bobby and I should date right? Is that crazy?
+-FRUMP32-> The dissection frogs would have been dead though right?
 
-FRUMP3(Carl): Il a essayé de coller toute la classe jusqu'à ce que le vice principal dise qu'il ne pouvait pas. Il avait l'air si triste...
--END-> Cela s'est terminé sur une note mélancolique mais je suis quand même ravi.
--END-> Je dois inviter Bobby à danser ? Je rigole bien sûr, hahahaha
--END-> Est ce que Bobby est un nécromancié ?
+FRUMP3(Carl): He tried to give the whole class detention until the vice principal said he couldn't. He looked so sad...
+-END-> That ended on a melancholy note but I'm still delighted.
+-END-> Should I ask Bobby to the dance? JK JK nevermind haha
+-END-> Is Bobby Qualidee a necromancer?
 
 
-END(Carl): Bref, voilà les dernières nouvelles.
--SUCCESS-> C'est assez de ragots pour le moment. Au revoir Carl.
--ETHEL-> Revenons à Ethel.
--MITCH-> Revenons à Mitch.
--FRUMP-> Revenons à Frump.
+END(Carl): Anyway, that's the latest.
+-SUCCESS-> That's enough gossip for now. Bye Carl.
+-ETHEL-> Let's go back to Ethel.
+-MITCH-> Let's go back to Mitch.
+-FRUMP-> Let's go back to Mr. Frump.

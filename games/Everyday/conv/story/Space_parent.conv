@@ -1,17 +1,17 @@
-MAIN(Interviewer): Comment vous sentez-vous d'être la première famille dans l'espace ?
--PROUD-> Fier
--SCARED-> Effrayé
--BORED-> Ennuyé
--CONFUSED-> Confus et affamé
+MAIN(Interviewer): How do you feel about being the first family in space?
+-PROUD-> Proud
+-SCARED-> Scared
+-BORED-> Bored
+-CONFUSED-> Confused and hungry
 
-PROUD(Interviewer): Vous devriez l'être.
--SUCCESS-> Prenez une photo de moi dans mon beau pantalon.
+PROUD(Interviewer): You should be. 
+-SUCCESS-> Take a picture of me in my good pants.
 
-SCARED(Interviewer): Vous devriez l'être.
--SUCCESS-> L'espace n'est-il pas sûr ?
+SCARED(Interviewer): You should be.
+-SUCCESS-> Is space not safe?
 
-BORED(Interviewer): Parlons à quelqu'un de plus intéressant.
--SUCCESS-> Bonne chance!
+BORED(Interviewer): Let's talk to someone more interesting.
+-SUCCESS-> Good luck!
 
-CONFUSED(Interviewer): Voilà un snack
--SUCCESS-> Merci pour votre soutien.
+CONFUSED(Interviewer): Here's a snack
+-SUCCESS-> Thank you for your support.

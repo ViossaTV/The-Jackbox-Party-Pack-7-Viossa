@@ -1,24 +1,24 @@
-MAIN(Marty): Vous êtes sur Marty and the Fuzz Drive-Time Radio ! Vous êtes à quelques questions de gagner un nouveau lave-linge séchant !
--EXCITED-> Woo, yeah !
--EXCITED-> Yeah, woo !
+MAIN(Radio Host): You're on Marty and the Fuzz Drive-Time Radio! You're just a few questions away from winning a new washer-dryer!
+-EXCITED-> Woo, yeah!
+-EXCITED-> Yeah, woo!
 
-EXCITED(Marty): Quel animal animal australien est connu pour sauté haut
--WRONG-> Facile, c'est un chien !
--WRONG-> Cheval. Je pense que c'est un cheval.
--KANGAROO-> Kangourou ?
+EXCITED(Radio Host): What Australian animal is known for jumping?
+-WRONG-> Easy, it's a dog.
+-WRONG-> Horse. Gotta be horse.
+-KANGAROO-> Kangaroo?
 
-KANGAROO(Marty): Correcte ! Prochaine question, H20 est la fomule chimique pour
--WRONG-> Le ketcup !
--WRONG-> Hmm... Le vinaigre ?
--WATER-> Oh... Heu... Je crois que c'est... L'eau !
+KANGAROO(Radio Host): Correct! Next question, H20 is the chemical formula for what liquid?
+-WRONG-> Ketchup!
+-WRONG-> Um...vinegar?
+-WATER-> Damn it, I know this... um... ooh, it's water!
 
-WATER(Marty): Dernière question ! D'après les mythes, quel monstre à corne vit dans les enfers ?
--WIN-> Les diables.
--WIN-> Oh, celle là est une bonne question. Peut-être que ce sont les démons ?
--WIN-> Juste comme ça, je vais dire que ce sont les démons.
+WATER(Radio Host): Last question! According to myth, which horned monsters live in in a fiery subterranean underworld?
+-WIN-> Devils.
+-WIN-> Ooh tough one. Maybe it's devils.
+-WIN-> Just a wild guess, but I'm gonna say devils.
 
-WRONG(Marty): Wow, vous avez vraiment loupé cette question. Vous perdez.
--FAILURE-> Mince, je voulais vraiment ce lave-linge séchant.
+WRONG(Radio Host): Wow, can't believe you got that wrong. You lose.
+-FAILURE-> Damn it, I really wanted that washer-dryer.
 
-WIN(Marty): Félicitations, nous avons un gagnant !
--SUCCESS-> Enfin, mon propre lave-linge que je ne vais pas avoir à partagé avec ma famille.
+WIN(Radio Host): Congratulations, we have a winner!
+-SUCCESS-> Finally, my own washer-dryer I don't have to share with the family!

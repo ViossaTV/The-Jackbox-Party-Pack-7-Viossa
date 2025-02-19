@@ -1,16 +1,16 @@
-MAIN(Cassette motivationnel): Vous êtes magnifique, autant à l'extérieur qu'à l'intérieur.
--REASSURE-> Je suis magnifique, à l'intérieur et à l'extérieur.
--DOUBT-> Je suis un déchet.
+MAIN(Motivational Cassette Tape): You are beautiful inside and out.
+-REASSURE-> I am beautiful inside and out.
+-DOUBT-> I am garbage.
 
-DOUBT(Cassette motivationnel):*s'éteint*
--FAILURE-> Et ma place est avec les déchets.
+DOUBT(Motivational Cassette Tape):*turned off*
+-FAILURE-> I don't feel better for some reason.
 
-REASSURE(Cassette motivationnel): Vous pouvez tout accomplir.
--DESPAIR-> Ma vie est un désordre.
--BELIEVEINYOURSELF-> Je peux tout accomplir.
+REASSURE(Motivational Cassette Tape): You can accomplish anything.
+-DESPAIR-> My life is in shambles.
+-BELIEVEINYOURSELF-> I can accomplish anything.
 
-DESPAIR(Cassette motivationnel):*s'éteint*
--FAILURE-> Je suis condamné ! Condamné !
+DESPAIR(Motivational Cassette Tape):*turned off*
+-FAILURE-> I'm doomed! Doomed!
 
-BELIEVEINYOURSELF(Cassette motivationnel): Vous allez survivre à cette journée. Tout va bien.
--SUCCESS-> Je vais survivre à cette journée. Tout va bien.
+BELIEVEINYOURSELF(Motivational Cassette Tape): You will make it through today. All is well.
+-SUCCESS-> I will make it through today. All is well.

@@ -1,10 +1,10 @@
 DEF EPISODE "EndOfTheWorld"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Le Bigger Bang"
-    SET DESCRIPTION "En étudiant l'astronomie, le plus jeune membre de la famille découvre qu'un <font color='#AF0000'>astéroïde géant</font> est sur le point d'entrer en collision avec la Terre. La famille pourra-t-elle l'arrêter à temps, tout en accomplissant ses tâches quotidiennes ?"
-    SET SUCCESS_MESSAGE "Nous sommes légèrement heureux d'apprendre que le monde des humains n'a pas été détruit par un astéroïde. La ville a une grande dette envers vous, qu'elle ne manquera pas de rembourser avec un petit livre de coupons pour les commerces locaux."
-    SET FAILURE_MESSAGE "Eh bien, la Terre a été détruite. J'espère que vous ne vous étiez pas trop attachés !"
+    SET NAME "The Bigger Bang"
+    SET DESCRIPTION "While studying astronomy, the youngest member of the house discovers a <font color='#AF0000'>giant asteroid</font> on a collision course with Earth. Can the family stop it in time, and still get through their daily chores?"
+    SET SUCCESS_MESSAGE "We were mildly pleased to hear that the human realm was not destroyed by an asteroid. The town owes you a great debt, which they're sure to repay with a little book of coupons for local businesses."
+    SET FAILURE_MESSAGE "Well, the Earth was destroyed. Hope you hadn't gotten too attached!"
 
 
     REM : ------------------------------
@@ -48,27 +48,27 @@ REM : Define this episode's story tasks below
 
 REM : Play with shiny new telescope
 CLONE DEED "SwipeUp" "Telescope1"
-    SET INSTRUCTIONS "Pointez ce bébé vers le ciel"
+    SET INSTRUCTIONS "Point that baby at the sky"
 END
 
 CLONE DEED "Rotate720Counter" "Telescope2"
-    SET INSTRUCTIONS "Faites-le tourner, cherchez des trucs"
+    SET INSTRUCTIONS "Swing it around, looking for stuff"
 END
 
 CLONE DEED "Nothing3" "Telescope3"
-    SET INSTRUCTIONS "Remarquez l'astéroïde géant qui se dirige vers la terre"
+    SET INSTRUCTIONS "Notice giant asteroid hurtling toward earth"
 END
 
 CLONE DEED "Hold3" "Telescope4"
-    SET INSTRUCTIONS "Mettez au point l'objectif juste pour être sûr..."
+    SET INSTRUCTIONS "Focus the lens just to be sure..."
 END
 
 CLONE DEED "Nothing3" "Telescope5"
-    SET INSTRUCTIONS "Ouaip. C'est un astéroïde destructeur de monde !"
+    SET INSTRUCTIONS "Yep. That's a world-destroying asteroid!"
 END
 
 DEF TASK "Telescope"
-    SET NAME "Jouer avec le nouveau télescope"
+    SET NAME "Play with shiny new telescope"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -89,14 +89,14 @@ END
 
 REM : Find astronomy book
 CLONE DEED "FindID" "AstronomyFindBook"
-    SET INSTRUCTIONS "Trouvez un livre d'astronomie"
+    SET INSTRUCTIONS "Find astronomy book"
     SET CATEGORY "BOOK"
 END
 
 DEF TASK "AstronomyFindBook"
-    SET NAME "Trouver un livre d'astronomie"
-    SET ASKER_NAME "Demandez de l'aide pour trouver un livre d'astronomie"
-    SET HELPER_NAME "Aidez <ASKER> à trouver un livre d'astronomie"
+    SET NAME "Find astronomy book"
+    SET ASKER_NAME "Get help finding astronomy book"
+    SET HELPER_NAME "Help <ASKER> find astronomy book"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -110,13 +110,13 @@ END
 
 REM : Calculate asteroid's trajectory
 CLONE DEED "Gizmos6" "AsteroidTrajectory"
-    SET INSTRUCTIONS "Calculez la trajectoire de l'astéroïde"
+    SET INSTRUCTIONS "Calculate asteroid's trajectory"
     SET NAME "TRAJECTORY CALCULATOR"
     SET TEXT_GIZMO_CHANCE_RATIO 0
 END
 
 DEF TASK "AsteroidTrajectory"
-    SET NAME "Calculer la trajectoire de l'astéroïde"
+    SET NAME "Calculate asteroid's trajectory"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"
@@ -130,23 +130,23 @@ END
 
 REM : Warn family about asteroid
 CLONE DEED "Hold3" "WarnFamily1"
-    SET INSTRUCTIONS "Expliquez calmement qu'un astéroïde arrive"
+    SET INSTRUCTIONS "Calmly explain that an asteroid is coming"
 END
 
 CLONE DEED "Nothing2" "WarnFamily2"
-    SET INSTRUCTIONS "Examinez les expressions vides de la famille"
+    SET INSTRUCTIONS "Examine family's blank expressions"
 END
 
 CLONE DEED "QuickTap5" "WarnFamily3"
-    SET INSTRUCTIONS "Courez partout en criant 'ON VA TOUS MOURIR !'"
+    SET INSTRUCTIONS "Run around screaming 'WE'RE ALL GOING TO DIE!'"
 END
 
 CLONE DEED "QuickTap5" "WarnFamily4"
-    SET INSTRUCTIONS "Continuez à crier pendant que votre famille hausse les épaules et quitte la pièce"
+    SET INSTRUCTIONS "Keep screaming as your family shrugs and leaves the room"
 END
 
 DEF TASK "WarnFamily"
-    SET NAME "Prévenir la famille à propos de l'astéroïde"
+    SET NAME "Warn family about the asteroid"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -167,17 +167,17 @@ REM : -----------------------------------------------------
 
 REM : Warn NASA about impending doom
 CLONE DEED "PhoneID" "WarnNASA1"
-    SET INSTRUCTIONS "Appelez la NASA"
+    SET INSTRUCTIONS "Call NASA"
     SET CONTENT_ID "NASA"
 END
 
 CLONE DEED "DialogID" "WarnNASA2"
-    SET INSTRUCTIONS "Prévenez la NASA à propos de l'astéroïde"
+    SET INSTRUCTIONS "Warn NASA about the asteroid"
     SET CONTENT_ID "ENDOFTHEWORLD_NASA"
 END
 
 DEF TASK "WarnNASA"
-    SET NAME "Prévenir la NASA de l'imminence d'une catastrophe"
+    SET NAME "Warn NASA about impending doom"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -192,14 +192,14 @@ END
 
 REM : Drive to local observatory to get closer look at asteroid
 CLONE DEED "TravelID" "DriveObservatory"
-    SET INSTRUCTIONS "Conduisez à l'observatoire"
+    SET INSTRUCTIONS "Drive to observatory"
     SET CONTENT_ID "BIGROCK"
 END
 
 DEF TASK "DriveObservatory"
-    SET NAME "Conduire jusqu'à l'observatoire local pour observer de plus près l'astéroïde"
-    SET ASKER_NAME "Faites-vous conduire à l'observatoire local pour observer de plus près l'astéroïde"
-    SET HELPER_NAME "Conduisez <ASKER> à l'observatoire local pour voir de plus près l'astéroïde"
+    SET NAME "Drive to local observatory to get closer look at asteroid"
+    SET ASKER_NAME "Get a ride to the local observatory to get closer look at asteroid"
+    SET HELPER_NAME "Drive <ASKER> to the local observatory to get closer look at asteroid"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -213,23 +213,23 @@ END
 
 REM : Notice weird astroid-like object in sky
 CLONE DEED "Nothing3" "NoticeAsteroid1"
-    SET INSTRUCTIONS "Profitez de cette belle journée"
+    SET INSTRUCTIONS "Enjoy beautiful day"
 END
 
 CLONE DEED "SwipeUp" "NoticeAsteroid2"
-    SET INSTRUCTIONS "Regardez en haut"
+    SET INSTRUCTIONS "Glance up"
 END
 
 CLONE DEED "Hold3" "NoticeAsteroid3"
-    SET INSTRUCTIONS "Remarquez le gros caillou dans le ciel"
+    SET INSTRUCTIONS "Notice big sky rock"
 END
 
 CLONE DEED "Nothing3" "NoticeAsteroid4"
-    SET INSTRUCTIONS "C'est... de plus en plus gros..."
+    SET INSTRUCTIONS "It's... getting bigger..."
 END
 
 DEF TASK "NoticeAsteroid"
-    SET NAME "Remarquer un objet étrange ressemblant à un astéroïde dans le ciel"
+    SET NAME "Notice weird asteroid-like object in sky"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -248,12 +248,12 @@ END
 
 REM : Watch news report about imminent destruction of earth
 CLONE DEED "Nothing3" "AsteroidNews"
-    SET INSTRUCTIONS "PANIQUEZ!!"
+    SET INSTRUCTIONS "PANIC!!"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "AsteroidNews"
-    SET NAME "Regarder un reportage sur la destruction imminente de la Terre"
+    SET NAME "Watch news report about imminent destruction of earth"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -268,12 +268,12 @@ REM : --------------------------------------
 
 REM : Look for crucial component for asteroid-destroying laser
 CLONE DEED "SearchID" "SearchLaserPart"
-    SET INSTRUCTIONS "Cherchez un composant crucial pour le laser destructeur d'astéroïdes"
+    SET INSTRUCTIONS "Search for crucial component for asteroid-destroying laser"
     SET CONTENT_ID "ASTEROIDLASER"
 END
 
 DEF TASK "SearchLaserPart"
-    SET NAME "Chercher un composant crucial pour le laser destructeur d'astéroïdes"
+    SET NAME "Look for crucial component for asteroid-destroying laser"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -286,12 +286,12 @@ END
 
 REM : Text significant other to get records back before end of world
 CLONE DEED "DialogID" "AskForRecords"
-    SET INSTRUCTIONS "Demandez la restitution des disques... avant la fin du monde"
+    SET INSTRUCTIONS "Ask for records back... before the world ends"
     SET CONTENT_ID "ENDOFTHEWORLD_TEEN"
 END
 
 DEF TASK "AskForRecords"
-    SET NAME "Envoyer un SMS à votre moitié pour récupérer vos disques avant la fin du monde"
+    SET NAME "Text significant other to get records back before world ends"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -304,12 +304,12 @@ END
 
 REM : Ask boss for day off due to end world
 CLONE DEED "DialogID" "AskForDayOff"
-    SET INSTRUCTIONS "Demandez un jour de congé pour cause de fin du monde"
+    SET INSTRUCTIONS "Ask for day off due to end of world"
     SET CONTENT_ID "ENDOFTHEWORLD_PARENT"
 END
 
 DEF TASK "AskForDayOff"
-    SET NAME "Demander au patron un jour de congé pour cause de fin du monde"
+    SET NAME "Ask boss for day off due to end of world"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -322,13 +322,13 @@ END
 
 REM : Program asteroid-destroying laser
 CLONE DEED "Gizmos12" "ProgramLaser"
-    SET INSTRUCTIONS "Programmez le laser"
+    SET INSTRUCTIONS "Program the laser"
     SET NAME "ASTEROID LASER"
     SET TEXT_GIZMO_CHANCE_RATIO 0
 END
 
 DEF TASK "ProgramLaser"
-    SET NAME "Programmer un laser destructeur d'astéroïdes"
+    SET NAME "Program asteroid-destroying laser"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -342,11 +342,11 @@ END
 
 REM : Fire the laser at the asteroid
 CLONE DEED "TapAll" "AsteroidFIRE"
-    SET INSTRUCTIONS "Tirez le laser!"
+    SET INSTRUCTIONS "Fire the laser!"
 END
 
 DEF TASK "AsteroidFIRE"
-    SET NAME "Tirer le laser sur l'astéroïde"
+    SET NAME "Fire the laser at the asteroid"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

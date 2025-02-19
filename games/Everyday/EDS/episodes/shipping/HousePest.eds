@@ -1,10 +1,10 @@
 DEF EPISODE "HousePest"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Nuisible d'outre-mondes"
-    SET DESCRIPTION "Mauvaise nouvelle ! La famille a un petit problème de rongeurs. Et par petit rongeur, on veut dire <font color='#AF0000'>une chauve-souris démoniaque</font>. Il semble que la créature se soit échappée du monde souterrain et soit cachée quelque part dans la maison. Bonne chance !"
-    SET SUCCESS_MESSAGE "Comme une chauve-souris sortie d'Hadès... la chauve-souris retourne chez Hadès ! Nous vous pardonnons d'avoir utilisé un peu de magie pour chasser cette maudite bestiole. Mais à partir de maintenant, nous vous encourageons à vous occuper des nuisibles comme les humains le font normalement : en lâchant une grosse enclume sur eux."
-    SET FAILURE_MESSAGE "Il semble que cette vile vermine ailée vive maintenant avec vous. Elle s'enfouira profondément dans vos murs, diminuant la valeur de revente de votre maison, hantant vos cauchemars et murmurant des insultes très personnelles lorsque vous êtes seul."
+    SET NAME "Step Up To Bat"
+    SET DESCRIPTION "Bad News! The family has a tiny rodent problem. And by tiny rodent we mean <font color='#AF0000'>demonic bat</font>. It seems the critter escaped from the underworld and is hidden somewhere in the house. Good luck!"
+    SET SUCCESS_MESSAGE "Like a bat out of Hades... the bat returns to Hades! We'll forgive you for using a little magic to dispel this cursed critter. From now on, though, we encourage you to deal with pests the normal human way: dropping a large anvil on them."
+    SET FAILURE_MESSAGE "It appears this winged vile vermin now lives with you. It will burrow deep into your walls, lowering the resale value of your home, haunting your nightmares, and whispering very personal insults whenever you're alone."
 
 
     REM : ------------------------------
@@ -45,19 +45,19 @@ REM : Define this episode's story tasks below
 
 REM : Get a morning snack
 CLONE DEED "SwipeUp" "BatSnack1"
-    SET INSTRUCTIONS "Prenez des chips de plantain frites"
+    SET INSTRUCTIONS "Grab some fried plantain chips"
 END
 
 CLONE DEED "Nothing3" "BatSnack2"
-    SET INSTRUCTIONS "Il y a de petites marques de morsure dans CHAQUE chips"
+    SET INSTRUCTIONS "There are tiny bite marks in EVERY chip"
 END
 
 CLONE DEED "SwipeDown" "BatSnack3"
-    SET INSTRUCTIONS "Retenez l'envie de vomir"
+    SET INSTRUCTIONS "Hold back urge to vomit"
 END
 
 DEF TASK "BatSnack"
-    SET NAME "Prendre un en-cas matinal"
+    SET NAME "Get a morning snack"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -74,15 +74,15 @@ END
 
 REM : Try to vacuum
 CLONE DEED "Tap1" "BatVacuum1"
-    SET INSTRUCTIONS "Allumez l'aspirateur"
+    SET INSTRUCTIONS "Turn on vacuum"
 END
 
 CLONE DEED "QuickTap5" "BatVacuum2"
-    SET INSTRUCTIONS "LA CHAUVE-SOURIS DÉTESTE L'ASPIRATEUR! LA CHAUVE-SOURIS DÉTESTE L'ASPIRATEUR!"
+    SET INSTRUCTIONS "THE BAT HATES THE VACUUM! THE BAT HATES THE VACUUM!"
 END
 
 CLONE DEED "Tap1" "BatVacuum3"
-    SET INSTRUCTIONS "Éteignez l'aspirateur"
+    SET INSTRUCTIONS "Turn off vacuum"
 END
 
 DEF TASK "BatVacuum"
@@ -103,23 +103,23 @@ END
 
 REM : Search house for bat
 CLONE DEED "QuickTap4" "SearchBat1"
-    SET INSTRUCTIONS "Marchez sur la pointe des pieds dans la maison"
+    SET INSTRUCTIONS "Tiptoe around the house"
 END
 
 CLONE DEED "Rotate180" "SearchBat2"
-    SET INSTRUCTIONS "Regardez autour de vous..."
+    SET INSTRUCTIONS "Take a look around..."
 END
 
 CLONE DEED "Nothing3" "SearchBat3"
-    SET INSTRUCTIONS "...elle est juste derrière-vous"
+    SET INSTRUCTIONS "...it's right behind you"
 END
 
 CLONE DEED "QuickTap5" "SearchBat4"
-    SET INSTRUCTIONS "COURREZ!!!"
+    SET INSTRUCTIONS "RUN!!!"
 END
 
 DEF TASK "SearchBat"
-    SET NAME "Chercher la maison pour la chauve-souris"
+    SET NAME "Search house for the bat"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -140,19 +140,19 @@ REM : ------------------------------------
 
 REM : Lay out bait for bat
 CLONE DEED "Tap3" "LayBatTrap1"
-    SET INSTRUCTIONS "Disposez des plantains frais frits"
+    SET INSTRUCTIONS "Lay out fresh fried plantains"
 END
 
 CLONE DEED "Rotate90" "LayBatTrap2"
-    SET INSTRUCTIONS "Attrapez une couverture"
+    SET INSTRUCTIONS "Grab blanket"
 END
 
 CLONE DEED "Hold5" "LayBatTrap3"
-    SET INSTRUCTIONS "Jouez le jeu de l'attente"
+    SET INSTRUCTIONS "Play the waiting game"
 END
 
 DEF TASK "LayBatTrap"
-    SET NAME "Disposer des appâts pour la chauve-souris"
+    SET NAME "Lay out bait for bat"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -171,23 +171,23 @@ END
 
 REM : Try to catch bat in blanket
 CLONE DEED "Nothing5" "CatchBatBlanket1"
-    SET INSTRUCTIONS "Attendez que la chauve-souris prenne l'appât"
+    SET INSTRUCTIONS "Wait for bat to take the bait"
 END
 
 CLONE DEED "SwipeUp" "CatchBatBlanket2"
-    SET INSTRUCTIONS "Sautez-lui dessus!"
+    SET INSTRUCTIONS "Jump on it!"
 END
 
 CLONE DEED "ScrubMedium" "CatchBatBlanket3"
-    SET INSTRUCTIONS "Tenez-la dans la couverture!"
+    SET INSTRUCTIONS "Hold 'em in the blanket!"
 END
 
 CLONE DEED "Nothing3" "CatchBatBlanket4"
-    SET INSTRUCTIONS "La chauve-souris CRACHE DU FEU apparemment ! Elle est partie."
+    SET INSTRUCTIONS "The bat BREATHES FIRE apparently! He is gone."
 END
 
 DEF TASK "CatchBatBlanket"
-    SET NAME "Essayer d'attraper la chauve-souris dans la couverture"
+    SET NAME "Try to catch bat in blanket"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -206,14 +206,14 @@ END
 
 REM : Buy real bat traps
 CLONE DEED "TravelID" "DriveBuyBatTraps"
-    SET INSTRUCTIONS "Achetez des pièges à chauves-souris professionnels"
+    SET INSTRUCTIONS "Buy professional bat traps"
     SET CONTENT_ID "CAVE_O’_SAVI"
 END
 
 DEF TASK "DriveBuyBatTraps"
-    SET NAME "Acheter des pièges à chauves-souris professionnels"
-    SET ASKER_NAME "Faites-vous conduire pour acheter des pièges à chauves-souris professionnels"
-    SET HELPER_NAME "Conduisez  <ASKER> pour acheter des pièges à chauves-souris professionnels"
+    SET NAME "Buy professional bat traps"
+    SET ASKER_NAME "Get ride to buy professional bat traps"
+    SET HELPER_NAME "Drive <ASKER> to buy professional bat traps"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -229,22 +229,22 @@ END
 
 REM : Assemble complicated bat trap
 CLONE DEED "Instructions4" "AssembleBatTrap"
-    SET INSTRUCTIONS "Assemblez un piège à chauve-souris compliqué"
+    SET INSTRUCTIONS "Assemble complicated bat trap"
 
     SET MECHANIC_0 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_0 "Retirez les pièces de la boîte"
+    SET INSTRUCTIONS_0 "Pour parts out of box"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Assemblez les tiges A, B et C"
+    SET INSTRUCTIONS_1 "Assemble A, B, and C rods"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Enroulez-le"
+    SET INSTRUCTIONS_2 "Wind it up"
     SET MECHANIC_3 "SWIPE_DOWN"
-    SET INSTRUCTIONS_3 "Mettez le piège en place"
+    SET INSTRUCTIONS_3 "Place trap in position"
 END
 
 DEF TASK "AssembleBatTrap"
-    SET NAME "Assembler un piège à chauve-souris compliqué"
-    SET ASKER_NAME "Demandez de l'aide pour assembler un piège à chauve-souris compliqué"
-    SET HELPER_NAME "Aidez <ASKER> à assembler un piège à chauve-souris compliqué"
+    SET NAME "Assemble complicated bat trap"
+    SET ASKER_NAME "Get help assembling complicated bat trap"
+    SET HELPER_NAME "Help <ASKER> assemble complicated bat trap"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -259,23 +259,23 @@ REM : -------------------------------------------------------------
 
 REM : Watch bat trap in action
 CLONE DEED "Hold3" "WatchBatTrap1"
-    SET INSTRUCTIONS "Regardez la chauve-souris atterrir sur le piège"
+    SET INSTRUCTIONS "Watch bat land on trap"
 END
 
 CLONE DEED "Tap1" "WatchBatTrap2"
-    SET INSTRUCTIONS "Appuyez sur le bouton"
+    SET INSTRUCTIONS "Press button"
 END
 
 CLONE DEED "Nothing3" "WatchBatTrap3"
-    SET INSTRUCTIONS "Regardez la chauve-souris SE TRANSFORMER EN BRUME et s'échapper"
+    SET INSTRUCTIONS "Watch bat TURN INTO MIST and escape"
 END
 
 CLONE DEED "ScrubShort" "WatchBatTrap4"
-    SET INSTRUCTIONS "Écrasez le piège inutile avec le pied"
+    SET INSTRUCTIONS "Crush useless trap with foot"
 END
 
 DEF TASK "WatchBatTrap"
-    SET NAME "Regardez le piège à chauve-souris en action"
+    SET NAME "Watch fancy bat trap in action"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -294,12 +294,12 @@ END
 
 REM : Call exterminator/exorcist
 CLONE DEED "PhoneID" "CallBatExterminator"
-    SET INSTRUCTIONS "Appelez Rodent Capture & Rapture"
+    SET INSTRUCTIONS "Call Rodent Capture & Rapture"
     SET CONTENT_ID "RODENT_RAP"
 END
 
 DEF TASK "CallBatExterminator"
-    SET NAME "Appelez un exterminateur/exorciste"
+    SET NAME "Call exterminator/exorcist"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -312,12 +312,12 @@ END
 
 REM : Explain 'bat' problem to paranormal exterminator
 CLONE DEED "DialogID" "TalkBatExterminator"
-    SET INSTRUCTIONS "Expliquez le problème de 'chauve-souris'"
+    SET INSTRUCTIONS "Explain 'bat' problem"
     SET CONTENT_ID "HOUSEPEST_BAT"
 END
 
 DEF TASK "TalkBatExterminator"
-    SET NAME "Expliquer à l'exterminateur paranormal le problème de 'chauve-souris' 'bat'"
+    SET NAME "Explain 'bat' problem to paranormal exterminator"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -330,12 +330,12 @@ END
 
 REM : Create anti-bat potion
 CLONE DEED "GatherID" "GatherBat"
-    SET INSTRUCTIONS "Rassemblez les ingrédients pour la concoction anti-chauve-souris-démon"
+    SET INSTRUCTIONS "Gather ingredients for anti-demon-bat ward"
     SET CONTENT_ID "BAT_WARD"
 END
 
 DEF TASK "GatherBat"
-    SET NAME "Rassembler les ingrédients pour la concoction anti-chauve-souris-démon"
+    SET NAME "Get ingredients for anti-demon-bat ward"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -348,12 +348,12 @@ END
 
 REM : Chant anti-demon-bat spell
 CLONE DEED "Nothing4" "ChantSpell"
-    SET INSTRUCTIONS "Tout le monde chante 'DEHORS, CHAUVE-SOURIS DÉMON !'"
+    SET INSTRUCTIONS "Everyone chant 'GET THEE OUT, DEMON BAT!'"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "ChantSpell"
-    SET NAME "Chanter un sort anti-chauve-souris-démon"
+    SET NAME "Chant anti-demon-bat spell"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

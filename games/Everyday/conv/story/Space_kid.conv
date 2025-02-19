@@ -1,17 +1,17 @@
-MAIN(Interviewer): Comment vous sentez-vous d'être la première famille dans l'espace ?
--STELLAR-> Stellaire !
--WORLD-> Hors de ce monde !
--BLAST-> C'est parti !
--DARK-> L'espace est un oubli froid et sombre.  
+MAIN(Interviewer): How do you feel about being first family in space?
+-STELLAR-> Stellar!
+-WORLD-> Out of this world!
+-BLAST-> Let's blast off!
+-DARK-> Space is a cold dark oblivion. 
 
-STELLAR(Interviewer): Parlons à quelqu'un de plus intéressant.
--SUCCESS-> J'aurais dû ajouter un super
+STELLAR(Interviewer): Let's talk to someone more interesting.
+-SUCCESS-> I should've added a super
 
-WORLD(Interviewer): J'adore les calembours!
--SUCCESS-> Je ne l'ai même pas planète-ifié !
+WORLD(Interviewer): I love puns!
+-SUCCESS-> I didn't even plan-et!
 
-BLAST(Interviewer): On adore l'enthousiasme !
--SUCCESS-> Je cache ma peur !
+BLAST(Interviewer): Love the enthusiasm!
+-SUCCESS-> I'm hiding my fear!
 
-DARK(Interviewer): Précis
--SUCCESS-> Prenons la mesure de la "gravité" de la situation.
+DARK(Interviewer): Accurate
+-SUCCESS-> Let's appreciate the "gravity" of the situation

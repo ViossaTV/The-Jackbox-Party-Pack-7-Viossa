@@ -1,13 +1,14 @@
-MAIN(Fellow Student): J'ai entendu dire que tu avais... "le truc froid"?
--PASSWORD-> Quel est le mot de passe?
--MONEY-> Ça dépend. Est-ce que tu as le cash?
--NAIVE-> Non, je viens d'avoir cette glace illégale!
+MAIN(Fellow Student): I hear you've got..."the cold stuff"?
+-PASSWORD-> What's the password?
+-MONEY-> That depends. Do you have the cash?
+-NAIVE-> Nope, just got this illegal ice cream!
 
-PASSWORD(Fellow Student): ..."Pistache."
--SUCCESS-> J'ai oublié si c'était le bon mot de passe, mais tant pis.
+PASSWORD(Fellow Student): ..."Pistachio."
+-SUCCESS-> I forget if that's the password but it's probably fine.
 
-MONEY(Fellow Student): Allez mec, j'en ai droit à un petit peu!
--SUCCESS-> Bien, mais tu me dois beaucoup.
+MONEY(Fellow Student): C'mon man, I'm good for it!
+-SUCCESS-> Fine but you owe me big time.
 
-NAIVE(Fellow Student): Tais-toi, mec!
--SUCCESS-> Ah oui! C'est un crime.
+NAIVE(Fellow Student): Keep it down, man!
+-NAIVE2-> BUT I'M JUST TALKING ABOUT THIS GREAT ILLEGAL ICE CREAM!
+-SUCCESS-> Oh right! Crimes.

@@ -1,17 +1,17 @@
-MAIN(Neighbor): Que dois-je faire en tant que maître-nageur ?
--PROTECT-> Protéger les enfants
--YELL-> Crier sur les enfants
--MOCK-> Se moquer des enfants
--WHISTLE-> Juste siffler
+MAIN(Neighbor): What do I have to do as the lifeguard?
+-PROTECT-> Protect the children
+-YELL-> Yell at the children
+-MOCK-> Mock the children
+-WHISTLE-> Just whistle
 
-PROTECT(Neighbor): Ça sonne bien!
--SUCCESS-> Soyez notre gardien fidèle!
+PROTECT(Neighbor): Sounds good!
+-SUCCESS-> Be our stalwart guardian!
 
-YELL(Neighbor): Ça sonne bien!
--SUCCESS-> Voilà un mégaphone
+YELL(Neighbor): Sounds good!
+-SUCCESS-> Here's a megaphone
 
-MOCK(Neighbor): Hum... Je vais le faire sans les moqueries...
--SUCCESS-> Personne ne va donc s'énerver contre ces enfants désobéissants?!?!?
+MOCK(Neighbor): Um... I'll do it without the mocking...
+-SUCCESS-> Will nobody roast these disobedient kids?!?!?
 
-WHISTLE(Neighbor): Ça sonne bien!
--SUCCESS-> Soyez notre gardien aigu!
+WHISTLE(Neighbor): Sounds good!
+-SUCCESS-> Be our high-pitched guardian!

@@ -1,19 +1,19 @@
 REM : Cool Down in Front of Open Fridge
 
 CLONE DEED "SwipeLeft" "CoolFridgeStep1"
-    SET INSTRUCTIONS "Ouvrez la porte de frigo"
+    SET INSTRUCTIONS "Open fridge door"
 END
 
 CLONE DEED "Nothing5" "CoolFridgeStep2"
-    SET INSTRUCTIONS "Appréciez l'air frais"
+    SET INSTRUCTIONS "Enjoy cold air"
 END
 
 CLONE DEED "Nothing5" "CoolFridgeStep3"
-    SET INSTRUCTIONS "Ignorez le son étrange provenant du frigo"
+    SET INSTRUCTIONS "Ignore sound of overtaxed fridge motor"
 END
 
 DEF TASK "CoolFridge"
-    SET NAME "Se raffraichir devant le frigo"
+    SET NAME "Cool down in front of open fridge"
     SET THEME "SELFISH"
     SET CATEGORY "SELFISH"
     SET CANCELER "SelfishCanceler"
@@ -33,12 +33,12 @@ END
 
 REM : Call psychic hotline
 CLONE DEED "PhoneCategory" "PhonePsychic"
-    SET INSTRUCTIONS "Perdez de l'argent en appelant 'psychic hotline'"
+    SET INSTRUCTIONS "Waste money calling psychic hotline"
     SET CATEGORY "PSYCHIC"
 END
 
 DEF TASK "PhonePsychic"
-    SET NAME "Perdre de l'argent en appelant 'psychic hotline'"
+    SET NAME "Waste money calling psychic hotline"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "SELFISH"
     SET THEME "SELFISH"

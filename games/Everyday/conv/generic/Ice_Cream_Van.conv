@@ -1,24 +1,24 @@
-MAIN(Vendeur): Bonjour ! Quel gout voulez-vous ? Les options sont sur le côté du van.
--VANILLA-> Vanille
--CHOCO-> Choco-splosion
--GRAPE-> Raisin
--NONE-> Eh... non oubliez...
+MAIN(Vendor): Good day! What frozen sweet treat would you like? Options are on the side of the van.
+-VANILLA-> Vanilla Mix-Up
+-CHOCO-> Choco-Splosion
+-GRAPE-> Grape Mistake
+-NONE-> Eh, never mind....
 
-VANILLA(Vendeur): Et voici !
--SUCCESS-> Merci !
+VANILLA(Vendor): Here ya go!
+-SUCCESS-> A bland delight!
 
-CHOCO(Vendeur): Et voilà !
--SUCCESS-> Choco-stastique !
+CHOCO(Vendor): Here ya go!
+-SUCCESS-> Fudge-tastic!
 
-GRAPE(Vendeur): Le voilà !
--SUCCESS-> Dommage que ça n'a pas totalement le gout du vin
+GRAPE(Vendor): Here ya go!
+-SUCCESS-> Does not taste quite purple enough
 
-NONE(Vendeur): Dernière chance ?
--FAILURE-> Jamais !
--TRYAGAIN-> Peut-être....
+NONE(Vendor): Last chance?
+-FAILURE-> Just go!
+-TRYAGAIN-> Maybe....
 
-TRYAGAIN(Vendeur): Regardez de nouveau ?
--VANILLA-> Vanille
--CHOCO-> Choco-splosion
--GRAPE-> Raisin
--NONE-> Eh... non oubliez...
+TRYAGAIN(Vendor): Take another look?
+-VANILLA-> Vanilla Mix-Up
+-CHOCO-> Choco-Splosion
+-GRAPE-> Grape Mistake
+-NONE-> Eh, never mind....

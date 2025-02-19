@@ -1,17 +1,17 @@
-MAIN(Moonley): Avez-vous des questions sur l'espace ?
--SMELL-> C'est comment l'odeur ?
--WORLD-> Les extraterrestres sont-ils gentils ?
--STAR-> Pourquoi les étoiles ?
--WHERE-> Où se trouve l'espace ?
+MAIN(Moonley): Do you have any questions about space?
+-SMELL-> How does it smell?
+-WORLD-> Are aliens nice?
+-STAR-> Why stars?
+-WHERE-> Where is it?
 
-SMELL(Moonley): Comme des œufs.
--SUCCESS-> Je le savais
+SMELL(Moonley): Like eggs
+-SUCCESS-> I knew it!
 
-WORLD(Moonley): Tous sauf Gary
--SUCCESS-> Connard de Gary.
+WORLD(Moonley): All of them except Gary
+-SUCCESS-> Stupid Gary.
 
-STAR(Moonley): Les scientifiques se le demandent depuis des années.
--SUCCESS-> *Regarde le soleil* Pourquoi?
+STAR(Moonley): Scientists have been asking for years.
+-SUCCESS-> *Looks at sun* Why?
 
-WHERE(Moonley): C'est... hum... en haut.
--SUCCESS-> Ça, c'est le plafond
+WHERE(Moonley): It's...um...up
+-SUCCESS-> That's the ceiling

@@ -1,10 +1,10 @@
 DEF EPISODE "UncleVisit"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Oncle un peu encombrant"
-    SET DESCRIPTION "Notre cher <font color='#AF0000'>Oncle Gorbo</font> est en ville ! Le seul problème, c'est qu'il a la réputation de rester trop longtemps à la maison et d'ennuyer tout le monde. La famille pourra-t-elle divertir son invité sans perdre son sang-froid ?"
-    SET SUCCESS_MESSAGE "Si l'on en croit les commentaires en ligne, l'oncle Gorbo a fait une visite merveilleuse dans votre ville. Et comme vous avez réussi à le supporter, il reviendra sûrement l'année prochaine. Quelle chance."
-    SET FAILURE_MESSAGE "Difficile de dire qui a le plus souffert, vous ou l'oncle Gorbo. Il ne reviendra pas chez vous de sitôt. Et même si ça a l'air sympa, vous pouvez dire adieu aux célèbres tartes aux fruits rouges de tante Flemm."
+    SET NAME "Cry Uncle"
+    SET DESCRIPTION "Beloved <font color='#AF0000'>Uncle Gorbo</font> is in town! The only problem is he's known for overstaying his welcome and annoying the heck out of everyone. Can the family entertain their guest without losing their temper?"
+    SET SUCCESS_MESSAGE "If Uncle Gorbo's online reviews are any indication, he had a wonderful visit in your fair city. And since you managed to put up with him, he's bound to show up again next year. Lucky you."
+    SET FAILURE_MESSAGE "It's hard to tell who had a worse time, you or Uncle Gorbo. He won't be staying with you again anytime soon. And while that may sound nice, you can kiss Aunt Flemm's famous bloodberry pies goodbye."
 
 
     REM : ------------------------------
@@ -48,12 +48,12 @@ REM : Define this episode's story tasks below
 
 REM : Pick up Uncle Gorbo from the airport
 CLONE DEED "TravelID" "PickUpGorbo"
-    SET INSTRUCTIONS "Récupérez Oncle Gorbo"
+    SET INSTRUCTIONS "Pick up Uncle Gorbo"
     SET CONTENT_ID "ASTERROTH"
 END
 
 DEF TASK "PickUpGorbo"
-    SET NAME "Récupérer Oncle Gorbo à l'aéroport"
+    SET NAME "Pick up Uncle Gorbo from the airport"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -66,20 +66,20 @@ END
 
 REM : Take Uncle Gorbo to museum
 CLONE DEED "Instructions4" "GorboMuseum1"
-    SET INSTRUCTIONS "Emmenez Oncle Gorbo au musée"
+    SET INSTRUCTIONS "Take Uncle Gorbo to see the museum"
 
     SET MECHANIC_0 "SWIPE_UP"
-    SET INSTRUCTIONS_0 "Prenez le bus au musée Hot Dog"
+    SET INSTRUCTIONS_0 "Take bus to Hot Dog Museum"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Achetez des billets pour l'exposition 'Histoire de la saucisse'"
+    SET INSTRUCTIONS_1 "Buy tickets to History of Sausage exhibit"
     SET MECHANIC_2 "ROTATE_COUNTER"
-    SET INSTRUCTIONS_2 "Perdez Oncle Gorbo dans le Hall des Porcs"
+    SET INSTRUCTIONS_2 "Lose Uncle Gorbo in the Hall of Hogs"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Repérez le t-shirt d'Oncle Gorbo dans la foule"
+    SET INSTRUCTIONS_3 "Spot Uncle Gorbo's shirt in the crowd"
 END
 
 DEF TASK "GorboMuseum1"
-    SET NAME "Emmener Oncle Gorbo au musée"
+    SET NAME "Take Uncle Gorbo to see the museum"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -92,12 +92,12 @@ END
 
 REM : Cook Uncle Gorbo's favorite dinner
 CLONE DEED "GatherID" "GorboMeal"
-    SET INSTRUCTIONS "Préparez le dîner préféré de Oncle Gorbo"
+    SET INSTRUCTIONS "Make Uncle Gorbo's favorite dinner"
     SET CONTENT_ID "GORBO_CASSEROLE"
 END
 
 DEF TASK "GorboMeal"
-    SET NAME "Préparer le dîner préféré de Oncle Gorbo"
+    SET NAME "Make Uncle Gorbo's favorite dinner"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -112,27 +112,27 @@ END
 
 REM : Move your stuff into den for Uncle Gorbo
 CLONE DEED "SwipeRight" "GorboMoveDen1"
-    SET INSTRUCTIONS "Déplacez votre oreiller"
+    SET INSTRUCTIONS "Move your pillow"
 END
 
 CLONE DEED "SwipeLeft" "GorboMoveDen2"
-    SET INSTRUCTIONS "Déplacez votre couverture"
+    SET INSTRUCTIONS "Move your blanket"
 END
 
 CLONE DEED "Tap4" "GorboMoveDen3"
-    SET INSTRUCTIONS "Videz votre armoire"
+    SET INSTRUCTIONS "Empty your dresser"
 END
 
 CLONE DEED "SwipeUp" "GorboMoveDen4"
-    SET INSTRUCTIONS "Accrochez un désodorisant pour neutraliser l'odeur de Oncle Gorbo"
+    SET INSTRUCTIONS "Hang up air freshener to counter Uncle Gorbo's smell"
 END
 
 CLONE DEED "SwipeUp" "GorboMoveDen5"
-    SET INSTRUCTIONS "Accrochez un deuxième désodorisant juste au cas où"
+    SET INSTRUCTIONS "Hang up second air freshener just in case"
 END
 
 DEF TASK "GorboMoveDen"
-    SET NAME "Déménager les affaires dans la tanière pour que Oncle Gorbo puisse utiliser la chambre"
+    SET NAME "Move your stuff into den so Uncle Gorbo can use your room"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -155,27 +155,27 @@ REM : ---------------------------------------------
 
 REM : Listen to Uncel Gorbo's boring stories
 CLONE DEED "Nothing3" "GorboStory1"
-    SET INSTRUCTIONS "Écoutez une longue histoire sur la corne de pied de Oncle Gorbo"
+    SET INSTRUCTIONS "Hear a lengthy story about Gorbo's bunion"
 END
 
 CLONE DEED "Nothing3" "GorboStory2"
-    SET INSTRUCTIONS "Écoutez un récit fastidieux sur le renvoi de chaussettes usagées"
+    SET INSTRUCTIONS "Hear a tedious tale about returning used socks"
 END
 
 CLONE DEED "Nothing2" "GorboStory3"
-    SET INSTRUCTIONS "Écoutez une saga ennuyeuse sur l'ablation de polypes du côlon"
+    SET INSTRUCTIONS "Hear a dull saga about getting colon polyps removed"
 END
 
 CLONE DEED "Hold1" "GorboStory4"
-    SET INSTRUCTIONS "Commencez à décrocher..."
+    SET INSTRUCTIONS "Zone out..."
 END
 
 CLONE DEED "SwipeDown" "GorboStory5"
-    SET INSTRUCTIONS "Laissez-vous aller au sommeil..."
+    SET INSTRUCTIONS "Drift off to sleep..."
 END
 
 DEF TASK "GorboStory"
-    SET NAME "Écouter les histoires ennuyeuses de Oncle Gorbo"
+    SET NAME "Listen to Uncle Gorbo's boring stories"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -196,12 +196,12 @@ END
 
 REM : Search for important papers in the mess Gorbo made
 CLONE DEED "SearchID" "SearchGorbo"
-    SET INSTRUCTIONS "Cherchez des documents importants"
+    SET INSTRUCTIONS "Search for important papers"
     SET CONTENT_ID "GORBO"
 END
 
 DEF TASK "SearchGorbo"
-    SET NAME "Chercher des documents importants dans le désordre de Oncle Gorbo"
+    SET NAME "Search for important papers in the mess Uncle Gorbo made"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -214,19 +214,19 @@ END
 
 REM :Watch boring documentary Uncle Gorbo wants to watch
 CLONE DEED "Rotate360" "GorboDoc1"
-    SET INSTRUCTIONS "Changez de chaîne en quittant votre émission préférée"
+    SET INSTRUCTIONS "Change channel away from your favorite show"
 END
 
 CLONE DEED "Rotate720" "GorboDoc2"
-    SET INSTRUCTIONS "Mettez 'Antiacides: Une Merveille Médicale'"
+    SET INSTRUCTIONS "Put on 'Antacids: The Medical Marvel'"
 END
 
 CLONE DEED "Nothing2" "GorboDoc3"
-    SET INSTRUCTIONS "Apprenez des faits à propos de reflux gastriques"
+    SET INSTRUCTIONS "Learn facts about acid reflux"
 END
 
 DEF TASK "GorboDoc"
-    SET NAME "Assister à un documentaire ennuyeux que Oncle Gorbo veut voir"
+    SET NAME "Sit through boring documentary Uncle Gorbo wants to see"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -243,23 +243,23 @@ END
 
 REM : Try to find comfortable sleeping position on den couch
 CLONE DEED "SwipeRight" "SleepDen1"
-    SET INSTRUCTIONS "Balancez-vous"
+    SET INSTRUCTIONS "Toss"
 END
 
 CLONE DEED "SwipeLeft" "SleepDen2"
-    SET INSTRUCTIONS "Tournez-vous"
+    SET INSTRUCTIONS "Turn"
 END
 
 CLONE DEED "SwipeDown" "SleepDen3"
-    SET INSTRUCTIONS "Trouvez enfin une position confortable"
+    SET INSTRUCTIONS "Finally find a comfortable position"
 END
 
 CLONE DEED "Hold2" "SleepDen4"
-    SET INSTRUCTIONS "Restez éveillé à cause des ronflements de Oncle Gorbo"
+    SET INSTRUCTIONS "Get kept awake by Uncle Gorbo's loud snoring"
 END
 
 DEF TASK "SleepDen"
-    SET NAME "Essayer de trouver une position confortable pour dormir sur le canapé"
+    SET NAME "Try to find comfortable sleeping position on den couch"
     SET CAPTAIN "YOUNG"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -280,19 +280,19 @@ REM : -----------------------------------------------------------
 
 REM : Clean up ooze
 CLONE DEED "SwipeUp" "GorboOoze1"
-    SET INSTRUCTIONS "Prenez la serpillière"
+    SET INSTRUCTIONS "Get mop"
 END
 
 CLONE DEED "SwipeDown" "GorboOoze2"
-    SET INSTRUCTIONS "Plongez-la dans le seau"
+    SET INSTRUCTIONS "Dunk in bucket"
 END
 
 CLONE DEED "ScrubMedium" "GorboOoze3"
-    SET INSTRUCTIONS "Essuyez la flaque de slime"
+    SET INSTRUCTIONS "Wipe up gross slime puddle"
 END
 
 DEF TASK "GorboOoze"
-    SET NAME "Nettoyer les traces de bave de l'oncle Gorbo"
+    SET NAME "Clean up Uncle Gorbo's trail of ooze"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -308,14 +308,14 @@ DEF TASK "GorboOoze"
 END
 
 CLONE DEED "TravelCategory" "GorboMuseum2"
-    SET INSTRUCTIONS "Conduisez Oncle Gorbo dans un autre musée ennuyeux."
+    SET INSTRUCTIONS "Drive Uncle Gorbo to another boring museum"
     SET CATEGORY "MUSEUM"
 END
 
 DEF TASK "GorboMuseum2"
-    SET NAME "Conduire Oncle Gorbo dans un autre musée ennuyeux."
-    SET ASKER_NAME "Escroquez quelqu'un pour aller dans un autre musée ennuyeux avec vous et Oncle Gorbo"
-    SET HELPER_NAME "Acceptez à contrecœur d'aller dans un autre musée ennuyeux avec <ASKER> et Oncle Gorbo"
+    SET NAME "Drive Uncle Gorbo to another boring museum"
+    SET ASKER_NAME "Con someone into going to another boring museum with you and Uncle Gorbo"
+    SET HELPER_NAME "Reluctantly agree to go to another boring museum with <ASKER> and Uncle Gorbo"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -329,12 +329,12 @@ END
 
 REM : Politely encourage Uncle Gorbo to leave
 CLONE DEED "DialogID" "GorboLeave"
-    SET INSTRUCTIONS "Incitez poliment Oncle Gorbo à partir"
+    SET INSTRUCTIONS "Politely encourage Uncle Gorbo to leave"
     SET CONTENT_ID "UNCLEVISIT_LEAVE"
 END
 
 DEF TASK "GorboLeave"
-    SET NAME "Inciter poliment Oncle Gorbo à partir"
+    SET NAME "Politely encourage Uncle Gorbo to leave"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -347,7 +347,7 @@ END
 
 REM : Uncle Gorbo clogged toilet
 CLONE TASK "UnclogToilet" "UnclogToiletGorbo"
-    SET NAME "Oncle Gorbo a encore bouché les toilettes"
+    SET NAME "Uncle Gorbo clogged the toilet again"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -355,17 +355,17 @@ END
 
 REM : Call Aunt Flemm
 CLONE DEED "PhoneID" "CallFlemm1"
-    SET INSTRUCTIONS "Appelez Tante Flemm"
+    SET INSTRUCTIONS "Call Aunt Flemm"
     SET CONTENT_ID "FLEMM"
 END
 
 CLONE DEED "DialogID" "CallFlemm2"
-    SET INSTRUCTIONS "Suppliez Tante Flemm de reprendre Oncle Gorbo"
+    SET INSTRUCTIONS "Beg Aunt Flemm to take Uncle Gorbo back"
     SET CONTENT_ID "UNCLEVISIT_AUNT"
 END
 
 DEF TASK "CallFlemm"
-    SET NAME "Appeler Tante Flemm et suppliez-là de reprendre Oncle Gorbo"
+    SET NAME "Call Aunt Flemm and beg her to take Uncle Gorbo back"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

@@ -1,17 +1,17 @@
-MAIN(PTA Rep): Qu'apportez-vous à notre association parents/professeurs ?
--PASSION-> De la passion pour l'éducation
--LOVE-> De l'amour pour mes enfants
--YELL-> Beaucoup de cris
--SNACK-> Des snacks
+MAIN(PTA Rep): What do you bring to our Parent/Teacher Association?
+-PASSION-> Passion for education
+-LOVE-> Love for my kids
+-YELL-> Lots of yelling
+-SNACK-> Snacks
 
-PASSION(PTA Rep): Ça va le faire !
--SUCCESS-> ...J'espère que je n'aurai pas à apprendre des maths maintenant.
+PASSION(PTA Rep): That'll do!
+-SUCCESS-> ...I hope I don't have to learn math now.
 
-LOVE(PTA Rep): Woah! Pour tous?
--SUCCESS-> Et bien... pour la plupart.
+LOVE(PTA Rep): Wow! All of them?
+-SUCCESS-> Well... most of them.
 
-YELL(PTA Rep): En fait... nous ne faisons plus de réunions.
--SUCCESS-> QUOI?!?!?!
+YELL(PTA Rep): Actually... we don't have meetings anymore.
+-SUCCESS-> WHAT?!?!?!
 
-SNACK(PTA Rep): Enfin! Nous étions morts de faim.
--SUCCESS-> Les tranches d'orange sont en route.
+SNACK(PTA Rep): Finally! We're starving.
+-SUCCESS-> Orange slices are on their way.

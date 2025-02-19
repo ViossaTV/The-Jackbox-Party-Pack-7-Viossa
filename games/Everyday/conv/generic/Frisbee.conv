@@ -1,18 +1,18 @@
-MAIN(Voisin): Est ce que je peux récupérer mon frisbee ?
--NEVER-> Jamais !
--YEP-> Ouais !
--MAYBE-> Peur-être !
--PLEASE-> Le voici ! Il est maudit !
+MAIN(Neighbor): Can I have my frisbee back?
+-NEVER-> Never!
+-YEP-> Yep!
+-MAYBE-> Maybe!
+-PLEASE-> Take it! It's cursed!
 
 
-NEVER(Voisin): WAHHH!!!!
--FAILURE-> Pourquoi je fais pleurer tout le monde ?
+NEVER(Neighbor): WAHHH!!!!
+-FAILURE-> Why do I push people away?
 
-YEP(Voisin): Merci !
--SUCCESS-> Je suis un héros.
+YEP(Neighbor): Thank you!
+-SUCCESS-> I'm a hero.
 
-MAYBE(Voisin): Vous pouvez jouer avec nous.
--SUCCESS-> C'est un deal !
+MAYBE(Neighbor): You can play with us.
+-SUCCESS-> It's a deal!
 
-PLEASE(Voisin): Je ne crois pas qu'il est maudit.
--SUCCESS-> Alors comment il défie la gravité ?!?!
+PLEASE(Neighbor): I don't think it is.
+-SUCCESS-> Then how does it defy gravity?!?!

@@ -1,18 +1,18 @@
-MAIN(Représentant de Cable Co.): Quel chaine voulez vous ajouter à votre offre ?
--SNACK-> Snack TV
+MAIN(Cable Rep): What channel are you most interested in adding
+-SNACK-> Snack Network
 -VOYEUR-> Voyeur TV
--BIRD-> Oiseaux cool TV
--SPORT-> J'aime le sport TV
+-BIRD-> Cool Bird Channel
+-SPORT-> Big Bad Sports
 
 
-SNACK(Représentant de Cable Co.): Juste à temps pour la semaine du popcorn !
--SUCCESS-> Bien entendu !
+SNACK(Cable Rep): Just in time for popcorn week!
+-SUCCESS-> You "butter" believe it!
 
-VOYEUR(Représentant de Cable Co.): Cette chaine n'existe pas ! 
--FAILURE-> Bon, je vais juste hacker les caméras de sécurité de mes voisins alors
+VOYEUR(Cable Rep): That channel doesn't exist. 
+-FAILURE-> I think I'm picking up my neighbor's security camera.
 
-BIRD(Représentant de Cable Co.): Juste à temps pour la semaine des oiseaux !
--SUCCESS-> Et oui, j'adore les rouge-gorges !
+BIRD(Cable Rep): Just in time for puffin week!
+-SUCCESS-> Can't get enuff puff!
 
-SPORT(Représentant de Cable Co.): Juste à temps pour la semaine de la luge !
--SUCCESS-> Ouais ! J'adore la luge !
+SPORT(Cable Rep): Just in time for luge week!
+-SUCCESS-> Yep! I'm a huge luger!

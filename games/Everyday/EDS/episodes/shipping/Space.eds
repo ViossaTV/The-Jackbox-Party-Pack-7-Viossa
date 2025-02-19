@@ -1,10 +1,10 @@
 DEF EPISODE "Space"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Les Devils dans l'espace"
-    SET DESCRIPTION "Des enfers jusqu'à <font color='#AF0000'>l'espace</font>, la famille va là où aucun diable n'est allé auparavant lorsqu'elle est choisie pour être lancée en orbite."
-    SET SUCCESS_MESSAGE "C'est un petit pas pour la banlieue, un pas de géant pour les démons. Et vous avez fait tout ça pour votre sponsor, la nourriture pour chiens Poocho ! Poocho, la première nourriture pour chien dans l'espace !"
-    SET FAILURE_MESSAGE "Nos espions de la NASA nous ont dit que le lancement était un échec cuisant. Si vous aviez pris votre mission au sérieux, vous auriez pu quitter l'atmosphère. Nous avons vu de meilleurs entraînements dans les vidéos de yoga de célébrités."
+    SET NAME "Devils in Space"
+    SET DESCRIPTION "From the underworld to <font color='#AF0000'>outer space</font>, the family is going where no devil has gone before when they're chosen to be launched into orbit."
+    SET SUCCESS_MESSAGE "That's one small step for suburbia, one giant leap for demonkind. And you did it all for your corporate sponsor, Poocho brand dog food! Poocho, the first dog food in space!"
+    SET FAILURE_MESSAGE "Our spies at NASA tell us the launch was a dismal failure. If you'd taken your mission seriously, you might have actually left the atmosphere. We've seen better training in celebrity yoga videos."
 
 
     REM : ------------------------------
@@ -49,12 +49,12 @@ REM : Define this episode's story tasks below
 
 REM : Do TV interview ADULT
 CLONE DEED "DialogID" "SpaceTVAdult"
-    SET INSTRUCTIONS "Faites une interview télévisée"
+    SET INSTRUCTIONS "Do TV interview"
     SET CONTENT_ID "SPACE_PARENT"
 END
 
 DEF TASK "SpaceTVAdult"
-    SET NAME "Faire une interview télévisée sur le fait d'être la première famille dans l'espace"
+    SET NAME "Do TV interview about being the first family in space"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -67,12 +67,12 @@ END
 
 REM : Do TV interview TEEN
 CLONE DEED "DialogID" "SpaceTVTeen"
-    SET INSTRUCTIONS "Faites une interview télévisée"
+    SET INSTRUCTIONS "Do TV interview"
     SET CONTENT_ID "SPACE_TEEN"
 END
 
 DEF TASK "SpaceTVTeen"
-    SET NAME "Faire une interview télévisée sur le fait d'être le premier adolescent dans l'espace"
+    SET NAME "Do TV interview about being the first teen in space"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -85,12 +85,12 @@ END
 
 REM : Do TV interview KID
 CLONE DEED "DialogID" "SpaceTVKid"
-    SET INSTRUCTIONS "Faites une interview télévisée"
+    SET INSTRUCTIONS "Do TV interview"
     SET CONTENT_ID "SPACE_KID"
 END
 
 DEF TASK "SpaceTVKid"
-    SET NAME "Faire une interview télévisée sur le fait d'être le premier enfant dans l'espace"
+    SET NAME "Do TV interview about being the first kid in space"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -103,12 +103,12 @@ END
 
 REM : Pack bags for space
 CLONE DEED "GatherID" "SpaceBags"
-    SET INSTRUCTIONS "Préparez des bagages pour l'espace"
+    SET INSTRUCTIONS "Pack bags for space"
     SET CONTENT_ID "SPACE_SUPPLIES"
 END
 
 DEF TASK "SpaceBags"
-    SET NAME "Préparer des bagages pour l'espace"
+    SET NAME "Pack bags for space"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -121,14 +121,14 @@ END
 
 REM : Drive to NASA for training
 CLONE DEED "TravelID" "DriveToNASA"
-    SET INSTRUCTIONS "Conduisez jusqu'à la NASA"
+    SET INSTRUCTIONS "Drive to NASA"
     SET CONTENT_ID "NASA"
 END
 
 DEF TASK "DriveToNASA"
-    SET NAME "Conduire à la NASA pour s'entraîner"
-    SET ASKER_NAME "Faites-vous conduire à la NASA pour s'entraîner"
-    SET HELPER_NAME "Conduisez <ASKER> à la NASA pour s'entraîner"
+    SET NAME "Drive to NASA for training"
+    SET ASKER_NAME "Get ride to NASA for training"
+    SET HELPER_NAME "Drive <ASKER> to NASA for training"
     SET CAPTAIN "MATURE"
     SET PARTICIPANT "YOUNG"
     SET CATEGORY "STORY"
@@ -142,14 +142,14 @@ END
 
 REM : Train in space simulator
 CLONE DEED "Gizmos6" "SpaceSim"
-    SET INSTRUCTIONS "Entraînez-vous dans un simulateur d'espace"
+    SET INSTRUCTIONS "Train in space simulator"
     SET NAME "Space-O-Tron 99"
 END
 
 DEF TASK "SpaceSim"
-    SET NAME "S'entraîner dans un simulateur d'espace"
-    SET ASKER_NAME "Demandez de l'aide pour vous entraîner dans le simulateur d'espace"
-    SET HELPER_NAME "Aidez <ASKER> à s'entraîner dans le simulateur d'espace"
+    SET NAME "Train in space simulator"
+    SET ASKER_NAME "Get help training in space simulator"
+    SET HELPER_NAME "Help <ASKER> train in space simulator"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -164,15 +164,15 @@ REM : -----------------------------------------------------
 
 REM : Learn how to use space toilet
 CLONE DEED "Gizmos12" "SpaceToilet"
-    SET INSTRUCTIONS "Apprenez à utiliser les toilettes de l'espace"
+    SET INSTRUCTIONS "Learn to use space toilet"
     SET NAME "Space Toilet"
     SET TEXT_GIZMO_CHANCE_RATIO 0
 END
 
 DEF TASK "SpaceToilet"
-    SET NAME "Apprendre à comment utiliser des toilettes de l'espace"
-    SET ASKER_NAME "Demandez de l'aide pour apprendre à comment utiliser les toilettes de l'espace"
-    SET HELPER_NAME "Aidez <ASKER> à apprendre à comment utiliser les toilerres de l'espace"
+    SET NAME "Learn how to use space toilet"
+    SET ASKER_NAME "Get help learning how to use space toilet"
+    SET HELPER_NAME "Help <ASKER> learn how to use space toilet"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -185,12 +185,12 @@ END
 
 REM : Train in the centrifuge
 CLONE DEED "RotateBase" "Centrifuge"
-    SET INSTRUCTIONS "Tournez pour la science!"
+    SET INSTRUCTIONS "Spin For science!"
     SET ROTATIONS_IN_DEG 2070
 END
 
 DEF TASK "Centrifuge"
-    SET NAME "S'entraîner dans la centrifugeuse"
+    SET NAME "Train in the centrifuge"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -203,23 +203,23 @@ END
 
 REM : Train in swimming pool
 CLONE DEED "SwipeDown" "SpaceSwim1"
-    SET INSTRUCTIONS "Mettrez votre casque"
+    SET INSTRUCTIONS "Put on your helmet"
 END
 
 CLONE DEED "SwipeDown" "SpaceSwim2"
-    SET INSTRUCTIONS "Descendez dans la piscine"
+    SET INSTRUCTIONS "Lower into the pool"
 END
 
 CLONE DEED "ScrubLong" "SpaceSwim3"
-    SET INSTRUCTIONS "Poussez dans l'eau"
+    SET INSTRUCTIONS "Push through the water"
 END
 
 CLONE DEED "Tap3" "SpaceSwim4"
-    SET INSTRUCTIONS "Ramassez les jouets de piscine perdus"
+    SET INSTRUCTIONS "Pick up stray pool toys"
 END
 
 DEF TASK "SpaceSwim"
-    SET NAME "S'entraîner dans la piscine de la NASA"
+    SET NAME "Train in NASA swimming pool"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -238,12 +238,12 @@ END
 
 REM : Speak with legendary astronaught Commander Skip Moonely
 CLONE DEED "DialogID" "MeetSkip"
-    SET INSTRUCTIONS "Parlez avec le commandant astronaute Skip Moonley"
+    SET INSTRUCTIONS "Speak with astronaut Commander Skip Moonley"
     SET CONTENT_ID "SPACE_SKIP"
 END
 
 DEF TASK "MeetSkip"
-    SET NAME "Parlez avec le légendaire commandant Skip Moonley, astronaute"
+    SET NAME "Speak with legendary astronaut Commander Skip Moonley"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -258,24 +258,24 @@ REM : ------------------------------------------------------------
 
 REM : Practice fixing oxygen scrubber
 CLONE DEED "Instructions5" "OxygenScrubber"
-    SET INSTRUCTIONS "Entraînez-vous à réparer l'épurateur d'oxygène"
+    SET INSTRUCTIONS "Practice fixing oxygen scrubber"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Retirez la poche du Liquide de Refroidissement du Vêtement"
+    SET INSTRUCTIONS_0 "Remove bag from Liquid Cooling Garment"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Bouchez le trou de la dérivation avec une serviette"
+    SET INSTRUCTIONS_1 "Stop up bypass hole with towel"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Créez une 'ceinture' avec un rouleau de ruban adhésif"
+    SET INSTRUCTIONS_2 "Create 'belt' with roll of duct tape"
     SET MECHANIC_3 "TAP"
-    SET INSTRUCTIONS_3 "Scotchez la pochette sur le tuyau du costume rouge"
+    SET INSTRUCTIONS_3 "Tape bag over red suit hose"
     SET MECHANIC_4 "SWIPE_DOWN"
-    SET INSTRUCTIONS_4 "Sécurisez la serviette dans le trou de dérivation"
+    SET INSTRUCTIONS_4 "Secure towel in bypass hole"
 END
 
 DEF TASK "OxygenScrubber"
-    SET NAME "S'entraîner à réparer l'épurateur d'oxygène"
-    SET ASKER_NAME "Demandez de l'aide pour s'entraîner à réparer l'épurateur d'oxygène"
-    SET HELPER_NAME "Aidez <ASKER> à s'entraîner à réparer l'épurateur d'oxygène"
+    SET NAME "Practice fixing oxygen scrubber"
+    SET ASKER_NAME "Get help practicing fixing oxygen scrubber"
+    SET HELPER_NAME "Help <ASKER> practice fixing oxygen scrubber"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -288,19 +288,19 @@ END
 
 REM : Pose for promotional photo
 CLONE DEED "NothingBase" "PoochoPromo1"
-    SET INSTRUCTIONS "Tenez un sac de 'Poocho', la nourriture pour chiens qui sponsorise la mission"
+    SET INSTRUCTIONS "Hold up bag of 'Poocho', the dog food sponsoring the mission"
     SET DURATION 3S
     SET PARTICIPATION "ALL"
 END
 
 CLONE DEED "NothingBase" "PoochoPromo2"
-    SET INSTRUCTIONS "Souriez et dites 'Poocho!'"
+    SET INSTRUCTIONS "Smile and say 'Poocho!'"
     SET DURATION 3S
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "PoochoPromo"
-    SET NAME "Poser pour une photo promotionnelle"
+    SET NAME "Pose for promotional photo"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -315,14 +315,14 @@ END
 
 REM : Find astrophyysics text book
 CLONE DEED "FindID" "AstroFindBook"
-    SET INSTRUCTIONS "Trouvez un manuel d'astrophysique"
+    SET INSTRUCTIONS "Find astrophysics text book"
     SET CATEGORY "BOOK"
 END
 
 DEF TASK "AstroFindBook"
-    SET NAME "Trouver un livre d'astrophysique text book"
-    SET ASKER_NAME "Demandez de l'aide pour trouver un livre d'astrophysique"
-    SET HELPER_NAME "Aidez <ASKER> à trouver un livre d'astrophysique"
+    SET NAME "Find astrophysics text book"
+    SET ASKER_NAME "Get help finding astrophysics text book"
+    SET HELPER_NAME "Help <ASKER> find astrophysics text book"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -335,11 +335,11 @@ END
 
 REM : BLAST OFF!
 CLONE DEED "TapAll" "BlastOff"
-    SET INSTRUCTIONS "Enfoncez ce gros bouton de décollage!"
+    SET INSTRUCTIONS "Jam that big launch button!"
 END
 
 DEF TASK "BlastOff"
-    SET NAME "DÉCOLLAGE!"
+    SET NAME "BLAST OFF!"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

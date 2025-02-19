@@ -1,16 +1,16 @@
-MAIN(Professeur): Bonjour, qui est-ce ?
--HONEST-> C'est moi, votre élève dévoué
--PRANK-> C'est la banque. Nous vous appelons pour vous dire que tout votre argent a disparu.
+MAIN(Teacher): Hello, who is this?
+-HONEST-> It's me, your dutiful student.
+-PRANK-> This is the bank. We're calling to let you know your money is all gone.
 
-HONEST(Professeur): Oh bonjour, que se passe t'il ?
--FAILURE-> Rien du tout, je voulais juste vous dire bonjour car j'adore l'école. Au revoir.
+HONEST(Teacher): Oh hello, what's up?
+-FAILURE-> Nothing, I just wanted to say hi because I love school so much. Goodbye.
 
-PRANK(Professeur): Quoi ? Comment c'est arrivé ?
--MESSUP-> *rigole*
--PRANKDONE->Votre compte a été signalé car vous avez une mauvaise clé B.A.R.D.
+PRANK(Teacher): What! How did that happen?!
+-MESSUP-> *giggle*
+-PRANKDONE->Your account was flagged because you have a bad S.T.I.N. key.
 
-MESSUP(Professeur): Attendez, votre voix me semble familière...
--SUCCESS->*raccroche rapidement*
+MESSUP(Teacher): Wait, your voice is familiar...
+-SUCCESS->*hang up quickly*
 
-PRANKDONE(Professeur): J'ai un mauvais clébard... QUOI ?!
--SUCCESS-> Hahahaha! *raccroche*
+PRANKDONE(Teacher): I have a bad stinky... Wait... Hey!
+-SUCCESS-> Hahahaha! *hang up*

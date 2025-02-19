@@ -1,17 +1,17 @@
-MAIN(Voisin): Je peux vous emprunter du sucre ?
--SURE-> Bien sûr
--NOPE-> Non
--ONE-> Juste une pierre de sucre ?
--BORROW-> Emprunter ?
+MAIN(Neighbor): Can I borrow a cup of sugar?
+-SURE-> Sure
+-NOPE-> Nope
+-ONE-> Just one?
+-BORROW-> Borrow?
 
-SURE(Voisin): Vous êtes trop doux !
--SUCCESS-> C'est donc ça le sucre
+SURE(Neighbor): You're so sweet!
+-SUCCESS-> So is this sugar!
 
-NOPE(Voisin): ...Désolé
--FAILURE-> Ma réserve de sucre m'a fait perdre tellement d'amis.
+NOPE(Neighbor): ...sorry
+-FAILURE-> My sugar stockpile has cost me so many friends.
 
-ONE(Voisin): Je vais prendre deux pierres si c'est possible
--SUCCESS-> Oui bien sûr !
+ONE(Neighbor): I'll take two gallons if you can spare it?
+-SUCCESS-> Sure can!
 
-BORROW(Voisin): Oui je vous le rends à mon retour
--SUCCESS-> Oh, c'est vrai, il va juste faire sa promenade hebdomadaire avec son sucre.
+BORROW(Neighbor): I'll bring it back
+-SUCCESS-> Oh right, he's just going for his weekly sugar walk. 

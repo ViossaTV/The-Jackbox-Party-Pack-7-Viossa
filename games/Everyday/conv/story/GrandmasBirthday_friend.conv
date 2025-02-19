@@ -1,49 +1,49 @@
-MAIN(Aunt Hecuba): Allo? Qui m'appelle?
--GRANDMA-> Tu es invité à la fête de Grand-mère Pazuzu.
--MURDER-> Vous êtes invité à un meurtre mystérieux sur le thème des années 1940
--SCAM-> Vous ratez des économies fantastiques sur les longues distances !
+MAIN(Aunt Hecuba): Hello? Who's calling?
+-GRANDMA-> You're invited to Grandma Pazuzu's party
+-MURDER-> You're invited to a 1940's themed murder mystery
+-SCAM-> You're missing out on fantastic long distance savings!
 
-GRANDMA(Aunt Hecuba): Pazuzu? Je déteste cette vieille chouette ! Oubliez-moi !
--REASON-> J'ai dit Pazuzu ? Je voulais dire... quelqu'un que tu aimes bien ?
--PIECE-> Alors viens à la fête et dis-lui ce que tu penses !
+GRANDMA(Aunt Hecuba): Pazuzu? I hate that old bag! Forget it!
+-REASON-> Did I say Pazuzu? I meant...someone you like?
+-PIECE-> Then come to the party and giver her a piece of your mind!
 
-REASON(Aunt Hecuba): Ouais, c'est ça. Donne-moi une bonne raison pour que j'aille à cette fête minable.
--CAKE-> Gâteaux gratuits ?
--PIECE-> Tu pourras lui dire ce que tu penses !
--TWENTY-> Je te donnerai 20 balles.
+REASON(Aunt Hecuba): Yeah right. Give me one good reason I should go to this lame party.
+-CAKE-> Free cake
+-PIECE-> You can finally give her a piece of your mind
+-TWENTY-> I'll give you 20 bucks
 
-CAKE(Aunt Hecuba): Ce n'est pas beaucoup, mais je vais prendre sur moi. Je serai là.
--SUCCESS-> Peu importe
+CAKE(Aunt Hecuba): It's not much, but I'll take it. I'll be there.
+-SUCCESS-> Whatever
 
-PIECE(Aunt Hecuba): Ha ! Maintenant tu parles ma langue. Je serai là.
--SUCCESS-> J'ai déjà arrêté d'écouter
+PIECE(Aunt Hecuba): Ha! Now you're speaking my language. I'll be there.
+-SUCCESS-> I've already stopped listening
 
-TWENTY(Aunt Hecuba): Donnes-moi en 50.
--FINE-> Eurgh. Bien.
--NOWAY-> Pas possible!
+TWENTY(Aunt Hecuba): Make it $50.
+-FINE-> Ugh. Fine.
+-NOWAY-> No way!
 
-NOWAY(Aunt Hecuba): Et bien oublie!
--FINE-> Attends! Je vais payer!
--FINE-> Attends! Je vais prétendre que je vais payer!
+NOWAY(Aunt Hecuba): Then forget it!
+-FINE-> Wait! I'll pay!
+-FINE-> Wait! I'll pretend I'm going to pay!
 
 
-FINE(Aunt Hecuba): Jackpot! Je serai là!
--SUCCESS-> Ça a intérêt à valoir le coup.
+FINE(Aunt Hecuba): Hot dog! I'll be there!
+-SUCCESS-> This better be worth it.
 
-MURDER(Aunt Hecuba): Je déteste ces trucs bidons ! C'est toujours le majordome de toute façon !
--GRANDMA-> Je rigole, c'est l'anniversaire de grand-mère Pazuzu.
--ESCAPEROOM-> Et pourquoi pas une escape room à la place ?
+MURDER(Aunt Hecuba): I hate those gimmicky things! It's always the butler anyway!
+-GRANDMA-> Just kidding, it's Grandma Pazuzu's birthday
+-ESCAPEROOM-> What about like an escape room instead?
 
-ESCAPEROOM(Aunt Hecuba): Je ne sais pas ce que c'est.
--GRANDMA-> Laisse tomber. J'essaie de t'inviter à l'anniversaire de grand-mère Pazuzu.
+ESCAPEROOM(Aunt Hecuba): I don't know what that is.
+-GRANDMA-> Nevermind. I'm trying to invite you to Grandma Pazuzu's birthday.
 
-SCAM(Aunt Hecuba): Oh vraiment? Dites-moi en plus!
--BIGBAND-> BigBand Internet Service a un plan qui convient à tout le monde !
--GRANDMA-> Je rigole, c'est l'anniversaire de grand-mère Pazuzu.
+SCAM(Aunt Hecuba): Oh really? Tell me more!
+-BIGBAND-> BigBand Internet Service has a plan that's right for everyone!
+-GRANDMA-> Just kidding, it's Grandma Pazuzu's birthday
 
-BIGBAND(Aunt Hecuba): Qu'en est-il des plafonds de données ?
--LIMITS-> Bien que certains plans prévoient des limites, la plupart des utilisateurs ne les atteignent jamais.
--GRANDMA-> Laisse tomber. J'essaie de t'inviter à l'anniversaire de grand-mère Pazuzu.
+BIGBAND(Aunt Hecuba): What about data caps?
+-LIMITS-> While some plans have limits, most users never hit them.
+-GRANDMA-> Nevermind. I'm trying to invite you to Grandma Pazuzu's birthday.
 
-LIMITS(Aunt Hecuba): C'est ce qu'ils disent tous! Bien tenté, l'arnaque! *CLICK*
--SUCCESS-> Je lui enverrai un message à propos de la fête plus tard.
+LIMITS(Aunt Hecuba): That's what they all say! Nice try, scammer! *CLICK*
+-SUCCESS-> I'll text her about the party later.

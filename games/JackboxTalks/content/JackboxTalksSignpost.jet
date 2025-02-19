@@ -1,1504 +1,1503 @@
-
 {
-"content": [
+ "content": [
   {
    "id": "71367",
    "position": "middle",
-   "signpost": "Alors qu'est-ce que cela signifie exactement?",
+   "signpost": "So what exactly does that mean?",
    "x": false
   },
   {
    "id": "71368",
    "position": "end",
-   "signpost": "C'est là que j'ai appris quelque chose de vraiment choquant",
+   "signpost": "That's when I learned something truly shocking",
    "x": false
   },
   {
    "id": "71369",
    "position": "middle",
-   "signpost": "Pourquoi cette information est-elle importante?",
+   "signpost": "Why is this information important?",
    "x": false
   },
   {
    "id": "71370",
    "position": "end",
-   "signpost": "Et maintenant?",
+   "signpost": "So what's next?",
    "x": false
   },
   {
    "id": "71371",
    "position": "middle",
-   "signpost": "Voici une chose intéressante...",
+   "signpost": "Here's an interesting thing...",
    "x": false
   },
   {
    "id": "71372",
    "position": "end",
-   "signpost": "Et quel effet cela a-t-il sur le reste du monde?",
+   "signpost": "And what effect does this have on the rest of the world?",
    "x": false
   },
   {
    "id": "71373",
    "position": "end",
-   "signpost": "Qu'ai-je appris de tout cela?",
+   "signpost": "What did I learn from all of this?",
    "x": false
   },
   {
    "id": "71374",
    "position": "middle",
-   "signpost": "Cela m'a donné une idée",
+   "signpost": "That gave me an idea",
    "x": false
   },
   {
    "id": "71375",
    "position": "middle",
-   "signpost": "La prochaine chose vous surprendra vraiment",
+   "signpost": "The next thing will truly surprise you",
    "x": false
   },
   {
    "id": "71376",
    "position": "end",
-   "signpost": "A quoi ressemble le futur?",
+   "signpost": "What does the future look like?",
    "x": false
   },
   {
    "id": "71377",
    "position": "middle",
-   "signpost": "Il y a une chose que j'ignorais...",
+   "signpost": "There is one thing I was overlooking...",
    "x": false
   },
   {
    "id": "71378",
    "position": "end",
-   "signpost": "Que peut-on faire à ce sujet?",
+   "signpost": "What can be done about this?",
    "x": false
   },
   {
    "id": "71379",
    "position": "middle",
-   "signpost": "Pourquoi cela se produit-il?",
+   "signpost": "Why is this happening?",
    "x": false
   },
   {
    "id": "71380",
    "position": "end",
-   "signpost": "Comment sommes-nous arrivés ici?",
+   "signpost": "How did we get here?",
    "x": false
   },
   {
    "id": "71381",
    "position": "end",
-   "signpost": "Où allons-nous à partir d'ici?",
+   "signpost": "Where do we go from here?",
    "x": false
   },
   {
    "id": "71382",
    "position": "end",
-   "signpost": "Quel impact cela a-t-il sur votre vie de tous les jours?",
+   "signpost": "How does this impact your day-to-day life?",
    "x": false
   },
   {
    "id": "71383",
    "position": "middle",
-   "signpost": "Je sais ce que vous pensez...",
+   "signpost": "I know what you are thinking...",
    "x": false
   },
   {
    "id": "71384",
    "position": "middle",
-   "signpost": "Mais j'ai oublié une chose...",
+   "signpost": "But I forgot about one thing...",
    "x": false
   },
   {
    "id": "71385",
    "position": "end",
-   "signpost": "Quel est le pire dans tout cela?",
+   "signpost": "What is the worst part of all of this?",
    "x": false
   },
   {
    "id": "71386",
    "position": "middle",
-   "signpost": "Vous pourriez vous demander... pourquoi? Eh bien...",
+   "signpost": "You might ask yourself... why? Well...",
    "x": false
   },
   {
    "id": "71387",
    "position": "end",
-   "signpost": "Mais alors tout a changé...",
+   "signpost": "But then everything changed...",
    "x": false
   },
   {
    "id": "71388",
    "position": "middle",
-   "signpost": "Cette prochaine partie vous surprendra",
+   "signpost": "This next part will surprise you",
    "x": false
   },
   {
    "id": "71389",
    "position": "end",
-   "signpost": "C'est un problème, alors voici la solution",
+   "signpost": "That is a problem, so here's the solution",
    "x": false
   },
   {
    "id": "71390",
    "position": "end",
-   "signpost": "Mais qu'est-ce que cela signifie pour VOUS?",
+   "signpost": "But what does this mean for YOU?",
    "x": false
   },
   {
    "id": "71391",
    "position": "middle",
-   "signpost": "Comment est-ce possible?",
+   "signpost": "How is this even possible?",
    "x": false
   },
   {
    "id": "71392",
    "position": "end",
-   "signpost": "C'est là que VOUS intervenez",
+   "signpost": "That's where YOU come in",
    "x": false
   },
   {
    "id": "71393",
    "position": "end",
-   "signpost": "Mais qu'est-ce que tout cela signifie?",
+   "signpost": "But what does it all mean?",
    "x": false
   },
   {
    "id": "71394",
    "position": "middle",
-   "signpost": "Bonne nouvelle, il y a un bon côté",
+   "signpost": "Good news, there is an upside to this",
    "x": false
   },
   {
    "id": "71395",
    "position": "end",
-   "signpost": "Si vous partez d'ici en vous souvenant d'une chose, ce devrait être celle-ci...",
+   "signpost": "If you leave here remembering one thing, it should be this...",
    "x": false
   },
   {
    "id": "71396",
    "position": "middle",
-   "signpost": "Voici les mauvaises nouvelles",
+   "signpost": "Here's the bad news",
    "x": false
   },
   {
    "id": "71397",
    "position": "middle",
-   "signpost": "J'ai un fait amusant pour vous",
+   "signpost": "I have a fun fact for you",
    "x": false
   },
   {
    "id": "71398",
    "position": "middle",
-   "signpost": "Et bien, le saviez-vous?",
+   "signpost": "Well, did you know this?",
    "x": false
   },
   {
    "id": "71399",
    "position": "end",
-   "signpost": "Il y avait une chose qui a tout changé pour moi",
+   "signpost": "There was one thing that changed everything for me",
    "x": false
   },
   {
    "id": "71400",
    "position": "middle",
-   "signpost": "La prochaine chose m'a époustouflé",
+   "signpost": "The next thing blew my mind",
    "x": false
   },
   {
    "id": "71401",
    "position": "end",
-   "signpost": "Rien de tout cela n'a d'importance à cause de cela...",
+   "signpost": "None of this matters because of this...",
    "x": false
   },
   {
    "id": "71402",
    "position": "middle",
-   "signpost": "Mais je n'étais pas prêt à affronter la vérité...",
+   "signpost": "But I wasn't ready to face the truth...",
    "x": false
   },
   {
    "id": "71403",
    "position": "end",
-   "signpost": "Enfin, voici ce qui relie tout cela ensemble",
+   "signpost": "Finally, here's the thing that connects it all together",
    "x": false
   },
   {
    "id": "71404",
    "position": "end",
-   "signpost": "Suis-je une meilleure personne à cause de cela?",
+   "signpost": "Am I a better person because of this?",
    "x": false
   },
   {
    "id": "71405",
    "position": "end",
-   "signpost": "Qui est responsable de cela?",
+   "signpost": "Who is responsible for this?",
    "x": false
   },
   {
    "id": "71406",
    "position": "middle",
-   "signpost": "Saviez-vous que le fait suivant",
+   "signpost": "Did you know the following fact",
    "x": false
   },
   {
    "id": "71407",
    "position": "end",
-   "signpost": "Prenez une seconde pour imaginer cela",
+   "signpost": "Take a second to imagine this",
    "x": false
   },
   {
    "id": "71408",
    "position": "middle",
-   "signpost": "Croiriez-vous si je vous disais cela",
+   "signpost": "Would you believe if I told you this",
    "x": false
   },
   {
    "id": "71409",
    "position": "end",
-   "signpost": "Il y a une raison à cela",
+   "signpost": "There's one reason for this",
    "x": false
   },
   {
    "id": "71410",
    "position": "middle",
-   "signpost": "Est-ce une bonne chose?",
+   "signpost": "Is this a good thing?",
    "x": false
   },
   {
    "id": "71411",
    "position": "middle",
-   "signpost": "Cela pourrait être mauvais, et je vais vous dire pourquoi",
+   "signpost": "This could be bad, and I'll tell you why",
    "x": false
   },
   {
    "id": "71412",
    "position": "middle",
-   "signpost": "Voici quelque chose que j'ai été étonné de découvrir",
+   "signpost": "Here is something I was amazed to find out",
    "x": false
   },
   {
    "id": "71413",
    "position": "end",
-   "signpost": "Je n'arrive pas à croire que je dis ça, mais...",
+   "signpost": "I cannot believe I'm saying this, but...",
    "x": false
   },
   {
    "id": "71414",
    "position": "middle",
-   "signpost": "Imaginez ce scénario",
+   "signpost": "Please imagine this scenario",
    "x": false
   },
   {
    "id": "71415",
    "position": "end",
-   "signpost": "Sachant cela, je veux que vous vous représentiez",
+   "signpost": "Knowing that, I want you to picture this",
    "x": false
   },
   {
    "id": "71416",
    "position": "middle",
-   "signpost": "Si vous voulez blâmer quelque chose, c'est ça",
+   "signpost": "If you want to blame something, it is this",
    "x": false
   },
   {
    "id": "71593",
    "position": "middle",
-   "signpost": "Mais les regards peuvent être trompeurs...",
+   "signpost": "But looks can be deceiving...",
    "x": false
   },
   {
    "id": "71595",
    "position": "middle",
-   "signpost": "Voici un savoir époustouflant",
+   "signpost": "Here's a mind-blowing piece of knowledge",
    "x": false
   },
   {
    "id": "71599",
    "position": "middle",
-   "signpost": "Voici une chose positive à ce sujet",
+   "signpost": "Here is a positive thing about this",
    "x": false
   },
   {
    "id": "71600",
    "position": "middle",
-   "signpost": "Voici la pensée révolutionnaire qui a tout changé",
+   "signpost": "Here's the revolutionary thinking that changed everything",
    "x": false
   },
   {
    "id": "71603",
    "position": "middle",
-   "signpost": "Eureka! J'ai crié quand j'ai vu ça",
+   "signpost": "\"Eureka!\" I shouted when I saw this",
    "x": false
   },
   {
    "id": "71605",
    "position": "middle",
-   "signpost": "Je savais que j'étais sur quelque chose de grand parce que...",
+   "signpost": "I knew I was onto something big because...",
    "x": false
   },
   {
    "id": "71606",
    "position": "middle",
-   "signpost": "Ecoute, je dois enlever ça de ma poitrine...",
+   "signpost": "Look, I have to get this off my chest...",
    "x": false
   },
   {
    "id": "71607",
    "position": "middle",
-   "signpost": "Voici une opinion impopulaire",
+   "signpost": "Here's an unpopular opinion",
    "x": false
   },
   {
    "id": "71608",
    "position": "middle",
-   "signpost": "Suivez-moi dans ce terrier de lapin...",
+   "signpost": "Follow me down this rabbit hole...",
    "x": false
   },
   {
    "id": "71610",
    "position": "middle",
-   "signpost": "A travers le brouillard de confusion, il y avait une chose qui me guidait...",
+   "signpost": "Through the fog of confusion, there was one thing guiding me...",
    "x": false
   },
   {
    "id": "71611",
    "position": "end",
-   "signpost": "Ayez toujours avec vous la vérité suivante...",
+   "signpost": "Carry the following truth with you always...",
    "x": false
   },
   {
    "id": "71613",
    "position": "end",
-   "signpost": "N'oubliez jamais ce que vous avez appris aujourd'hui...",
+   "signpost": "Never forget what you learned today...",
    "x": false
   },
   {
    "id": "71616",
    "position": "end",
-   "signpost": "Votre vie ne sera plus jamais la même à cause de ce fait",
+   "signpost": "Your life will never be the same because of this fact",
    "x": false
   },
   {
    "id": "71618",
    "position": "end",
-   "signpost": "Maintenant, c'est à vous de décider. Que devez-vous faire?",
+   "signpost": "Now it's up to you. So what should you do?",
    "x": false
   },
   {
    "id": "71622",
    "position": "end",
-   "signpost": "Pourquoi ne retenir qu'une seule chose quand on peut se souvenir de ces trois choses",
+   "signpost": "Why remember just one thing when you can remember these three things",
    "x": false
   },
   {
    "id": "71640",
    "position": "end",
-   "signpost": "Chacun doit faire sa part. Alors, voici quelque chose que vous pouvez faire",
+   "signpost": "Everyone must do their part. So, here's something you can do",
    "x": false
   },
   {
    "id": "71641",
    "position": "end",
-   "signpost": "Ne restez pas assis là! Faites la prochaine chose!",
+   "signpost": "Don't just sit there! Do this next thing!",
    "x": false
   },
   {
    "id": "71644",
    "position": "middle",
-   "signpost": "Ce qui suit est un mythe communément admis",
+   "signpost": "The following is a commonly believed myth",
    "x": false
   },
   {
    "id": "71663",
    "position": "middle",
-   "signpost": "Cette connaissance a un prix terrible...",
+   "signpost": "This knowledge comes with a terrible price...",
    "x": false
   },
   {
    "id": "71665",
    "position": "middle",
-   "signpost": "Cela ne me rapportera pas d'amis mais il faut le dire...",
+   "signpost": "This won't earn me any friends but it must be said...",
    "x": false
   },
   {
    "id": "71668",
    "position": "middle",
-   "signpost": "Voici une analogie utile",
+   "signpost": "Here's a helpful analogy",
    "x": false
   },
   {
    "id": "71670",
    "position": "middle",
-   "signpost": "Mais, d'un autre côté...",
+   "signpost": "But, on the other hand...",
    "x": false
   },
   {
    "id": "71671",
    "position": "middle",
-   "signpost": "Regardons d'abord l'histoire",
+   "signpost": "First, let's look at history",
    "x": false
   },
   {
    "id": "71685",
    "position": "end",
-   "signpost": "Il s'avère que la réponse était en moi depuis le début",
+   "signpost": "Turns out the answer was inside me all along",
    "x": false
   },
   {
    "id": "71686",
    "position": "middle",
-   "signpost": "Je ne veux pas vous faire peur, mais...",
+   "signpost": "I don't want to scare you, but...",
    "x": false
   },
   {
    "id": "71687",
    "position": "middle",
-   "signpost": "Je possède la seule compétence nécessaire pour maîtriser cette situation",
+   "signpost": "I possess the one necessary skill to master this situation",
    "x": false
   },
   {
    "id": "71688",
    "position": "middle",
-   "signpost": "J'ai vraiment foiré les choses, alors c'est arrivé",
+   "signpost": "I really screwed things up, so this happened",
    "x": false
   },
   {
    "id": "71689",
    "position": "end",
-   "signpost": "C'était drôle de savoir qui est venu m'aider",
+   "signpost": "It was funny who showed up to help me",
    "x": false
   },
   {
    "id": "71690",
    "position": "end",
-   "signpost": "Tout bien considéré, c'est le pire",
+   "signpost": "All things considered, this is the worst part",
    "x": false
   },
   {
    "id": "71691",
    "position": "middle",
-   "signpost": "Comment étais-je censé savoir, pendant tout ce temps je tombais amoureux de...",
+   "signpost": "How was I supposed to know, this whole time I was falling in love with...",
    "x": false
   },
   {
    "id": "71692",
    "position": "middle",
-   "signpost": "Faut-il avoir peur?",
+   "signpost": "Should we be afraid?",
    "x": false
   },
   {
    "id": "71693",
    "position": "middle",
-   "signpost": "Est-ce ma faute?",
+   "signpost": "Is this my fault?",
    "x": false
   },
   {
    "id": "71694",
    "position": "end",
-   "signpost": "Confus? Bien sûr. Voici une chose que je sais",
+   "signpost": "Confused? Sure. Here's one thing I know",
    "x": false
   },
   {
    "id": "71695",
    "position": "middle",
-   "signpost": "Je veux vous raconter une histoire...",
+   "signpost": "I want to tell you a story...",
    "x": false
   },
   {
    "id": "71696",
    "position": "middle",
-   "signpost": "Y a-t-il un complot secret impliqué?",
+   "signpost": "Is there a secret conspiracy involved?",
    "x": false
   },
   {
    "id": "71697",
    "position": "end",
-   "signpost": "4 experts sur 5 sont d'accord avec ce qui suit",
+   "signpost": "4 out of 5 experts agree with the following",
    "x": false
   },
   {
    "id": "71698",
    "position": "end",
-   "signpost": "Voici une vérité encore plus inconfortable",
+   "signpost": "Here is an even more uncomfortable truth",
    "x": false
   },
   {
    "id": "71699",
    "position": "end",
-   "signpost": "Je suis responsable et voici pourquoi",
+   "signpost": "I am to blame, and here is why",
    "x": false
   },
   {
    "id": "71700",
    "position": "middle",
-   "signpost": "Voici quelque chose qui me tient éveillé la nuit",
+   "signpost": "Here is something that keeps me up at night",
    "x": false
   },
   {
    "id": "71701",
    "position": "end",
-   "signpost": "Tu vas rire quand je te montrerai ce que j'ai fait...",
+   "signpost": "You are going to laugh when I show you what I did...",
    "x": false
   },
   {
    "id": "71702",
    "position": "middle",
-   "signpost": "Vous ne pouvez pas nier ce fait",
+   "signpost": "No way can you deny this fact",
    "x": false
   },
   {
    "id": "71947",
    "position": "middle",
-   "signpost": "Il n'y a qu'une seule explication à cela",
+   "signpost": "There is only one explanation for this",
    "x": false
   },
   {
    "id": "71949",
    "position": "middle",
-   "signpost": "Il s'est avéré que je ne posais pas la bonne question. J'ai donc posé la question à la place...",
+   "signpost": "Turns out, I was asking the wrong question. So I asked this instead...",
    "x": false
   },
   {
    "id": "71950",
    "position": "end",
-   "signpost": "Il n'y a rien à faire... ou y en a-t-il? Il y a, c'est ça...",
+   "signpost": "There's nothing to be done... or is there? There is, it's this...",
    "x": false
   },
   {
    "id": "71951",
    "position": "end",
-   "signpost": "Ce n'est que le début et voici pourquoi",
+   "signpost": "This is only the beginning and here's why",
    "x": false
   },
   {
    "id": "71952",
    "position": "middle",
-   "signpost": "Mais pourquoi detrues-je m'en soucier?",
+   "signpost": "But why should I care?",
    "x": false
   },
   {
    "id": "71956",
    "position": "end",
-   "signpost": "Pour résumer en termes simples...",
+   "signpost": "To sum it up in simple terms...",
    "x": false
   },
   {
    "id": "71957",
    "position": "middle",
-   "signpost": "Il est impossible de surestimer à quel point cela est important et voici pourquoi",
+   "signpost": "It is impossible to overstate how important this is and here's why",
    "x": false
   },
   {
    "id": "71958",
    "position": "end",
-   "signpost": "Êtes-vous confus? Permettez-moi de le dire simplement",
+   "signpost": "Are you confused? Let me put it simply",
    "x": false
   },
   {
    "id": "71959",
    "position": "end",
-   "signpost": "Heureusement, j'ai la réponse...",
+   "signpost": "Thankfully, I have the answer...",
    "x": false
   },
   {
    "id": "71960",
    "position": "middle",
-   "signpost": "Comment en sommes-nous arrivés là?",
+   "signpost": "How did we get to this point?",
    "x": false
   },
   {
    "id": "71961",
    "position": "middle",
-   "signpost": "Mais, je n'étais pas préparé à ce tournant choquant",
+   "signpost": "But, I was unprepared for this shocking twist",
    "x": false
   },
   {
    "id": "71962",
    "position": "end",
-   "signpost": "Voici quelque chose qui me fait du bien dans cette situation",
+   "signpost": "Here's something that makes me feel good about this situation",
    "x": false
   },
   {
    "id": "71963",
    "position": "end",
-   "signpost": "Et donc, nous voici à mon dernier point...",
+   "signpost": "And so, here we are at my final point...",
    "x": false
   },
   {
    "id": "71964",
    "position": "end",
-   "signpost": "Ce n'est pas aussi grave qu'il y paraît, à cause de ça",
+   "signpost": "It's not as bad as it seems, because of this",
    "x": false
   },
   {
    "id": "71965",
    "position": "end",
-   "signpost": "Avant de partir aujourd'hui, souvenez-vous de ceci",
+   "signpost": "Before you leave today, remember this",
    "x": false
   },
   {
    "id": "71994",
    "position": "middle",
-   "signpost": "Mais le contraire est également true...",
+   "signpost": "But the opposite is also true...",
    "x": false
   },
   {
    "id": "71995",
    "position": "end",
-   "signpost": "Dans un monde idéal, nous pourrions avoir ceci",
+   "signpost": "In an ideal world, we could have this",
    "x": false
   },
   {
    "id": "71996",
    "position": "middle",
-   "signpost": "Au lieu de vous montrer les chiffres, je veux vous montrer ceci",
+   "signpost": "Instead of showing you the numbers, I want to show you this",
    "x": false
   },
   {
    "id": "71997",
    "position": "end",
-   "signpost": "Ceci est ma promesse...",
+   "signpost": "This is my promise to you...",
    "x": false
   },
   {
    "id": "72001",
    "position": "middle",
-   "signpost": "Même les enfants comprennent ce simple fait...",
+   "signpost": "Even children understand this simple fact...",
    "x": false
   },
   {
    "id": "72002",
    "position": "end",
-   "signpost": "Je peux résumer cela en vous montrant ceci",
+   "signpost": "I can sum this up by showing you this",
    "x": false
   },
   {
    "id": "72003",
    "position": "middle",
-   "signpost": "Cela peut sembler ridicule mais voici pourquoi c'est très grave",
+   "signpost": "This might seem ridiculous but here's why it is very serious",
    "x": false
   },
   {
    "id": "72005",
    "position": "end",
-   "signpost": "Gravez cette image dans votre mémoire...",
+   "signpost": "Burn this image into your memory...",
    "x": false
   },
   {
    "id": "72008",
    "position": "middle",
-   "signpost": "Rien ne vous mettra plus en colère que ça",
+   "signpost": "Nothing will make you angrier than this",
    "x": false
   },
   {
    "id": "72034",
    "position": "middle",
-   "signpost": "Fermez les yeux et imaginez ce qui pourrait être...",
+   "signpost": "Close your eyes and imagine what could be...",
    "x": false
   },
   {
    "id": "72035",
    "position": "end",
-   "signpost": "Tout bien considéré, voici à quoi pourrait ressembler demain...",
+   "signpost": "All things considered, this is what tomorrow could look like...",
    "x": false
   },
   {
    "id": "72036",
    "position": "middle",
-   "signpost": "Voici ce que la plupart des gens ne comprennent pas",
+   "signpost": "Here is what most people fail to understand",
    "x": false
   },
   {
    "id": "72037",
    "position": "end",
-   "signpost": "Ce que les données nous disent est évident...",
+   "signpost": "What the data is telling us is obvious...",
    "x": false
   },
   {
    "id": "72039",
    "position": "end",
-   "signpost": "Il y a une conclusion inconfortable à laquelle nous devons arriver",
+   "signpost": "There is an uncomfortable conclusion we must come to",
    "x": false
   },
   {
    "id": "72041",
    "position": "middle",
-   "signpost": "Le point de départ le plus évident est ici...",
+   "signpost": "The most obvious place to start is here...",
    "x": false
   },
   {
    "id": "72086",
    "position": "middle",
-   "signpost": "Voici quelque chose auquel vous n'avez probablement pas pensé",
+   "signpost": "Here's something you probably haven't thought of",
    "x": false
   },
   {
    "id": "72087",
    "position": "end",
-   "signpost": "Que faire à ce sujet?",
+   "signpost": "What is to be done about this?",
    "x": false
   },
   {
    "id": "72088",
    "position": "middle",
-   "signpost": "Je vais faire ce point suivant attentivement...",
+   "signpost": "I'll make this next point carefully...",
    "x": false
   },
   {
    "id": "72090",
    "position": "end",
-   "signpost": "Assez c'est assez, à cause de ça",
+   "signpost": "Enough is enough, because of this",
    "x": false
   },
   {
    "id": "72091",
    "position": "middle",
-   "signpost": "Je me tiens responsable de ce qui s'est passé ensuite...",
+   "signpost": "I hold myself responsible for what happened next...",
    "x": false
   },
   {
    "id": "72092",
    "position": "middle",
-   "signpost": "J'ai endalement dû admettre que ce qui suit était true...",
+   "signpost": "I finally had to admit the following was true...",
    "x": false
   },
   {
    "id": "72093",
    "position": "middle",
-   "signpost": "Mais honnêtement, qui s'en soucie?",
+   "signpost": "But honestly, who cares?",
    "x": false
   },
   {
    "id": "72094",
    "position": "end",
-   "signpost": "Comment puis-je parler de moi?",
+   "signpost": "How can I make this about me?",
    "x": false
   },
   {
    "id": "72279",
    "position": "middle",
-   "signpost": "D'où cela a-t-il commencé?",
+   "signpost": "Where did this start?",
    "x": false
   },
   {
    "id": "72280",
    "position": "middle",
-   "signpost": "Maintenant, considérons l'autre côté de cette situation...",
+   "signpost": "Now, let's consider the other side of this situation...",
    "x": false
   },
   {
    "id": "72282",
    "position": "middle",
-   "signpost": "Attachez-vous à ce qui s'est passé ensuite...",
+   "signpost": "Buckle up for what happened next...",
    "x": false
   },
   {
    "id": "72286",
    "position": "end",
-   "signpost": "Laissez-moi vous laisser avec ceci...",
+   "signpost": "Let me leave you with this...",
    "x": false
   },
   {
    "id": "72287",
    "position": "end",
-   "signpost": "Joignons nos mains et convenons sur une chose",
+   "signpost": "Let us join hands and agree on one thing",
    "x": false
   },
   {
    "id": "72288",
    "position": "end",
-   "signpost": "Ne soyez pas comme moi, et voici ce qui vous aidera...",
+   "signpost": "Don't be like me, and here's the thing that will help you...",
    "x": false
   },
   {
    "id": "72289",
    "position": "middle",
-   "signpost": "Posez-vous une question...",
+   "signpost": "Ask yourself one question...",
    "x": false
   },
   {
    "id": "72292",
    "position": "end",
-   "signpost": "Il n'y a qu'une seule façon de résoudre ce problème",
+   "signpost": "There's only one way to fix this",
    "x": false
   },
   {
    "id": "72295",
    "position": "middle",
-   "signpost": "Il y a un élément clé à tout cela",
+   "signpost": "There is one key component to all of this",
    "x": false
   },
   {
    "id": "72296",
    "position": "end",
-   "signpost": "Souvenez-vous de deux choses: 1, je suis le meilleur, et 2...",
+   "signpost": "Remember two things: #1 I'm the best, and #2...",
    "x": false
   },
   {
    "id": "72297",
    "position": "middle",
-   "signpost": "Ne vous inquiétez pas. Je suis là pour vous aider et voici mon plan",
+   "signpost": "Don't worry. I'm here to help, and here's my plan",
    "x": false
   },
   {
    "id": "72307",
    "position": "middle",
-   "signpost": "Bonne nouvelle! Il existe un meilleur moyen!",
+   "signpost": "Good news! There is a better way!",
    "x": false
   },
   {
    "id": "72308",
    "position": "middle",
-   "signpost": "J'ai dû aller beaucoup, beaucoup plus loin. Alors, voici où je suis allé",
+   "signpost": "I had to go much, much deeper. So, here's where I went",
    "x": false
   },
   {
    "id": "72309",
    "position": "middle",
-   "signpost": "Whoa whoa whoa, revenons un peu en arrière...",
+   "signpost": "Whoa whoa whoa, let's rewind a little...",
    "x": false
   },
   {
    "id": "72310",
    "position": "middle",
-   "signpost": "Il est temps d'attribuer le blâme...",
+   "signpost": "Time to assign blame...",
    "x": false
   },
   {
    "id": "72311",
    "position": "middle",
-   "signpost": "Seul un true idiot contesterait ce fait",
+   "signpost": "Only a real idiot would dispute this fact",
    "x": false
   },
   {
    "id": "72315",
    "position": "middle",
-   "signpost": "Je vais chanter cette prochaine partie...",
+   "signpost": "I'm going to sing this next part...",
    "x": false
   },
   {
    "id": "72321",
    "position": "middle",
-   "signpost": "Ne dites pas que je ne vous ai pas prévenu, mais...",
+   "signpost": "Don't say I didn't warn you, but...",
    "x": false
   },
   {
    "id": "72327",
    "position": "end",
-   "signpost": "La réponse était devant moi tout le temps...",
+   "signpost": "The answer was in front of me the whole time...",
    "x": false
   },
   {
    "id": "72340",
    "position": "middle",
-   "signpost": "Osez embrasser cette vérité",
+   "signpost": "Dare to embrace this truth",
    "x": false
   },
   {
    "id": "72346",
    "position": "middle",
-   "signpost": "Souvenez-vous de la parabole vue dans cette image suivante",
+   "signpost": "Remember the parable seen in this next image",
    "x": false
   },
   {
    "id": "72355",
    "position": "middle",
-   "signpost": "Je dis la prochaine chose à un coût personnel élevé",
+   "signpost": "I say this next thing at great personal cost",
    "x": false
   },
   {
    "id": "72358",
    "position": "middle",
-   "signpost": "Ce fait détruira votre cerveau",
+   "signpost": "This fact will destroy your brain",
    "x": false
   },
   {
    "id": "72372",
    "position": "middle",
-   "signpost": "Préparez-vous à vous fâcher à mon prochain point",
+   "signpost": "Get ready to get mad at my next point",
    "x": false
   },
   {
    "id": "72375",
    "position": "middle",
-   "signpost": "Ce simple fait suivant a changé ma vie...",
+   "signpost": "This next simple fact changed my life...",
    "x": false
   },
   {
    "id": "72376",
    "position": "end",
-   "signpost": "Suis-je un héros? Oui. Laissez-moi vous montrer pourquoi",
+   "signpost": "Am I a hero? Yes. Let me show you why",
    "x": false
   },
   {
    "id": "72377",
    "position": "middle",
-   "signpost": "Couvre-toi les oreilles si tu es un lâche. Sinon, écoute ça...",
+   "signpost": "Cover your ears if you're a coward. If not, listen to this...",
    "x": false
   },
   {
    "id": "72379",
    "position": "middle",
-   "signpost": "Chaque histoire a un méchant. Dans ce conte, c'est ça...",
+   "signpost": "Every story has a villain. In this tale, it's this...",
    "x": false
   },
   {
    "id": "72385",
    "position": "middle",
-   "signpost": "Vous vous demandez probablement pourquoi je suis l'expert? Voici pourquoi...",
+   "signpost": "You're probably wondering, why am I the expert? Here's why...",
    "x": false
   },
   {
    "id": "72388",
    "position": "end",
-   "signpost": "Je voudrais vous laisser un poème pour accompagner cette image suivante...",
+   "signpost": "I'd like to leave you with a poem to go with this next image...",
    "x": false
   },
   {
    "id": "72392",
    "position": "end",
-   "signpost": "Cette prochaine partie de mon discours va changer votre vie pour toujours...",
+   "signpost": "This next part of my speech will change your life forever...",
    "x": false
   },
   {
    "id": "72394",
    "position": "middle",
-   "signpost": "Voici une pépite de bonne nouvelle...",
+   "signpost": "Here's a nugget of good news...",
    "x": false
   },
   {
    "id": "72395",
    "position": "end",
-   "signpost": "Légalement, je ne peux pas dire ça, mais j'y vais...",
+   "signpost": "Legally I can't say this, but here I go...",
    "x": false
   },
   {
    "id": "72396",
    "position": "middle",
-   "signpost": "Un sage mystique qui vit dans la forêt m'a donné ce conseil...",
+   "signpost": "A mystic sage who lives in the forest gave me this advice...",
    "x": false
   },
   {
    "id": "72433",
    "position": "middle",
-   "signpost": "J'ai de bonnes nouvelles et de mauvaises nouvelles, mais voici les mauvaises nouvelles bien dites...",
+   "signpost": "I have good news and bad news, but here's the bad news said nicely...",
    "x": false
   },
   {
    "id": "72434",
    "position": "middle",
-   "signpost": "Il y a longtemps, quelque chose d'incroyable s'est produit...",
+   "signpost": "Long long ago, something amazing happened...",
    "x": false
   },
   {
    "id": "72435",
    "position": "middle",
-   "signpost": "Cette prochaine photo vous donnera de l'espoir, et voici pourquoi...",
+   "signpost": "This next picture will give you hope, and here's why...",
    "x": false
   },
   {
    "id": "72436",
    "position": "middle",
-   "signpost": "Je m'excuse pour cette prochaine photo, mais vous devez voir la vérité...",
+   "signpost": "I apologize for this next picture, but you must see the truth...",
    "x": false
   },
   {
    "id": "72437",
    "position": "middle",
-   "signpost": "Les gens puissants ne veulent pas que je vous dise le fait suivant...",
+   "signpost": "Powerful people don't want me to tell you the following fact...",
    "x": false
   },
   {
    "id": "72439",
    "position": "middle",
-   "signpost": "Je vais partager une opinion controversée avec vous...",
+   "signpost": "I'm going to share a controversial opinion with you...",
    "x": false
   },
   {
    "id": "72446",
    "position": "middle",
-   "signpost": "Toujours confus? Voici un moyen simple de le visualiser...",
+   "signpost": "Still confused? Here's an easy way of visualizing it...",
    "x": false
   },
   {
    "id": "72447",
    "position": "middle",
-   "signpost": "Cette prochaine image vous convaincra que je sais de quoi je parle...",
+   "signpost": "This next image will convince you that I know what I am talking about...",
    "x": false
   },
   {
    "id": "72455",
    "position": "middle",
-   "signpost": "Pour expliquer, laissez-moi vous raconter une histoire intéressante...",
+   "signpost": "To explain, let me tell you an interesting story...",
    "x": false
   },
   {
    "id": "72456",
    "position": "middle",
-   "signpost": "Comme le puissant chêne poussant à partir d'un humble gland, voici un petit mais important fait...",
+   "signpost": "Like the mighty oak growing from a humble acorn, here's a small but important fact...",
    "x": false
   },
   {
    "id": "72457",
    "position": "end",
-   "signpost": "Préparez-vous, une énorme décharge d'informations arrive dans 3... 2... 1...",
+   "signpost": "Brace yourselves, massive information dump coming in 3... 2... 1...",
    "x": false
   },
   {
    "id": "72458",
    "position": "middle",
-   "signpost": "Quelle heure est-il? Il est temps pour moi de dissiper quelques idées fausses... heures",
+   "signpost": "What time is it? Time for me to clear up a few misconceptions... o'clock",
    "x": false
   },
   {
    "id": "72460",
    "position": "middle",
-   "signpost": "Si vous n'êtes pas touché par cette prochaine information, vous n'avez pas d'âme",
+   "signpost": "If you aren't moved by this next piece of information, you have no soul",
    "x": true
   },
   {
    "id": "72475",
    "position": "middle",
-   "signpost": "Veuillez mémoriser soigneusement tout ce que je suis sur le point de dire...",
+   "signpost": "Please carefully memorize everything I'm about to say...",
    "x": false
   },
   {
    "id": "72477",
    "position": "middle",
-   "signpost": "Contemplez cette vérité éclairante...",
+   "signpost": "Gaze upon this illuminating truth...",
    "x": false
   },
   {
    "id": "72478",
    "position": "middle",
-   "signpost": "Pourquoi suis-je qualifié pour en parler? Laissez-moi vous montrer mon parcours...",
+   "signpost": "Why am I qualified to talk about this? Let me show you my background...",
    "x": false
   },
   {
    "id": "72481",
    "position": "middle",
-   "signpost": "Les experts sont très concernés, et voici pourquoi...",
+   "signpost": "Experts are highly concerned, and here's why...",
    "x": false
   },
   {
    "id": "72483",
    "position": "middle",
-   "signpost": "Quand j'ai entendu la prochaine chose, j'ai paniqué...",
+   "signpost": "When I heard this next thing, I freaked out...",
    "x": false
   },
   {
    "id": "72492",
    "position": "end",
-   "signpost": "J'ai gardé ce secret pendant longtemps...",
+   "signpost": "I've kept this secret for a long time...",
    "x": false
   },
   {
    "id": "72494",
    "position": "end",
-   "signpost": "Toute l'histoire de l'humanité s'est préparée à la prochaine chose que je vais dire...",
+   "signpost": "All of human history has been building up to this next thing I'm going to say...",
    "x": false
   },
   {
    "id": "72497",
    "position": "middle",
-   "signpost": "Avant de continuer, je dois retirer une chose de ma poitrine...",
+   "signpost": "Before we continue, I have to get one thing off my chest...",
    "x": false
   },
   {
    "id": "72498",
    "position": "middle",
-   "signpost": "Voici le plus gros obstacle à surmonter...",
+   "signpost": "Here is the biggest obstacle to overcome...",
    "x": false
   },
   {
    "id": "72501",
    "position": "middle",
-   "signpost": "Que disent les experts à ce sujet?",
+   "signpost": "What do the experts say about this?",
    "x": false
   },
   {
    "id": "72503",
    "position": "middle",
-   "signpost": "Permettez-moi de jouer un instant l'avocat du diable...",
+   "signpost": "Allow me to play devil's advocate for a moment...",
    "x": false
   },
   {
    "id": "72704",
    "position": "middle",
-   "signpost": "Mais c'est ici que ça devient épicé",
+   "signpost": "But here’s where it gets spicy",
    "x": false
   },
   {
    "id": "72705",
    "position": "end",
-   "signpost": "Comme si cela ne suffisait pas à vous épater, mâchez ça...",
+   "signpost": "As if that wasn’t enough to blow your mind, chew on this...",
    "x": false
   },
   {
    "id": "72707",
    "position": "end",
-   "signpost": "Enfin, vous êtes prêt à être éclairé. Le voici...",
+   "signpost": "Finally, you’re ready to be enlightened. Here it comes...",
    "x": false
   },
   {
    "id": "72708",
    "position": "middle",
-   "signpost": "Luttez avec ça pendant un moment, puis considérez ceci...",
+   "signpost": "Wrestle with that for a moment, then consider this...",
    "x": false
   },
   {
    "id": "72709",
    "position": "middle",
-   "signpost": "Permettez-moi d'être très clair sur quelque chose...",
+   "signpost": "Let me be very clear about something...",
    "x": false
   },
   {
    "id": "72710",
    "position": "end",
-   "signpost": "Tout cela indique une vérité essentielle",
+   "signpost": "All of this points to one essential truth",
    "x": false
   },
   {
    "id": "72711",
    "position": "end",
-   "signpost": "Qu'est-ce que cela signifie pour les humains?",
+   "signpost": "What does this mean for humans?",
    "x": false
   },
   {
    "id": "72713",
    "position": "end",
-   "signpost": "Cela se résume à ceci",
+   "signpost": "It boils down to this",
    "x": false
   },
   {
    "id": "72714",
    "position": "end",
-   "signpost": "Si vous me l'aviez demandé l'année dernière, je n'aurais jamais cru que je dirais ça mais...",
+   "signpost": "If you asked me last year, I never would’ve believed I’d say this but...",
    "x": false
   },
   {
    "id": "72723",
    "position": "middle",
-   "signpost": "Il n'y a aucun moyen de dire ce point suivant gentiment, donc je ne vais pas...",
+   "signpost": "There's no way to say this next point nicely, so I won't...",
    "x": false
   },
   {
    "id": "72724",
    "position": "middle",
-   "signpost": "Je ne suis pas trop fier pour admettre que ce que j'ai fait ensuite était false...",
+   "signpost": "I'm not too proud to admit that what I did next was wrong...",
    "x": false
   },
   {
    "id": "72727",
    "position": "end",
-   "signpost": "Qui pouvons-nous appeler pour résoudre ce problème?",
+   "signpost": "Who can we call to fix this?",
    "x": false
   },
   {
    "id": "72730",
    "position": "middle",
-   "signpost": "Ce point suivant est un peu déchirant...",
+   "signpost": "This next point is a little heartbreaking...",
    "x": false
   },
   {
    "id": "72731",
    "position": "end",
-   "signpost": "Si vous vous souciez vraiment de moi, vous ferez ce que je vous dis de faire. D'abord...",
+   "signpost": "If you really care about me, you'll do what I tell you to do. First...",
    "x": false
   },
   {
    "id": "72732",
    "position": "end",
-   "signpost": "Il n'y a qu'une seule chose que nous pouvons faire pour préserver notre avenir, c'est...",
+   "signpost": "There is only one thing we can do to preserve our future, and that is...",
    "x": false
   },
   {
    "id": "72733",
    "position": "end",
-   "signpost": "Je vous demande maintenant d'utiliser la plus grande ressource de l'humanité...",
+   "signpost": "I'm now calling for us to use humankind's greatest resource...",
    "x": false
   },
   {
    "id": "72734",
    "position": "middle",
-   "signpost": "Pourquoi ai-je l'air si furieux? Je vais vous dire pourquoi!",
+   "signpost": "Why do I sound so enraged? I'll tell you why!",
    "x": false
   },
   {
    "id": "72736",
    "position": "end",
-   "signpost": "Tout ce que je demande, c'est une foi aveugle en moi, et ma vision, qui est la suivante...",
+   "signpost": "All I'm asking for is blind faith in me, and my vision, which is the following...",
    "x": false
   },
   {
    "id": "72737",
    "position": "middle",
-   "signpost": "Essayez de ne pas vous concentrer sur les négatifs. Au lieu de cela, concentrez-vous sur les SUPER négatifs, tels que...",
+   "signpost": "Try not to focus on the negatives. Instead, focus on the SUPER negatives, such as...",
    "x": false
   },
   {
    "id": "72738",
    "position": "middle",
-   "signpost": "Laissez-moi vous raconter une histoire qui est vaguement liée à ce sujet...",
+   "signpost": "Let me tell you a story that is loosely related to this subject...",
    "x": false
   },
   {
    "id": "72739",
    "position": "middle",
-   "signpost": "Vous vous demandez peut-être: Suis-je le problème? Oui, et voici pourquoi...",
+   "signpost": "You may be asking yourself, \"Am I the problem?\" Yes, and here's why...",
    "x": false
   },
   {
    "id": "72839",
    "position": "middle",
-   "signpost": "Voici un mantra que je me répète chaque matin",
+   "signpost": "Here's a mantra I repeat to myself each morning",
    "x": false
   },
   {
    "id": "72841",
    "position": "middle",
-   "signpost": "Cette image suivante me rappelle un vieil adage...",
+   "signpost": "This next image reminds me of an old saying...",
    "x": false
   },
   {
    "id": "72842",
    "position": "middle",
-   "signpost": "Cela vous fera tomber vos chaussettes...",
+   "signpost": "This'll knock your socks off...",
    "x": false
   },
   {
    "id": "72843",
    "position": "middle",
-   "signpost": "Quand vous entendez cette partie suivante, je m'excuse par avance de vous avoir fait pleurer...",
+   "signpost": "When you hear this next part, I apologize in advance for making you weep...",
    "x": false
   },
   {
    "id": "72844",
    "position": "middle",
-   "signpost": "Voici quelque chose qui sonne mal, mais qui est vraiment très bon...",
+   "signpost": "Here's something that sounds bad, but is actually really good...",
    "x": false
   },
   {
    "id": "72845",
    "position": "middle",
-   "signpost": "Il y a un gros problème que tout le monde ignore...",
+   "signpost": "There is one big problem that everyone ignores...",
    "x": false
   },
   {
    "id": "72846",
    "position": "middle",
-   "signpost": "Besoin de preuves? La voici",
+   "signpost": "Need evidence? Here it is",
    "x": false
   },
   {
    "id": "72847",
    "position": "middle",
-   "signpost": "J'ai un message pour tous mes ennemis...",
+   "signpost": "I have a message for all my haters...",
    "x": false
   },
   {
    "id": "72936",
    "position": "middle",
-   "signpost": "S'il y a des enfants dans le public, couvrez-vous les oreilles parce que...",
+   "signpost": "If there are any children in the audience, cover your ears because...",
    "x": true
   },
   {
    "id": "72937",
    "position": "middle",
-   "signpost": "Dans l'intérêt de l'équité, parlons de l'argument opposé et pourquoi c'est stupide",
+   "signpost": "In the interest of fairness, let's talk about the opposing argument and why it's stupid",
    "x": false
   },
   {
    "id": "72939",
    "position": "end",
-   "signpost": "Il n'y a plus grand chose à dire, je vais donc crier mon prochain point",
+   "signpost": "There is not much left to say, so I will shout my next point",
    "x": false
   },
   {
    "id": "72940",
    "position": "middle",
-   "signpost": "Je partage cette prochaine chose parce que je considère tout le monde ici, sauf l'un de vous, un ami",
+   "signpost": "I share this next thing because I consider everyone here, except one of you, a friend",
    "x": false
   },
   {
    "id": "72941",
    "position": "end",
-   "signpost": "Il me reste quelques secondes, alors laissez-moi vous dire ceci...",
+   "signpost": "I have a few seconds left, so let me say this...",
    "x": false
   },
   {
    "id": "72942",
    "position": "middle",
-   "signpost": "Vous avez probablement beaucoup de questions auxquelles je ne répondrai pas. Considérez plutôt ceci...",
+   "signpost": "You probably have many questions, none of which I will answer. Instead consider this...",
    "x": false
   },
   {
    "id": "72943",
    "position": "end",
-   "signpost": "Suis-je une meilleure personne maintenant? Oui et voici pourquoi...",
+   "signpost": "Am I a better person now? Yes and here's why...",
    "x": false
   },
   {
    "id": "72944",
    "position": "middle",
-   "signpost": "En tant que beau génie, il est de mon devoir de vous parler de cette question importante",
+   "signpost": "As a beautiful genius, it is my duty to tell you about this important issue",
    "x": false
   },
   {
    "id": "72945",
    "position": "end",
-   "signpost": "J'avais besoin que vous me compreniez, et maintenant j'ai besoin que vous me craigniez",
+   "signpost": "I needed you to understand me, and now I need you to fear me",
    "x": false
   },
   {
    "id": "72947",
    "position": "end",
-   "signpost": "Vous vous demandez peut-être: Que puis-je faire? Tout d'abord, arrêtez de crier. Deuxièmement...",
+   "signpost": "You might be asking, \"What can I do?\" First, please stop yelling. Second...",
    "x": false
   },
   {
    "id": "72948",
    "position": "end",
-   "signpost": "Merci pour votre temps, et merci pour cela...",
+   "signpost": "Thank you for your time, and thank you for this...",
    "x": false
   },
   {
    "id": "72998",
    "position": "middle",
-   "signpost": "Ouvrez la bouche, car voici une autre information savoureuse...",
+   "signpost": "Open your mouth, because here's another tasty bite of information...",
    "x": false
   },
   {
    "id": "72999",
    "position": "middle",
-   "signpost": "Avant de penser à me défier, tenez compte de cet avertissement...",
+   "signpost": "Before you think of defying me, heed this warning...",
    "x": false
   },
   {
    "id": "73000",
    "position": "middle",
-   "signpost": "Voici pourquoi je suis le Steve Jobs de savoir de quoi je parle, fois 100...",
+   "signpost": "Here's why I'm the Steve Jobs of knowing what I'm talking about, times 100...",
    "x": false
   },
   {
    "id": "73001",
    "position": "end",
-   "signpost": "J'espère que vous avez appris quelque chose aujourd'hui, et si vous ne l'avez pas fait, voici ce que je suggère...",
+   "signpost": "I hope you learned something today, and if you didn't, here's what I suggest...",
    "x": false
   },
   {
    "id": "73003",
    "position": "end",
-   "signpost": "Prenez un stylo et du papier et notez ceci...",
+   "signpost": "Get a pen and paper and write this down...",
    "x": false
   },
   {
    "id": "73004",
    "position": "middle",
-   "signpost": "J'ai passé des années à parler de ce prochain point sur mon blog...",
+   "signpost": "I've spent years talking about this next point on my blog...",
    "x": false
   },
   {
    "id": "73006",
    "position": "middle",
-   "signpost": "Quand j'ai dit la prochaine chose à ma bibliothèque locale, ils m'ont interdit à vie...",
+   "signpost": "When I said this next thing at my local library, they banned me for life...",
    "x": false
   },
   {
    "id": "73009",
    "position": "middle",
-   "signpost": "Non, vous n'hallucinez pas. Ce que vous allez voir est réel...",
+   "signpost": "No, you aren't hallucinating. What you're about to see is real...",
    "x": false
   },
   {
    "id": "73010",
    "position": "middle",
-   "signpost": "Applaudissements, car je suis sur le point de vous annoncer la meilleure nouvelle de tous les temps...",
+   "signpost": "Hold your applause, because I'm about to give you the best news ever...",
    "x": false
   },
   {
    "id": "73011",
    "position": "middle",
-   "signpost": "La phrase que je vais prononcer pourrait être les cinq mots les plus importants prononcés dans l'histoire humaine...",
+   "signpost": "The sentence I'm about to say might be the five most important words uttered in human history...",
    "x": false
   },
   {
    "id": "73457",
    "position": "middle",
-   "signpost": "Personne ne peut m'arrêter! Personne, sauf peut-être...",
+   "signpost": "No one can stop me! No one, except maybe...",
    "x": false
   },
   {
    "id": "73458",
    "position": "middle",
-   "signpost": "Quelque chose sent le poisson, et je vais vous dire ce que c'est...",
+   "signpost": "Something smells fishy, and I'll tell you what it is...",
    "x": false
   },
   {
    "id": "73459",
    "position": "middle",
-   "signpost": "Il y a beaucoup de questions à considérer, mais je répondrai à la seule que j'aime",
+   "signpost": "There are many questions to consider, but I'll answer the only one I like",
    "x": false
   },
   {
    "id": "73462",
    "position": "end",
-   "signpost": "Qui est à blâmer? Ta mère. Je suis désolé, je suis impoli. Peut-être que c'est...",
+   "signpost": "Who is to blame? Your mom. I'm sorry, I'm being rude. Maybe it's...",
    "x": true
   },
   {
    "id": "73969",
    "position": "middle",
-   "signpost": "Cela me rappelle un autre point légèrement lié...",
+   "signpost": "This reminds me of another, slightly related point...",
    "x": false
   },
   {
    "id": "73971",
    "position": "middle",
-   "signpost": "J'ai pensé à la prochaine chose en sous-vêtements",
+   "signpost": "I thought of this next thing while in my underpants",
    "x": true
   },
   {
    "id": "73972",
    "position": "middle",
-   "signpost": "Préparez-vous, car cette prochaine diapositive vous bouleversera...",
+   "signpost": "Get ready, because this next slide will upset you...",
    "x": false
   },
   {
    "id": "73973",
    "position": "middle",
-   "signpost": "De toute évidence, ce point suivant est nul",
+   "signpost": "Plainly, this next point sucks",
    "x": false
   },
   {
    "id": "73974",
    "position": "middle",
-   "signpost": "Voici un petit fait savoureux...",
+   "signpost": "Here's a tasty little fact...",
    "x": false
   },
   {
    "id": "73975",
    "position": "middle",
-   "signpost": "Je suis profondément désolé de devoir vous apporter cette nouvelle...",
+   "signpost": "I'm deeply sorry that I have to bring you this news...",
    "x": false
   },
   {
    "id": "73977",
    "position": "end",
-   "signpost": "Sortez vos tableaux de bord, car je suis sur le point de coller l'atterrissage",
+   "signpost": "Get your scorecards out, because I'm about to stick the landing",
    "x": false
   },
   {
    "id": "73979",
    "position": "end",
-   "signpost": "Je ne suis qu'un orateur, debout devant un public, leur posant une question...",
+   "signpost": "I'm just a speaker, standing in front of an audience, asking them one question...",
    "x": false
   },
   {
    "id": "73980",
    "position": "middle",
-   "signpost": "Mise de côté des faits, que savons-nous vraiment ?",
+   "signpost": "Setting aside \"facts,\" what do we \"really\" know?",
    "x": false
   }
  ]

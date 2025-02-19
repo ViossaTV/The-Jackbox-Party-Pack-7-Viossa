@@ -1,18 +1,18 @@
-MAIN(Neighbor): Une campagne politique ? Comment puis-je aider ?
--PETITION-> Signer la pétition ?
--FORGE-> Forger des votes supplémentaires ?
--DONATION-> Faire une donation?
--BROCHURE-> Prendre cette brochure?
+MAIN(Neighbor): A political campaign? How can I help?
+-PETITION-> Sign the petition?
+-FORGE-> Forge extra votes?
+-DONATION-> Make a donation?
+-BROCHURE-> Take this brochure?
 
 
-PETITION(Neighbor): Bien sûr. Pourquoi pas ?
--SUCCESS-> Signez là en grand!
+PETITION(Neighbor): Sure. Why not?
+-SUCCESS-> Sign it big!
 
-FORGE(Neighbor): N'est-ce pas un crime?
--SUCCESS-> Nous allons aussi légaliser cela !
+FORGE(Neighbor): Isn't that a crime?
+-SUCCESS-> We're also going to legalize that!
 
-DONATION(Neighbor): Bien sûr. Voilà 200€.
--SUCCESS-> Combien devrais-je déclarer...?
+DONATION(Neighbor): Sure. Here's $200.
+-SUCCESS-> How much should I report...?
 
-BROCHURE(Neighbor): Bien sûr. Pourquoi pas?
--SUCCESS-> Je les ai faites moi-même!
+BROCHURE(Neighbor): Sure. Why not?
+-SUCCESS-> I made them myself!

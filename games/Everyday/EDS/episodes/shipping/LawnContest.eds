@@ -1,10 +1,10 @@
 DEF EPISODE "LawnContest"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Tout le beau monde"
-    SET DESCRIPTION "C'est l'heure du <font color='#AF0000'>concours de pelouse</font> annuel du quartier. Qui gagnera de l'estime pour son jardin étoilé, et qui sera jeté avec les blettes gâchées ?"
-    SET SUCCESS_MESSAGE "Malgré quelques blessures résiduelles de la vigne, la pelouse est superbe. Nous sommes heureux d'annoncer que vous avez gagné le concours et le respect de vos pairs humains !"
-    SET FAILURE_MESSAGE "Selon l'imagerie satellite, votre jardin envahi par la végétation a pris le contrôle de toute la propriété. Impressionnant pour les biologistes, mais pas pour les juges du concours."
+    SET NAME "The Whole Nice Yard"
+    SET DESCRIPTION "It's time for the annual neighborhood <font color='#AF0000'>Lawn-o-Rama</font>. Who will earn regard for their starred yard, and who will be discarded with the marred chard?"
+    SET SUCCESS_MESSAGE "Despite some residual vine bruises, the lawn looks great. We're pleased to announced you won the contest, and the grudging respect of your human peers!"
+    SET FAILURE_MESSAGE "According to satellite imagery, your overgrown yard has taken over the entire property. Impressive to biologists, but not to the contest judges."
 
 
     REM : ------------------------------
@@ -48,11 +48,11 @@ REM : Define this episode's story tasks below
 
 REM : Pick up loose sticks
 CLONE DEED "Tap5" "PickUpSticks"
-    SET INSTRUCTIONS "Ramassez des bâtons"
+    SET INSTRUCTIONS "Pick up sticks"
 END
 
 DEF TASK "PickUpSticks"
-    SET NAME "Ramasser les bâtons dans le jardin"
+    SET NAME "Pick up loose sticks in the yard"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -65,14 +65,14 @@ END
 
 REM : Soup up the lawn mower
 CLONE DEED "Gizmos3" "SoupUpMower"
-    SET INSTRUCTIONS "Démarrez la tondeuse"
+    SET INSTRUCTIONS "Soup up the lawnmower"
     SET NAME "John Doe Lawnmower"
 END
 
 DEF TASK "SoupUpMower"
-    SET NAME "Démarrer la tondeuse"
-    SET ASKER_NAME "Demandez de l'aide pour démarrer la tondeuse"
-    SET HELPER_NAME "Aidez <ASKER> à démarrer la tondeuse"
+    SET NAME "Soup up the lawnmower"
+    SET ASKER_NAME "Get help souping up the lawnmower"
+    SET HELPER_NAME "Help <ASKER> soup up the lawnmower"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "STORY"
@@ -86,24 +86,24 @@ END
 
 REM : Design complicated topiary installation
 CLONE DEED "Instructions5" "Topiary"
-    SET INSTRUCTIONS "Concevez une installation topiaire"
+    SET INSTRUCTIONS "Design topiary installation"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Dessinez le périmètre de la haie"
+    SET INSTRUCTIONS_0 "Draw hedge perimeter"
     SET MECHANIC_1 "SWIPE_UP"
-    SET INSTRUCTIONS_1 "Ajoutez un éléphant topiaire"
+    SET INSTRUCTIONS_1 "Add topiary elephant"
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Ajoutez-y quelques girafes"
+    SET INSTRUCTIONS_2 "Throw in some giraffes"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Terminez par une statue de vous-même recouverte de lierre"
+    SET INSTRUCTIONS_3 "Top it off with ivy-covered statue of yourself"
     SET MECHANIC_4 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_4 "C'est génial, entourez cette partie"
+    SET INSTRUCTIONS_4 "That's rad, circle that part"
 END
 
 DEF TASK "Topiary"
-    SET NAME "Concevoir une installation topiaire compliquée"
-    SET ASKER_NAME "Demandez de l'aide pour concevoir une installation topiaire compliquée"
-    SET HELPER_NAME "Aidez <ASKER> à concevoir une installation topiaire compliquée"
+    SET NAME "Design complicated topiary installation"
+    SET ASKER_NAME "Get help designing topiary installation"
+    SET HELPER_NAME "Help <ASKER> design topiary installation"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -117,7 +117,7 @@ END
 
 REM : Mow the lawn
 CLONE TASK "MowLawn" "ContestMowLawn"
-    SET NAME "Tondre la pelouse pour le concours"
+    SET NAME "Mow the lawn for the contest"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -127,11 +127,11 @@ REM : ----------------------------------------------
 
 REM : Prune the hedges
 CLONE DEED "TapAll" "PruneHedges"
-    SET INSTRUCTIONS "Taillez comme un fou!"
+    SET INSTRUCTIONS "Prune like crazy!"
 END
 
 DEF TASK "PruneHedges"
-    SET NAME "Tailler la haie"
+    SET NAME "Prune the hedges"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -144,12 +144,12 @@ END
 
 REM : Convince neighbor your topiaries aren't obscene
 CLONE DEED "DialogID" "LawnConvinceNeighbor"
-    SET INSTRUCTIONS "Persuadez votre voisin"
+    SET INSTRUCTIONS "Convince neighbor"
     SET CONTENT_ID "LAWN_TOPIARY"
 END
 
 DEF TASK "LawnConvinceNeighbor"
-    SET NAME "Persuader le voisin que vos topiaires ne sont pas obscènes"
+    SET NAME "Convince neighbor your topiaries aren't obscene"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -162,7 +162,7 @@ END
 
 REM : Carefully remove bugs from the yard
 CLONE TASK "CatchBugs" "ContestCatchBugs"
-    SET NAME "Enlever soigneusement les insectes du jardin"
+    SET NAME "Carefully remove bugs from the yard"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -170,16 +170,16 @@ END
 
 REM : Drive into town for more mulch
 CLONE DEED "TravelID" "BuyMulch"
-    SET INSTRUCTIONS "On a besoin de paillis !"
+    SET INSTRUCTIONS "We need mulch!"
     SET CONTENT_ID "PORCH_DEBRIS"
 END
 
 DEF TASK "BuyMulch"
-    SET NAME "Aller en ville pour acheter plus de paillis"
+    SET NAME "Drive into town for more mulch"
     SET CAPTAIN "ADULTS"
     SET PARTICIPANT "YOUNG"
-    SET ASKER_NAME "Accompagnez un parent en ville pour acheter du paillis"
-    SET HELPER_NAME "Conduisez avec <ASKER> an ville pour acheter du paillis"
+    SET ASKER_NAME "Go with parent into town for more mulch"
+    SET HELPER_NAME "Drive with <ASKER> into town for more mulch"
     SET CATEGORY "STORY"
     SET THEME "STORY"
     SET DURATION <8H>
@@ -193,20 +193,20 @@ REM : -----------------------------------------------
 
 REM : Plant exotic flowers
 CLONE DEED "Instructions4" "PlantExoticFlowers"
-    SET INSTRUCTIONS "Plantez des plantes exotiques"
+    SET INSTRUCTIONS "Plant exotic flowers"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Creusez des trous"
+    SET INSTRUCTIONS_0 "Dig holes"
     SET MECHANIC_1 "SWIPE_DOWN"
-    SET INSTRUCTIONS_1 "Plantez des fleurs exotiques"
+    SET INSTRUCTIONS_1 "Plant exotic flowers"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Recouvrez de terre"
+    SET INSTRUCTIONS_2 "Cover over with dirt"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Demandez-vous s'il s'agit d'une espèce envahissante"
+    SET INSTRUCTIONS_3 "Contemplate whether this is an invasive species"
 END
 
 DEF TASK "PlantExoticFlowers"
-    SET NAME "Planter des fleurs exotiques"
+    SET NAME "Plant exotic flowers"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -219,11 +219,11 @@ END
 
 REM : Build a bench...for kissing
 CLONE DEED "ScrubShort" "BuildKissingBench1"
-    SET INSTRUCTIONS "Poncez les planches de bois"
+    SET INSTRUCTIONS "Sand wooden planks"
 END
 
 CLONE DEED "Tap3" "BuildKissingBench2"
-    SET INSTRUCTIONS "Enfoncez les clous"
+    SET INSTRUCTIONS "Hammer in the nails"
 END
 
 CLONE DEED "Rotate1080" "BuildKissingBench3"
@@ -231,11 +231,11 @@ CLONE DEED "Rotate1080" "BuildKissingBench3"
 END
 
 CLONE DEED "Nothing2" "BuildKissingBench4"
-    SET INSTRUCTIONS "Parfait pour se bécoter!"
+    SET INSTRUCTIONS "Perfect for smoochin'!"
 END
 
 DEF TASK "BuildKissingBench"
-    SET NAME "Construire un banc... pour s'embrasser"
+    SET NAME "Build a bench... for kissing"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -254,15 +254,15 @@ END
 
 REM : Water the lawn
 CLONE DEED "Hold2" "WaterLawn1"
-    SET INSTRUCTIONS "Arrosez la pelouse"
+    SET INSTRUCTIONS "Water the lawn"
 END
 
 CLONE DEED "Nothing3" "WaterLawn2"
-    SET INSTRUCTIONS "Réalisez que vous avez dépassé les bornes"
+    SET INSTRUCTIONS "Realize you went overboard"
 END
 
 CLONE DEED "Tap3" "WaterLawn3"
-    SET INSTRUCTIONS "Mettez un panneau qui dit que c'est un étang"
+    SET INSTRUCTIONS "Put up sign declaring it a pond"
 END
 
 DEF TASK "WaterLawn"

@@ -1,18 +1,18 @@
-MAIN(Voisin): Avez-vous vu le match hier ?
--WOW-> Oui, quel tir !
--WOW-> Oui, quel arrrêt !
+MAIN(Neighbor): Did you see the big game last night?
+-WOW-> Wow, what a throw!
+-WOW-> Wow, what a catch!
 
-WOW(Neighbor): Que pensez-vous des attaquants français pendant la deuxième mi-temps ?
--AMAZING-> Ils ont vraiment bien joué
--AMAZING-> La retournée accrobatique du premier attaquant était magnifique.
+WOW(Neighbor): How about that mega slammer in the second half?
+-AMAZING-> That's how you slam a slammer, mega style!
+-AMAZING-> Out of all the mega slams I've mega seen, that was the most mega.
 
-AMAZING(Neighbor): Vous pouvez l'admettre, ça c'est ce qu'on appelle du sport.
--CHAMPION-> Oui, notre équipe est la meilleure équipe !
--BONSAI-> Je préfère les tulipes par rapport au foot.
+AMAZING(Neighbor): You gotta admit, that was some sports.
+-CHAMPION-> Woo! Our team is the best team!
+-BONSAI-> I actually prefer growing bonsai plants to watching sports.
 
-BONSAI(Neighbor): Heu ? Je pensais que vous étiez fan de sport.
--FAILURE-> Non, j'aime les tulipes. Je pense que nous ne pouvons pas devenir ami.
--CHAMPION->Je voulais dire, j'adore le sport ! C'est trop bien le sport !
+BONSAI(Neighbor): Huh? I thought you were a sports fan like me.
+-FAILURE->Nope, I'm into bonsai. Guess we can't be friends.
+-CHAMPION->I mean, I love sports! Hurray sports!
 
-CHAMPION(Neighbor): Je pense que ça peut être l'année où on peut être champion !
--SUCCESS-> Je suis d'accord !
+CHAMPION(Neighbor): I think this could be our year to win the championship.
+-SUCCESS->Whatever sport we've been talking about, I agree!

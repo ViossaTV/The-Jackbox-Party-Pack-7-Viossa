@@ -1,18 +1,18 @@
-MAIN(Uncle Gorbo): Ma très chère famille, que devrions-nous faire maintenant ?
--LATE-> Il se fait tard...
--RACE-> On fait la course jusqu'à chez toi !
--HIDE-> On joue à cache-cache où on ne cherche jamais ?
--OTHER-> Nous devrions voir d'autres familles.
+MAIN(Uncle Gorbo): My dearest family, what should we do now?
+-LATE-> It's getting pretty late...
+-RACE-> Race you to your house!
+-HIDE-> Play hide & never seek?
+-OTHER-> We should see other families.
 
 
-LATE(Uncle Gorbo): Très bien ! Je vais rester pour la nuit !
--SUCCESS-> J'imagine que je vais dormir dans la baignoire
+LATE(Uncle Gorbo): Fine! I'll stay the night!
+-SUCCESS-> I guess I'll sleep in the tub
 
-RACE(Uncle Gorbo): Laissez-moi m'étirer un peu !
--SUCCESS-> Ça pourrait marcher...
+RACE(Uncle Gorbo): Let me stretch a bit!
+-SUCCESS-> This might work...
 
-HIDE(Uncle Gorbo): Laissez-moi m'étirer un peu !
--SUCCESS-> Ça pourrait marcher...
+HIDE(Uncle Gorbo): Let me stretch a bit!
+-SUCCESS-> This might work...
 
-OTHER(Uncle Gorbo): Mais j'ai déjà trouvé la meilleure !
--SUCCESS-> Maudissez cette adorable nuisance !
+OTHER(Uncle Gorbo): But I've already found the best one!
+-SUCCESS-> Curse this lovable nuisance!

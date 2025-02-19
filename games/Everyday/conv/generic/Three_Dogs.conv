@@ -1,28 +1,28 @@
-MAIN(3 chiens dans un costume): A l'aide, il y a eu un accident et j'ai besoin d'un rein au plus vite !
--YES-> Bien sûr ! Tout pour mon... Attendez, vous êtes 3 chiens dans un costume ?
--NO-> Jamais ! Je ne vais jamais donné mon rein à... Attendez, vous êtes 3 chiens dans un costume ?
--COAT-> Bien sûr, je... Attendez, vous êtes 3 chiens dans un costume ?
--WHY-> ...Qu'allez vous faire avec ce rein ?
+MAIN(3 Dogs in a Trench Coat): Help! There's been an accident and I need your kidney right away!
+-YES-> Of course! Anything for my... Wait, aren't you just three dogs in a trench coat?
+-NO-> Never! I will never give my kidneys to... Wait, aren't you just three dogs in a  trench coat?
+-COAT-> Sure, I... Wait, aren't you just three dogs in a trench coat?
+-WHY-> ...what are you going to do with it?
 
 
-YES(3 chiens dans un costume): Woof woof, cher voisin, vous avez passé mon test. Woof woof, bonne journée.
+YES(3 Dogs in a Trench Coat): Woof woof, dear neighbor. You passed my test. Be well, woof!
 -SUCCESS-> Looks like I'm the alpha!
 
 
-NO(3 chiens dans un costume): Arf ! Malédiction ! Encore raté ! Awroo !
--SUCCESS-> Le rein passe un jour de plus là où il doit être, dans mon ventre. 
+NO(3 Dogs in a Trench Coat): Arf! Curses! Foiled again! Awroo!
+-SUCCESS-> The kidney spends another day where it belongs, inside my tummy. 
 
 
-COAT(3 chiens dans un costume): On dirait que j'aboie dans le mauvais arbre !
--SUCCESS-> Les auteurs s'excusent pour la pression mentale que cette conversation a pu causer. 
+COAT(3 Dogs in a Trench Coat): Looks like I'M barking up the wrong tree!
+-SUCCESS-> The writers apologize for any mental strain this conversation may have caused. 
 
 
-WHY(3 chiens dans un costume): Pas... à... manger...
--FAILURE-> Oh, dans ce cas, bien sûr, tout pour mon voisin humain !
--TRYAGAIN-> Expliquez moi votre question une autre fois...
+WHY(3 Dogs in a Trench Coat): Not...to eat...
+-FAILURE-> Oh, in that case, of course! Anything for my human neighbor.
+-TRYAGAIN-> Explain it to me one more time...
 
 
-TRYAGAIN(3 chiens dans un costume): J'ai juste besoin de votre rein, ne vous inquiétez pas mon ami
--YES-> Bien sûr ! Tout pour mon... Attendez, vous êtes 3 chiens dans un costume ?
--NO-> Jamais ! Je ne vais jamais donné mon rein à... Attendez, vous êtes 3 chiens dans un costume ?
--COAT-> Bien sûr, je... Attendez, vous êtes 3 chiens dans un costume ?
+TRYAGAIN(3 Dogs in a Trench Coat): I just need your kidney! Don't be weird about it, friend!
+-YES-> Of course! Anything for my... Wait, aren't you just three dogs in a  trench coat?
+-NO-> Never! I will never give my kidneys to... Wait, aren't you just three dogs in a  trench coat?
+-COAT-> Sure, I... Wait, aren't you just three dogs in a trench coat?

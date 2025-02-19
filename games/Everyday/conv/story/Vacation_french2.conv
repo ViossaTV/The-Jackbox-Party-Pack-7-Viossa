@@ -1,9 +1,9 @@
-MAIN(French Language Tape): Always keep your tuba in a clear case when traveling.
--RESPONSE1-> I keep all my stuff in a clear suitcase.
--RESPONSE1-> I play, in fact, the trumpet.
--RESPONSE1-> Quelque chose à propos... d'un tuba ??
+MAIN(French Language Tape): Gardez toujours votre tuba dans une valise transparente lorsque vous voyagez.
+-RESPONSE1-> Je garde toutes mes affaires dans une valise transparente.
+-RESPONSE1-> Je joue, en fait, de la trompette.
+-RESPONSE1-> Something about...a tuba??
 
-RESPONSE1(French Language Tape): It is unlikely that iguanas need a watch.
--SUCCESS-> The wrist of an iguana is too small for a watch.
--SUCCESS-> I don't need those informations.
--FAILURE-> L'espagnol est-il plus facile ? On devrait peut-être aller en Espagne...
+RESPONSE1(French Language Tape): Il est peu probable que les iguanes aient besoin d'une montre.
+-SUCCESS-> Le poignet d'un iguane est trop petit pour une montre.
+-SUCCESS-> Je n'ai pas besoin de ces informations.
+-FAILURE-> Is Spanish easier? Maybe we should go to Spain...

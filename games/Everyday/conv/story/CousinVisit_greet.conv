@@ -1,13 +1,13 @@
-MAIN(Cousin Rompo): Où est-ce que je peux mettre mon sac?
--TOSS-> Balances-le où tu veux
--DOOR-> Laisse-le à la porte
--NEVER-> Ne l'enlève jamais. 
+MAIN(Cousin Rompo): Where should I put my bag?
+-TOSS-> Toss it anywhere
+-DOOR-> Leave it on doorstep
+-NEVER-> Never take it off. 
 
-TOSS(Cousin Rompo): *Le jette dans une vitrine*
--SUCCESS-> J'ai dit n'importe où, pour être honnête
+TOSS(Cousin Rompo): *Chucks it into glass case*
+-SUCCESS-> I did say anywhere
 
-DOOR(Cousin Rompo): Je ferais mieux de le nourrir d'abord alors.
--SUCCESS-> Nourrir quoi maintenant?
+DOOR(Cousin Rompo): I'd better feed it first then.
+-SUCCESS-> Feed what now?
 
-NEVER(Cousin Rompo): Ok, j'imagine que je dois éviter les flammes alors. 
--SUCCESS-> ...il y a quoi à l'intérieur?
+NEVER(Cousin Rompo): Okay, I have to avoid flames then.
+-SUCCESS-> ...what's in there?

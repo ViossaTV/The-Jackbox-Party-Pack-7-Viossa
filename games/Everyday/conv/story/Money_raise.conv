@@ -1,13 +1,13 @@
-MAIN(Boss): Pourquoi mériteriez-vous une augmentation ?
--WORK-> Je travaille dur
--TATTLE-> Je dénoncerai les autres
--WANT-> Parce qu'en j'en veux une
+MAIN(Boss): Why do you deserve a raise?
+-WORK-> I work hard
+-TATTLE-> I'll tattle on others
+-WANT-> Cuz I want it
 
-WORK(Boss): Ce n'est pas comme ça que le système marche, désolé.
--SUCCESS-> Le monde des mortels est bizarre
+WORK(Boss): That's not how the system works, sorry.
+-SUCCESS-> The mortal world is weird
 
 TATTLE(Boss): Deal!
--SUCCESS-> Haha... les autres sont stupides.
+-SUCCESS-> Haha...stupid others.
 
-WANT(Boss: J'aime votre culot. C'est un deal!
--SUCCESS-> Alors c'est donc ça d'être confiant en soi
+WANT(Boss: I like your gumption. It's a deal!
+-SUCCESS-> So this is what being confident feels like

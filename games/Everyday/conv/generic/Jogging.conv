@@ -1,26 +1,26 @@
-MAIN(Président du club de jogging): Bonjour ! Je suis le président du club de jogging, est ce que vous voulez vous joindre à nous ce matin ? 
--POLITENO-> Non merci, j'ai déjà fait du jogging une fois dans l'année.
--RUDENO-> Marchez ou courez mais ne faites pas les deux !
--JOGYES-> J'ai toujours eu envie de sortir ce vieux jogging...
--NOTHANKS-> Je ne suis pas supposé parler aux personnes que je ne connais pas...
+MAIN(Jogging Club President): Howdy! Just your friendly neighborhood jogging club president, wondering if you want to join us this morning? 
+-POLITENO-> No thank you, I jogged once last year so I'm all set.
+-RUDENO-> Either run or walk, anything else is an abomination!
+-JOGYES-> I've been wanting to break out that tracksuit...
+-NOTHANKS-> I'm not supposed to talk to sweaty strangers...
 
 
-POLITENO(Président du club de jogging): C'est génial, une fois dans l'année c'est déjà beaucoup !
--SUCCESS-> Mentir est la manière la plus simple de faire du jogging
+POLITENO(Jogging Club President): A respectable amount of jogging indeed! Keep it up! 
+-SUCCESS-> Lying is the safest form of exercise.
 
 
-RUDENO(Président du club de jogging): Vous allez venir faire du jogging avec nous ! On va vérifier tous les jours jusqu'à ce que vous nous rejoigniez.
--SUCCESS-> Il est temps de déménager.
+RUDENO(Jogging Club President): You'll come around! We'll just check in every week until you do.
+-SUCCESS-> Time to move.
 
 
-JOGYES(Président du club de jogging): MAINTENANT on parle ! Allons-y !
--SUCCESS-> Vous êtes un rêve en satin
+JOGYES(Jogging Club President): NOW we're talking! Let's hit the sidewalk!
+-SUCCESS-> You're a dream in sateen!
 
-NOTHANKS(Président du club de jogging): Je ne suis pas un étranger en sueur, je suis un ami en sueur ! 
--SUCCESS-> Revenez quand vous serez séché. Bonne journée !
--TRYAGAIN-> Oh! Dans ce cas
+NOTHANKS(Jogging Club President): I'm not a sweaty stranger, I'm a sweaty friend! 
+-SUCCESS-> Come back when you're a dry acquaintance. Good day!
+-TRYAGAIN-> Oh! In that case...
 
-TRYAGAIN(Président du club de jogging): Donc vous allez venir faire du jogging ?
--POLITENO-> Non merci, j'ai déjà fait du jogging une fois dans l'année.
--RUDENO-> Marchez ou courez mais ne faites pas les deux !
--JOGYES-> J'ai toujours eu envie de sortir ce vieux jogging...
+TRYAGAIN(Jogging Club President): So you'll come jogging?
+-POLITENO-> No thank you, I jogged once last year so I'm all set.
+-RUDENO-> Either run or walk, anything else is an abomination!
+-JOGYES-> I've been wanting to break out that tracksuit...

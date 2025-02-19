@@ -1,17 +1,17 @@
-MAIN(Billy): À qui dois-je remettre cet autographe ?
--FAN-> Votre tout premier fan!!!
--FRIEND-> Votre meilleur ami!
--SPOUSE-> Votre future épouse!
--VOICE-> Désolé, mais vous semblez si différent en personne.
+MAIN(Billy): Who should I make this autograph out to?
+-FAN-> Your number one fan!!!
+-FRIEND-> Your best friend!
+-SPOUSE-> Your future spouse!
+-VOICE-> Sorry, but you sound so different in person.
 
-FAN(Billy): Je classe mes fans par ordre numérique
--SUCCESS-> Je le sais!
+FAN(Billy): I do rank my fans numerically
+-SUCCESS-> I know!
 
-FRIEND(Billy): Vous êtes mon chien Chester ?
--SUCCESS-> Si vous le voulez!
+FRIEND(Billy): You're my dog Chester?
+-SUCCESS-> If you want!
 
-SPOUSE(Billy): Je suis déjà marié.
--SUCCESS-> Pour l'instant....
+SPOUSE(Billy): I'm already married.
+-SUCCESS-> For now....
 
-VOICE(Billy): J'ai dravaillé zur la brononciation !
--SUCCESS-> Voilà le Billy que je connais!
+VOICE(Billy): I've deen tracticing ny tronunciation!
+-SUCCESS-> There's the Billy I know!

@@ -1,9 +1,9 @@
-MAIN(French Language Tape): The cow is unable to get a driver's license.
--RESPONSE1-> Because it does not have a valid identification.
--RESPONSE1-> And so the cow has to pay full price for the audio books.
--RESPONSE1-> Pardon, quoi ? Je ne parle pas anglais.
+MAIN(French Language Tape): La vache est incapable d'obtenir un permis de conduire.
+-RESPONSE1-> Parce qu'elle n'a pas d'identification valide.
+-RESPONSE1-> Et donc la vache doit payer le prix fort pour les livres audio.
+-RESPONSE1-> Sorry, what? I don't speak French.
 
-RESPONSE1(French Language Tape): Too much peanut butter is bad for your skin tone.
--SUCCESS-> The things we love will cause our death.
--SUCCESS-> I doubt the accuracy of your research.
--FAILURE-> Je ne peux pas simplement parler français avec un accent anglais ?
+RESPONSE1(French Language Tape): Trop de beurre d'arachide est mauvais pour votre teint.
+-SUCCESS-> Les choses que nous aimons causeront notre mort.
+-SUCCESS-> Je doute de l'exactitude de vos recherches.
+-FAILURE-> Can't I just speak English in a French Accent?

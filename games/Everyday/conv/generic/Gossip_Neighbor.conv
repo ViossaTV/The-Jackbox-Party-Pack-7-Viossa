@@ -1,18 +1,18 @@
-MAIN(Voisin commère): Qu'on fait Han et Sean cette nuit dans leur propriété privée ?!
--FIGHT-> Ils se sont battus
--SMOOCH-> Ils se sont aimés
--ASTRO-> Ils ont faire de l'astrophysique
--NONE-> Je ne m'occupe pas de ça
+MAIN(Gossipy Neighbor): What were Han & Sean doing on Sean's lawn at dawn?!
+-FIGHT-> Fighting
+-SMOOCH-> Smooching
+-ASTRO-> Astrophysics
+-NONE-> None of my business
 
 
-FIGHT(Voisin commère): Continuez !
--SUCCESS-> Avec des mots !!!
+FIGHT(Gossipy Neighbor): Go on!
+-SUCCESS-> With their WORDS!!!
 
-SMOOCH(Voisin commère): Continuez !
--SUCCESS-> Avec la lanque !!!
+SMOOCH(Gossipy Neighbor): Go on!
+-SUCCESS-> With tongues!!!
 
-ASTRO(Voisin commère): De l'astrophysique romantique ?
--SUCCESS-> Est ce qu'il y a un autre type d'astrophysique ?
+ASTRO(Gossipy Neighbor): Romantic astrophysics?
+-SUCCESS-> Is there any other kind?
 
-NONE(Voisin commère): Vous n'êtes pas fun.
--FAILURE-> D'accord monsieur le voyeur.
+NONE(Gossipy Neighbor): You're no fun.
+-FAILURE-> Oh right... humans spy on each other for fun.

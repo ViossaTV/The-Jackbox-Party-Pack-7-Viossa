@@ -1,19 +1,19 @@
 REM : Fire OLD
 
 CLONE DEED "ScrubLong" "FireStep1"
-    SET INSTRUCTIONS "Il y a un feu !!! Evacuez la fumée !!!"
+    SET INSTRUCTIONS "Fire!!! Waft away the smoke!!!"
 END
 
 CLONE DEED "Tap2" "FireStep2"
-    SET INSTRUCTIONS "Armez l'exctincteur !!!"
+    SET INSTRUCTIONS "Arm the fire extinguisher!!!"
 END
 
 CLONE DEED "Hold3" "FireStep3"
-    SET INSTRUCTIONS "Eteignez le feu !!!"
+    SET INSTRUCTIONS "Put out the fire!!!"
 END
 
 DEF TASK "FireEmergencyOLD"
-    SET NAME "Feu !!!"
+    SET NAME "Fire!!!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     SET OBSERVER_BEHAVIOR_ID "EMERGENCY"
@@ -31,36 +31,36 @@ END
 REM : Power OLD
 
 CLONE DEED "Tap3" "PowerStep1"
-    SET INSTRUCTIONS "On n'a plus d'électrcité !!! Trouvez la lampe-torche"
+    SET INSTRUCTIONS "The power is out!!! Find the flashlight"
 END
 
 CLONE DEED "SwipeBase" "PowerStep2"
-    SET INSTRUCTIONS "Allumez l'électricité"
+    SET INSTRUCTIONS "Flip breakers"
     SET DIRECTION "RIGHT,LEFT"
 END
 
 CLONE DEED "SwipeBase" "PowerStep3"
-    SET INSTRUCTIONS "C'est lequel ?"
+    SET INSTRUCTIONS "Which one is it?"
     SET DIRECTION "RIGHT,LEFT"
 END
 
 CLONE DEED "SwipeBase" "PowerStep4"
-    SET INSTRUCTIONS "Pas celui-là"
+    SET INSTRUCTIONS "Not that one"
     SET DIRECTION "RIGHT,LEFT"
 END
 
 CLONE DEED "SwipeBase" "PowerStep5"
-    SET INSTRUCTIONS "Non. Celui-là ?"
+    SET INSTRUCTIONS "Nope. This one?"
     SET DIRECTION "RIGHT,LEFT"
 END
 
 CLONE DEED "SwipeBase" "PowerStep6"
-    SET INSTRUCTIONS "Ca devrait être celui là"
+    SET INSTRUCTIONS "Gotta be this one"
     SET DIRECTION "RIGHT,LEFT"
 END
 
 DEF TASK "PowerEmergencyOLD"
-    SET NAME "Plus d'électricité !!!"
+    SET NAME "Power is out!!!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     SET OBSERVER_BEHAVIOR_ID "EMERGENCY"
@@ -83,11 +83,11 @@ END
 
 REM : Tap Task Test
 CLONE DEED "TapEmergency" "TapEmergencyDeed"
-    SET INSTRUCTIONS "URGENCE !! Rappez dans le tas !"
+    SET INSTRUCTIONS "EMERGENCY!! Tap a bunch!"
 END
 
 DEF TASK "TapEmergency"
-    SET NAME " URGENCE !! Tapper dans le tas !"
+    SET NAME " EMERGENCY!! Tap a bunch!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -102,11 +102,11 @@ REM : ---------------------------------------------------
 
 REM : Kitchen fire!
 CLONE DEED "TapEmergency" "FireEmergency"
-    SET INSTRUCTIONS "LA CUISINE EST EN FEU ! ETEIGNEZ LES FLAMMES !"
+    SET INSTRUCTIONS "THE KITCHEN'S ON FIRE! DOUSE THE FLAMES!"
 END
 
 DEF TASK "FireEmergency"
-    SET NAME "LA CUISINE EST EN FEU ! ETEIGNER LES FLAMMES !"
+    SET NAME "THE KITCHEN'S ON FIRE! DOUSE THE FLAMES!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -117,11 +117,11 @@ END
 
 REM : Basement flood
 CLONE DEED "TapEmergency" "FloodEmergency"
-    SET INSTRUCTIONS "LE SOUS-SOL EST INONDÉ ! ÉCOPEZ L'EAU !"
+    SET INSTRUCTIONS "THE BASEMENT'S FLOODING! BAIL THE WATER!"
 END
 
 DEF TASK "FloodEmergency"
-    SET NAME "LE SOUS-SOL EST INONDÉ ! ÉCOPER L'EAU !"
+    SET NAME "THE BASEMENT'S FLOODING! BAIL THE WATER!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -132,11 +132,11 @@ END
 
 REM : Power's out
 CLONE DEED "TapEmergency" "PowerEmergency"
-    SET INSTRUCTIONS "LE COURANT EST COUPÉ ! DÉMARREZ LE GÉNÉRATEUR !"
+    SET INSTRUCTIONS "THE POWER'S OUT! CRANK THE GENERATOR!"
 END
 
 DEF TASK "PowerEmergency"
-    SET NAME "LE COURANT EST COUPÉ ! DÉMARRER LE GÉNÉRATEUR !"
+    SET NAME "THE POWER'S OUT! CRANK THE GENERATOR!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -147,11 +147,11 @@ END
 
 REM : Locked out
 CLONE DEED "TapEmergency" "LockOutEmergency"
-    SET INSTRUCTIONS "VOUS ÊTES ENFERMÉ DEHORS ! ENFONCEZ LA PORTE !"
+    SET INSTRUCTIONS "YOU'RE LOCKED OUT! BREAK DOWN THE DOOR!"
 END
 
 DEF TASK "LockOutEmergency"
-    SET NAME "VOUS ÊTES ENFERMÉ DEHORS ! ENFONCER LA PORTE !"
+    SET NAME "YOU'RE LOCKED OUT! BREAK DOWN THE DOOR!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     
@@ -162,11 +162,11 @@ END
 
 REM : Termites
 CLONE DEED "TapEmergency" "TermiteEmergency"
-    SET INSTRUCTIONS "INFESTATION DE TERMITES ! FUMIGEZ-LES !"
+    SET INSTRUCTIONS "TERMITE INFESTATION! FUMIGATE THEM!"
 END
 
 DEF TASK "TermiteEmergency"
-    SET NAME "INFESTATION DE TERMITES ! IL FAUT LES FUMIGER !"
+    SET NAME "TERMITE INFESTATION! FUMIGATE THEM!"
     SET CATEGORY "EMERGENCY"
     SET CAN_LEAVE FALSE
     

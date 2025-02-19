@@ -1,10 +1,10 @@
 DEF EPISODE "ExchangeStudent"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Un échange équitable"
-    SET DESCRIPTION "Un <font color='#AF0000'>étudiant d'échange</font> de Pearly Gates, Iowa reste avec la famille pour le week-end. Essayez de faire en sorte qu'il se sente comme chez lui, n'est-ce pas ?"
-    SET SUCCESS_MESSAGE "Notre réseau de mamans nous a informés que l'étudiant s'est senti bien accueilli dans votre maison. Félicitations pour avoir appris comment les gens devraient s'entendre, une leçon que la plupart d'entre nous ont apprise au jardin d'enfants. Oh, et gardez cette recette de thé glacé !"
-    SET FAILURE_MESSAGE "Pas de chance, hôtes. Nous avons entendu dire que votre étudiant ne s'est pas du tout senti enveloppé dans l'amour de votre unité familiale ! Puisse chaque gorgée de thé glacé rafraîchissant être marquée par le souvenir de votre échec."
+    SET NAME "A Fair Exchange"
+    SET DESCRIPTION "An <font color='#AF0000'>exchange student</font> from Pearly Gates, Iowa is staying with the family for the weekend. Try to make them feel at home, won't you?"
+    SET SUCCESS_MESSAGE "Our network of moms has informed us that the student felt welcomed in your abode. Kudos on learning how people should get along, a lesson most of us learned in kindergarten. Oh, and hang on to that iced tea recipe!"
+    SET FAILURE_MESSAGE "Tough luck, hosts. We're hearing reports that your student didn't feel enveloped into the love of your family unit at all! May every sip of refreshing iced tea sting with the memory of your failure. "
 
 
     REM : ------------------------------
@@ -48,12 +48,12 @@ REM : Define this episode's story tasks below
 
 REM : Drive to pick up student at the train station
 CLONE DEED "TravelID" "PickUpEx"
-    SET INSTRUCTIONS "Récupérez l'étudiant à la gare"
+    SET INSTRUCTIONS "Pick up student at the train station"
     SET CONTENT_ID "ASTERTRAIN"
 END
 
 DEF TASK "PickUpEx"
-    SET NAME "Récupérer l'étudiant à la gare"
+    SET NAME "Pick up exchange student at the train station"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -66,22 +66,22 @@ END
 
 REM : Make the house presentable for exchange student
 CLONE DEED "Instructions4" "MakeHousePresentable"
-    SET INSTRUCTIONS "Faites en sorte que la maison soit présentable"
+    SET INSTRUCTIONS "Make the house presentable"
 
     SET MECHANIC_0 "TAP_3"
-    SET INSTRUCTIONS_0 "Époussetez le canapé"
+    SET INSTRUCTIONS_0 "Dust the couch"
     SET MECHANIC_1 "SWIPE_LEFT"
-    SET INSTRUCTIONS_1 "Nettoyez les plinthes"
+    SET INSTRUCTIONS_1 "Wash the baseboards"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Polissez les poignées de porte"
+    SET INSTRUCTIONS_2 "Polish the doorknobs"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Admirez votre travail"
+    SET INSTRUCTIONS_3 "Admire your work"
 END
 
 DEF TASK "MakeHousePresentable"
-    SET NAME "Faire en sorte que la maison soit présentable pour l'étudiant d'échange"
-    SET ASKER_NAME "Demandez de l'aide pour rendre la maison présentable pour l'étudiant d'échange"
-    SET HELPER_NAME "Aidez <ASKER> à rendre la maison présentable pour l'étudiant d'échange"
+    SET NAME "Make house presentable for exchange student"
+    SET ASKER_NAME "Get help making house presentable for exchange student"
+    SET HELPER_NAME "Help <ASKER> make house presentable for exchange student"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -94,19 +94,19 @@ END
 
 REM : Welcome student to the family
 CLONE DEED "Tap1" "WelcomeStudent1"
-    SET INSTRUCTIONS "Offrez à l'étudiant votre cadeau de bienvenue"
+    SET INSTRUCTIONS "Give student your welcome gift"
 END
 
 CLONE DEED "Tap1" "WelcomeStudent2"
-    SET INSTRUCTIONS "Acceptez leur note de remerciement immédiate"
+    SET INSTRUCTIONS "Accept their immediate thank-you note"
 END
 
 CLONE DEED "Hold2" "WelcomeStudent3"
-    SET INSTRUCTIONS "Avalez votre contrariété"
+    SET INSTRUCTIONS "Swallow annoyance"
 END
 
 DEF TASK "WelcomeStudent"
-    SET NAME "Accueillir l'étudiant dans la famille"
+    SET NAME "Welcome student to the family"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -124,23 +124,23 @@ END
 REM : ----------------------------------------
 
 CLONE DEED "Hold3" "IntellectualConvo1"
-    SET INSTRUCTIONS "Réfléchissez à une question profonde"
+    SET INSTRUCTIONS "Consider a deep question"
 END
 
 CLONE DEED "QuickTap3" "IntellectualConvo2"
-    SET INSTRUCTIONS "Gloussez de façon intellectuelle"
+    SET INSTRUCTIONS "Chuckle intellectually"
 END
 
 CLONE DEED "SwipeLeft" "IntellectualConvo3"
-    SET INSTRUCTIONS "Acceptez leur offre de thé glacé frais"
+    SET INSTRUCTIONS "Accept their offer of fresh iced tea"
 END
 
 CLONE DEED "Nothing2" "IntellectualConvo4"
-    SET INSTRUCTIONS "Rafraîchissant !"
+    SET INSTRUCTIONS "Refreshing!"
 END
 
 DEF TASK "IntellectualConvo"
-    SET NAME "Profiter d'une conversation intellectuelle avec l'étudiant"
+    SET NAME "Enjoy intellectual conversation with student"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -163,9 +163,9 @@ CLONE DEED "TextBase" "TextBigWord"
 END
 
 DEF TASK "TextBigWord"
-    SET NAME "Chercher le mot savant que l'étudiant d'échange a utilisé"
-    SET ASKER_NAME "Demandez de l'aide pour chercher le mot savant que l'étudiant d'échange a utilisé"
-    SET HELPER_NAME "Aidez <ASKER> à chercher le mot savant que l'étudiant d'échange a utilisé"
+    SET NAME "Look up big word exchange student used"
+    SET ASKER_NAME "Get help looking up the big word student used"
+    SET HELPER_NAME "Help <ASKER> look up the big word student used"
     SET CAPTAIN "YOUNG"
     SET PARTICIPANT "ADULTS"
     SET CATEGORY "STORY"
@@ -179,23 +179,23 @@ END
 
 REM : Re-rearreange the book case student rearranged
 CLONE DEED "Nothing2" "RearrangeBookcase1"
-    SET INSTRUCTIONS "Dites à l'élève que c'est super"
+    SET INSTRUCTIONS "Tell student it looks great"
 END
 
 CLONE DEED "Hold3" "RearrangeBookcase2"
-    SET INSTRUCTIONS "Assurez-vous qu'il soit parti"
+    SET INSTRUCTIONS "Make sure they're gone"
 END
 
 CLONE DEED "QuickTap3" "RearrangeBookcase3"
-    SET INSTRUCTIONS "Qui trie par couleur ??"
+    SET INSTRUCTIONS "Who sorts by color??"
 END
 
 CLONE DEED "Hold2" "RearrangeBookcase4"
-    SET INSTRUCTIONS "Remettez tout à leur place"
+    SET INSTRUCTIONS "Put everything back in its place"
 END
 
 DEF TASK "RearrangeBookcase"
-    SET NAME "Re-réarranger la bibliothèque que l'étudiant d'échange a réarrangée"
+    SET NAME "Re-rearrange the bookcase that exchange student rearranged"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -214,12 +214,12 @@ END
 
 REM : Call student's parents
 CLONE DEED "DialogID" "CallExParents"
-    SET INSTRUCTIONS "Appelez 'Exchange student's parents'"
+    SET INSTRUCTIONS "Call exchange student's parents"
     SET CONTENT_ID "EXCHANGESTUDENT_PARENT"
 END
 
 DEF TASK "CallExParents"
-    SET NAME "Appeler les parents de l'étudiant d'échange"
+    SET NAME "Call exchange student's parents"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -232,23 +232,23 @@ END
 
 REM : Work on college applications with student
 CLONE DEED "QuickTap5" "CollegeApEx1"
-    SET INSTRUCTIONS "Rédigez votre lettre de motivation"
+    SET INSTRUCTIONS "Write your essay"
 END
 
 CLONE DEED "SwipeRight" "CollegeApEx2"
-    SET INSTRUCTIONS "Jetez un coup d'œil à la moyenne générale de l'élève"
+    SET INSTRUCTIONS "Sneak a peek at student's GPA"
 END
 
 CLONE DEED "Hold2" "CollegeApEx3"
-    SET INSTRUCTIONS "Comment ça, on a besoin d'activités extrascolaires ?!"
+    SET INSTRUCTIONS "What do you mean we need extracurriculars?!"
 END
 
 CLONE DEED "Nothing3" "CollegeApEx4"
-    SET INSTRUCTIONS "Désespérez."
+    SET INSTRUCTIONS "Despair."
 END
 
 DEF TASK "CollegeApEx"
-    SET NAME "Travailler sur les demandes d'inscription à l'université avec l'étudiant en échange"
+    SET NAME "Work on college applications with exchange student"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -269,22 +269,22 @@ REM : -------------------------------------
 
 REM : Sink into melancholy
 CLONE DEED "Instructions4" "Melancholy"
-    SET INSTRUCTIONS "Sombrez dans la mélancolie"
+    SET INSTRUCTIONS "Sink into melancholy"
 
     SET MECHANIC_0 "SWIPE_LEFT"
-    SET INSTRUCTIONS_0 "Fermez les rideaux"
+    SET INSTRUCTIONS_0 "Close the curtains"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Prenez en compte votre avenir inconnu"
+    SET INSTRUCTIONS_1 "Consider the unknown future"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "Jetez-vous sur le canapé"
+    SET INSTRUCTIONS_2 "Fling self onto couch"
     SET MECHANIC_3 "SWIPE_RIGHT"
-    SET INSTRUCTIONS_3 "Jetez-vous sur l'autre canapé"
+    SET INSTRUCTIONS_3 "Fling self onto other couch"
 END
 
 DEF TASK "Melancholy"
-    SET NAME "Sombrer dans la mélancolie"
-    SET ASKER_NAME "Aidez votre adolescent à sombrer dans la mélancolie"
-    SET HELPER_NAME "Demandez l'aide de <ASKER> pour sombrer dans la mélancolie"
+    SET NAME "Sink into melancholy"
+    SET ASKER_NAME "Help teen sink into melancholy"
+    SET HELPER_NAME "Get <ASKER>'s help sinking into melancholy"
     SET CAPTAIN "TEENS"
     SET PARTICIPANT "CHILDREN"
     SET CATEGORY "STORY"
@@ -298,27 +298,27 @@ END
 
 REM : Glower on the stoop
 CLONE DEED "Tap1" "Glower1"
-    SET INSTRUCTIONS "Jetez un regard noir sur l'étudiant étranger"
+    SET INSTRUCTIONS "Glower at exchange student"
 END
 
 CLONE DEED "QuickTap3" "Glower2"
-    SET INSTRUCTIONS "Jetez un regard noir plus fort"
+    SET INSTRUCTIONS "Glower harder"
 END
 
 CLONE DEED "SwipeLeft" "Glower3"
-    SET INSTRUCTIONS "Acceptez l'offre de l'étudiant pour un thé glacé"
+    SET INSTRUCTIONS "Accept student's offer of an iced tea"
 END
 
 CLONE DEED "Hold2" "Glower4"
-    SET INSTRUCTIONS "Rafraîchissant !"
+    SET INSTRUCTIONS "Refreshing!"
 END
 
 CLONE DEED "QuickTap3" "Glower5"
-    SET INSTRUCTIONS "On retourne aux regards noirs"
+    SET INSTRUCTIONS "Back to glowering"
 END
 
 DEF TASK "Glower"
-    SET NAME "Jeter un regard noir sur le seuil de l'étudiant étranger"
+    SET NAME "Glower on the stoop at exchange student"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -339,24 +339,24 @@ END
 
 REM : Show student dead lizard
 CLONE DEED "SwipeBase" "DeadLizard1"
-    SET INSTRUCTIONS "Cherchez dans les hautes herbes"
+    SET INSTRUCTIONS "Search the tall grass"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Tap2" "DeadLizard2"
-    SET INSTRUCTIONS "Tapez-le avec un bâton !"
+    SET INSTRUCTIONS "Poke it with a stick!"
 END
 
 CLONE DEED "Hold2" "DeadLizard3"
-    SET INSTRUCTIONS "Regardez l'étudiant en échange qui le ramène à la vie"
+    SET INSTRUCTIONS "Watch as exchange student brings it back to life"
 END
 
 CLONE DEED "Tap2" "DeadLizard4"
-    SET INSTRUCTIONS "Tapez sur le lézard vivant et ennuyeux avec un bâton"
+    SET INSTRUCTIONS "Poke boring alive lizard with stick"
 END
 
 DEF TASK "DeadLizard"
-    SET NAME "Montrer à l'étudiant d'échange le lézard mort que vous avez trouvé"
+    SET NAME "Show exchange student dead lizard you found"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -375,23 +375,23 @@ END
 
 REM : Play pretend with student
 CLONE DEED "SwipeRight" "PlayPretendEx1"
-    SET INSTRUCTIONS "Sortez les belles poupées"
+    SET INSTRUCTIONS "Break out the good dolls"
 END
 
 CLONE DEED "Hold3" "PlayPretendEx2"
-    SET INSTRUCTIONS "Rêvez d'un monde magique"
+    SET INSTRUCTIONS "Dream of a magical world"
 END
 
 CLONE DEED "Nothing3" "PlayPretendEx3"
-    SET INSTRUCTIONS "Émerveillez-vous devant le pouvoir de l'imagination de l'étudiant"
+    SET INSTRUCTIONS "Gaze in wonder at the power of student's imagination"
 END
 
 CLONE DEED "Hold3" "PlayPretendEx4"
-    SET INSTRUCTIONS "Ressentez de l'infériorité pour la première fois"
+    SET INSTRUCTIONS "Feel inferiority for the first time"
 END
 
 DEF TASK "PlayPretendEx"
-    SET NAME "Jouer à faire semblant avec un étudiant étranger"
+    SET NAME "Play pretend with exchange student"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -410,24 +410,24 @@ END
 
 REM : Pour out jug of iced tea on student as revenge
 CLONE DEED "Instructions5" "TeaRevenge"
-    SET INSTRUCTIONS "Versez une cruche de thé glacé sur l'étudiant pour vous venger"
+    SET INSTRUCTIONS "Pour jug of iced tea on student as revenge"
 
     SET MECHANIC_0 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_0 "Remuez votre thé"
+    SET INSTRUCTIONS_0 "Stir up your tea"
     SET MECHANIC_1 "TAP_HOLD"
-    SET INSTRUCTIONS_1 "Laissez-le refroidir..."
+    SET INSTRUCTIONS_1 "Let it chill..."
     SET MECHANIC_2 "TAP_3"
-    SET INSTRUCTIONS_2 "Faufilez-vous dans le dos de votre ennemi..."
+    SET INSTRUCTIONS_2 "Sneak up on your enemy..."
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Soyez prêt..."
+    SET INSTRUCTIONS_3 "Get ready..."
     SET MECHANIC_4 "TAP"
-    SET INSTRUCTIONS_4 "Rafraîchissant!"
+    SET INSTRUCTIONS_4 "Refreshing!"
 END
 
 DEF TASK "TeaRevenge"
-    SET NAME "Verser une cruche de thé glacé sur l'étudiant pour se venger"
-    SET ASKER_NAME "Demandez de l'aide pour verser une cruche de thé glacé sur l'étudiant pour se venger"
-    SET HELPER_NAME "Aidez <ASKER> à verser une cruche de thé glacé sur l'étudiant pour se venger"
+    SET NAME "Pour jug of iced tea on student as revenge"
+    SET ASKER_NAME "Get help pouring jug of iced tea on student as revenge"
+    SET HELPER_NAME "Help <ASKER> pour jug of iced tea on student as revenge"
     SET CAPTAIN "CHILDREN"
     SET PARTICIPANT "MATURE"
     SET CATEGORY "STORY"

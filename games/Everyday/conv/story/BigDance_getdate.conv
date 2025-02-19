@@ -1,17 +1,17 @@
-MAIN(Cute Student): Non... Je n'ai pas de compagnon pour le bal. Pourquoi demandes-tu?
--WANT-> Veux-tu y venir avec moi ?
--GROUP-> Rejoins notre groupe !
--MOCK-> Allons-y et moquons nous des gens.
--SURVEY-> Je fais juste un sondage. Je n'y vais même pas.
+MAIN(Cute Student): No... I don't have a date for the dance. Why do you ask?
+-WANT-> Want to go with me?
+-GROUP-> Join our group!
+-MOCK-> Let's go and mock people.
+-SURVEY-> Just taking a survey. I'm not even going.
 
-SURVEY(Cute Student): Oh. ok.
--SUCCESS-> Maintenant je dois appeler toute ma classe pour que mon histoire soit crédible.
+SURVEY(Cute Student): Oh. okay.
+-SUCCESS-> Now I have to call my whole class to make my story believable.
 
-WANT(Cute Student): Ouais! Ça a l'air amusant!
--SUCCESS-> Attends. C'est bien d'être franc avec les gens ?
+WANT(Cute Student): Yeah! Sounds fun!
+-SUCCESS-> Wait. Is being upfront with people good?
 
-GROUP(Cute Student): Ouai... oh. ok.
--SUCCESS-> J'ai peut-être visé trop bas
+GROUP(Cute Student): Yea... oh. okay.
+-SUCCESS-> Might have aimed too low
 
-MOCK(Cute Student): J'aime détester les choses!
--SUCCESS-> On va en faire la nuit la plus détestable de tous les temps !
+MOCK(Cute Student): I love hating things!
+-SUCCESS-> We'll make it the most hateable night ever!

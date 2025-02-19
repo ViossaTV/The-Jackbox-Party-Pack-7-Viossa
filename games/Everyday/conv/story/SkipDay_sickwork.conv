@@ -1,17 +1,17 @@
-MAIN(Boss): Pourquoi ne pouvez-vous pas venir travailler aujourd'hui ?
--SICK-> Je me sens un peu malade
--HEAD-> Ma tête me fait un mal de chien
--PARTY-> J'ai un peu trop fait le fête
--CAUGHT-> Je suis pris dans un piège à ours
+MAIN(Boss): Why can't you come to work today?
+-SICK-> I feel a little sick
+-HEAD-> My head is killing me
+-PARTY-> I partied too hard
+-CAUGHT-> I'm caught in a bear trap
 
-SICK(Boss): Hmmm, trop vague pour moi pour faire des recherches.
--SUCCESS-> Parfait! Euh j'veux dire... tousse
+SICK(Boss): Hmmm, too vague for me to investigate
+-SUCCESS-> Perfect! I mean... cough
 
-HEAD(Boss): Hmmm, trop vague pour moi pour faire des recherches.
--SUCCESS-> Parfait! Euh j'veux dire... aïe
+HEAD(Boss): Hmm, too vague for me to investigate
+-SUCCESS-> Perfect! I mean... ouch
 
-PARTY(Boss): Alors cela compte comme un jour de vacances
--SUCCESS-> Je hais la société des mortels
+PARTY(Boss): Then this counts as a vacation day
+-SUCCESS-> I hate mortal society
 
-CAUGHT(Boss): Ok, mais il ne vous reste que 2 jours piège à ours.
--SUCCESS-> J'espère être libre demain... *commence à ronger*
+CAUGHT(Boss): Okay, but you only have 2 bear trap days left.
+-SUCCESS-> I'll hopefully be free tomorrow... *starts gnawing*

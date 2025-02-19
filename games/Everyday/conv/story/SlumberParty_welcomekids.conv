@@ -1,18 +1,18 @@
-MAIN(Kids): On fait quoi ce soir ?!!!
--NOTHING-> Rien. Allez au lit!
--SNACKS-> Concours de mangeurs de snacks
--HAIR-> Maquillages et coupes de cheveux amateurs
--MATCHES-> Qui a des allumettes!?
+MAIN(Kids): What are we doing tonight!?!!
+-NOTHING-> Nothing. Go to bed!
+-SNACKS-> Snack eating contest
+-HAIR-> Makeovers and amateur haircuts
+-MATCHES-> Whose got matches!?
 
 
-NOTHING(Kids): Cassons des trucs !
--SUCCESS-> ...on a peut-être besoin d'activités
+NOTHING(Kids): Let's break stuff!
+-SUCCESS-> ...we may need activities
 
 SNACKS(Kids): YAAYYY!!!!
--SUCCESS-> Direction la cuisine!
+-SUCCESS-> To the kitchen!
 
 HAIR(Kids): YAAYYY!!!
--SUCCESS-> Posons des serviettes!
+-SUCCESS-> Let's put down tarps!
 
-MATCHES(Kids): Tout le monde en a!!!
--SUCCESS-> Direction la cachette secrète des feux d'artifice!
+MATCHES(Kids): We all do!!!
+-SUCCESS-> To the secret firework stash!

@@ -3,14 +3,14 @@ REM : MAKE BREAKFAST----------------------------------
 REM : Gather Breakfast
 
 CLONE DEED "GatherMeal" "BreakfastIngredients"
-    SET INSTRUCTIONS "Récupérez les ingrédients pour le petit-déjeuner"
+    SET INSTRUCTIONS "Gather ingredients for breakfast"
     SET CATEGORY "BREAKFAST"
 
 END
 
 DEF TASK "GatherBreakfast"
     SET DURATION <3H>
-    SET NAME "Récupérer les ingrédients pour le petit-déjeuner"
+    SET NAME "Gather ingredients for breakfast"
     SET THEME "SEARCH_FIND"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
 
@@ -27,12 +27,12 @@ END
 REM : Cook Breakfast
 
 CLONE DEED "Rotate1080" "Stir"
-    SET INSTRUCTIONS "Remuez"
+    SET INSTRUCTIONS "Stir"
 END
 
 DEF TASK "CookBreakfast"
     SET DURATION <3H>
-    SET NAME "Cuisiner le petit-déjeuner"
+    SET NAME "Cook breakfast"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
 
@@ -47,13 +47,13 @@ END
 REM : Eat Breakfast
 
 CLONE DEED "Nothing5" "EatBreakfast"
-    SET INSTRUCTIONS "Prenez le petit-déjeuner avec tout le monde"
+    SET INSTRUCTIONS "Eat breakfast with everyone"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "EatBreakfast"
     SET DURATION <5H>
-    SET NAME "Prener le petit-déjeuner avec tout le monde"
+    SET NAME "Eat breakfast with everyone"
     SET THEME "FAMILY_TASK"
     SET CATEGORY "ULTRA"
 
@@ -69,14 +69,14 @@ REM : MAKE LUNCH----------------------------------
 REM : Gather Lunch
 
 CLONE DEED "GatherMeal" "LunchIngredients"
-    SET INSTRUCTIONS "Rassemblez les ingrédients pour le déjeuner"
+    SET INSTRUCTIONS "Gather ingredients for Lunch"
     SET CATEGORY "LUNCH"
 
 END
 
 DEF TASK "GatherLunch"
     SET DURATION <3H>
-    SET NAME "Rassembler les ingrédients pour le déjeuner"
+    SET NAME "Gather ingredients for Lunch"
     SET THEME "SEARCH_FIND"
 
     STEP "1" "LunchIngredients"
@@ -92,7 +92,7 @@ REM : Cook Lunch
 
 DEF TASK "CookLunch"
     SET DURATION <3H>
-    SET NAME "Préparer le déjeuner"
+    SET NAME "Make Lunch"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
 
@@ -107,13 +107,13 @@ END
 REM : Eat Lunch
 
 CLONE DEED "Nothing5" "EatLunch"
-    SET INSTRUCTIONS "Mangez le déjeuner avec tout le monde"
+    SET INSTRUCTIONS "Eat Lunch with everyone"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "EatLunch"
     SET DURATION <5H>
-    SET NAME "Manger le déjeuner avec tout le monde"
+    SET NAME "Eat Lunch with everyone"
     SET THEME "FAMILY_TASK"
     SET CATEGORY "ULTRA"
 
@@ -128,14 +128,14 @@ REM : MAKE DINNER----------------------------------
 REM : Gather Dinner
 
 CLONE DEED "GatherMeal" "DinnerIngredients"
-    SET INSTRUCTIONS "Rassemblez les ingrédients pour le dîner"
+    SET INSTRUCTIONS "Gather ingredients for Dinner"
     SET CATEGORY "DINNER"
 
 END
 
 DEF TASK "GatherDinner"
     SET DURATION <3H>
-    SET NAME "Rassembler les ingrédients pour le dîner"
+    SET NAME "Gather ingredients for Dinner"
     SET THEME "SEARCH_FIND"
 
     STEP "1" "DinnerIngredients"
@@ -151,7 +151,7 @@ REM : Cook Dinner
 
 DEF TASK "CookDinner"
     SET DURATION <3H>
-    SET NAME "Préparer le dîner"
+    SET NAME "Make Dinner"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
 
@@ -166,13 +166,13 @@ END
 REM : Eat Dinner
 
 CLONE DEED "Nothing5" "EatDinner"
-    SET INSTRUCTIONS "Dînez avec tout le monde"
+    SET INSTRUCTIONS "Eat Dinner with everyone"
     SET PARTICIPATION "ALL"
 END
 
 DEF TASK "EatDinner"
     SET DURATION <5H>
-    SET NAME "Dîner avec tout le monde"
+    SET NAME "Eat Dinner with everyone"
     SET THEME "FAMILY_TASK"
     SET CATEGORY "ULTRA"
 
@@ -190,13 +190,13 @@ REM : -------------------------------------------------
 REM : Order Breakfast
 
 CLONE DEED "PhoneFood" "OrderBreakfast"
-    SET INSTRUCTIONS "Commandez un petit-déjeuner"
+    SET INSTRUCTIONS "Order some breakfast"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "OrderBreakfast"
     SET DURATION <3H>
-    SET NAME "La cuisine ne s'est pas bien passée. Commander le petit-déjeuner"
+    SET NAME "Cooking didn't go well. Order breakfast"
     SET THEME "TALKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -214,13 +214,13 @@ REM : -------------------------------------------------
 REM : Order Lunch
 
 CLONE DEED "PhoneFood" "OrderLunch"
-    SET INSTRUCTIONS "Commandez un déjeuner"
+    SET INSTRUCTIONS "Order some Lunch"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "OrderLunch"
     SET DURATION <3H>
-    SET NAME "La cuisine ne s'est pas bien passée. Commander le déjeuner"
+    SET NAME "Cooking didn't go well. Order lunch"
     SET THEME "TALKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -237,13 +237,13 @@ REM : -------------------------------------------------
 REM : Order Dinner
 
 CLONE DEED "PhoneFood" "OrderDinner"
-    SET INSTRUCTIONS "Commandez un dîner"
+    SET INSTRUCTIONS "Order some Dinner"
     SET CATEGORY "FOOD"
 END
 
 DEF TASK "OrderDinner"
     SET DURATION <3H>
-    SET NAME "La cuisine ne s'est pas bien passée. Commander le diner"
+    SET NAME "Cooking didn't go well. Order dinner"
     SET THEME "TALKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -262,20 +262,20 @@ REM : -------------------------------------------------
 REM : Frost the cake
 
 CLONE DEED "SwipeBase" "FrostCake1"
-    SET INSTRUCTIONS "Appliquez le glaçage"
+    SET INSTRUCTIONS "Apply frosting"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 CLONE DEED "Hold3" "FrostCake2"
-    SET INSTRUCTIONS "Soufflez sur une partie du glaçage"
+    SET INSTRUCTIONS "Squeeze on some icing"
 END
 
 CLONE DEED "Nothing5" "FrostCake3"
-    SET INSTRUCTIONS "Faites un pas en arrière et admirez votre travail"
+    SET INSTRUCTIONS "Step back and admire your work"
 END
 
 DEF TASK "FrostCake"
-    SET NAME "Glacer le gateau"
+    SET NAME "Frost the cake"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
     SET THEME "COOKING"
@@ -293,13 +293,13 @@ END
 REM : Gather Flower Shop
 
 CLONE DEED "GatherBase" "GatherFlowers"
-    SET INSTRUCTIONS "Rassemblez les éléments d'une composition florale"
+    SET INSTRUCTIONS "Gather items for a flower arrangement"
     SET CATEGORY "FLOWERS"
 END
 
 DEF TASK "GatherFlowers"
     SET DURATION <3H>
-    SET NAME "Faire un beau bouquet"
+    SET NAME "Make a nice flower arrangement"
     SET THEME "SEARCH_FIND"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
 
@@ -313,13 +313,13 @@ END
 REM : Gather Video Store
 
 CLONE DEED "GatherBase" "GatherVideo"
-    SET INSTRUCTIONS "Choisissez les bons films"
+    SET INSTRUCTIONS "Pick out the right movies"
     SET CATEGORY "MOVIENIGHT"
 END
 
 DEF TASK "GatherVideo"
     SET DURATION <3H>
-    SET NAME "Choisir des films au vidéoclub"
+    SET NAME "Pick out movies from the video store"
     SET THEME "SEARCH_FIND"
     SET CAPTAINLESS_BEHAVIOR "KICK_ALL"
 

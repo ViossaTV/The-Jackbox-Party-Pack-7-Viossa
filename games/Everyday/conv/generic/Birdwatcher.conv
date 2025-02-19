@@ -1,24 +1,24 @@
-﻿MAIN(Observateur d'oiseau): Je viens de voir un rouge-gorge rubis dans votre jardin ! Puis-je prendre une photo ?
--YES-> Bien entendu !
--MONEY-> Oui... ça fera 30 €.
--NO-> On est où ici, au musée d'oiseau ? Partez d'ici !
+﻿MAIN(Birdwatcher): I just sighted a rare Ruby-Throated Starling in your backyard! Could I maybe get a picture?
+-YES-> Of course!
+-MONEY-> Sure... for twenty bucks.
+-NO-> What is this, the Bird Museum? Get out of here!
 
-YES(Observateur d'oiseau): Hmmm, il est en haut de ce sapin. Est ce que je devrais grimper sur cet arbre ?
--LADDER-> Je vais vous chercher une échelle.
--YES2-> Allez-y.
--NO2-> Ca devient bizarre... Partez d'ici !
+YES(Birdwatcher): Hmmm, it's at the top of that wobbly birch tree. Should I climb up for a better shot?
+-LADDER-> I'll get the ladder.
+-YES2-> Go for it.
+-NO2-> This is getting weird. Hit the road!
 
-MONEY(Observateur d'oiseau): Voici votre argent, profiteur d'oiseau !
--SUCCESS-> Ils ont eu la photo, mais je n'ai pas pris de plaisir lors de cette rencontre.
+MONEY(Birdwatcher): Here's your money, you Bird Profiteer.
+-SUCCESS-> They got the picture, but I failed to get swept up in the joy of birdwatching.
 
-NO(Observateur d'oiseau): La société Aubon saura ce qu'il vient de se passer !
--FAILURE-> Je déteste les oiseaux... Et les humains regardant les oiseaux !
+NO(Birdwatcher): The Audubon Society will hear about this!
+-FAILURE-> My hatred of birds and their allies strikes again!
 
-LADDER(Observateur d'oiseau): C'est parfait, regardez ce plumage ! Merci !
--SUCCESS-> Une victoire pour les oiseaux, c'est une victoire pour le monde !
+LADDER(Birdwatcher): This is perfect! Look at that plumage! Thanks!
+-SUCCESS-> A victory for birds is a victory for everyone! I win!
 
-YES2(Observateur d'oiseau): Bon... J'ai eu la photo avant que la branche casse. Je suis sûr que mon bras s'en sortira.
--SUCCESS-> J'avais oublié comment observer les oiseaux pouvait être violent...
+YES2(Birdwatcher): Well, I got the picture before the branch broke. I'm sure my arm will heal eventually.
+-SUCCESS-> I forgot how violent birdwatching can be.
 
-NO2(Observateur d'oiseau): Vous n'être rien qu'un tueur d'oiseau !
--FAILURE-> Mes manières sont la VRAIE espèce en voie de disparition.
+NO2(Birdwatcher): You're nothing but a BIRD TEASE!
+-FAILURE-> My manners are the REAL endangered species...

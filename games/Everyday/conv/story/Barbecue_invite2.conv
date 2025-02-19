@@ -1,17 +1,17 @@
-MAIN(Butcher): Vous avez de la place pour une personne de plus.
--COURSE-> Bien sûr !
--FAMILY-> C'est que pour la famille.
--CHAIRS-> On n'a plus de chaises.
--NOT-> Oui, mais pas vous.
+MAIN(Butcher): I don't suppose you got room for one more.
+-COURSE-> Of course!
+-FAMILY-> It's just family.
+-CHAIRS-> We're out of chairs.
+-NOT-> Yes, but not you.
 
-COURSE(Butcher): Super ! J'emmène les enfants !
--SUCCESS-> Le jardin va être rempli
+COURSE(Butcher): Great! I'll bring the kids.
+-SUCCESS-> Backyard's getting full...
 
-FAMILY(Butcher): Je comprends.
--SUCCESS-> C'était une blague, vous pouvez venir !
+FAMILY(Butcher): I understand.
+-SUCCESS-> Never mind, you can come!
 
-CHAIRS(Butcher): Je peux m'asseoir sur le sol.
--SUCCESS-> Okay, vous pouvez venir !
+CHAIRS(Butcher): I can sit on the ground.
+-SUCCESS-> Okay, you can come!
 
-NOT(Butcher): Est-ce que je peux seulement envoyer mes enfants ?
--SUCCESS->...d'accord.
+NOT(Butcher): Can I just send my kids?
+-SUCCESS->...fine.

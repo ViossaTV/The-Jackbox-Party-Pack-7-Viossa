@@ -1,10 +1,10 @@
 DEF EPISODE "Barbecue"
     SET CHOOSABLE TRUE
     SET EMERGENCY "EmergencyTasks"
-    SET NAME "Soleil et Barbecue"
-    SET DESCRIPTION "L'été est là et il est temps de se détendre autour d'un <font color='#AF0000'>barbecue</font> avec les voisins. La famille parviendra-t-elle à organiser une barbecue normale sans inviter tout le voisinage, ou bien sera-t-elle passée à la moulinette ?"
-    SET SUCCESS_MESSAGE "Nos informateurs rapportent que votre petite fiesta en plein air était juteuse, savoureuse, et assaisonnée ! Quand il s'agit de griller, votre famille a vraiment le coup de main. Je vous attends dans mon bureau pour organiser ce que vous savez faire le mieux."
-    SET FAILURE_MESSAGE "Nos grilleurs professionnels ont entendu dire que votre barbecue était surpeuplé, collant, et qu'il n'offrait même pas une option décente de kebab ! Amusez-vous bien à réhabiliter votre pelouse en ruine, avec un peu de salmonelle."
+    SET NAME "Cookout and About"
+    SET DESCRIPTION "Summer's here and it's time for a relaxing <font color='#AF0000'>barbecue</font> with the neighbors. Can the family get through a normal human grillout without inviting the whole neighborhood, or will they be raked over the coals?"
+    SET SUCCESS_MESSAGE "Our whisper networks report your little outdoor shindig was juicy, flavorful, and neither over nor under-seasoned! When it comes to grilling, this family is well-done. You get the idea."
+    SET FAILURE_MESSAGE "Our secret grillers heard that your BBQ was overcrowded, sticky, and didn't even provide a decent kebab option! Have fun rehabbing your ruined lawn, with a side of salmonella."
 
 
     REM : ------------------------------
@@ -45,12 +45,12 @@ REM : ------------------------------
 
 REM : Define this episode's story tasks below
 CLONE DEED "DialogID" "InviteNeighborsBBQ"
-    SET INSTRUCTIONS "Invitez les voisins au barbecue"
+    SET INSTRUCTIONS "Invite the neighbors to the BBQ"
     SET CONTENT_ID "BARBECUE_INVITE1"
 END
 
 DEF TASK "InviteNeighborsBBQ"
-    SET NAME "Inviter les voisins au barbecue"
+    SET NAME "Invite neighbors to the BBQ"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -63,27 +63,27 @@ END
 
 REM : Mix up the family secret marinade
 CLONE DEED "Hold3" "SecretMarinade1"
-    SET INSTRUCTIONS "Versez les ingrédients liquides"
+    SET INSTRUCTIONS "Pour in the liquid ingredients"
 END
 
 CLONE DEED "QuickTap5" "SecretMarinade2"
-    SET INSTRUCTIONS "Et l'épice secrète"
+    SET INSTRUCTIONS "Add the secret spices"
 END
 
 CLONE DEED "Nothing3" "SecretMarinade3"
-    SET INSTRUCTIONS "Laissez la mariner"
+    SET INSTRUCTIONS "Let it marinate"
 END
 
 CLONE DEED "Nothing4" "SecretMarinade4"
-    SET INSTRUCTIONS "Continuez à mariner"
+    SET INSTRUCTIONS "Keep marinating"
 END
 
 CLONE DEED "Nothing5" "SecretMarinade5"
-    SET INSTRUCTIONS "Laissez-la reposer une semaine de plus pour être sûr."
+    SET INSTRUCTIONS "Let it sit for another week to be safe"
 END
 
 DEF TASK "SecretMarinade"
-    SET NAME "Mixer la marinade secrète des démons"
+    SET NAME "Mix up the family's secret marinade"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -104,17 +104,17 @@ END
 
 REM : Call your meet guy
 CLONE DEED "PhoneID" "MeatGuy1"
-    SET INSTRUCTIONS "Appelez votre boucher"
+    SET INSTRUCTIONS "Call up your meat guy"
     SET CONTENT_ID "THE_BACON_BA"
 END
 
 CLONE DEED "DialogCategory" "MeatGuy2"
-    SET INSTRUCTIONS "Parlez viande"
+    SET INSTRUCTIONS "Talk meat"
     SET CONTENT_ID "BARBECUE_INVITE2"
 END
 
 DEF TASK "MeatGuy"
-    SET NAME "Appeler votre boucher"
+    SET NAME "Call up your meat guy"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -129,12 +129,12 @@ END
 
 REM : Invite a date without permission
 CLONE DEED "DialogID" "TeenInviteSO"
-    SET INSTRUCTIONS "Invitez votre amoureux(se) au barbecue sans permission."
+    SET INSTRUCTIONS "Invite a date to the BBQ without permission"
     SET CONTENT_ID "BARBECUE_INVITE3"
 END
 
 DEF TASK "TeenInviteSO"
-    SET NAME "Inviter votre amoureux(se) au barbecue sans permission"
+    SET NAME "Invite a date to the BBQ without permission"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -149,22 +149,22 @@ REM : ------------------------------------------------------
 
 REM : Unfold the backyard table
 CLONE DEED "Instructions4" "UnfoldTable"
-    SET INSTRUCTIONS "Dépliez la table du jardin"
+    SET INSTRUCTIONS "Unfold backyard table"
 
     SET MECHANIC_0 "SWIPE_DOWN"
-    SET INSTRUCTIONS_0 "Tirez ici"
+    SET INSTRUCTIONS_0 "Pull down here"
     SET MECHANIC_1 "TAP"
-    SET INSTRUCTIONS_1 "Mettez les épingles ici"
+    SET INSTRUCTIONS_1 "Put the pins in here"
     SET MECHANIC_2 "ROTATE_CLOCK"
-    SET INSTRUCTIONS_2 "Vissez cette chose"
+    SET INSTRUCTIONS_2 "Screw in that thingy"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Espérez qu'il reste en place..."
+    SET INSTRUCTIONS_3 "Hope it stays up"
 END
 
 DEF TASK "UnfoldTable"
-    SET NAME "Déplier la table du jardin"
-    SET ASKER_NAME "Demandez de l'aide pour déplier la table du jardin"
-    SET HELPER_NAME "Aidez <ASKER> à déplier la table du jardin"
+    SET NAME "Unfold the backyard table"
+    SET ASKER_NAME "Get help unfolding the backyard table"
+    SET HELPER_NAME "Help <ASKER> unfold the backyard table"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -177,12 +177,12 @@ END
 
 REM : Find the good coals
 CLONE DEED "SearchID" "SearchForCoals"
-    SET INSTRUCTIONS "Trouvez du charbon dans les enfers"
+    SET INSTRUCTIONS "Find choice underworld coals"
     SET CONTENT_ID "COALS"
 END
 
 DEF TASK "SearchForCoals"
-    SET NAME "Trouver du charbon dans les enfers"
+    SET NAME "Find the choice underworld coals"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -195,12 +195,12 @@ END
 
 REM : Gather ingredients for potato salad
 CLONE DEED "GatherID" "BarbecuePotatoSalad"
-    SET INSTRUCTIONS "Rassemblez les ingrédients pour la salade de pommes de terre"
+    SET INSTRUCTIONS "Gather ingredients for potato salad"
     SET CONTENT_ID "POTATO_SALAD"
 END
 
 DEF TASK "BarbecuePotatoSalad"
-    SET NAME "Rassembler les ingrédients pour la salade de pommes de terre"
+    SET NAME "Gather ingredients for potato salad"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -213,14 +213,14 @@ END
 
 REM : Go on emergency meat run
 CLONE DEED "TravelCategory" "MeatRun"
-    SET INSTRUCTIONS "Récupérez de la viande en urgence"
+    SET INSTRUCTIONS "Go on emergency meat run"
     SET CATEGORY "GROCERY"
 END
 
 DEF TASK "MeatRun"
-    SET NAME "Récupérer de la viande en urgence"
-    SET ASKER_NAME "Demandez de l'aide pour être accompagné afin de récupérer de la viande"
-    SET HELPER_NAME "Allez avec <ASKER> afin de récupérer de la viande"
+    SET NAME "Go on emergency meat run"
+    SET ASKER_NAME "Tag along on emergency meat run"
+    SET HELPER_NAME "Go with <ASKER> on emergency meat run"
     SET CAPTAIN "MATURE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -235,27 +235,27 @@ REM : -------------------------------------
 
 REM : Light up the grill!
 CLONE DEED "Tap1" "LightUpGrill1"
-    SET INSTRUCTIONS "Ajoutez de l'essence"
+    SET INSTRUCTIONS "Add some lighter fluid"
 END
 
 CLONE DEED "Tap3" "LightUpGrill2"
-    SET INSTRUCTIONS "Un petit peu plus"
+    SET INSTRUCTIONS "Just a little more"
 END
 
 CLONE DEED "QuickTap5" "LightUpGrill3"
-    SET INSTRUCTIONS "Mieux vaut prévenir que guérir"
+    SET INSTRUCTIONS "Better safe than sorry"
 END
 
 CLONE DEED "SwipeRight" "LightUpGrill4"
-    SET INSTRUCTIONS "Craquez une allumette !"
+    SET INSTRUCTIONS "Strike a match!"
 END
 
 CLONE DEED "Hold3" "LightUpGrill5"
-    SET INSTRUCTIONS "Maintenant, nous allons pouvoir griller tout ça !"
+    SET INSTRUCTIONS "Now we're grillin'!"
 END
 
 DEF TASK "LightUpGrill"
-    SET NAME "Allumer le gril !"
+    SET NAME "Light up the grill!"
     SET CAPTAIN "ADULTS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -276,24 +276,24 @@ END
 
 REM : Burn your report card in the BBQ
 CLONE DEED "SwipeBase" "BurnReportCard1"
-    SET INSTRUCTIONS "Déchirez les preuves"
+    SET INSTRUCTIONS "Tear up the evidence"
     SET DIRECTION "RIGHT,RIGHT"
 END
 
 CLONE DEED "SwipeDown" "BurnReportCard2"
-    SET INSTRUCTIONS "Cachez les morceaux"
+    SET INSTRUCTIONS "Slide pieces under the ribs"
 END
 
 CLONE DEED "Tap1" "BurnReportCard3"
-    SET INSTRUCTIONS "Mission accomplie !"
+    SET INSTRUCTIONS "Mission accomplished!"
 END
 
 CLONE DEED "Nothing3" "BurnReportCard4"
-    SET INSTRUCTIONS "Faites-vous attraper immédiatement"
+    SET INSTRUCTIONS "Get caught immediately"
 END
 
 DEF TASK "BurnReportCard"
-    SET NAME "Brûlez votre bulletin de notes dans le grill"
+    SET NAME "Burn your report card in the grill"
     SET CAPTAIN "CHILDREN"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -312,12 +312,12 @@ END
 
 REM : Search for the spiciest hot sauce
 CLONE DEED "SearchID" "SearchHotSauce"
-    SET INSTRUCTIONS "Recherchez la sauce piquante la plus épicée"
+    SET INSTRUCTIONS "Search for the spiciest hot sauce"
     SET CONTENT_ID "HOTSAUCE"
 END
 
 DEF TASK "SearchHotSauce"
-    SET NAME "Rechercher la sauce piquante la plus épicée"
+    SET NAME "Search for the spiciest hot sauce"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -330,27 +330,27 @@ END
 
 REM : Work the grill
 CLONE DEED "QuickTap3" "WorkTheGrill1"
-    SET INSTRUCTIONS "Mettez votre uniforme"
+    SET INSTRUCTIONS "Put on your grilling uniform"
 END
 
 CLONE DEED "SwipeUp" "WorkTheGrill2"
-    SET INSTRUCTIONS "Retournez"
+    SET INSTRUCTIONS "Flip"
 END
 
 CLONE DEED "SwipeUp" "WorkTheGrill3"
-    SET INSTRUCTIONS "Retournez encore !"
+    SET INSTRUCTIONS "Flip again!"
 END
 
 CLONE DEED "Hold2" "WorkTheGrill4"
-    SET INSTRUCTIONS "Ajoutez le jus"
+    SET INSTRUCTIONS "Seal in the juices"
 END
 
 CLONE DEED "Nothing2" "WorkTheGrill5"
-    SET INSTRUCTIONS "Acceptez les félicitations"
+    SET INSTRUCTIONS "Accept accolades"
 END
 
 DEF TASK "WorkTheGrill"
-    SET NAME "Travailler sur le gril"
+    SET NAME "Work the grill"
     SET CAPTAIN "TEENS"
     SET CATEGORY "STORY"
     SET THEME "STORY"
@@ -371,22 +371,22 @@ END
 
 REM : Hode the fact you're out of meat
 CLONE DEED "Instructions4" "HideMeatShortage"
-    SET INSTRUCTIONS "Cachez le fait que vous n'avez plus de viande."
+    SET INSTRUCTIONS "Hide the fact you're out of meat"
 
     SET MECHANIC_0 "TAP"
-    SET INSTRUCTIONS_0 "Trouvez du pain"
+    SET INSTRUCTIONS_0 "Find a loose bun"
     SET MECHANIC_1 "TAP_3"
-    SET INSTRUCTIONS_1 "Mettez n'importe quoi dedans"
+    SET INSTRUCTIONS_1 "Stuff it with whatever you can find"
     SET MECHANIC_2 "SWIPE_LEFT"
-    SET INSTRUCTIONS_2 "Ajoutez la sauce barbecue"
+    SET INSTRUCTIONS_2 "Coat in BBQ sauce"
     SET MECHANIC_3 "TAP_HOLD"
-    SET INSTRUCTIONS_3 "Présentez votre repas à votre voisin énervé"
+    SET INSTRUCTIONS_3 "Present to angry neighbor"
 END
 
 DEF TASK "HideMeatShortage"
-    SET NAME "Cacher le fait que vous n'avez plus de viande."
-    SET ASKER_NAME "Demandez de l'aide pour cacher le fait que vous n'avez plus de viande."
-    SET HELPER_NAME "Aidez <ASKER> à cacher le fait que vous n'avez plus de viande."
+    SET NAME "Hide the fact that you're out of meat"
+    SET ASKER_NAME "Get help hiding the fact that you're out of meat"
+    SET HELPER_NAME "Help <ASKER> hide the fact that you're out of meat"
     SET CAPTAIN "EVERYONE"
     SET CATEGORY "STORY"
     SET THEME "STORY"

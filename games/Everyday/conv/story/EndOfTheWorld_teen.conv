@@ -1,17 +1,17 @@
-MAIN(Riley): C'est la fin du monde?
--LOVE->Oui, je t'aime. 
--BREAK-> Ouaip, séparons-nous
+MAIN(Riley): The world is going to end?
+-LOVE->Yes, I love you. 
+-BREAK-> Yep, let's break up
 -BYE-> Uh huh, bye-bye
--RECORD-> Je peux reprendre mes disques?
+-RECORD-> Can I get my records back?
 
-LOVE(Riley): Si nous survivons, marrions-nous!
--SUCCESS->Oh oh
+LOVE(Riley): If we survive, let's get married!
+-SUCCESS-> Uh oh
 
-BREAK(Riley): C'est CE genre de jour!
--SUCCESS-> Ton sarcasme me manquera
+BREAK(Riley): It's THAT kind of day!
+-SUCCESS-> I'll miss your sarcasm
 
-BYE(Riley): Bye-bye Chouchou
--SUCCESS-> On a géré ça avec beaucoup de maturité
+BYE(Riley): bye-bye Smoo Smoo
+-SUCCESS-> We handled that very maturely. 
 
-RECORD(Riley): Jamais!
--SUCCESS-> Pourquoi est-ce que j'ai même des disques!
+RECORD(Riley): Never!
+-SUCCESS-> Why do I even have records!

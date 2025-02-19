@@ -1,18 +1,18 @@
-MAIN(Doctor): Veuillez décrire vos symptômes.
--BURNS-> Des brûlures quand j'éternue
--CLAM-> Ma peau est moite et vibre
--HORNS-> Mes cornes se fanent
--PULSE-> Mon pouls est négatif
+MAIN(Doctor): Please describe your symptoms.
+-BURNS-> Burns when I sneeze
+-CLAM-> Skin is clammy and vibrating
+-HORNS-> My horns are wilting
+-PULSE-> Pulse rate in negatives
 
 
-BURNS(Doctor): Dormez huit heures.
--SUCCESS-> Un vendredi soir habituel? Compris!
+BURNS(Doctor): Get eight hours of sleep.
+-SUCCESS-> Usual Friday night? Got it!
 
-CLAM(Doctor): Dormez huit heures.
--SUCCESS-> Un vendredi soir habituel? Compris!
+CLAM(Doctor): Get eight hours of sleep.
+-SUCCESS-> Usual Friday night? Got it!
 
-HORNS(Doctor): Vos cornes?
--SUCCESS-> Oh, oubliez ça, je vais juste dormir un peu.
+HORNS(Doctor): Horns?
+-SUCCESS-> Oh forget it, I'll just get some sleep.
 
-PULSE(Doctor): C'est impossible. Dormez un peu.
--SUCCESS-> Vous êtes impossible!
+PULSE(Doctor): That's impossible. Get some sleep.
+-SUCCESS-> You're impossible!

@@ -1,30 +1,30 @@
-MAIN(Boss): Bonsoir.
--POLITE-> Et bonsoir à vous, madame.
--PARK-> Vous ne vous êtes pas garé dans la rue, n'est-ce pas ?
--WRONG-> Désolé, mauvaise maison.
+MAIN(Boss): Good evening.
+-POLITE-> And a good evening to you, madam.
+-PARK-> You didn't park on the street did you?
+-WRONG-> Sorry, wrong house.
 
-POLITE(Boss): Où dois-je mettre mon manteau ?
--TAKECOAT-> Je vous le prends!
--WHOCARES-> Qui s'en soucie.
--WHOCARES-> Jetez-le par terre.
+POLITE(Boss): Where should I put my coat?
+-TAKECOAT-> I'll take it!
+-WHOCARES-> Who cares.
+-WHOCARES-> Just toss it on the ground.
 
-TAKECOAT(Boss): Et bien, merci!
--SUCCESS-> Je suis en train de gérer ça!
+TAKECOAT(Boss): Why thank you!
+-SUCCESS-> I'm nailing this!
 
-WHOCARES(Boss): Hum... Je vais juste l'accrocher ?
--SOUNDSGOOD-> Très bien!
--WHOCARES2-> J'AI DIT : ON S'EN FICHE.
+WHOCARES(Boss): Um... I'll just hang it up?
+-SOUNDSGOOD-> Sounds good!
+-WHOCARES2-> I SAID WHO CARES.
 
-WHOCARES2(Boss): Je regrette déjà d'avoir accepté ça.
--SUCCESS-> Je ne sais pas ce que j'ai fait de mal.
+WHOCARES2(Boss): I'm regretting agreeing to this.
+-SUCCESS-> There's no telling what I did wrong.
 
-SOUNDSGOOD(Boss): Super, je suppose.
--SUCCESS-> Je suis en train de gérer ça!
+SOUNDSGOOD(Boss): Great, I guess.
+-SUCCESS-> I'm nailing this!
 
-PARK(Boss): Oui, quelque chose ne va pas ?
--WHOCARES2-> Ouais, votre stupide voiture bloque ma vue sur la belle rue.
--TAKECOAT-> Je protégerai cette voiture avec ma vie.
+PARK(Boss): Yes, is that bad?
+-WHOCARES2-> Yeah, your dumb car is blocking my view of the beautiful street.
+-TAKECOAT-> I'll protect that car with my life.
 
-WRONG(Boss): Mais je suis sûr que c'est la bonne adresse...
--WHOCARES2-> Eh bien, je suis sûr que je m'en fiche.
--POLITE-> Je plaisante! Bienvenue dans notre maison!
+WRONG(Boss): But I'm sure this is the right address...
+-WHOCARES2-> Well, I'm sure I don't care.
+-POLITE-> Just kidding! Welcome to our home!

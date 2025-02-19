@@ -1,17 +1,17 @@
-MAIN(Vice Principal): Pourquoi tu manques l'école aujourd'hui ?
--THROW-> Je vomis partout.
--FIND-> J'ai disparu.
--CERN-> Le CERN a besoin de moi.
--LOVE-> J'aime l'école. C'est une punition.
+MAIN(Vice Principal): Why are you missing school today?
+-THROW-> I'm throwing up everywhere.
+-FIND-> I've gone missing.
+-CERN-> CERN needs me.
+-LOVE-> I love school. This is a punishment.
 
-THROW(Vice Principal): Dégoûtant. Restez chez vous!
+THROW(Vice Principal): Gross. Stay home!
 -SUCCESS-> Bwahahaha!
 
-FIND(Vice Principal): Nous allons contacter les autorités
--SUCCESS-> Euhhhh... J'ai rien dit, je me suis trouvé!
+FIND(Vice Principal): We'll contact the authorities
+-SUCCESS-> Uhhhh... never mind, I found me!
 
-CERN(Vice Principal): Encore!?
--SUCCESS-> C'est l'argent des contribuables suisses qui travaille !
+CERN(Vice Principal): Again!?
+-SUCCESS-> That's Swiss tax dollars at work!
 
-LOVE(Vice Principal): Dur mais juste. 
--SUCCESS-> Je donne aussi mes devoirs au chat. 
+LOVE(Vice Principal): Tough but fair. 
+-SUCCESS-> I'm also feeding my homework to the cat. 

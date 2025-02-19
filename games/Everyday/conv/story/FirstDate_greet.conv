@@ -1,21 +1,21 @@
-MAIN(Riley): Salut, je suis Riley.
--COMEIN-> Entrez, s'il vous plaît !
--DISH-> Vous avez apporté un plat à faire passer, non ?
--DONTSEE-> Je ne vois pas le charme.
+MAIN(Riley): Hi, I'm Riley.
+-COMEIN-> Please come in!
+-DISH-> You brought a dish to pass, right?
+-DONTSEE-> I don't see the appeal.
 
-COMEIN(Riley): Vous avez une si belle maison!
--THANKS-> Merci, c'était fourni par des démons!
--THANKS-> Descendez d'un cran, Riley.
+COMEIN(Riley): You have such a lovely home!
+-THANKS-> Thanks, it was furnished by demons!
+-THANKS-> Take it down a notch, Riley.
 
-THANKS(Riley): Je suis extrêmement nerveux.
--SUCCESS-> C'est agréable de se sentir supérieur à un adolescent pour une fois.
+THANKS(Riley): I am extremely nervous.
+-SUCCESS-> It's nice to feel superior to a teenager for once.
 
-DISH(Riley): Oh mince. Oh non. Oh mince.
--SUCCESS-> J'ai réussi à déstabiliser un adolescent maladroit.
+DISH(Riley): Oh crap. Oh no. Oh crap.
+-SUCCESS-> I have successfully flustered an awkward teen.
 
-DONTSEE(Riley): Euh...bien... Les gens me disent que j'ai un joli sourire ?
--SUCCESS-> Je vous crois sur parole.
--SMILE-> Prouvez-le.
+DONTSEE(Riley): Uh...well... People tell me I have a nice smile?
+-SUCCESS-> I'll take your word for it.
+-SMILE-> Prove it.
 
-SMILE(Riley): *Sourit nerveusement*
--SUCCESS-> Honnêtement? Radiant.
+SMILE(Riley): *Smiles awkwardly*
+-SUCCESS-> Honestly? Radiant.

@@ -1,31 +1,31 @@
-MAIN(Boss): Quel charmant repas.
--POLITE-> Merci, vous êtes trop aimable.
--CREEPY-> Je l'ai fait juste pour vous, ma parfaite patronne !
--BIRD1-> Pas aussi charmant que le rare pic à bec d'ivoire ! Au fait, j'aime beaucoup les oiseaux.
+MAIN(Boss): What a lovely meal.
+-POLITE-> Thank you, you're too kind.
+-CREEPY-> I made it just for you, my perfect boss!
+-BIRD1-> Not as lovely as the rare ivory-billed woodpecker! I'm way into birds by the way.
 
-BIRD1(Boss): Oh, un camarade ornithologue ! Avez-vous remarqué qu'un roselin pourpre fait son nid dans votre jardin ?
--OFCOURSE-> Bien sûr que je l'ai vu !
--CORRECTBOSS-> En fait, je crois que vous constaterez que c'est un simple pinson des marais.
--HONEST-> Pour être honnête, je ne sais rien des oiseaux...
+BIRD1(Boss): Oh, a fellow birder! Did you notice that purple finch nesting in your front yard?
+-OFCOURSE-> Of course I did!
+-CORRECTBOSS-> Actually, I believe you'll find that's a simple house finch.
+-HONEST-> To be honest, I know nothing about birds...
 
-OFCOURSE(Boss): Je vous ai eu! C'est un roselin commun! Comme d'habitude, je suis la maîtresse des oiseaux!
--SUCCESS-> C'est exactement ce que je pense.
+OFCOURSE(Boss): Fooled you! That's a common rosefinch! As usual, I am the birdmaster!
+-SUCCESS-> My thoughts exactly.
 
-CORRECTBOSS(Boss): Oh là là... Vous avez raison.
--SUCCESS-> J'espère qu'elle ne va pas pleurer.
+CORRECTBOSS(Boss): Oh my... You're right.
+-SUCCESS-> I hope she doesn't cry.
 
-HONEST(Boss): Votre honnêteté vous honore, mais votre manque de connaissance des oiseaux me rend malade.
--SUCCESS-> Victoire mitigée.
+HONEST(Boss): I respect your honesty, but your lack of bird knowledge sickens me.
+-SUCCESS-> It's a mixed victory.
 
-POLITE(Boss): Vous avez raison, je suis trop aimable. Rappelez-moi de baisser votre salaire.
--SUCCESS-> Je ne lui rappellerai pas ça en tout cas.
+POLITE(Boss): You're right, I am too kind. Remind me to lower your salary.
+-SUCCESS-> I will not remind her.
 
-CREEPY(Boss): Euh, c'est un peu glauque.
--JOKING-> Haha, je plaisante!
--DOUBLEDOWN-> Puis-je vous peindre?
+CREEPY(Boss): Uh, that's a little creepy.
+-JOKING-> Haha only joking!
+-DOUBLEDOWN-> May I paint you?
 
-JOKING(Boss): Ok...
--SUCCESS-> Sauvé!
+JOKING(Boss): Okay...
+-SUCCESS-> Saved it!
 
-DOUBLEDOWN(Boss): Seuls les vice-présidents exécutifs et les personnes de rang supérieur peuvent me peindre.
--SUCCESS-> Ça ne fait jamais de mal de demander.
+DOUBLEDOWN(Boss): Only executive vice presidents and above may paint me.
+-SUCCESS-> Never hurts to ask.

@@ -5,14 +5,14 @@ CLONE DEED "Tap5" "IcePick"
 END
 
 CLONE DEED "Nothing5" "IceMelt"
-    SET INSTRUCTIONS "Ca fond !"
+    SET INSTRUCTIONS "It's Melting"
     SET PARTICIPATION "SOLO"
 END
 
 DEF TASK "DeIceFreezer2"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Degivrer le congelateur"
+    SET NAME "De-ice the freezer"
     SET THEME "KITCHEN"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -29,21 +29,21 @@ END
 REM : Clean Toothpaste Spittle
 
 CLONE DEED "Tap4" "SprayCleaner"
-    SET INSTRUCTIONS "Ajoutez du spray"
+    SET INSTRUCTIONS "Spray on cleaner"
 END
 
 CLONE DEED "ScrubMedium" "ScrubMirror"
-    SET INSTRUCTIONS "Frottez cette tâche"
+    SET INSTRUCTIONS "Scrub that spit stain"
 END
 
 CLONE DEED "SwipeDown" "WipeClean"
-    SET INSTRUCTIONS "Frottez encore plus fort"
+    SET INSTRUCTIONS "Wipe it clean"
 END
 
 DEF TASK "CleanToothpaste"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
-    SET NAME "Nettoyer le dentifrice sur le mirroir"
+    SET NAME "Clean toothpaste off the mirror"
     SET THEME "BATHROOM"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -61,23 +61,23 @@ END
 REM : Brew Coffee
 
 CLONE DEED "SwipeUp" "CoffeeOpen"
-    SET INSTRUCTIONS "Ouvrez la boite à café"
+    SET INSTRUCTIONS "Open Coffee Canister"
 END
 
 CLONE DEED "Tap5" "CoffeeScoop"
-    SET INSTRUCTIONS "Cinq cuillères suffisent"
+    SET INSTRUCTIONS "Five Scoops Is Good"
 END
 
 CLONE DEED "Hold5" "CoffeeBrew"
-    SET INSTRUCTIONS "Il est l'héure d'infuser !"
+    SET INSTRUCTIONS "Brew Time!"
 END
 
 CLONE DEED "QuickTap3" "CoffeeBurning"
-    SET INSTRUCTIONS "Oops ! Vous avez oubliez l'eau !"
+    SET INSTRUCTIONS "Oops! Forgot Water! Cancel Cancel Cancel!"
 END
 
 DEF TASK "BrewCoffee"
-    SET NAME "Faire le café"
+    SET NAME "Brew coffee"
     SET THEME "COOKING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -99,20 +99,20 @@ END
 REM : What's that weird smell?
 
 CLONE DEED "Tap1" "LightCandles"
-    SET INSTRUCTIONS "Allumez les bougies parfumées"
+    SET INSTRUCTIONS "Light candles"
 END
 
 CLONE DEED "RotateBase" "LookForSmell"
     SET ROTATIONS_IN_DEG 1080
-    SET INSTRUCTIONS "Regardez aux alentours pour voir d'où vient la senteur étrange"
+    SET INSTRUCTIONS "Look around for the smell"
 END
 
 CLONE DEED "SwipeUp" "SmellOpenWindow"
-    SET INSTRUCTIONS "Ouvrez une fenêtre"
+    SET INSTRUCTIONS "Just open a window"
 END
 
 DEF TASK "WeirdSmell"
-    SET NAME "Quelle est cette senteur ?"
+    SET NAME "What's that weird smell?"
     SET THEME "SEARCH_FIND"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -132,16 +132,16 @@ END
 REM : Make Avocado Toast
 
 CLONE DEED "QuickTap5" "MashAvocado"
-    SET INSTRUCTIONS "Mixez les avocats"
+    SET INSTRUCTIONS "Mash avocado"
 END
 
 CLONE DEED "SwipeBase" "SpreadAvocado"
-    SET INSTRUCTIONS "Ajoutez l'avocat sur le toast"
+    SET INSTRUCTIONS "Apply to toast"
     SET DIRECTION "LEFT,RIGHT"
 END
 
 DEF TASK "AvocadoToast"
-    SET NAME "Faire des toasts a l'avocat"
+    SET NAME "Make avocado toast"
     SET THEME "COOKING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -159,23 +159,23 @@ END
 REM : Install AC Unit
 
 CLONE DEED "SwipeUp" "OpenAC"
-    SET INSTRUCTIONS "Ouvrez la fenêtre"
+    SET INSTRUCTIONS "Open window"
 END
 
 CLONE DEED "Hold3" "HoldAC"
-    SET INSTRUCTIONS "Tenez l'objet en place"
+    SET INSTRUCTIONS "Hold unit in place"
 END
 
 CLONE DEED "QuickTap5" "ShoveAC"
-    SET INSTRUCTIONS "Il faut vraiment bien l'enfoncer !"
+    SET INSTRUCTIONS "Really shove it in there"
 END
 
 CLONE DEED "SwipeDown" "CloseAC"
-    SET INSTRUCTIONS "Fermez la fenêtre"
+    SET INSTRUCTIONS "Close window"
 END
 
 DEF TASK "InstallAC"
-    SET NAME "Installer la climatisation"
+    SET NAME "Install AC unit"
     SET THEME "FIXING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -197,11 +197,11 @@ END
 REM : Hold it together (HoldItTogether)
 
 CLONE DEED "Hold5" "RepressEmotions"
-    SET INSTRUCTIONS "Réprimez vos émotions"
+    SET INSTRUCTIONS "Repress emotions"
 END
 
 DEF TASK "HoldItTogether"
-    SET NAME "Tenir le coup"
+    SET NAME "Hold it together"
     SET THEME "MISC"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -217,24 +217,24 @@ END
 REM : Put up wallpaper (PasteWallpaper)
 
 CLONE DEED "Hold5" "GluePaper"
-    SET INSTRUCTIONS "Ajoutez de la colle au papier"
+    SET INSTRUCTIONS "Apply glue to paper"
 END
 
 CLONE DEED "SwipeBase" "PastePaper"
-    SET INSTRUCTIONS "Collez !"
+    SET INSTRUCTIONS "Paste!"
     SET DIRECTION "UP,DOWN,LEFT,RIGHT"
 END
 
 CLONE DEED "QuickTap5" "PaperBubbles"
-    SET INSTRUCTIONS "Eclatez les bulles!"
+    SET INSTRUCTIONS "Pop those air bubbles!"
 END
 
 CLONE DEED "Hold5" "HoldPaper"
-    SET INSTRUCTIONS "Essayez de ne pas le perdre pendant que le papier tombe"
+    SET INSTRUCTIONS "Try not to lose it as paper falls down"
 END
 
 DEF TASK "PasteWallpaper"
-    SET NAME "Poser du papier peint"
+    SET NAME "Put up wallpaper"
     SET THEME "DECORATING"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -256,20 +256,20 @@ END
 REM : Take a Shower
 
 CLONE DEED "Rotate270" "ShowerStep1"
-    SET INSTRUCTIONS "Mettez la douche en marche"
+    SET INSTRUCTIONS "Turn on shower"
 END
 
 CLONE DEED "SwipeBase" "ShowerStep2"
-    SET INSTRUCTIONS "Lavez-vous"
+    SET INSTRUCTIONS "Wash self"
     SET DIRECTION "LEFT,RIGHT,LEFT,RIGHT"
 END
 
 CLONE DEED "Nothing5" "ShowerStep3"
-    SET INSTRUCTIONS "Appréciez le silence"
+    SET INSTRUCTIONS "Enjoy silence"
 END
 
 DEF TASK "TakeShower"
-    SET NAME "Prendre une douche"
+    SET NAME "Take a shower"
     SET THEME "BATHROOM"
     SET DURATION <3H>
     REM : SOLO TIMEOUT
@@ -289,19 +289,19 @@ END
 REM : Tie a Tie
 
 CLONE DEED "SwipeLeft" "TieStep1"
-    SET INSTRUCTIONS "Mettez une cravate"
+    SET INSTRUCTIONS "Throw on a tie"
 END
 
 CLONE DEED "Rotate360" "TieStep2"
-    SET INSTRUCTIONS "Faites un noeud Windsor parfait"
+    SET INSTRUCTIONS "Make a perfect Windsor knot"
 END
 
 CLONE DEED "SwipeUp" "TieStep3"
-    SET INSTRUCTIONS "Serrez"
+    SET INSTRUCTIONS "Tighten"
 END
 
 DEF TASK "TieaTie"
-    SET NAME "Faire un noeud de cravate"
+    SET NAME "Tie a tie"
     SET THEME "CLOTHES"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -321,23 +321,23 @@ END
 REM : Fix garage door (FixGarageDoor)
 
 CLONE DEED "QuickTap3" "GarageButton"
-    SET INSTRUCTIONS "Le... bouton... ne... marche... pas !"
+    SET INSTRUCTIONS "Button... is... not... working!"
 END
 
 CLONE DEED "ScrubLong" "GarageGunk"
-    SET INSTRUCTIONS "Nettoyez l'encrassement de la chaîne"
+    SET INSTRUCTIONS "Clean gunk out of chain"
 END
 
 CLONE DEED "SwipeUp" "GarageOpen"
-    SET INSTRUCTIONS "Ouvrez la porte manuellement"
+    SET INSTRUCTIONS "Manually open door"
 END
 
 CLONE DEED "SwipeDown" "GarageClose"
-    SET INSTRUCTIONS "Fermez le. Vous l'avez réparé. Vous êtes un génie"
+    SET INSTRUCTIONS "Close it. You fixed it. You genius"
 END
 
 DEF TASK "FixGarageDoor"
-    SET NAME "Reparer la porte du garage"
+    SET NAME "Fix garage door"
     SET THEME "FIXING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -359,19 +359,19 @@ END
 REM : Change Lightbulb - New Bulb (ChangeLightbulb1)
 
 CLONE DEED "QuickTap4" "ClimbLadder"
-    SET INSTRUCTIONS "Montez sur l'échelle "
+    SET INSTRUCTIONS "Climb ladder"
 END
 
 CLONE DEED "Rotate720Counter" "OldBulb"
-    SET INSTRUCTIONS "Retirez l'ampoule"
+    SET INSTRUCTIONS "Unscrew light bulb"
 END
 
 CLONE DEED "Rotate720" "NewBulb"
-    SET INSTRUCTIONS "Ajoutez la nouvelle ampoule"
+    SET INSTRUCTIONS "Put in new bulb"
 END
 
 DEF TASK "ChangeLightbulb1"
-    SET NAME "Changez l'ampoule"
+    SET NAME "Change light bulb"
     SET THEME "FIXING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -391,23 +391,23 @@ END
 REM : Change Lightbulb - Dirty Bulb (ChangeLightbulb2)
 
 CLONE DEED "QuickTap4" "ClimbLadderDirty"
-    SET INSTRUCTIONS "Montez sur l'échelle"
+    SET INSTRUCTIONS "Climb ladder"
 END
 
 CLONE DEED "Rotate720Counter" "DirtyBulb"
-    SET INSTRUCTIONS "Enlevez l'ampoule"
+    SET INSTRUCTIONS "Unscrew lightbulb"
 END
 
 CLONE DEED "ScrubMedium" "CleanBulb"
-    SET INSTRUCTIONS "L'ampoule est juste sale. Lavez la !"
+    SET INSTRUCTIONS "It's just dirty, clean it off"
 END
 
 CLONE DEED "Rotate720" "ReturnBulb"
-    SET INSTRUCTIONS "Remettez l'ampoule"
+    SET INSTRUCTIONS "Put it back in"
 END
 
 DEF TASK "ChangeLightbulb2"
-    SET NAME "Changer l'ampoule"
+    SET NAME "Change lightbulb"
     SET THEME "FIXING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -429,27 +429,27 @@ END
 REM : Remove sandwich crusts (RemoveSandwichCrusts)
 
 CLONE DEED "SwipeRight" "CrustSide1"
-    SET INSTRUCTIONS "Les enfants n'aiment pas la croute que leur sandwich. Coupez la"
+    SET INSTRUCTIONS "Kids like their sandwiches crustless. Cut off all four sides"
 END
 
 CLONE DEED "SwipeUp" "CrustSide2"
-    SET INSTRUCTIONS "Ca ne fait pas de sens. La croute c'est très bon"
+    SET INSTRUCTIONS "Doesn't make sense. The crusts are delicious"
 END
 
 CLONE DEED "SwipeDown" "CrustSide3"
-    SET INSTRUCTIONS "Eh bien, tant pis pour eux"
+    SET INSTRUCTIONS "Oh well, their loss"
 END
 
 CLONE DEED "SwipeLeft" "CrustSide4"
-    SET INSTRUCTIONS "Ca en fera plus pour moi"
+    SET INSTRUCTIONS "More crusts for you"
 END
 
 CLONE DEED "QuickTap4" "EatCrusts"
-    SET INSTRUCTIONS "Mangez la croute"
+    SET INSTRUCTIONS "Eat the crusts"
 END
 
 DEF TASK "RemoveSandwichCrusts"
-    SET NAME "Enlever la croute des sandwichs"
+    SET NAME "Remove sandwich crusts"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
@@ -473,27 +473,27 @@ END
 REM : Refill the Liquid Soap
 
 CLONE DEED "Rotate360" "LiquidSoap1Step1"
-    SET INSTRUCTIONS "Enlevez le bouchon"
+    SET INSTRUCTIONS "Unscrew the top"
 END
 
 CLONE DEED "Hold5" "LiquidSoap1Step2"
-    SET INSTRUCTIONS "Ajoutez le nouveau savon"
+    SET INSTRUCTIONS "Squeeze in the new soap"
 END
 
 CLONE DEED "ScrubMedium" "LiquidSoap1Step3"
-    SET INSTRUCTIONS "Vous en avez renversé partout. Essuyez le"
+    SET INSTRUCTIONS "It went everywhere. Wipe it up."
 END
 
 CLONE DEED "Rotate360Counter" "LiquidSoap1Step4"
-    SET INSTRUCTIONS "Revissez le couvercle"
+    SET INSTRUCTIONS "Screw the top back on"
 END
 
 CLONE DEED "Tap1" "LiquidSoap1Step5"
-    SET INSTRUCTIONS "Testez le"
+    SET INSTRUCTIONS "Test 'er out"
 END
 
 DEF TASK "LiquidSoap1"
-    SET NAME "Remettre du savon"
+    SET NAME "Refill the liquid soap"
     SET THEME "BATHROOM"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -516,19 +516,19 @@ END
 REM : Refill the Liquid Soap
 
 CLONE DEED "Rotate360" "LiquidSoap2Step1"
-    SET INSTRUCTIONS "Enlevez le bouchon"
+    SET INSTRUCTIONS "Unscrew the top"
 END
 
 CLONE DEED "Hold5" "LiquidSoap2Step2"
-    SET INSTRUCTIONS "Remplissez le d'eau"
+    SET INSTRUCTIONS "Actually just fill it with water"
 END
 
 CLONE DEED "Rotate360Counter" "LiquidSoap2Step3"
-    SET INSTRUCTIONS "Personne ne le saura..."
+    SET INSTRUCTIONS "No one will know..."
 END
 
 DEF TASK "LiquidSoap2"
-    SET NAME "Remettre du savon"
+    SET NAME "Refill the liquid soap"
     SET THEME "BATHROOM"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -547,19 +547,19 @@ END
 REM : Make a Healthy Smoothie
 
 CLONE DEED "Tap3" "Smoothie1Step1"
-    SET INSTRUCTIONS "Ajoutez des fruits"
+    SET INSTRUCTIONS "Add fruit"
 END
 
 CLONE DEED "Tap3" "Smoothie1Step2"
-    SET INSTRUCTIONS "Ajoutez des légumes"
+    SET INSTRUCTIONS "Add veggies"
 END
 
 CLONE DEED "Hold10" "Smoothie1Step3"
-    SET INSTRUCTIONS "Mixez"
+    SET INSTRUCTIONS "Blend"
 END
 
 DEF TASK "Smoothie1"
-    SET NAME "Faire un smoothie naturel"
+    SET NAME "Make a healthy smoothie"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -578,23 +578,23 @@ END
 REM : Make a "Healthy" Smoothie
 
 CLONE DEED "Tap3" "Smoothie2Step1"
-    SET INSTRUCTIONS "Ajoutez des fruits"
+    SET INSTRUCTIONS "Add fruit"
 END
 
 CLONE DEED "SwipeDown" "Smoothie2Step2"
-    SET INSTRUCTIONS "Ajoutez du beurre de cacahuète"
+    SET INSTRUCTIONS "Glob in peanut butter"
 END
 
 CLONE DEED "Tap3" "Smoothie2Step3"
-    SET INSTRUCTIONS "Ajoutez du chocolat"
+    SET INSTRUCTIONS "Add chocolate chips"
 END
 
 CLONE DEED "Hold10" "Smoothie2Step4"
-    SET INSTRUCTIONS "Mixez"
+    SET INSTRUCTIONS "Blend"
 END
 
 DEF TASK "Smoothie2"
-    SET NAME "Faire un smoothie 'naturel'"
+    SET NAME "Make a 'healthy' smoothie"
     SET THEME "COOKING"
     SET CAPTAIN "MATURE"
     SET DURATION <3H>
@@ -614,23 +614,23 @@ END
 REM : Fridge is leaking
 
 CLONE DEED "ScrubMedium" "FridgeLeaking1"
-    SET INSTRUCTIONS "Epongez l'eau"
+    SET INSTRUCTIONS "Mop up the water"
 END
 
 CLONE DEED "SwipeDown" "FridgeLeaking2"
-    SET INSTRUCTIONS "Enlevez le frigo du mur"
+    SET INSTRUCTIONS "Pull fridge away from the wall"
 END
 
 CLONE DEED "Rotate360" "FridgeLeaking3"
-    SET INSTRUCTIONS "Rebouchez le tuyau qui fuit"
+    SET INSTRUCTIONS "Tape up leaky hose"
 END
 
 CLONE DEED "Tap1" "FridgeLeaking4"
-    SET INSTRUCTIONS "Mettez des serviettes sous le réfrigirateur"
+    SET INSTRUCTIONS "Shove towels under the fridge"
 END
 
 DEF TASK "FridgeLeaking"
-    SET NAME "Le frigo est en train de fuir"
+    SET NAME "The fridge is leaking"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -651,27 +651,27 @@ END
 REM : Bake a cake
 
 CLONE DEED "Rotate1080" "BakeCake1"
-    SET INSTRUCTIONS "Mélangez la pâte"
+    SET INSTRUCTIONS "Mix the batter"
 END
 
 CLONE DEED "Hold3" "BakeCake2"
-    SET INSTRUCTIONS "Versez-la dans la casserole"
+    SET INSTRUCTIONS "Pour it in the pan"
 END
 
 CLONE DEED "Tap1" "BakeCake3"
-    SET INSTRUCTIONS "Goûtez un peu"
+    SET INSTRUCTIONS "Sneak a little taste"
 END
 
 CLONE DEED "SwipeUp" "BakeCake4"
-    SET INSTRUCTIONS "Ajoutez-la dans le four"
+    SET INSTRUCTIONS "Put it in the oven"
 END
 
 CLONE DEED "Rotate270Counter" "BakeCake5"
-    SET INSTRUCTIONS "Régler la minuterie"
+    SET INSTRUCTIONS "Set the timer"
 END
 
 DEF TASK "BakeCake"
-    SET NAME "Faire un gateau"
+    SET NAME "Bake a cake"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -696,27 +696,27 @@ END
 REM : Change the car oil
 
 CLONE DEED "SwipeUp" "ChangeCarOil1"
-    SET INSTRUCTIONS "Placez le bac de vidange d'huile sous le bouchon de vidange du moteur."
+    SET INSTRUCTIONS "Place oil drain pan underneath engine drain plug"
 END
 
 CLONE DEED "Rotate720Counter" "ChangeCarOil2"
-    SET INSTRUCTIONS "Dévissez le bouchon de vidange du moteur"
+    SET INSTRUCTIONS "Unscrew engine drain plug"
 END
 
 CLONE DEED "Nothing5" "ChangeCarOil3"
-    SET INSTRUCTIONS "Regardez la vidange d'huile"
+    SET INSTRUCTIONS "Watch that oil drain"
 END
 
 CLONE DEED "Hold4" "ChangeCarOil4"
-    SET INSTRUCTIONS "Regardez de plus près... c'est du liquide d'essuie-glace."
+    SET INSTRUCTIONS "Look closer... this is wiper fluid"
 END
 
 CLONE DEED "Tap3" "ChangeCarOil5"
-    SET INSTRUCTIONS "Notez d'acheter plus de liquide d'essuie-glace"
+    SET INSTRUCTIONS "Make note to buy more wiper fluid"
 END
 
 DEF TASK "ChangeCarOil"
-    SET NAME "Changer l'huile de la voiture"
+    SET NAME "Change the car oil"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -739,25 +739,25 @@ END
 REM : Properly roll the toothpaste tube
 
 CLONE DEED "Hold2" "RollToothpaste1"
-    SET INSTRUCTIONS "Soupirrez d'exaspération à la vue du tube de dentifrice."
+    SET INSTRUCTIONS "Exasperated sigh at sight of the toothpaste tube"
 END
 
 CLONE DEED "SwipeRight" "RollToothpaste2"
-    SET INSTRUCTIONS "Faites pénétrer le dentifrice dans le haut du tube"
+    SET INSTRUCTIONS "Squish toothpaste into top of tube"
 END
 
 CLONE DEED "TapBase" "RollToothpaste3"
     SET NUM_TAPS 8
     SET WAIT 0.25S
-    SET INSTRUCTIONS "Déroulez délicatement l'extrémité du tube"
+    SET INSTRUCTIONS "Delicately roll back end of tube"
 END
 
 CLONE DEED "Hold2" "RollToothpaste4"
-    SET INSTRUCTIONS "Faites un profond soupir de satisfaction"
+    SET INSTRUCTIONS "Deep sigh of satisfaction"
 END
 
 DEF TASK "RollToothpaste"
-    SET NAME "Rouler correctement le tube de dentifrice"
+    SET NAME "Properly roll the toothpaste tube"
     SET CAPTAIN "MATURE"
     SET CATEGORY "MEDIUM"
     SET DURATION <3H>
@@ -778,28 +778,28 @@ END
 REM : Shop vac up sawdust
 
 CLONE DEED "Tap1" "ShopVac1"
-    SET INSTRUCTIONS "Achevez votre chef-d'œuvre"
+    SET INSTRUCTIONS "Complete your masterpiece"
 END
 
 CLONE DEED "SwipeBase" "ShopVac2"
-    SET INSTRUCTIONS "Ramassez vos dégâts"
+    SET INSTRUCTIONS "Sweep up your mess"
     SET DIRECTION "RIGHT,RIGHT,RIGHT"
 END
 
 CLONE DEED "Tap1" "ShopVac3"
-    SET INSTRUCTIONS "Activez le réglage de l'aspirateur"
+    SET INSTRUCTIONS "Turn on the suction setting"
 END
 
 CLONE DEED "Tap1" "ShopVac4"
-    SET INSTRUCTIONS "OOPS, mauvais côté"
+    SET INSTRUCTIONS "Whoops, wrong way"
 END
 
 CLONE DEED "Hold5" "ShopVac5"
-    SET INSTRUCTIONS "Aspire !"
+    SET INSTRUCTIONS "Suck!"
 END
 
 DEF TASK "ShopVac"
-    SET NAME "Aspirer la sciure de bois"
+    SET NAME "Shop vac up sawdust"
     SET CAPTAIN "MATURE"
     SET CATEGORY "LOW"
     SET THEME "FIXING"

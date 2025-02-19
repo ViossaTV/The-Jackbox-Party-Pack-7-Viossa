@@ -1,17 +1,17 @@
-MAIN(Boss): Un dîner? Ça a l'air charmant! Y a-t-il quelque chose que je devrais apporter?
--NOTHING-> Rien, c'est bon !
--APPETITE-> Juste votre appétit!
--MEATLOAFS-> Deux pains de viande!
--WINE-> Une bouteille de vin?
+MAIN(Boss): Dinner? Sounds lovely! Is there anything I should bring?
+-NOTHING->  Nothing, we're good!
+-APPETITE-> Just your appetite!
+-MEATLOAFS-> A couple meatloafs!
+-WINE-> A Bottle of wine?
 
-NOTHING(Boss): Non... Vous êtes super!
--SUCCESS-> Enfin. De la validation.
+NOTHING(Boss): No... You're great!
+-SUCCESS-> Finally. Validation.
 
-APPETITE(Boss): Je le ferai!
--SUCCESS-> Cette soirée va être géniale.
+APPETITE(Boss): Will do!
+-SUCCESS-> This night is going to be great.
 
-MEATLOAFS(Boss): Hum...non.
--SUCCESS-> Cette nuit est devenue très embarrassante... et maintenant je dois cuisiner.
+MEATLOAFS(Boss): Um...no.
+-SUCCESS-> This night just got very awkward... and now I have to cook.
 
-WINE(Boss): Je le ferai!
--SUCCESS-> Cette soirée va être géniale.
+WINE(Boss): Will do!
+-SUCCESS-> This night is going to be great.

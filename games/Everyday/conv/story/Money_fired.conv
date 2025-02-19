@@ -1,17 +1,17 @@
-MAIN(Manager): Pourquoi n'avez-vous pas pris votre poste ?
--CAR-> Problème de voiture....?
--TIME-> Heure d'été...?
--WOLF-> Des loups sauvages en fuite...?
--LIKE-> Je n'aime pas le travail....?
+MAIN(Manager): Why did you miss your shift?
+-CAR-> Car trouble....?
+-TIME-> Daylight savings time...?
+-WOLF-> Fleeing wild wolves...?
+-LIKE-> I don't like work....?
 
-CAR(Manager): Je respecte votre honnêteté, mais vous êtes viré.
--SUCCESS-> ...logique.
+CAR(Manager): I respect your honesty, but you're fired.
+-SUCCESS-> ...fair.
 
-TIME(Manager): Je respecte votre honnêteté, mais vous êtes viré.
--SUCCESS-> ...logique.
+TIME(Manager): I respect your honesty, but you're fired.
+-SUCCESS-> ... fair.
 
-WOLF(Kids): Vous êtes clairement en train de mentir... vous êtes viré!
--SUCCESS-> Bien! Laissez les loups gagner!
+WOLF(Kids): You're clearly lying... you're fired!
+-SUCCESS-> Fine! Let the wolves win!
 
-LIKE(Kids): Bonnes nouvelles! Vous n'aurez plus à le faire!
--SUCCESS-> ...J'me demande si ils vont continuer à me payer?
+LIKE(Kids): Good news! You never have to do it again!
+-SUCCESS-> ...I wonder if they'll keep paying me?

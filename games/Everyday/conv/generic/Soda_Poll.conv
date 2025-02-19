@@ -1,33 +1,33 @@
-MAIN(Enquêteur): Bonjour, avez-vous un moment pour parler de votre soda préféré ?
--HAPPY-> Oui, j'aime le soda et je serai très content d'en parler.
--ANGRY-> Je déteste le soda et vous allez entendre ma colère.
+MAIN(Pollster): Hello, do you have a moment to talk about your soda preferences?
+-HAPPY-> Yes, I love soda and would be thrilled to discuss it.
+-ANGRY-> I am furious about soda, and you will hear my grievances.
 
-HAPPY(Enquêteur): Génial ! Qu'aimez-vous le plus par rapport au soda ?
--THANKS-> Les bulles.
--THANKS-> La douceur.
--THANKS-> Qu'il est toujours l'heure de boire un soda.
+HAPPY(Pollster): Wonderful! What do you like most about soda?
+-THANKS-> The bubbles.
+-THANKS-> The sweetness.
+-THANKS-> That anytime can be soda time.
 
-ANGRY(Enquêteur): Heu, okay... Que détestez-vous par rapport au soda ?
--THANKS-> Je veux un soda goût jambon.
--THANKS-> Je deviens étourdit en regardant les bulles.
--THANKS-> Je préfère avoir soif.
+ANGRY(Pollster):Uh okay, what do you dislike most about soda?
+-THANKS-> I want a soda that tastes like ham.
+-THANKS-> I get dizzy when I look at the bubbles.
+-THANKS-> I prefer being thirsty.
 
-THANKS(Enquêteur): Merci d'avoir partagé votre opinion sur le soda.
--SUCCESS-> De rien. Maintenant, je dois retourner faire des tâches pour augmenter le score de la famille.
--MOREOPINIONS-> Ne partez pas, j'ai encore beaucoup de choses à dire sur le soda !
+THANKS(Pollster): Thanks for sharing your opinion about soda.
+-SUCCESS-> You're welcome. Now I must get back to doing chores and raising my family's score.
+-MOREOPINIONS-> Not so fast, I got plenty more opinions about soda.
 
-MOREOPINIONS(Enquêteur): Vous êtes sûr ? Vous n'avez rien d'autre à faire ?
--SUCCESS-> Vous avez raison, rester au téléphone me fait rater des points. Au revoir.
--SODAHOT-> Le soldat doit être chaud. Très chaud !
+MOREOPINIONS(Pollster): Are you sure? You don't have anything better to do?
+-SUCCESS-> You're right, staying on this call is just costing me points. Goodbye.
+-SODAHOT-> Soda should be hot. Scalding hot.
 
-SODAHOT(Enquêteur): J'ai toutes les informations que j'ai besoin. Laissez-moi partir s'il vous plait.
--SUCCESS-> Je suis content d'avoir forgé le futur du soda. Bonne journée.
--DONOTDARE-> N'essayez même pas de raccrocher ! J'ai beaucoup de choses à dire sur le soda. 
+SODAHOT(Pollster): I have all the information I need. Please let me go.
+-SUCCESS-> Glad I could help steer the future of soda. Goodbye.
+-DONOTDARE-> Don't you dare hang up on me. I have lots more to say about soda. 
 
-DONOTDARE(Enquêteur): ...
--MORESODA-> Le soda est trop fort ! Le pétillement me fait mal aux oreilles !
--MORESODA-> Le soda est mon troisième liquide préféré, juste après l'essence et le ketchup.
--MORESODA-> Je lance juste une idée, mais pourquoi pas utiliser le soda comme déodorant ?
+DONOTDARE(Pollster): ...
+-MORESODA-> Soda is too loud! The fizz hurts my ears!
+-MORESODA-> Soda is my third favorite liquid, just below gasoline and ketchup.
+-MORESODA-> Just throwing an idea out there, but what if you could use soda like deodorant?
 
-MORESODA(Enquêteur): *raccroche*
--SUCCESS-> Allo ? Allo ? Allo ?!
+MORESODA(Pollster): *hangs up*
+-SUCCESS-> Hello? Hello? Hello?!
