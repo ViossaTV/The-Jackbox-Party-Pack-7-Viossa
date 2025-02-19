@@ -8,3 +8,15 @@ files:
   - source: /games/Everyday/*.json
     translation: /games/Everyday/Localization.json
     multilingual: 1
+  - source: /games/JackboxTalks/*.json
+    translation: /games/JackboxTalks/Localization.json
+    multilingual: 1
+  - source: /games/Picker/*.json
+    translation: /games/Picker/Localization.json
+    multilingual: 1
+  - source: /games/Quiplash3/*.json
+    translation: /games/Quiplash3/Localization.json
+    multilingual: 1
+  - source: /games/WorldChampions/*.json
+    translation: /games/WorldChampions/Localization.json
+    multilingual: 1
