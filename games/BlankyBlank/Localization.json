@@ -1,5 +1,5 @@
 {
-    "table":{
+    "table": {
         "en": {
             "LANGUAGE_NAME": "English",
             "LANGUAGE": "Language",
@@ -61,51 +61,36 @@
             "SAME_PLAYERS": "SAME PLAYERS",
             "LOBBY_OR": "OR",
             "NEW_PLAYERS": "NEW PLAYERS",
-
             "VOLUME": "Master Volume",
             "VOLUME_DESCRIPTION": "Adjust the master volume.",
-
             "VOLUME_HOST": "Host Volume",
             "VOLUME_HOST_DESCRIPTION": "Adjust the volume for the host.",
-
             "VOLUME_SFX": "SFX Volume",
             "VOLUME_SFX_DESCRIPTION": "Adjust the volume for sound effects.",
-
             "VOLUME_MUSIC": "Music Volume",
             "VOLUME_MUSIC_DESCRIPTION": "Adjust the volume for the music.",
-
             "FULL_SCREEN": "Full-screen Mode",
             "FULL_SCREEN_DESCRIPTION": "Make the game full-screen.",
-
             "AUDIENCE": "Audience",
             "AUDIENCE_MODE": "Audience",
             "AUDIENCE_MODE_DESCRIPTION": "Turn ON to allow non-contestants to join and affect the game.",
-
             "PASSWORD_PROTECTED": "Passworded Game",
             "PASSWORD_PROTECTED_DESCRIPTION": "Generate a password that players must enter to join the game.",
             "PASSWORD_PROTECTED_LABEL": "Game Password",
-
             "TWITCH_REQUIRED": "Require Twitch",
             "TWITCH_REQUIRED_DESCRIPTION": "Require players to be logged into Twitch.",
-
             "FILTER_US_CENTRIC": "Filter US-Centric Content",
             "FILTER_US_CENTRIC_DESCRIPTION": "Reduce number of US-centric prompts.",
-
             "POSTGAME_SHARING": "Post-Game Sharing",
             "POSTGAME_SHARING_DESCRIPTION": "Allow players to optionally share answers and scores from the game on social media.",
-
             "START_GAMEPAD": "Start Game from Controller Only",
             "START_GAMEPAD_DESCRIPTION": "Games must be started with controller, not from player devices.",
-
             "HIDE_ROOM_CODE": "Allow Room Code Hiding",
             "HIDE_ROOM_CODE_DESCRIPTION": "Allow the on-screen room code to be hidden.",
-
             "MAX_PLAYERS": "Max. Players",
             "MAX_PLAYERS_DESCRIPTION": "Number of players that can join the game before people are added to the audience.",
-
             "SUBTITLES": "Subtitles",
             "SUBTITLES_DESCRIPTION": "Display subtitles on the screen.",
-
             "PLAYER_CONTENT_FILTERING": "Profanity Filter",
             "PLAYER_CONTENT_FILTERING_OFF_DESCRIPTION": "No text filtering is enabled.",
             "PLAYER_CONTENT_FILTERING_HATE_SPEECH_DESCRIPTION": "Words used in hateful speech will cause input to be rejected. Profanity is allowed.",
@@ -113,31 +98,24 @@
             "PLAYER_CONTENT_FILTERING_OFF": "Off",
             "PLAYER_CONTENT_FILTERING_HATE_SPEECH": "Moderate",
             "PLAYER_CONTENT_FILTERING_PROFANITY": "Strict",
-
             "GENERIC_ENTRY": "something",
-
             "PRESENTER_SETUP_TEXT": "The category is ",
             "CHOOSE_YOUR_PASSWORD": "Choose your secret prompt",
             "CHOOSEN_PASSWORD_IS": "<div>You chose the password:</div><div>%s</div>",
             "PASSWORD_SCREEN_DESCRIPTION": "Easy prompts are worth less",
             "ERROR_INVALID_SENTENCE_ENTRY": "Invalid entry!",
-
             "MY_BAD_PROMPT": "Do you think that you should have gotten this right?",
             "MY_BAD_CHOICE": "Yeah... My Bad",
             "MY_BAD_CHOICE_BLEW_IT": "Nope. %s blew it!",
-
             "CONTROLLER_MAKE_SENTENCE_PROMPT": "Describe %s",
             "CONTROLLER_GUESS_PROMPT": "What %s is %s describing?",
             "CONTROLLER_GUESS_PLACEHOLDER": "Guess here",
             "CONTROLLER_GUESS_DONE": "All done!",
             "CONTROLLER_GUESS_INVALID": "Invalid entry!",
-
             "CONTROLLER_CANT_ENTER_NOTHING": "You can't enter nothing!",
             "CONTROLLER_FILTER_REJECTED_TEXT": "Invalid Guess",
-
             "SKIP_TUTORIALS": "Skip Tutorials",
             "SKIP_TUTORIALS_DESCRIPTION": "Skip tutorial sections.",
-
             "REFRESH_PASSWORDS": "Get 3 New Prompts",
             "MY_BAD_0": "Whoops!",
             "MY_BAD_1": "My Bad",
@@ -162,7 +140,6 @@
             "IM_DONE_11": ":)",
             "IM_DONE_12": "I made a choice!",
             "IM_DONE_13": "Toot toot!",
-
             "TD_CATEGORY_PLAYER_JOINED": "%s joined the game.",
             "TD_CATEGORY_VIP_CAN_SKIP_TUTORIAL": "%s can skip the tutorial.",
             "TD_CATEGORY_PLAYER_IS_PRESENTING": "%s is presenting a: %s",
@@ -172,12 +149,11 @@
             "TD_CATEGORY_FAILURE_SCREEN": "The password (%s) was not guessed.",
             "TD_CATEGORY_MY_BAD": "%s players said \"My Bad!\"",
             "TD_CATEGORY_SCOREBOARD": "%s has %s points",
-
             "WINNER_CALLOUT_TITLE": "They are the winner!"
         },
-    "fr": {},
-    "it": {},
-    "de": {},
-    "es": {}
-}
+        "fr": {},
+        "it": {},
+        "de": {},
+        "es": {}
+    }
 }
