@@ -1,5 +1,5 @@
 {
-    "table":{
+    "table": {
         "en": {
             "LANGUAGE_NAME": "English",
             "LANGUAGE": "Language",
@@ -34,9 +34,9 @@
             "PAUSE_NO": "RESUME",
             "CHOOSE_ON_DEVICE": "Choose on your device"
         },
-    "fr": {},
-    "it": {},
-    "de": {},
-    "es": {}
-}
+        "fr": {},
+        "it": {},
+        "de": {},
+        "es": {}
+    }
 }
