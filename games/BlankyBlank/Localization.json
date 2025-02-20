@@ -1,7 +1,7 @@
 {
     "table": {
         "en": {
-            "LANGUAGE_NAME": "English",
+            "LANGUAGE_NAME": "Viossa",
             "LANGUAGE": "Language",
             "INTERNET_CONNECTED": "We've just found the internet.",
             "INTERNET_DISCONNECTED": "We're sorry, we can't seem to connect to the Jackbox Games servers.<br />Please check that your internet connection is working properly.",
