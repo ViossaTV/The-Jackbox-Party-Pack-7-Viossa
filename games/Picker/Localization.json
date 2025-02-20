@@ -10,7 +10,7 @@
       "description": "INFO_DESCRIPTION_GAME_1",
       "menu": "MENU_GAME_NAME_1",
       "video": "videos/pickerquiplash3",
-      "videoVolume": 0.75,
+      "videoVolume": 0.6,
       "enabled": true
     },
     {
@@ -23,8 +23,8 @@
       "description": "INFO_DESCRIPTION_GAME_2",
       "menu": "MENU_GAME_NAME_2",
       "video": "videos/pickereveryday",
-      "videoVolume": 0.75,
-      "enabled": false
+      "videoVolume": 0.7425,
+      "enabled": true
     },
     {
       "name": "WorldChampions",
@@ -36,21 +36,21 @@
       "description": "INFO_DESCRIPTION_GAME_3",
       "menu": "MENU_GAME_NAME_3",
       "video": "videos/pickerworldchampions",
-      "videoVolume": 0.75,
-      "enabled": false
+      "videoVolume": 0.735,
+      "enabled": true
     },
     {
       "name": "JackboxTalks",
       "mainSwf": "JackboxTalks.swf",
-      "players": "3-12",
+      "players": "3-8",
       "family": true,
       "audience": true,
-      "familyOptional": false,
+      "familyOptional": true,
       "description": "INFO_DESCRIPTION_GAME_4",
       "menu": "MENU_GAME_NAME_4",
       "video": "videos/pickerjackboxtalks",
-      "videoVolume": 0.75,
-      "enabled": false,
+      "videoVolume": 0.735,
+      "enabled": true,
       "disableScreenshots": true
     },
     {
@@ -58,13 +58,13 @@
       "mainSwf": "BlankyBlank.swf",
       "players": "2-6",
       "family": true,
-      "audience": false,
-      "familyOptional": true,
+      "audience": true,
+      "familyOptional": false,
       "description": "INFO_DESCRIPTION_GAME_5",
       "menu": "MENU_GAME_NAME_5",
       "video": "videos/pickerblankyblank",
-      "videoVolume": 0.75,
-      "enabled": false
+      "videoVolume": 0.77,
+      "enabled": true
     },
     {
       "name": "Settings",
@@ -75,8 +75,8 @@
       "familyOptional": false,
       "description": "",
       "menu": "MENU_SETTINGS",
-      "videoVolume": 0.75,
       "video": "",
+      "videoVolume": 1,
       "enabled": true
     },
     {
@@ -88,8 +88,8 @@
       "familyOptional": false,
       "description": "",
       "menu": "MENU_HOW_TO",
-      "videoVolume": 0.75,
       "video": "",
+      "videoVolume": 1,
       "enabled": true
     }
   ]
