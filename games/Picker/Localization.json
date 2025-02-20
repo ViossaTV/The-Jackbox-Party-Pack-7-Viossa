@@ -11,7 +11,7 @@
       "menu": "MENU_GAME_NAME_1",
       "video": "videos/pickerquiplash3",
       "videoVolume": 0.75,
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "Everyday",
@@ -50,7 +50,7 @@
       "menu": "MENU_GAME_NAME_4",
       "video": "videos/pickerjackboxtalks",
       "videoVolume": 0.75,
-      "enabled": true,
+      "enabled": false,
       "disableScreenshots": true
     },
     {
