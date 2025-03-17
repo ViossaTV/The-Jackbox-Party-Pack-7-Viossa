@@ -2,12 +2,12 @@
     "payload":[
         { 
             "id": "EAT_BUGS",
-            "name": "GOOD KITTY! Eat the bugs",
+            "name": "BRA KOTNEN! Da nam asoko bagge",
             "taskIdToSpawn": "AudienceGiveKittyTreat"
         },
         { 
             "id": "POSE_FOR_PIC",
-            "name": "GOOD KITTY! Pose for social media pic",
+            "name": "BRA KOTNEN! Pose for social media pic",
             "taskIdToSpawn": "AudienceTakeKittyPic"
         },
         { 
