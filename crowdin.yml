@@ -20,3 +20,6 @@ files:
   - source: /games/WorldChampions/*.json
     translation: /games/WorldChampions/Localization.json
     multilingual: 1
+  - source: /games/Everyday/json/*.jet
+    translation: /games/Everyday/json/*.jet
+    multilingual: 1
