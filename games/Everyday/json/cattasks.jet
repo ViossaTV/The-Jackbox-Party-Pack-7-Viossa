@@ -1,87 +1,120 @@
 {
-
-    "payload":[
-
-        {
-
-            "id":"SLOW",
-
-            
-
-            "3Players": 17.0,
-
-            "4Players": 16.0,
-
-            "5Players": 13.0,
-
-            "6Players": 12.0,
-
-            "7Players": 10.0,
-
-            "8Players": 8.0
-
+    "payload": [{
+            "id": "STORY",
+            "familyPoints": 1500,
+            "participantPoints": 1000,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Hard",
+            "avatarFrameIsHighPriority": false,
+            "spawnAudioKey": "SPAWN_STORY",
+            "successAudioKey": "SUCCESS_STORY",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": true
         },
-
         {
-
-            "id":"MEDIUM",
-
-            
-
-            "3Players": 15.0,
-
-            "4Players": 13.0,
-
-            "5Players": 10.0,
-
-            "6Players": 9.0,
-
-            "7Players": 7.0,
-
-            "8Players": 5.0
-
+            "id": "ULTRA",
+            "familyPoints": 1000,
+            "participantPoints": 800,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Hard",
+            "avatarFrameIsHighPriority": false,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
         },
-
         {
-
-            "id":"FAST",
-
-            
-
-            "3Players": 11.0,
-
-            "4Players": 9.0,
-
-            "5Players": 7.0,
-
-            "6Players": 5.0,
-
-            "7Players": 4.0,
-
-            "8Players": 3.0
-
+            "id": "HIGH",
+            "familyPoints": 800,
+            "participantPoints": 500,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Hard",
+            "avatarFrameIsHighPriority": false,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
         },
-
         {
-
-            "id":"HYPER",
-
-            
-
-            "3Players": 8.0,
-
-            "4Players": 7.0,
-
-            "5Players": 5.0,
-
-            "6Players": 3.0,
-
-            "7Players": 2.0,
-
-            "8Players": 1.0
-
+            "id": "MEDIUM",
+            "familyPoints": 500,
+            "participantPoints": 300,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Medium",
+            "avatarFrameIsHighPriority": false,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
+        },
+        {
+            "id": "LOW",
+            "familyPoints": 250,
+            "participantPoints": 150,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Low",
+            "avatarFrameIsHighPriority": false,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
+        },
+        {
+            "id": "SELFISH",
+            "familyPoints": 0,
+            "participantPoints": 666,
+            "emergencyPoints": 300,
+            "showsInList": false,
+            "avatarFrame": "Selfish",
+            "avatarFrameIsHighPriority": false,
+            "joinAudioKey":"JOIN_SELFISH",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
+        },
+        {
+            "id": "EMERGENCY",
+            "familyPoints": 0,
+            "participantPoints": 0,
+            "emergencyPoints": 0,
+            "showsInList": false,
+            "avatarFrame": "Emergency",
+            "avatarFrameIsHighPriority": true,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
+        },
+        {
+            "id": "CANCELER",
+            "familyPoints": 500,
+            "participantPoints": 500,
+            "emergencyPoints": 0,
+            "showsInList": false,
+            "avatarFrame": "Canceler",
+            "avatarFrameIsHighPriority": true,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
+        },
+        {
+            "id": "AUDIENCE",
+            "familyPoints": 800,
+            "participantPoints": 400,
+            "emergencyPoints": 0,
+            "showsInList": true,
+            "avatarFrame": "Audience",
+            "avatarFrameIsHighPriority": true,
+            "spawnAudioKey": "SPAWN_DEFAULT",
+            "successAudioKey": "SUCCESS_DEFAULT",
+            "failureAudioKey": "FAILURE_DEFAULT",
+            "triggersCrowdReactionOnSuccess": false
         }
-
     ]
-
 }
