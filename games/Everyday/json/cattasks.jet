@@ -1,120 +1,58 @@
 {
-    "payload": [{
-            "id": "STORY",
-            "familyPoints": 1500,
-            "participantPoints": 1000,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Hard",
-            "avatarFrameIsHighPriority": false,
-            "spawnAudioKey": "SPAWN_STORY",
-            "successAudioKey": "SUCCESS_STORY",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": true
-        },
-        {
-            "id": "ULTRA",
-            "familyPoints": 1000,
-            "participantPoints": 800,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Hard",
-            "avatarFrameIsHighPriority": false,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "HIGH",
-            "familyPoints": 800,
-            "participantPoints": 500,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Hard",
-            "avatarFrameIsHighPriority": false,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "MEDIUM",
-            "familyPoints": 500,
-            "participantPoints": 300,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Medium",
-            "avatarFrameIsHighPriority": false,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "LOW",
-            "familyPoints": 250,
-            "participantPoints": 150,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Low",
-            "avatarFrameIsHighPriority": false,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "SELFISH",
-            "familyPoints": 0,
-            "participantPoints": 666,
-            "emergencyPoints": 300,
-            "showsInList": false,
-            "avatarFrame": "Selfish",
-            "avatarFrameIsHighPriority": false,
-            "joinAudioKey":"JOIN_SELFISH",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "EMERGENCY",
-            "familyPoints": 0,
-            "participantPoints": 0,
-            "emergencyPoints": 0,
-            "showsInList": false,
-            "avatarFrame": "Emergency",
-            "avatarFrameIsHighPriority": true,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "CANCELER",
-            "familyPoints": 500,
-            "participantPoints": 500,
-            "emergencyPoints": 0,
-            "showsInList": false,
-            "avatarFrame": "Canceler",
-            "avatarFrameIsHighPriority": true,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        },
-        {
-            "id": "AUDIENCE",
-            "familyPoints": 800,
-            "participantPoints": 400,
-            "emergencyPoints": 0,
-            "showsInList": true,
-            "avatarFrame": "Audience",
-            "avatarFrameIsHighPriority": true,
-            "spawnAudioKey": "SPAWN_DEFAULT",
-            "successAudioKey": "SUCCESS_DEFAULT",
-            "failureAudioKey": "FAILURE_DEFAULT",
-            "triggersCrowdReactionOnSuccess": false
-        }
+
+    "payload":[
+
+        { "id": "MISC", "iconFrame":"Miscellaneous", "joinAudioKey":"JOIN_MISC" },
+
+        { "id": "CLEANING", "iconFrame":"Cleaning", "joinAudioKey":"JOIN_CLEANING" }, 
+
+        { "id": "FIXING", "iconFrame":"Fixing", "joinAudioKey":"JOIN_FIXING" }, 
+
+        { "id": "COOKING", "iconFrame":"Cooking", "joinAudioKey":"JOIN_COOKING" }, 
+
+        { "id": "CLOTHES", "iconFrame":"Clothes", "joinAudioKey":"JOIN_CLOTHES" }, 
+
+        { "id": "KITCHEN", "iconFrame":"Kitchen", "joinAudioKey":"JOIN_KITCHEN" }, 
+
+        { "id": "BATHROOM", "iconFrame":"Bathroom", "joinAudioKey":"JOIN_BATHROOM" }, 
+
+        { "id": "RECREATION", "iconFrame":"Recreation", "joinAudioKey":"JOIN_RECREATION" }, 
+
+        { "id": "BEDROOM", "iconFrame":"Bedroom", "joinAudioKey":"JOIN_BEDROOM" }, 
+
+        { "id": "GUESTS", "iconFrame":"Guests", "joinAudioKey":"JOIN_GUESTS" }, 
+
+        { "id": "YARD_WORK", "iconFrame":"Yard Work", "joinAudioKey":"JOIN_YARDWORK" }, 
+
+        { "id": "PLAYING", "iconFrame":"Playing Outside", "joinAudioKey":"JOIN_PLAYING_OUTSIDE" }, 
+
+        { "id": "PAPERWORK", "iconFrame":"Paperwork", "joinAudioKey":"JOIN_PAPERWORK" }, 
+
+        { "id": "DECORATING", "iconFrame":"Decorating", "joinAudioKey":"JOIN_DECORATING" }, 
+
+        { "id": "TALKING", "iconFrame":"Talking", "joinAudioKey":"JOIN_TALKING" }, 
+
+        { "id": "ERRAND", "iconFrame":"Errand", "joinAudioKey":"JOIN_ERRAND" }, 
+
+        { "id": "FAMILY_TASK", "iconFrame":"Family Moment", "joinAudioKey":"JOIN_FAMILY_TASK" },
+
+        { "id": "FAMILY_MOMENT", "iconFrame":"Family Moment", "joinAudioKey":"JOIN_FAMILY_MOMENT" }, 
+
+        { "id": "SEARCH_FIND", "iconFrame":"Search/Find", "joinAudioKey":"JOIN_SEARCH_FIND" },
+
+        { "id": "CANCELER", "iconFrame":"Canceler", "joinAudioKey":"JOIN_CANCELER" },
+
+        { "id": "SELFISH", "iconFrame":"Selfish", "joinAudioKey":"JOIN_SELFISH" },
+
+        { "id": "STORY", "iconFrame":"Story", "joinAudioKey":"JOIN_MISC" },
+
+        { "id": "AUDIENCE", "iconFrame":"Audience", "joinAudioKey":"JOIN_AUDIENCE" }
+
     ]
+
 }
+
+
+
+
+
